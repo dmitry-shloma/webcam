@@ -1,0 +1,820 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>DirectShow по-русски - Первые шаги с DirectShow. Шаг 2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+  	separate, browser-specific CSS file that keeps all 
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}/*
+
+  	-- -- -- -- -- -- --
+  	Type Scheme: Deco
+  	-- -- -- -- -- -- --
+  	
+  */
+
+  body {
+  	font: 76% Verdana, sans-serif;
+  }	
+
+  h1, h2, h3, h4, h5, h6, p.description {
+  	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  }
+  h1 {
+  	font-size: 3em;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  }
+  h2 {
+  	font-size: 2em;
+  	font-weight: normal;
+  }
+  h3 {
+  	font-size: 1.5em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	letter-spacing: 0.2em;
+  }
+  h5 {
+  	font-size: 1.2em;
+  }
+  h6 {
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+
+  p, td {
+  	line-height: 1.8em;
+  }
+  code, kbd {
+  	font-size: 1.25em;
+  }/*
+
+  	-- -- -- -- -- -- --
+  	STYLE: Victoria
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* ie6win */
+
+  /* IE/Win fixes for various layouts
+  ----------------------------------------------- */
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: -2px;
+  }
+
+  /* ie5mac */
+
+  /*\*//*/
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: 0;
+  }
+  /**/
+
+  /* ie5win */
+
+  @media tty {
+   i{content:"\";/*" "*/}} td { font-size: 0.8em; } #footer p { margin: 0; padding: 1em 0; } /*";}
+  }/* */
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  a:link {
+  	text-decoration: underline;
+  }
+  a:visited {
+  	text-decoration: underline;
+  }
+  body {
+  	font: 80% "Georgia", serif;
+  	margin: 0;
+  	padding: 25px 0 25px 0;
+  	border-top: solid 3px #fff;
+  	border-bottom: solid 3px #fff;
+  }
+  caption {
+  	font-size: 1.2em;
+  	font-style: italic;
+  	text-align: left;
+  	padding: 1px 4px 4px 4px;
+  	margin-bottom: 4px;
+  	border-bottom: solid 1px #ccc;
+  }
+  dt {
+  	font-weight: bold;
+  }
+  dd {
+  	font-style: italic;
+  	margin: 0 0 1em 1em;
+  }
+  h2 {
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	margin: 1em 0;
+  	padding-bottom: 3px;
+  }
+  h3 {
+  	font-size: 1.2em;
+  	font-weight: normal;
+  	font-style: normal;
+  	padding-bottom: 8px;
+  	margin-top: 1em;
+  	margin-bottom: 0.5em;
+  }
+  h4 {
+  	font-size: 1.1em;
+  	letter-spacing: 0.1em;
+  	padding-left: 12px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h5 {
+  	padding-bottom: 2px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h6 {
+  	font-weight: normal;
+  	letter-spacing: 0.1em;
+  	margin: 1em 0;
+  }
+  hr {
+  	margin: 2em 0;
+  	border-style: none;
+  	height: 1px;
+  }
+  p {
+  	line-height: 1.6;
+  	margin: 1em 0;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+  td p {
+  	margin: 0 0 1em 0;
+  }
+  th {
+  	text-align: left;
+  	font-weight: normal;
+  	font-style: italic;
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+  ul, ol, dl {
+  	margin-bottom: 1.6em;
+  	padding-left: 2em;
+  	margin-left: 0;
+  }
+
+  ul li {
+  	list-style: circle;
+  	margin-bottom: 0.8em;
+  }
+  ol li {
+  	list-style: upper-roman;
+  	margin-left: 2em;
+  	margin-bottom: 0.8em;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	padding-top: 25px;
+  	font-size: 2.4em;
+  	letter-spacing: 0.1em;
+  	text-align: center;
+  }
+  #g_description {
+  	font-style: italic;
+  	text-align: center;
+  	padding-bottom: 15px;
+  	margin: 0;
+  	line-height: 1;
+  }
+
+
+  /* content
+  ----------------------------------------------- */
+  #main-content .wrapper {
+  	margin: 0 25px;
+  }
+
+
+
+  /* sidebar
+  ----------------------------------------------- */
+
+  #sidebar .wrapper {
+  	padding-left: 15px;
+  	padding-right: 5px;
+  }
+
+  #sidebar .wrapper h3 {
+  	padding: 0 0 11px 0;
+  }
+
+
+  #sidebar li {
+  	margin-bottom: 0.8em;
+  }
+  #sidebar .wrapper ul li {
+  	list-style: circle;
+  }
+  #sidebar .wrapper ol li {
+  	list-style: upper-roman;
+  }
+
+  #sidebar .links {
+  	margin-bottom: 2em;
+  }
+
+
+  #adsense, #adsense .wrapper {
+  	text-align: left;
+  	margin: 0;
+  	padding: 0;
+  }
+
+
+  /* footer
+  ----------------------------------------------- */
+  #footer {
+  	margin: 0;
+  	font-style: italic;
+  	font-size: 0.9em;
+  }
+  #footer hr {
+  	display: none;
+  }
+
+  /* header
+  ----------------------------------------------- */
+  #header #page-title {
+  	padding-left: 12px;
+  	padding-right: 12px;
+  }
+
+  #header #g_description {
+  	margin-left: 12px;
+  	margin-right: 12px;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #onecolumn #footer {
+  	padding: 0 25px 10px 25px;
+  }
+
+
+
+  /* fixed left 2 column
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-left #footer {
+  	padding: 0 25px 10px 264px;
+  }
+
+
+  /* fixed right 2 column
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-right #footer {
+  	padding: 0 264px 10px 25px;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #threecolumn #footer {
+  	padding: 0 168px 10px 168px;
+  }
+  #sidebar-alternate {
+  	width: 129px;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+  #twocolumn-liquid-left, #twocolumn-liquid-right {
+  	padding: 0;
+  	border: 0;
+  	border-top: solid 1px #999;
+  }
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	padding: 0;
+  	margin: 0;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	padding: 10px 25px 10px 25px;
+  	text-align: center;
+  }
+
+
+
+
+  #twocolumn-liquid-left #sidebar .wrapper *, #twocolumn-liquid-right #sidebar .wrapper * {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+  #twocolumn-liquid-left #sidebar h3, #twocolumn-liquid-right #sidebar h3 {
+  	padding-left: 0;
+  }
+  #twocolumn-liquid-left #sidebar ul, #twocolumn-liquid-left #sidebar ol,
+  #twocolumn-liquid-right #sidebar ul, #twocolumn-liquid-right #sidebar ol {
+  	padding-left: 2.5em;
+  	/* extra wide for IE's sake */
+  }
+  #twocolumn-liquid-left #sidebar .links ul, #twocolumn-liquid-right #sidebar .links ul {
+  	padding-left: 0;
+  }
+
+
+
+
+
+
+
+  /* editable area borders
+  ----------------------------------------------- */
+  .editable {
+  	border: dashed 1px #f00;
+  }
+  #onecolumn .editmode h1, #twocolumn-left .editmode h1, #twocolumn-right .editmode h1, #threecolumn .editmode h1 {
+  	background-position: -1px 0;
+  }
+  #twocolumn-liquid-left .editmode h1, #twocolumn-liquid-right .editmode h1 {
+  	background-position: 0 -1px;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	COLOR SCHEME: Desert
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* Basic HTML style */
+
+
+  a:link {
+  	color: #C0472F;
+  }
+  a:visited {
+  	color: #93584D;
+  }
+  a:hover {
+  	color: #E64C2D;
+  }
+  body {
+  	color: #2B1E1B;
+  	background: #F0D894 url(/-/includes/style/victoria/desert/container.gif) repeat-x left top;
+  }
+  caption {
+  	border-bottom-color: #ccc;
+  }
+  h2 {
+  	color: #93584D;
+  	background: url(/-/includes/style/victoria/desert/h2-border.gif) repeat-x left bottom;
+  }
+  h3 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h3-border.gif) repeat-x left bottom;
+  }
+  h4 {
+  	color: #A5A4A5;
+  	background: url(/-/includes/style/victoria/desert/h4-deco.gif) no-repeat 0 5px;
+  }
+  h5 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h5-border.gif) repeat-x left bottom;
+  }
+  h6 {
+  }
+  hr {
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	color: #fff;
+  }
+  #g_description {
+  	color: #28728B;
+  }
+
+
+
+  /* fixed-width common header
+  ----------------------------------------------- */
+  #onecolumn h1, #twocolumn-left h1, #twocolumn-right h1, #threecolumn h1 {
+  	background: url(/-/includes/style/victoria/desert/fixed-h1.gif) no-repeat;
+  }
+  #onecolumn #header, #twocolumn-left #header, #twocolumn-right #header, #threecolumn #header {
+  	background: url(/-/includes/style/victoria/desert/fixed-header.gif) repeat-y;
+  }
+
+
+  #footer {
+  	color: #78AFC1;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-headerwrapper.gif) no-repeat left bottom;
+  }
+  #onecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-container.gif) repeat-y;
+  }
+  #onecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-footer.gif) no-repeat left bottom;
+  }
+
+
+
+  #sidebar .wrapper h3 {
+  	background-image: url(/-/includes/style/victoria/desert/h3-sidebar-border.gif);
+  }
+
+  .editable {
+  	border: dashed 1px #000;
+  }
+
+
+
+  /* fixed 2 column left
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-left #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-container.gif) repeat-y;
+  }
+  #twocolumn-left #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 2 column right
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-right #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-container.gif) repeat-y;
+  }
+  #twocolumn-right #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-headerwrapper.gif) no-repeat left bottom;
+  }
+  #threecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-container.gif) repeat-y;
+  }
+  #threecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-footer.gif) no-repeat left bottom;
+  }
+  #threecolumn #sidebar h3, #threecolumn #sidebar-alternate h3 {
+  	background: url(/-/includes/style/victoria/desert/h3-sidebar-border-3col.gif) no-repeat center bottom;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  	background: url(/-/includes/style/victoria/desert/liquid-header-left.gif) no-repeat left top;
+  }
+  #twocolumn-liquid-left #header, #twocolumn-liquid-right #header {
+  	background: #DEDEDE url(/-/includes/style/victoria/desert/liquid-header-bg.gif) repeat-x;
+  }
+  #twocolumn-liquid-left #container #header .wrapper, #twocolumn-liquid-right #container #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-right.gif) no-repeat right top;
+  }
+  #twocolumn-liquid-left #container #header p.description, #twocolumn-liquid-right #container #header p.description {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-desc.gif) repeat-y left top;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	background: url(/-/includes/style/victoria/desert/liquid-left-footer.gif) no-repeat left bottom;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-footer.gif) no-repeat right bottom;
+  }
+
+
+  #twocolumn-liquid-left #container, #twocolumn-liquid-right #container {
+  	background: #fff url(/-/includes/style/victoria/desert/liquid-left-container.gif) repeat-y;
+  }
+  #twocolumn-liquid-left #container .wrapper, #twocolumn-liquid-right #container .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-container.gif) repeat-y right top;
+  }
+
+  /** END CUSTOM SKIN **/
+  </style>
+
+  <!-- Hack to avoid flash of unstyled content in IE -->
+  <script> </script>
+</head>
+
+<body id="onecolumn">
+  <div id="container">
+    <div class="wrapper">
+      <div id="header">
+        <div class="wrapper">
+          <h1 id="page-title"><div id='g_title'><img height="1" src="http://d4.ca.b1.a1.top.list.ru/counter?id=1156223" width="1">Первые шаги с DirectShow. Шаг 2</div></h1>
+          <div style="clear: both;"></div>
+          <p class="description"><div id='g_description'><p>Что такое GraphEdit?</p></div></p>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /editable --><!-- /wrapper --><!-- /header -->
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="content-item"><div id='g_body'><p style="TEXT-ALIGN: right"> Автор: <strong>Валентин Вовк</strong></p>
+<h2>GraphEdit<a href="" name="IDA4KAKE"></a></h2>
+<h3>Что это такое?<a href="" name="IDAJLAKE"></a></h3>
+<p>Так называется майкрософтовская утилита, входящая в состав DirectShow SDK (сейчас эта утилита, как и заголовочные файлы DirectShow, входит в состав Windows SDK). С ее помощью можно соединять установленные и зарегистрированные в системе фильтры. Что она может нам дать? Во-первых, - без использования других программ и написания кода совершать различные манипуляции с медиа-файлами: конвертировать из одного формата в другой, извлекать из видеофайлов звуковые дорожки, захватывать &quot;живое видео&quot; и т.п. Во-вторых, это поможет нам быстрее понять, что такое DirectShow и ввести нас в круг его понятий - это будет полезно при чтении второй части статьи.</p>
+<h3>Кодеки<a href="" name="IDAULAKE"></a></h3>
+<p>Они представляют фильтры, в более широком смысле - сборник фильтров (Codeck Pack). Перечислю наиболее известные:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Codec Pack All in 1 
+<li>K-Lite Codec Pack 
+<li>Mega Codeck Pack 
+<li>Nimo Codec Pack </li></ul>
+<p>и другие, поскольку вряд ли я в состоянии перечислить все необходимые. Смотрите также по ссылкам:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li><a href="http://www.free-codecs.com/"><font color="#0000ff">http://www.free-codecs.com</font></a> 
+<li><a href="http://www.moviecodec.com/"><font color="#0000ff">http://www.moviecodec.com</font></a> 
+<li><a href="http://www.codeckpack.com/"><font color="#0000ff">http://www.codeckpack.com</font></a> </li></ul>
+<p>и т.д. - далее по ссылкам на этих сайтах.</p>
+<h3>Потихоньку разбираемся<a href="" name="IDAWMAKE"></a></h3>
+<p>Итак, запустим программу graphedt.exe - вот так должно выглядеть окно приложения:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"></p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt1.gif/GraphEdt1-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt1.gif/GraphEdt1-full.jpg" zl="776" GALLERYIMG="no"></a><br><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 1. Окно GraphEdit’а</i></font> </p>
+<p></p>
+<h4>Проигрывание видеофайла</h4>
+<p>Жмем File-&gt;Render Media File ... - появляется окошео с приглашением выбрать media-файл. Я выбрал файл с именем new.avi (вы можете выбрать, конечно, что угодно другое, но рекомендую тоже avi-файл) и нажимаю OK. У меня получилось вот что:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt2.gif/GraphEdt2-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt2.gif/GraphEdt2-custom;size:634,326.jpg" hashCode closure zl="1154" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 2. Автоматически построенный граф фильтров</i></font> </p>
+<p></p>
+<p>Давайт в общих чертах разберемся, что здесь нарисовано. Картинка состоит из синеньких прямоугольничков, соединенных стрелочками. Первый прямоугольничек символизирует, видимо, наш исходный файл (напомню, он называется new.avi). Далее, по ходу стрелочки, видим следующий прямоугольник, в котором написано &quot;AVI Splitter&quot;,- судя по названию, а также по двум исходящим из него стрелкам, он предназначен для того, чтобы взять данные от первого прямоугольничка и разделить их на два потока - нетрудно сообразить, что это - аудио- и видео- потоки. Входы и выходы в прямоугольнички в терминологии DirectShow представляют собой входящие и исходящие контакты (InputPin и OutputPin), а сами прямоугольнички - собственно фильтры (теперь мы сможем догадаться о причине ошибки, если увидим где-то сообщение о ней вроде &quot;Действие не может быть выполнено, поскольку контакты не подключены&quot; - речь идет именно об этих контактах). Вся же эта схема есть так называемым графом фильтров. Дальнейший анализ нашей картинки не должен представлять трудностей. Поэтому выберем пункты меню Graph-&gt;Play и посмотрим наше видео-аудио. Насмотревшись вдоволь, остановим просмотр (Graph-&gt;Stop или красненький квадратик на панеле инструментов) и немного поупражняемся в составлении графов фильтров вручную.</p>
+<p>Для этого выберем File-&gt;New, откажемся от сохранения нашей работы в файл (впрочем, можете сохранять, авось пригодится).</p>
+<p>Нашей следующей целью будет повторение того, что мы уже сделали, но вручную. Для этого выберем Graph-&gt;Insert Filters:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt3.gif/GraphEdt3-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt3.gif/GraphEdt3-full.jpg" hashCode closure zl="1529" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 3. Окно выбора фильтра</i></font> </p>
+<p></p>
+<p>Нас пока будут интересовать DirectShow фильтры. Поэтому распахнем узел дерева &quot;DirectShow Filters&quot;, найдем пункт &quot;File Source (Async.)&quot; и совершим на этом пукте двойной щелчок мышью (т.е. выберем этот фильтр). В появившемся окне диалога выбора медиа-файла укажем тот же, что и раньше, файл (new.avi). Появится прямоугольник с именем нашего файла. Если в той области, где находится надпись &quot;Output&quot; щелкнуть правой кнопкой мышки, увидим меню:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt4.gif/GraphEdt4-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt4.gif/GraphEdt4-full.jpg" hashCode closure zl="1964" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 4. Автоматическое построение графа фильтров</i></font> </p>
+<p></p>
+<p>Заметим, что выбор пункта &quot;Render Pin&quot; приведет к построению графа, с которым мы уже знакомы: Рис. 2. Вы попробуйте это сделать, убедитесь, что я прав, а потом удалите ненужные элементы графа и вернитесь к этому месту. Дальше из той же категории &quot;DirectShow Filters&quot; выберем &quot;Avi Splitter Filter&quot; фильтр и соединим наши два имеющиеся в данный момент фильтра, протянув мышкой от исходящего контакта первого фильтра к входящему второго:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt5.gif/GraphEdt5-full;crop:0,0,0.95,0.99.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt5.gif/GraphEdt5-custom;size:644,523;crop:0,0,0.95,0.99.jpg" hashCode closure zl="2309" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 5. Построение графа фильтров вручную</i></font> </p>
+<p></p>
+<p>Остальное очевидно. Смотрим на <a href=""><font color="#0000ff">Рис.2</font></a>, выбираем соответствующие фильтры и соединяем их. Понятно, что GraphEdit, когда его просишь проиграть медиа-файл, каким-то образом узнает, какие нужны для этого фильтры и какие их контакты должны быть подключены. Разберемся с этим. Тем более, что это пригодится при написании собственных фильтов в том случае, если мы хотим сделать их доступными в процессе автоматического построения графа фильтров - утилита GraphEdit всего лишь вызывает API-функции для построения такого графа.</p>
+<h4>IGraphBuilder</h4>
+<p>Интерфейс - ДОПИСАТЬ</p>
+<h4>Intelligent connect</h4>
+<p>Каким образом GraphEdit узнает, какие нужны фильтры для проигрывания медиа-файла? Для этого используется специальный механизм - Intelligent Connect. Он описан в справке DirectShow, а я его сейчас перескажу в меру способностей.</p>
+<p>Intelligent connect затрагивает следующие методы интерфейса IGraphBuilder (т.е. до этого места нужно уже дать представление о IGraphBuilder&#39;е):</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Render 
+<li>AddSourceFilter 
+<li>RenderFile 
+<li>Connect </li></ul>
+<p>Метод Render строит подсекцию графа. Он начинает обработку, начиная с первого несоединенного исходящего контакта и добавляет новые фильтры по мере необходимости. Стартовый фильтр (самый первый, то.есть - для нашего случая - File Source (Async)) уже должен быть в графе. На каждом новом шаге метод Render ищет фильтр, который можно соединить с текущим фильтром. </p>
+<p>Для соединения каждого исходящего контакта метод Render проделывает следующие операции:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Если контакт поддерживает интерфейс IStreamBuilder, менеджер графа фильтра делегирует весь процесс методу контакта IStreamBuilder::Render. Предоставляя этот интерфейс, контакт принимает на себя ответственность за построения остатка графа, вплоть до собственно рендеринга. Впрочем, немногие контакты поддерживают этот интерфейс. 
+<li>Менеджер фильтра графа пытается использовать фильтры, закешированные в памяти, если такие есть. На протяжении всего процесса &quot;интеллектуального соединения&quot; менеджер графа фильтра пытается использовать кешированные фильтры из предыдущих шагов процесса. 
+<li>Если граф фильтра содержит фильтры с несоединенными входными контактами, менеджер графа фильтра попытается соединить их  потом. Можно принудительно вызвать метод Render для попытки соединения с каким-то специфическим фильтром перед вызовом метода Render. 
+<li>И последнее, менеджер графа фильтра ищет в реестре, используя метод IFilterMapper2::EnumMatchingFilters.Он пытается сопоставить исходящим контактам представленных медиа-типов мадиа-типы, находящиеся в реестре.  </li></ul>
+<p>Каждый фильтр регистрируется с неким показателем (<i>merit</i>), числовой величиной, показывающей предпочтение фильтра в отношении других фильтров. Метод EnumMatchingFilters возвращает фильтры в порядке их этого показателя, с минимальным значением MERIT_DO_NOT_USE + 1. Игнорируются фильтры с показателем MERIT_DO_NOT_USE или меньшим. Фильтры также группируются в категории, определяемые посредством GUID. Эти категории имеют определенные показатели, и метод EnumMatchingFilters игнорирует любые из них с показателем MERIT_DO_NOT_USE или меньше, даже если фильтры в этой категории имеют и более высокие показатели.</p>
+<p>Короче говоря, метод Render пытается соединить фильтры следующим образом:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Используя IStreamBuilder. 
+<li>Пытаясь использовать кешированные фильтры. 
+<li>Пытаясь использовать фильтры в графе. (??? - что-то я зашился с переводом). 
+<li>Просматривая фильтры в реестре. </li></ul>
+<p>ХОРОШО БЫ ЗДЕСЬ РАССМОТРЕТЬ ОДИН ИЛИ НЕСКОЛЬКО ПРИМЕРОВ</p>
+<p>Продолжим, однако, рассмотрение методов, к которым имеет отношение Intelligent Connect.</p>
+<p>Метод AddSourceFilter добавляет фильтр источника, который может произвести рендеринг указанного файла. Он просматривает реестр и сопоставляет расширению файла соответствующий протокол или набор предопределенных проверочных байтов (<i>check bytes</i>), которые задают определенный шаблон (ТОЖЕ ЧТО-ТО НЕ ТАК С ПЕРЕВОДОМ). Словом, этот метод находит подходящий фильтр источника, создает экземпляр этого фильтра, добавляет его в граф и вызывает метод IFileSourceFilte::Load с соответствующим именем файла.</p>
+<p>ТОЖЕ БЫ ПРИМЕР</p>
+<p>Метод RenderFile строит граф, отталкиваясь от имени файла. Внутри себя он использует AddSourceFilter для поиска корректного фильтра источника и Render для построения оставшейся части графа.</p>
+<p>ПРИМЕР</p>
+<p>Метод Connect соединяет исходящие и входящие контакты. Этот метод добавляет, если необходимо, промежуточные фильтры, используя вариации алгоритма, используемого для метода Render:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Пытается напрямую соединить фильтры, без промежуточных фильтров. 
+<li>Пытается использовать кешированные фильтры. 
+<li>Пытается использовать фильтры в графе (???????) 
+<li>Просматривает фильтры в реестре. </li></ul>
+<p>ПРИМЕР</p>
+<h4>Конвертирование WAV &lt;-&gt; MP3</h4>
+<p>Попытаемся теперь решить проблему, которая меня мучила несколько лет назад - никак не мог найти программу для конвертирования файлов формата mp3 в wav (а вот наоборот - без проблем). Мы сделаем то и другое, т.е. взаимообратное конвертирование.</p>
+<p>Итак, запускаем GraphEdit, выбираем из DirectShow фильтров фильтр FileSource (Async.), в качестве входного файла указываем ему, например, &quot;Вход в Windows.wav&quot;, дальше выбираем фильтры Wave Parser, LAME MPEG Layer III Audio Encoder (если каких-то из предыдущих или последующих фильтров вы у себя не найдете, ищите их в наборах кодеков по ссылкам, <a href=""><font color="#0000ff">приведенным выше</font></a>) и, наконец, фильтр Dump, который используется для записи,- он предложит задать имя файла, в который предполагается произвести конвертацию. Ну вот, все сделали, картинка будет иметь приблизительно такой вид:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt6.gif/GraphEdt6-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " height="190" src="GraphEdt6.gif/GraphEdt6-custom;size:648,190.jpg" width="648" hashCode closure zl="2884" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"> <font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 6. WAV -&gt; MP3</i></font> </p>
+<p></p>
+<p>Запустим граф: Graph-&gt;Play. Результатом его работы должен быть наш новый mp3-файл. Обратная процедура, конвертация  mp3  в wav, не должна теперь представлять для нас какой-то сложности. Рисунок графа фильтра ниже:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt7.gif/GraphEdt7-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt7.gif/GraphEdt7-custom;size:642,188.jpg" hashCode closure zl="3360" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 7. MP3 -&gt; WAV</i></font> </p>
+<p></p>
+<p>На самом деле я должен вас (или, скорее, себя) разочаровать - на поверку оказалось, что полученный wav-файл плохой, негодный. Видимо, какой-то из фильтров чего-то не того делает. Вполне возможно, что нужен еще какой-то фильтр для записи, например, заголовков. Короче, я не знаю.</p>
+<p>Правда, я качал Nimo версии 5.91-бета и видел предупреждение, что могут быть проблемы. Ну ладно, в конце концов, если мне теперь припечет что-нибудь куда-нибудь конвертировать, я буду искать уже не готовые программы, а фильтры - это немного проще. Может быть, мне даже кто-то из читателей сообщит правильное решение.</p>
+<h4>Конвертирование AVI&lt;-&gt;MP4</h4>
+<p>Построим теперь графы фильтров для конвертирования файлов формата AVI в MPEG и наоборот.</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt11.gif/GraphEdt11-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt11.gif/GraphEdt11-custom;size:648,127.jpg" hashCode closure zl="3944" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 8. AVI -&gt; MP4</i></font> </p>
+<p></p>
+<p>И</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt12.gif/GraphEdt12-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt12.gif/GraphEdt12-custom;size:634,408.jpg" hashCode closure zl="4356" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 9. MP4 -&gt; AVI</i></font> </p>
+<p></p>
+<p>Здесь не учтен звук - это будет домашним заданием.</p>
+<h4>Захват и сохранение Real Audio/Video</h4>
+<p>Перейдем теперь к еще одному когда-то интересовавшему меня вопросу: как сохранить в файл т.н. реал видео и аудио, а то как-то мне понравился какой-то клип, а я его смог смотреть только через интернет, поскольку ни браузер, ни медиа плеер (или что-то там такое) не давало возможности это видео-аудио сохранить.</p>
+<p>Для этого нам понадобятся другие DirectShow-фильтры, ориентированные как раз на эту задачу. Сохранять мы будем, например, файл ...  (если к моменту вашего эксперимента ссылка будет уже недействительной, поищите в интернете подобные с расширениями *.rm, *.rv, *.ram и т.п. - всех не помню).</p>
+<p>Вот написал я это, попытался было сделать, о чем расхвастался, сходу не вышло, и стал на протяжении нескольких дней разбираться что к чему. А что было делать - RenderFile не работает, GraphEdit глючит и вообще отказывается делать что бы то ни было - слетает при попытке соединить фильтры или просто отказывается для всех подозрительных фильтров, ориентированных на проигрывание файлов из сети, устанавливать для файла нелокальное имя. Пришлось даже в форумах спрашивать. Долгие поиски дали следующее.</p>
+<p><a href="http://www.realnetworks.com/products/producer/index.html"><font color="#0000ff">http://www.realnetworks.com/products/producer/index.html</font></a></p>
+<p>Для начала давайте поэкспериментируем с локальными файлами формата RealVideo. Первый вопрос - где их взять? Изначально их нет, из интернета так просто не скачаешь, поэтому, не особо мучась пока вопросом, как решить подобную проблему на все случаи жизни, я скачал программу Easy Real Converter, которую нашел по адресу <a href="http://www.share2.com/easy-real-converter/"><font color="#0000ff">http://www.share2.com/easy-real-converter/</font></a> , она небесплатная, но первые 10 конвертаций (я конвертировал из avi) выполняет даром (а больше мне и не нужно). Она, правда, почему-то отказалась конвертировать аудиопоток, ну да бог с ним - меньше проблем. Конвертировав свой avi-файл в файл формата Real Media, я получил материал, с которым смог работать. Для обратной конвертации, кстати, пригодится программка TINRA, которую можно взять здесь <a href="http://www.divx-digest.com/software/tinra.html"><font color="#0000ff">http://www.divx-digest.com/software/tinra.html</font></a> (у меня оно avi-файлы, правда, делало, но вот изображения там не видно было почему-то; ну да ладно, мы свой сделаем - не проблема - получилось, да только <a href=""><font color="#0000ff">время не то</font></a>).  РАЗОБРАТЬСЯ, что стоит RTSP://... - это какой-то ip? Как его узнать? Может, RTP фильтры справятся?</p>
+<p>RFC </p>
+<h4>Конвертирование MOV&lt;-&gt;AVI</h4>
+<p>Еще одна, иногда возникающая, проблема. Давайте будем расти не только как программисты, но еще и решим конкретную задачу. Помнится, я как-то не смог даже при установленном QuickTime&#39;е конвертировать с помощью какой-то (не помню какой) программы свой mov-файл в какой-нибудь другой формат. Разгадка оказалась и простой, и даже очевидной. У QuickTime&#39;а свой формат, свой API, а для нас важно, что есть DirectShow фильтры, позволяющие работать с этим форматом унифицированным обрахом. Эти фильтры входят в состав QuickTime Alternative, который можно получить по адресу, например, ... . Если у вас их нет, советую установить (при установке, впрочем, нам будет предложено убрать настоящий QuickTime, если он установлен, иначе фильтр не устанавливается - почему так, я не понял; но я все же согласился с этим предложением и неудобств поа не чувствую; может быть, эту проблему и можно как-то обойти, но я не вникал) и продолжим.</p>
+<p>Сначала попробуем просто проиграть mov-файл. Сразу оказывается, что для чтения файла с диска фильтр File Source (Async.) совершенно не подходит - у меня GraphEdit вообще вылетает при попытке открыть файл с его помощью. Что же, пусть это будет на совести разработчиков этой программы. Видимо, в данном случае попытка воспользоваться помощью Intelligent Connect терпит сокрушительную неудачу, а программисты не позаботились оформить соответствующие охраняемые блоки. В свое время мы будем умнее и учтем этот факт.</p>
+<p>Проблема решается с помощью фильтра CyberLink QuickTime Source Filter (Direct SHow filters -&gt; CyberLink QuickTime Source Filter) - он должен присутствовать в системе, если QuickTime Alternative была установлена корректно. Выбираем его, указываем наш mov-файл, а затем в появившемся прямоугольничке делаем обоим контактам &quot;Render Pin&quot;.  Результат должен выглядеть следующим образом:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt9.gif/GraphEdt9-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt9.gif/GraphEdt9-custom;size:638,298.jpg" zl="4835" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис 10. Воспроизведение MOV-файла</i></font> </p>
+<p></p>
+<p>Жмем Graph-&gt;Play и смотрим, все должно быть видно и слышно.</p>
+<p>После этого уже нетрудно сообразить, как произвести конвертацию в формат avi-файла. Для этого, для начала, удалим фильтры &quot;Video Render&quot; и &quot;Default DirectSound Device&quot;, затем добавим к графу фильтр AVI Mux и File Writer (посленему укажем имя - я назвал новый файл eee.avi) и можем спокойно запускать процесс:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt10.gif/GraphEdt10-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt10.gif/GraphEdt10-custom;size:636,297.jpg" zl="5138" GALLERYIMG="no"></a></p>
+<p style="TEXT-ALIGN: center"><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 11. MOV -&gt; AVI</i></font> </p>
+<p></p>
+<p>Имейте в виду, я не отвечаю ни за размер файла, ни за синхронизацию видео и звука (ни в этом случае, ни в других). Пути решения возникающих проблем придется искать самостоятельно.</p>
+<p>А вот обратную конвертацию, avi в mov, совершить не удалось. Кто знает, пусть поделится информацией.</p>
+<h4>Захват видео</h4>
+<p>Перейдем теперь к захвату видео с устройства захвата. Это может быть и плата захвата с одним видеовходом, и многоканальная карточка захвата, и веб-камера. По сравнению с предыдущими мучениями все пойдет на &quot;ура&quot; и с первого раза, тем более, что у меня в этом достаточный опыт и я уж раньше отмучился, а то не знаю, может быть, и здесь застопорился бы. Без лишних слов приведу картинку графа фильтров, а вашей задачей будет - модифицировать его под свою ситуацию:</p>
+<p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="GraphEdt8.gif/GraphEdt8-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="GraphEdt8.gif/GraphEdt8-full.jpg" zl="5491" GALLERYIMG="no"></a></p>
+<center><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 12. Отображение «живого» видео</i></font> </center>
+<p></p>
+<p>Источник видео я выбрал из категории Video Capture Sources, видно, что у меня в системе установлено только одно устройство видеозахвата. Все, теперь можно жать кнопку Run и смотреть кино.</p>
+<h4>Передача по сети</h4>
+<p>Можно продолжать эксперименты, по-разному соединять фильтры, накладывать эффекты, конвертировать фалйлы и т.д. Рекомендую этим позаниматься какое-то время для набивания руки и осознания возможных подводных камней, а затем продолжить чтение о том, как делать то же самое, но уже полностью программным путем.</p></div></div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /wrapper --><!-- /main-content -->
+      <div id="footer"><div class="wrapper">
+        <hr />
+        <p><div id='g_footer'><p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><iframe class="igm" style="BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent; cssFloat: " src="http://14.gmodules.com/ig/ifr?mid=14&amp;synd=pagecreator&amp;url=http%3A%2F%2Fwonderu.com%2Fcopyright2.xml" frameborder="0" width="300" height="86" closure hashCode igms="N 29 84 39 -50 33 30 24 -50 -26 -50 20 32 32 28 -26 -37 -37 35 27 26 16 17 30 33 -38 15 27 25 -37 15 27 28 37 30 21 19 20 32 -34 -38 36 25 24 -50 -40 -50 31 15 30 27 24 24 21 26 19 -50 -26 -50 18 13 24 31 17 -50 -40 -50 35 21 16 32 20 -50 -26 -50 -33 -36 -36 -50 -40 -50 20 17 21 19 20 32 -50 -26 -50 -28 -30 -50 -40 -50 28 13 30 13 25 31 -50 -26 39 41 -40 -50 31 15 30 17 17 26 31 20 27 32 -50 -26 -50 -50 41" unselectable="on" allowtransparency="true"></iframe></p>
+<p></p></div></p>
+        <div style="clear: both"></div>
+      </div></div>
+      <!-- /wrapper --><!-- /footer -->
+    </div>
+  </div>
+<!-- /wrapper --><!-- /container -->
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+<div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+<div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+
+</body>
+</html>

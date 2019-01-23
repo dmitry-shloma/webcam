@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.pas,D:\My_prog\Детектор движения\Unit2.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,D:\My_prog\Детектор движения\Unit3.dfm=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.pas,D:\My_prog\Детектор движения\Unit3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.dfm,D:\My_prog\Детектор движения\Unit2.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

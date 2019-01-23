@@ -1,0 +1,241 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title id="title">DirectShow и video capture - RSDN</title>
+		<META http-equiv="Content-Type" content="text/html; charset=windows-1251">
+		<LINK href="Forum.css" type="text/css" rel="stylesheet">
+			<LINK href="../css/form.css" type="text/css" rel="stylesheet">
+				<script language="javascript" src="../Script/rsdn.js"></script>
+				<script language="javascript" src="Forum.js"></script>
+	</HEAD>
+	<BODY>
+		<div id="header" class="hdr">DirectShow и video capture</div>
+		<div style="font-size: smaller;"><script language="javascript" src="/script/shMenu.js" type="text/javascript"></script></div>
+		<div class='m'><font size='2'><span class='lineQuote'>S&gt;Итак, задачка старая &mdash; нужно сделать захват и encode видео в MPEG4 и звука в MP3. Все это нужно делать в риалтайме. Как это например сделано во FlyCap. Но теперь задача сделать это все через DirectShow.</span><br />
+<br />
+Нужно построить граф и вставить в него mpeg4encoder, ну DivX, например.<br />
+<br />
+Что бы говорить о конкретных деталях реализации, нужно увидеть как ты сейчас строишь граф, поэтому приведи код или скажи какой из примеров DS SDK ты используешь?<br />
+<span class='lineQuote'><br />
+S&gt;По правде сказать я бы не хотел использовать имеющиеся примеры, потому как не люблю реализации интерфейсов на чистом API, да и вообще организация кода примеров PSDK мне не нравится. Я скорее воспользуюсь WTL, но это не важно, так что будем считать что я использую PlayCap sample из DS SDK как самый простой. Теперь мне нужно кодировать видео через Microsoft MPEG4 V1/2 Codec, а аудио соотв MPEG3 и писать это в файл.</span><br />
+<span class='lineQuote'>S&gt;Нет, правда покажи как добавить этот самый граф и на звук тоже, а?  <img border='0' width='15' height='20' src='images/shuffle.gif' /> </span><br />
+<br />
+Ну ладно, сам напросился  <img border='0' width='15' height='15' src='images/smile.gif' /> <br />
+<br />
+Ниже будет приведен код создания графа в общем виде, он содержат вспомогательные функции:<br />
+<br />
+<table width='96%'><tr><td nowrap='nowrap' class='c'><pre>
+<span class='com'>// Функция находит фильтр по имени в system device enumerator и возвращает его.
+// Параметры: [in]  CComBSTR&amp; bstrFilterName      - имя фильтра
+//            [out] CComPtr&lt;IBaseFilter&gt;&amp; pFilter - найденный фильтр
+//            [in]  REFCLSID clsidDeviceClass     - CLSID категории фильтра (см. DS SDK)</span>
+HRESULT GetFilter(CComBSTR&amp; bstrFilterName, CComPtr&lt;IBaseFilter&gt;&amp; pFilter, REFCLSID clsidDeviceClass)
+{
+    HRESULT hr;
+
+    CComQIPtr&lt;ICreateDevEnum, &amp;IID_ICreateDevEnum&gt; spSysDevEnum;
+    hr = spSysDevEnum.CoCreateInstance(CLSID_SystemDeviceEnum, NULL, CLSCTX_INPROC);
+    <span class='kw'>if</span> (SUCCEEDED(hr))
+    {
+        CComPtr&lt;IEnumMoniker&gt; pEnum;
+
+        hr = spSysDevEnum-&gt;CreateClassEnumerator(clsidDeviceClass, &amp;pEnum, 0);
+        <span class='kw'>if</span> (S_OK == hr)) <span class='com'>// было неправильно - if ( SUCCEEDED(hr) ), см. примечание Snax</span>
+        {
+            CComPtr&lt;IMoniker&gt; pMoniker;
+            ULONG cFetched;
+            <span class='com'>// Enumerate over every category</span>
+            ATLASSERT(pEnum);
+            <span class='kw'>while</span> (SUCCEEDED(pEnum-&gt;Next(1, &amp;pMoniker, &amp;cFetched)))
+            {
+                <span class='kw'>if</span> (!pMoniker)
+                {
+                    hr = E_FAIL;
+                    <span class='kw'>break</span>;
+                }
+                CComQIPtr&lt;IPropertyBag&gt; pPropBag;
+                <span class='com'>// Associate moniker with a file</span>
+                hr = pMoniker-&gt;BindToStorage(0, 0, IID_IPropertyBag, (<span class='kw'>void</span> **)&amp;pPropBag);
+                <span class='kw'>if</span> SUCCEEDED(hr)
+                {
+                    CComVariant varCurFilterName;
+                    varCurFilterName.vt = VT_BSTR;
+                    ATLASSERT(pPropBag);
+                    <span class='com'>// Read FriendlyName from property bag</span>
+                    pPropBag-&gt;Read(L<span class='str'>"FriendlyName"</span>, &amp;varCurFilterName, 0);
+                    <span class='kw'>if</span> (bstrFilterName == varCurFilterName.bstrVal) <span class='com'>// is this our filter?</span>
+                    {
+                        <span class='com'>// Create filter using IMoniker</span>
+                        pMoniker-&gt;BindToObject(0, 0, IID_IBaseFilter, (<span class='kw'>void</span>**) &amp;pFilter);
+<span class='kw'>#ifdef</span> DEBUG
+                        FILTER_INFO fiRetrieved;
+                        pFilter-&gt;QueryFilterInfo(&amp;fiRetrieved);
+                        ATLTRACE(<span class='str'>"SUCCEED: (GetFilter) The %s filter have been retreived\n"</span>, bstrFilterName);
+<span class='kw'>#endif</span> <span class='com'>// DEBUG</span>
+                        <span class='kw'>return</span> S_OK;
+                    }
+                }
+                pMoniker = NULL;
+            }
+            ATLTRACE(<span class='str'>"FAILED: (GetFilter) The %s filter have not been retreived\n"</span>, bstrFilterName);
+        }
+    }
+
+    <span class='kw'>return</span> hr;
+}</pre></td></tr></table><br />
+<br />
+<table width='96%'><tr><td nowrap='nowrap' class='c'><pre>
+<span class='com'>// Функция находит неподключенный пин у фильтра и возвращает его.
+// Параметры: [in]  PIN_INFO* pPinInfo  - информация по которой ищется пин (см. DS SDK)
+//            [out] CComPtr&lt;IPin&gt;&amp; pPin - найденный пин</span>
+HRESULT GetPin(PIN_INFO* pPinInfo, CComPtr&lt;IPin&gt;&amp; pPin)
+{
+    HRESULT hr;
+
+    <span class='kw'>if</span> (!pPinInfo) <span class='kw'>return</span> E_POINTER;
+
+    <span class='kw'>if</span> (pPinInfo-&gt;pFilter)
+    {
+        CComPtr&lt;IEnumPins&gt; pEnumPins;
+        ULONG cFetched;
+        hr = pPinInfo-&gt;pFilter-&gt;EnumPins(&amp;pEnumPins);
+        ATLASSERT(pEnumPins);
+        <span class='com'>// Enumerate all pins of the filter</span>
+        <span class='kw'>while</span>(pEnumPins-&gt;Next(1, &amp;pPin, &amp;cFetched) == S_OK)
+        {
+            PIN_INFO piPinInfo;
+            <span class='com'>// We need to get pin information to compare it with our PinInfo</span>
+            hr = pPin-&gt;QueryPinInfo(&amp;piPinInfo);
+            <span class='kw'>if</span> (SUCCEEDED(hr))
+            {
+                <span class='com'>// We compare direction of the pin if it is the same it is our
+                // pin.
+                // We do not need a pin which have '~' first symbol because
+                // GraphBuilder do not connect pins which have this.</span>
+                <span class='kw'>if</span> (piPinInfo.dir == pPinInfo-&gt;dir &amp;&amp; piPinInfo.achName[0] != L<span class='str'>'~'</span>)
+                {
+                    <span class='com'>// We are interesting in disconnected pins therefore we
+                    // need to check the connection using ConnectedTo().</span>
+                    CComPtr&lt;IPin&gt; pConnectedPin;
+                    hr = pPin-&gt;ConnectedTo(&amp;pConnectedPin);
+                    <span class='kw'>if</span> (hr == VFW_E_NOT_CONNECTED || !pConnectedPin)
+                    {
+                        hr = S_OK;
+                        <span class='kw'>break</span>;
+                    }
+                }
+            }
+            pPin = NULL;    <span class='com'>// release this pin to get next</span>
+        }
+    }
+    <span class='kw'>else</span>
+    {
+        hr = E_INVALIDARG;
+    }
+
+    <span class='kw'>return</span> hr;
+}</pre></td></tr></table><br />
+<br />
+<table width='96%'><tr><td nowrap='nowrap' class='c'><pre>
+<span class='com'>// Функция соединяет два фильтра черз их пины
+// Параметры: [in] IBaseFilter* pSourceFilter   - это вышестоящий фильтр
+//            [in] IBaseFilter* pReceiveFilter  - это нижестоящий фильтр
+//            [in] IGraphBuilder* pGraphBuilder - это GraphBuilder</span>
+HRESULT ConnectFilters(IBaseFilter* pSourceFilter, IBaseFilter* pReceiveFilter, IGraphBuilder* pGraphBuilder)
+{
+    HRESULT hr;
+    CComPtr&lt;IPin&gt; pOutputPin;
+    CComPtr&lt;IPin&gt; pInputPin;
+
+    PIN_INFO piPinInfo = {pSourceFilter, PINDIR_OUTPUT, {0}};
+    <span class='com'>// Get output pin</span>
+    hr = GetPin(&amp;piPinInfo, pOutputPin);
+    <span class='kw'>if</span> (SUCCEEDED(hr))
+    {
+        ATLASSERT(pOutputPin);
+        piPinInfo.pFilter = pReceiveFilter;
+        piPinInfo.dir = PINDIR_INPUT;
+        <span class='com'>// Get input pin</span>
+        hr = GetPin(&amp;piPinInfo, pInputPin);
+        <span class='com'>// Connect two pins</span>
+        <span class='kw'>if</span> (SUCCEEDED(hr))
+            hr = pGraphBuilder-&gt;Connect(pOutputPin, pInputPin);
+    }
+
+    <span class='kw'>return</span> hr;
+}</pre></td></tr></table><br />
+<br />
+Теперь что касается создания самого графа:<br />
+<br />
+<table width='96%'><tr><td nowrap='nowrap' class='c'><pre>
+HRESULT hr;
+CComPtr&lt;IGraphBuilder&gt; pGraphBuilder;
+CComPtr&lt;IBaseFilter&gt; pVideoEncoderFilter;
+CComPtr&lt;IBaseFilter&gt; pAudioEncoderFilter;
+CComPtr&lt;IBaseFilter&gt; pAVIMuxFilter;
+CComPtr&lt;IBaseFilter&gt; pFileWriterFilter;
+CComPtr&lt;IMediaControl&gt; pMediaControl;
+
+hr = pGraphBuilder.CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC);
+
+<span class='com'>// Далее находим видео-кодировщик, ну DivX, например</span>
+<span class='kw'>if</span> (SUCCEEDED(hr))
+{
+    hr = GetFilter(CComBSTR(<span class='str'>"Microsoft MPEG-4 Video Codec V3"</span>), pVideoEncoderFilter, CLSID_VideoCompressorCategory);
+    <span class='kw'>if</span> (SUCCEEDED(hr))
+    {
+        <span class='com'>// Далее находим аудио-кодировщик, ну MP3, например</span>
+        hr = GetFilter(CComBSTR(<span class='str'>"MPEG Layer-3"</span>), pAudioEncoderFilter, CLSID_AudioCompressorCategory);
+        <span class='kw'>if</span> (SUCCEEDED(hr))
+        {
+            <span class='com'>// Далее находим AVI-Mux</span>
+            hr = GetFilter(CComBSTR(<span class='str'>"AVI Mux"</span>), pAVIMuxFilter, CLSID_LegacyAmFilterCategory);
+            <span class='kw'>if</span> (SUCCEEDED(hr))
+            {
+                <span class='com'>// Далее находим FileWriter</span>
+                hr = GetFilter(CComBSTR(<span class='str'>"File writer"</span>), pFileWriterFilter, CLSID_LegacyAmFilterCategory);
+                <span class='com'>// потом  устанавливаем имя файла, предварительно получив интерфейс IFileSinkFilter</span>
+                CComPtr&lt;IFileSinkFilter&gt; pFileSinkFilter;
+                hr = pFilter.QueryInterface(&amp;pFileSinkFilter);
+                ATLASSERT(pFileSinkFilter);
+                hr = pFileSinkFilter-&gt;SetFileName(L<span class='str'>"test.avi"</span>, NULL);
+            }
+        }
+    }
+}
+
+<span class='kw'>if</span> (SUCCEEDED(hr))
+{
+    <span class='com'>// теперь добавляем найденные фильтры в граф</span>
+    pGraphBuilder-&gt;AddFilter(pVideoEncoderFilter, L<span class='str'>"Filter 1"</span>);
+    pGraphBuilder-&gt;AddFilter(pAudioEncoderFilter, L<span class='str'>"Filter 2"</span>);
+    pGraphBuilder-&gt;AddFilter(pAVIMuxFilter, L<span class='str'>"Filter 3"</span>);
+    pGraphBuilder-&gt;AddFilter(pFileWriterFilter, L<span class='str'>"Filter 4"</span>);
+    <span class='com'>// теперь все эти фильтры соединяем, попутно находя соответствующие пины</span>
+    ConnectFilters(pVideoEncoderFilter, pAVIMuxFilter, pGraphBuilder);
+    ConnectFilters(pAudioEncoderFilter, pAVIMuxFilter, pGraphBuilder);
+    ConnectFilters(pAVIMuxFilter, pFileWriterFilter, pGraphBuilder);
+
+    <span class='com'>// теперь запрашиваем интерфейс IMediaControl</span>
+    hr = pGraphBuilder.QueryInterface(&amp;pMediaControl);
+    <span class='kw'>if</span> (SUCCEEDED(hr))
+        hr = pMediaControl-&gt;Run(); <span class='com'>// и начинаем писать наш фильм</span>
+}</pre></td></tr></table><br />
+<br />
+Ну в общем примерно так нужно делать. Что нехватает в вышеприведенном коде: надо добавить фильтр источник аудио и видео данных. Если ты используешь CaptureDevice, то можно использовать ICaptureGraphBuilder2 интерфейс. Ну как его пользовать очень хорошо на примерах показано в DS SDK.<br />
+<br />
+Да, вместо ICaptureGraphBuilder2, можно и простой граф использовать, просто для WDM capture device он удобнее. А можно с помощью SetFiltergraph упомянутого интерфейса передать ему уже готовый построенный граф.</font></div>
+
+		<div style="font-size: smaller;"><script language="javascript" src="/script/shMenu.js" type="text/javascript"></script></div>
+		
+		<div id="ratePanel" class="m" style="font-size: smaller;">
+			
+			<a id="threadLink" title="Обсудить" href="Default.aspx?mid=99196" style="height:14px;width:18px;"><img src="images/thr.gif" border="0" /></a>
+			Автор:<a id="authorLink" href="../Users/Profile.aspx?uid=10577">scs</a>
+			&nbsp;&nbsp;
+			<a id="rateListLink" href="RateList.aspx?mid=99196" target="_blank">Оценить</a>&nbsp;
+			<a id="ratePlusOneLink" href="Private/Rate.aspx?mid=99196&amp;rate=-3" target="_blank"><img src="images/n11.gif" border="0" /></a><a id="rateOneLink" href="Private/Rate.aspx?mid=99196&amp;rate=1" target="_blank"><img src="images/n1.gif" border="0" /></a><a id="rateTwoLink" href="Private/Rate.aspx?mid=99196&amp;rate=2" target="_blank"><img src="images/n2.gif" border="0" /></a><a id="rateThreeLink" href="Private/Rate.aspx?mid=99196&amp;rate=3" target="_blank"><img src="images/n3.gif" border="0" /></a><a id="rateRemoveLink" href="Private/Rate.aspx?mid=99196&amp;rate=-1" target="_blank"><img src="images/nx.gif" border="0" /></a><a id="rateSmileLink" href="Private/Rate.aspx?mid=99196&amp;rate=-2" target="_blank"><img src="images/smile.gif" border="0" /></a>
+			<a id="ratePlusLink" href="Private/Rate.aspx?mid=99196&amp;rate=-4" target="_blank"><img src="images/np.gif" border="0" /></a><a id="rateMinusLink" href="Private/Rate.aspx?mid=99196&amp;rate=0" target="_blank"><img src="images/nm.gif" border="0" /></a></div>
+	</BODY>
+</HTML>

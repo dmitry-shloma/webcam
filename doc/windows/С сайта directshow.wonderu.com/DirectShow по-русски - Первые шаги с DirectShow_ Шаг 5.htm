@@ -1,0 +1,1412 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>DirectShow по-русски - Первые шаги с DirectShow. Шаг 5</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+  	separate, browser-specific CSS file that keeps all 
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}/*
+
+  	-- -- -- -- -- -- --
+  	Type Scheme: Deco
+  	-- -- -- -- -- -- --
+  	
+  */
+
+  body {
+  	font: 76% Verdana, sans-serif;
+  }	
+
+  h1, h2, h3, h4, h5, h6, p.description {
+  	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  }
+  h1 {
+  	font-size: 3em;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  }
+  h2 {
+  	font-size: 2em;
+  	font-weight: normal;
+  }
+  h3 {
+  	font-size: 1.5em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	letter-spacing: 0.2em;
+  }
+  h5 {
+  	font-size: 1.2em;
+  }
+  h6 {
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+
+  p, td {
+  	line-height: 1.8em;
+  }
+  code, kbd {
+  	font-size: 1.25em;
+  }/*
+
+  	-- -- -- -- -- -- --
+  	STYLE: Victoria
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* ie6win */
+
+  /* IE/Win fixes for various layouts
+  ----------------------------------------------- */
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: -2px;
+  }
+
+  /* ie5mac */
+
+  /*\*//*/
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: 0;
+  }
+  /**/
+
+  /* ie5win */
+
+  @media tty {
+   i{content:"\";/*" "*/}} td { font-size: 0.8em; } #footer p { margin: 0; padding: 1em 0; } /*";}
+  }/* */
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  a:link {
+  	text-decoration: underline;
+  }
+  a:visited {
+  	text-decoration: underline;
+  }
+  body {
+  	font: 80% "Georgia", serif;
+  	margin: 0;
+  	padding: 25px 0 25px 0;
+  	border-top: solid 3px #fff;
+  	border-bottom: solid 3px #fff;
+  }
+  caption {
+  	font-size: 1.2em;
+  	font-style: italic;
+  	text-align: left;
+  	padding: 1px 4px 4px 4px;
+  	margin-bottom: 4px;
+  	border-bottom: solid 1px #ccc;
+  }
+  dt {
+  	font-weight: bold;
+  }
+  dd {
+  	font-style: italic;
+  	margin: 0 0 1em 1em;
+  }
+  h2 {
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	margin: 1em 0;
+  	padding-bottom: 3px;
+  }
+  h3 {
+  	font-size: 1.2em;
+  	font-weight: normal;
+  	font-style: normal;
+  	padding-bottom: 8px;
+  	margin-top: 1em;
+  	margin-bottom: 0.5em;
+  }
+  h4 {
+  	font-size: 1.1em;
+  	letter-spacing: 0.1em;
+  	padding-left: 12px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h5 {
+  	padding-bottom: 2px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h6 {
+  	font-weight: normal;
+  	letter-spacing: 0.1em;
+  	margin: 1em 0;
+  }
+  hr {
+  	margin: 2em 0;
+  	border-style: none;
+  	height: 1px;
+  }
+  p {
+  	line-height: 1.6;
+  	margin: 1em 0;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+  td p {
+  	margin: 0 0 1em 0;
+  }
+  th {
+  	text-align: left;
+  	font-weight: normal;
+  	font-style: italic;
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+  ul, ol, dl {
+  	margin-bottom: 1.6em;
+  	padding-left: 2em;
+  	margin-left: 0;
+  }
+
+  ul li {
+  	list-style: circle;
+  	margin-bottom: 0.8em;
+  }
+  ol li {
+  	list-style: upper-roman;
+  	margin-left: 2em;
+  	margin-bottom: 0.8em;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	padding-top: 25px;
+  	font-size: 2.4em;
+  	letter-spacing: 0.1em;
+  	text-align: center;
+  }
+  #g_description {
+  	font-style: italic;
+  	text-align: center;
+  	padding-bottom: 15px;
+  	margin: 0;
+  	line-height: 1;
+  }
+
+
+  /* content
+  ----------------------------------------------- */
+  #main-content .wrapper {
+  	margin: 0 25px;
+  }
+
+
+
+  /* sidebar
+  ----------------------------------------------- */
+
+  #sidebar .wrapper {
+  	padding-left: 15px;
+  	padding-right: 5px;
+  }
+
+  #sidebar .wrapper h3 {
+  	padding: 0 0 11px 0;
+  }
+
+
+  #sidebar li {
+  	margin-bottom: 0.8em;
+  }
+  #sidebar .wrapper ul li {
+  	list-style: circle;
+  }
+  #sidebar .wrapper ol li {
+  	list-style: upper-roman;
+  }
+
+  #sidebar .links {
+  	margin-bottom: 2em;
+  }
+
+
+  #adsense, #adsense .wrapper {
+  	text-align: left;
+  	margin: 0;
+  	padding: 0;
+  }
+
+
+  /* footer
+  ----------------------------------------------- */
+  #footer {
+  	margin: 0;
+  	font-style: italic;
+  	font-size: 0.9em;
+  }
+  #footer hr {
+  	display: none;
+  }
+
+  /* header
+  ----------------------------------------------- */
+  #header #page-title {
+  	padding-left: 12px;
+  	padding-right: 12px;
+  }
+
+  #header #g_description {
+  	margin-left: 12px;
+  	margin-right: 12px;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #onecolumn #footer {
+  	padding: 0 25px 10px 25px;
+  }
+
+
+
+  /* fixed left 2 column
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-left #footer {
+  	padding: 0 25px 10px 264px;
+  }
+
+
+  /* fixed right 2 column
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-right #footer {
+  	padding: 0 264px 10px 25px;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #threecolumn #footer {
+  	padding: 0 168px 10px 168px;
+  }
+  #sidebar-alternate {
+  	width: 129px;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+  #twocolumn-liquid-left, #twocolumn-liquid-right {
+  	padding: 0;
+  	border: 0;
+  	border-top: solid 1px #999;
+  }
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	padding: 0;
+  	margin: 0;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	padding: 10px 25px 10px 25px;
+  	text-align: center;
+  }
+
+
+
+
+  #twocolumn-liquid-left #sidebar .wrapper *, #twocolumn-liquid-right #sidebar .wrapper * {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+  #twocolumn-liquid-left #sidebar h3, #twocolumn-liquid-right #sidebar h3 {
+  	padding-left: 0;
+  }
+  #twocolumn-liquid-left #sidebar ul, #twocolumn-liquid-left #sidebar ol,
+  #twocolumn-liquid-right #sidebar ul, #twocolumn-liquid-right #sidebar ol {
+  	padding-left: 2.5em;
+  	/* extra wide for IE's sake */
+  }
+  #twocolumn-liquid-left #sidebar .links ul, #twocolumn-liquid-right #sidebar .links ul {
+  	padding-left: 0;
+  }
+
+
+
+
+
+
+
+  /* editable area borders
+  ----------------------------------------------- */
+  .editable {
+  	border: dashed 1px #f00;
+  }
+  #onecolumn .editmode h1, #twocolumn-left .editmode h1, #twocolumn-right .editmode h1, #threecolumn .editmode h1 {
+  	background-position: -1px 0;
+  }
+  #twocolumn-liquid-left .editmode h1, #twocolumn-liquid-right .editmode h1 {
+  	background-position: 0 -1px;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	COLOR SCHEME: Desert
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* Basic HTML style */
+
+
+  a:link {
+  	color: #C0472F;
+  }
+  a:visited {
+  	color: #93584D;
+  }
+  a:hover {
+  	color: #E64C2D;
+  }
+  body {
+  	color: #2B1E1B;
+  	background: #F0D894 url(/-/includes/style/victoria/desert/container.gif) repeat-x left top;
+  }
+  caption {
+  	border-bottom-color: #ccc;
+  }
+  h2 {
+  	color: #93584D;
+  	background: url(/-/includes/style/victoria/desert/h2-border.gif) repeat-x left bottom;
+  }
+  h3 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h3-border.gif) repeat-x left bottom;
+  }
+  h4 {
+  	color: #A5A4A5;
+  	background: url(/-/includes/style/victoria/desert/h4-deco.gif) no-repeat 0 5px;
+  }
+  h5 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h5-border.gif) repeat-x left bottom;
+  }
+  h6 {
+  }
+  hr {
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	color: #fff;
+  }
+  #g_description {
+  	color: #28728B;
+  }
+
+
+
+  /* fixed-width common header
+  ----------------------------------------------- */
+  #onecolumn h1, #twocolumn-left h1, #twocolumn-right h1, #threecolumn h1 {
+  	background: url(/-/includes/style/victoria/desert/fixed-h1.gif) no-repeat;
+  }
+  #onecolumn #header, #twocolumn-left #header, #twocolumn-right #header, #threecolumn #header {
+  	background: url(/-/includes/style/victoria/desert/fixed-header.gif) repeat-y;
+  }
+
+
+  #footer {
+  	color: #78AFC1;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-headerwrapper.gif) no-repeat left bottom;
+  }
+  #onecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-container.gif) repeat-y;
+  }
+  #onecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-footer.gif) no-repeat left bottom;
+  }
+
+
+
+  #sidebar .wrapper h3 {
+  	background-image: url(/-/includes/style/victoria/desert/h3-sidebar-border.gif);
+  }
+
+  .editable {
+  	border: dashed 1px #000;
+  }
+
+
+
+  /* fixed 2 column left
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-left #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-container.gif) repeat-y;
+  }
+  #twocolumn-left #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 2 column right
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-right #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-container.gif) repeat-y;
+  }
+  #twocolumn-right #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-headerwrapper.gif) no-repeat left bottom;
+  }
+  #threecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-container.gif) repeat-y;
+  }
+  #threecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-footer.gif) no-repeat left bottom;
+  }
+  #threecolumn #sidebar h3, #threecolumn #sidebar-alternate h3 {
+  	background: url(/-/includes/style/victoria/desert/h3-sidebar-border-3col.gif) no-repeat center bottom;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  	background: url(/-/includes/style/victoria/desert/liquid-header-left.gif) no-repeat left top;
+  }
+  #twocolumn-liquid-left #header, #twocolumn-liquid-right #header {
+  	background: #DEDEDE url(/-/includes/style/victoria/desert/liquid-header-bg.gif) repeat-x;
+  }
+  #twocolumn-liquid-left #container #header .wrapper, #twocolumn-liquid-right #container #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-right.gif) no-repeat right top;
+  }
+  #twocolumn-liquid-left #container #header p.description, #twocolumn-liquid-right #container #header p.description {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-desc.gif) repeat-y left top;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	background: url(/-/includes/style/victoria/desert/liquid-left-footer.gif) no-repeat left bottom;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-footer.gif) no-repeat right bottom;
+  }
+
+
+  #twocolumn-liquid-left #container, #twocolumn-liquid-right #container {
+  	background: #fff url(/-/includes/style/victoria/desert/liquid-left-container.gif) repeat-y;
+  }
+  #twocolumn-liquid-left #container .wrapper, #twocolumn-liquid-right #container .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-container.gif) repeat-y right top;
+  }
+
+  /** END CUSTOM SKIN **/
+  </style>
+
+  <!-- Hack to avoid flash of unstyled content in IE -->
+  <script> </script>
+</head>
+
+<body id="onecolumn">
+  <div id="container">
+    <div class="wrapper">
+      <div id="header">
+        <div class="wrapper">
+          <h1 id="page-title"><div id='g_title'><img height="1" src="http://d4.ca.b1.a1.top.list.ru/counter?id=1156223" width="1">Первые шаги с DirectShow. Шаг 5</div></h1>
+          <div style="clear: both;"></div>
+          <p class="description"><div id='g_description'><p>DSPack - компоненты для Borland Delphi</p></div></p>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /editable --><!-- /wrapper --><!-- /header -->
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="content-item"><div id='g_body'><p></p>
+<p style="TEXT-ALIGN: right"> Автор: <strong>Валентин Вовк</strong></p>
+<h2>DSPack<a href="" name="IDAI0AKE"></a></h2>
+<p>Единственной известной мне дельфи-оберткой над DirectShow есть DSPack. Скачать ее можно со страницы <a href="http://www.progdigy.com/"><font color="#0000ff">http://www.progdigy.com</font></a>. (Сказать, что входит в ее состав кроме самого DSPack&#39;а, а также дать ссылку и комментарии на JCL, откуда идет переложение для самого DirectShow.)<br>Об оберточных классах дает представление следующая иллюстрация, взятая из файла справки по DSPack:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="DSPackClasses.gif/DSPackClasses-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="DSPackClasses.gif/DSPackClasses-full.jpg" hashCode closure zl="455" GALLERYIMG="no"></a><br><font style="FONT-SIZE: x-small" face="verdana" size="2"><i>Рис. 13. Структура классов пакета DSPack</i></font> </p>
+<p></p>
+<p>Конечно, без хорошего знания DirectShow API трудно оценить качество и полезность классовой обертки. Но мы все же попробуем разобраться с этими классами.</p>
+<h3>TFilterGraph<a href="" name="IDA10AKE"></a></h3>
+<p>Этот компонент - обертка над менеджером графа фильтров DirectShow и занимает исключительное место как в самом DirectShow, так и в DSPack&#39;е. Любое приложение, имеющее дело с DirectShow, обязательно будет иметь дело и менеджером графа фильтров. Он используется для построения и управления графом, а также для управления синхронизацией, уведомлениями о событиях и других аспектах контроля графа.</p>
+<p>При использовании API DirectShow для создания менеджера графа фильтров нужно пользоваться вызовом функции CoCreateInstance, а в качестве CLSID передавать либо CLSID_FilterGraph, либо CLSID_FilterGraphNoThread. CLSID_FilterGraph отвечает за создание менеджера графа фильтров (МГФ) на совместно используемом рабочем потоке (видимо, нужно все же дать представление об использовании потоков в DirectShow ), а CLSID_FilterGraphNoThread - за создание МГФ на потоке приложения.</p>
+<p>Обычно приложения используют CLSID_FilterGraph. Но оба CLSID_ используются для создания того же объекта, но с использованием разных потоковых моделей:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>CLSID_FilterGraph служит для создания МГФ на рабочем потоке, который совместно используется всеми экземплярами CLSID_FilterGraph в одном процессе. Поток диспетчерезирует сообщения, которые посылают фильтры и управляет жизненным циклом любых окон, созданных фильтрами. 
+<li>CLSID_FilterGraphNoThread служит для создания МГФ на потоке приложения. Если вы используете этот CLSID, то поток, вызывающий CoCreateInstance, должен иметь цикл обработки сообщений. В противном случае могут происходить разного рода блокировки (deadlock). Перед завершением работы этого потока нужно также освободить (release) МГФ и все объекты графа (такие, как фильтры, контакты, ссылочные часы и т.д.). </li></ul>
+<p>Исходя из вышеизложеного, вроде бы нет особых причин использовать при создании МГФ CLSID_FilterGraphNoThread. Впрочем, это можно и делать. ПРИМЕР.</p>
+<p>Впрочем, компонент TFilterGraph не использует CLSID_FilterGraphNoThread, поэтому больше не будем о нем упоминать.</p>
+<p>МГФ предоставляет следующие, кратко описанные, интерфейсы. Несмотря на то, что их достаточно много, я не поленюсь их все выписать, а вам советую не полениться и прочитать эту табличку. После этого вам станут намного понятнее права и обязаности менеджера графа фильтров.</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>№№</strong></th>
+<th><strong>Интерфейс</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>1</td>
+<td>IAMGraphStreams</td>
+<td>Управление графом фильтров (ГФ), работающим с живым источником</td></tr>
+<tr>
+<td>2</td>
+<td>IAMStats</td>
+<td>Позволяет приложению возвращать исполнимые данные от МГФ (???). Фильтры могут использовать этот интерфейс для записи исполнимых данных.Это, словом, для статистики - ничего не понял</td></tr>
+<tr>
+<td>3</td>
+<td>IBasicAudio</td>
+<td>Позволяет приложению управлять громкостью и балансом аудиопотока.</td></tr>
+<tr>
+<td>4</td>
+<td>IBasicVideo</td>
+<td>Позволяет приложению устанавливать видеосвойства, такие, как прямоугольники назначения и источника.</td></tr>
+<tr>
+<td>5</td>
+<td>IBasicVideo2</td>
+<td>Происходит от IBasicVideo и предоставляет дополнительный метод GetPrefferedAspectRatio.</td></tr>
+<tr>
+<td>6</td>
+<td>IFilterChain</td>
+<td>Предоставляет методы для старта, остановки или удаления цепочки фильтров в графе фильтров.</td></tr>
+<tr>
+<td>7</td>
+<td>IFilterGraph</td>
+<td>Предоставляет методы для построения графа фильтров. Приложения используют его для добавления фильтра в граф, соединения и рассоединения фильтров, удаления фильтров и других базисных операций. Однако, интерфейс IGraphBuilder происходит от этого интерфейса и предоставляет дополнительные методы, которые есть более <strong>sophistical</strong>. Таким образом, приложению удобнее пользоваться интерфейсом IGraphBuilder, а не IFilterGraph.</td></tr>
+<tr>
+<td>8</td>
+<td>IFilterGraph2</td>
+<td>Расширяет интерфейсы IFilterGraph и IGraphBuilder.</td></tr>
+<tr>
+<td>9</td>
+<td>IFilterMapper2</td>
+<td>Регистрирует и дерегистрирует фильтры, а также локализирует их в регистре. Реализует этот интерфейс вспомогательный объект Filter Mapper.</td></tr>
+<tr>
+<td>10</td>
+<td>IGraphBuilder</td>
+<td>Этот интерфейс предоставляет методы, пзволяющие приложению строить граф фильтров. Этот интерфейс реализует МГФ.Этот интерфейс наследуется от IFilterGraph (который предоставляет базовые операции - такие, как добавление фильтра в граф или соединение двух контактов) , и добавляет методы, позволяющие создавать граф по частичной информации.</td></tr>
+<tr>
+<td>11</td>
+<td>IGraphConfig</td>
+<td>Используется МГФ для поддержки динамического построения графа. Этот интерфейс позволяет приложениям и фильтрам переконфигурировать граф, находящийся в запущенном состоянии, без его остановки, и без потери данных.</td></tr>
+<tr>
+<td>12</td>
+<td>IGraphVersion</td>
+<td>Для получения версии МГФ.</td></tr>
+<tr>
+<td>13</td>
+<td>IMediaControl</td>
+<td>Предоставляет методы для управления потоком данных, проходящих через граф фильтров. Включает методы для запуска, приостановки и остановки графа. </td></tr>
+<tr>
+<td>14</td>
+<td>IMediaEvent</td>
+<td>Содержит методы для получения уведомлений о событиях и переопределения заданных по умолчанию обработчиков событий МГФ. </td></tr>
+<tr>
+<td>15</td>
+<td>IMediaEventEx</td>
+<td>Наследует и расширяет интерфейс IMediaEvent, позволяя окну приложения получать уведомления о происходящих событиях в МГФ.</td></tr>
+<tr>
+<td>16</td>
+<td>IMediaEventSink</td>
+<td>Уведомляет менеджер графа фильтров о событиях, происходящих на графе. Фильтры используют этот интерфейс для отчета о событиях. Приложения не используют его.</td></tr>
+<tr>
+<td>17</td>
+<td>IMediaFilter</td>
+<td>Управляет потоковым состоянием фильтра. Все фильтры DirectShow реализуют этот интерфейс. Он предоставляет методы переключения состояний (остановка, пауза, запуск), для получения текущего состояния и для установки ссылочных часов. Приложения не вызывают методов IMediaFilter. МГФ также предоставляет этот интерфейс. Приложения могут вызывать методы этого интерфейса SetSyncSource и GetSyncSource для установки и получения ссылочных часов. Приложения не должны вызывать других методов этого интерфейса, а вместо этого использовать методы IMediaControl.Сам IMediaFilter наследует от IPersist, а интерфейс IBaseFilter наследует, в свою очередь, от IMediaFilter.</td></tr>
+<tr>
+<td>18</td>
+<td>IMediaPosition</td>
+<td>Содержит методы для поиска позиции в потоке. Интерфейс IMediaSeeking основывается на этом интерфейсе. Приложения, написанные на C/C++, могут использовать интеерфейс IMediaSeeking вместо IMediaPosition. Но IMediaSeeking несовместим с автоматизацией, поэтому приложения, написанные, например, на Visual Basic&#39;е, должны использовать IMediaPosition.Этот интерфейс предоставляется как МГФ, так и отдельными фильтрами. Приложения должны получать указатель на интерфейс IMediaPosition от МГФ, а не от фильтров. МГФ распределяет метод путем вызова всех фильтров рендеринга. Фльтры рендеринга распространяют вызов вверх по потоку к фильтрам источников. Такая последовательность событий гарантирует синхронизацию всех потоков.Если один из распеделенных вызовов вернет ошибку, МГФ вернет первую полученную им ошибку. Некоторые из распределенных вызовов могут быть и успешными. Если, впрочем, хоть один з распределеных вызовов вернет не E_NOTIMPL, то и МГФ не вернет E_NOTIMPL. Только в том случае, если все распределенные вызовы вернут E_NOTIMPL, МГФ вернет E_NOTIMPL.Замечание для разработчиков фильтров. Не нужно реализовывать этот интерфейс. Вместо этого нужно реализовывать IMediaSeeking. Если ваш фильтр поддерживает IMediaSeeking, МГФ автоматически будет управлять интерфейсом IMediaPosition.</td></tr>
+<tr>
+<td>19</td>
+<td>IQueueCommand</td>
+<td>Ставит команду в очередь для ее обработки в определенное время. Приложение может использовать его для продвижения вперед управляющих команд для графа(?).Методы этого интерфейса моделируют метод IDispatch::InvokeAt. Приложение указывает интерфейс, метод интерфейса, параметры метода и ссылочное время. МГФ ставит эту информацию в очередь и, затем, вызывает этот метод в указанное время. Требуемй интерфейс должен наследовать IDispatch и должен предоставляться МГФ. Примерами таких интерфейсов есть IMediaControl, IMediaEventEx и IMediaPosition.После постановки команды в очередь МГФ возвращает указатель на интерфейс IDefferedCommand. Приложение может использовать этот интерфейс для отмены или модифкации команды.</td></tr>
+<tr>
+<td>20</td>
+<td>IRegisterServiceProvider</td>
+<td>Регистрирует объект как сервис.</td></tr>
+<tr>
+<td>21</td>
+<td>IResourceManager</td>
+<td>Этот интерфейс отвечает за разрешение конкуренции за системные ресурсы.Фильтры могут использовать этот интерфейс для запроса ресурсов, которые, возможно, используют другие объекты. Например, аудио-рендереры (фильтры, воспроизводящие аудио) использую этот интерфейс для разрешения конфликтов за устройство аудио-вывода.Приложения, обычно, не используют этот интерфейс.</td></tr>
+<tr>
+<td>22</td>
+<td>IServiceProvider</td>
+<td>Этот интерфейс в справке по DirectShow не описан. Прочитать о нем можно в MSDN в разделе () следующее: </td></tr>
+<tr>
+<td>23</td>
+<td>IVideoFrameStep</td>
+<td>Этот интерфейс делает шаги через видеопоток. Этот интерфейс позволяет приложениям, использующим DirectShow, включая проигрыватели DVD, делать шаги по видеопотоку. МГФ управляет этим шаговым процессом в связке с фильтром оверлейного микширования или фильтром видеоотображения. Прокрутка назад не поддерживается.</td></tr>
+<tr>
+<td>24</td>
+<td>IVideoWindow</td>
+<td>Устанавливает свойства окна видеотображения. Приложения могут использовать этот интерфейс для установки владельца, позиции и размера окна и других его свойств.</td></tr></tbody></table>
+<p>Как видите, интерфейсов достаточно много. По этой причине более подробно мы их рассматривать будем только в случае необходимости.</p>
+<p>Нам нужны будут еще два интерфейса: IAMGraphBuilderCallback и IAMFilterGraphCallback. Первый из них предоставляет механизм callback&#39;а при построении графа. Для его использования нужно реализовать его методы в приложении или клиентском объекте. Запрашивайте у МГФ интерфейс IObjectWithSize и вызывайте метод IObjectWithSize::SetSize, передавая указатель на реализацию этого интерфейса (ЧТО ЗА ИНТЕРФЕЙС ТАКОЙ? - НЕ НАШЕЛ ОПИСАНИЯ). МГФ вызывает методы этого интерфейса при построении графа, который (интерфейс) дает клиент в целях модификации процесса построения графа. Главное использование этого интерфейса - конфигурирование фильтра VMR перед  его соединением. Его можно использовать также для отказа использования неких фильтров (например, декодеров). Специфичекие методы этого интерфейса - SelectedFilter (вызывается, когда МГФ находит фильтр-кандидат, но перед созданием фильтра) и CreatedFilter (вызывается после того, как МГФ создает фильтр, но до попытки его соединить). Второй интерфейс - IAFilterGraphCallback, - тоже предоставляет callback-механизм при построении графа. Если при построении графа МГФ получает ошибку при попытке рендеринга некоторого контакта, он вызывает единственный метод этого интерфейса UnableToRender.</p>
+<p>Так вот, класс TFilterGraph есть наследником TComponent, а также интерфейсов IAMGraphBuilderCallback, IAMFilterGraphCallback и IServiceProvider (об этом интерфейсе тоже нужно что-то сказать):</p>
+<p>TFilterGraph = class(TComponent, IAMGraphBuilderCallback, IAMFilterGraphCallback, IServiceProvider)</p>
+<p>МГФ может работать в трех режимах - gmNormal, gmCapture и gmDVD. При использовании режима gmNormal создается COM-объект IGraphBuilder (FFilterGraph), при использовании gmCapture - создаются COM-объекты ICaptureGraphBuilder2 (FCaptureGraph) и IGraphBuilder (FFilterGraph), при использовании gmDVD - COM-объект IDvdGraphBuilder (FDvdGraph). Давайте сначала рассмотрим эти интерфейсы, а затем продолжим исследование класса TFilterGraph.</p>
+<p>Как уже было сказано (см. таблицу интерфейсов, предоставляемых МГФ), IGraphBuilder наследуется от IFilterGraph (который предоставляет базовые операции - такие, как добавление фильтра в граф или соединение двух контактов) , и добавляет методы, позволяющие создавать граф по частичной информации (единственный метод - Render - позволяет автоматически достроить граф для указанного исходящего контакта).</p>
+<p>COM-объект &quot;Построитель графа захвата&quot; (Capture Graph Builder)  реализует единственный интерфейс - ICaptureGraphBuilder2 (для меня так и осталось невыясненным происхождение этого названия - возможно, он заменил и расширил используемый ранее для тех же целей интерфейс ICaptureGraphBuilder), который предоставляет методы для построения графа захвата и других пользовательских графов фильтров. В общем, использование этого вспомагательного объекта имеет свои особенности, но я не считаю, что на них нужно останавливаться (неплохо бы разобраться в том, как это helper-object работает и можно ли обойтись и без него).</p>
+<p>Наконец, IDvdGraphBuilder используется для работы с, очевидно, dvd, но это тема отдельного разговора, и я постараюсь в дальнейшем о dvd не упоминать вообще.</p>
+<p>Методы класса TFilterGraph позволяют обращаться к методам перечисленных в таблице интерфейсов. Причем эти методы в классе предоставляются очень избирательно, вроде SetVolume (для IBasicAudio), SetState, Play, Run и т.п. (для IMediaControl) или SetRate (для IMediaSeeking). Само собой, внутри этих методов идет обращение к соответствующим методам соответствующих интерфейсов. Поэтому возникает вопрос, стоило ли вообще выписывать эти методы в противовес невыписанным, которых подавляющее большинство. Как по мне, так не стоило. Ну да ладно. По крайней мере у нас есть повод рассматривать не DirectShow API, а дельфийскую библиотеку. TFilterGraph содержит также методы для добавления фильтров в граф и очистки его от фильтров. Но не предоставляет методов для их, фильтров, соединения (IGraphBuilder::Connect) и пр. и пр. Что, во-первых, странно (поскольку требовало от разработчиков минимальных усилий), а, во-вторых, настолько сбивает с толку начинающих (потому как даже не намекает им о том, что такое вообще возможно), что на многих форумах я неоднократно пересекался с людьми, которые достаточно долго (по несколько месяцев) имели дело с программами, работающими с видео (и писали их сами!), но не подозревали даже о фильтрах и о хоть каких бы то ни было принципах работы с ними. Что же, кроме справки по дельфи, нужно иногда читать и MSDN.</p>
+<p>Подавляющее большинство прочих методов и свойств класса TFilterGraph имеют отношение к обработке сообщений, получаемых графом фильтров. Рассмотрим подробнее, как это происходит (хотя бы для того, чтобы уметь самим это делать в случае использования не DSPack, а непосредственно DirectShow API). Итак, в private-секции класса TFilterGraph можно найти интерфейс IMediaEventEx (член FMediaEventEx). При активизации менеджера графа фильтров (в реализации метода TFilterGraph.SetActive) происходит вызов метода QueryInterface для получения интерфейса IMediaEventEx. Сейчас самое место более подробно коснуться этого интерфейса, но начнем, пожалуй, с интерфейса IMediaEvent (IMediaEventEx наследует и расширяет его функциональность). Итак, интерфейс IMediaEvent содержит методы для возвращения уведомлений о событиях и для переопределения обработчиков этих уведомлений, предоставляемых по умолчанию МГФ. Как уже было сказано, этот интерфейс предоставляется МГФ. Приложение может использовать его для реакции на события, происходящие в графе фильтров, такие, как конец потока или ошибка при отображении (рендеринге). Фильтры посылают события в граф фильтров, используя интерфейс IMediaEventSink. Более подробно о событиях, возникающих в графе фильтров, стоит посмотреть в соответствующем разделе справки: ... . Интерфейс IMediaEvent предоставляет следующие методы:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>CancelDefaultHandling</td>
+<td>Отменяет действие по умолчанию, выполняемое МГФ, для указанного сообщения</td></tr>
+<tr>
+<td>RestoreDefaultHandling</td>
+<td>Восстанавливает поведение, заданное МГФ по умолчанию, для указанного события</td></tr>
+<tr>
+<td>FreeEventParams</td>
+<td>Освобождает ресурсы, связанные с параметрами события. Этот метод следует вызывать после вызова метода GetEvent (см. ниже).</td></tr>
+<tr>
+<td>GetEvent</td>
+<td>Возвращает уведомление о следующем событии из очереди сообщений.</td></tr>
+<tr>
+<td>GetEventHandle</td>
+<td>Возвращает обработчик для события со сбросом вручную (manual-reset event) (если вы забыли или вообще не знаете, что это такое, почитайте в MSDN или посмотрите у Рихтера), который остается занятым (signaled), пока очередь содержит уведомления о событиях. УЯСНИТЬ СМЫСЛ, ПРОВЕРИТЬ ПЕРЕВОД.МГФ удерживает событие о сбросом вручную, которое отражает состояние очереди сообщений. Если очередь содержит уведомления о событиях, событие со сбросом вручную пребывает в занятом состоянии. Если очередь пуста, метод IMediaEvent::GetEvent сбрасывает событие.Приложение может использовать это событие для определения состояния очереди. Сначала вызывается метод GetEventHandle для получения хэндла события. Затем нужно дождаться, когда событие перейдет в сигнальное состояние, с помощью функции вроде WaitForSingleObject. Затем нужно получить седующее уведомление о событии из очереди с помощью вызова метода IMediaEvent::GetEvent. МГФ удерживает событие в сигнальном состоянии, пока очередь пуста; затем событие сбрасывается. Не следует закрывать хэндл события, возвращаемого этим методом, т.к. он используется внутри графа фильтров. Не нужно также использовать хэндл после после освобождения МГФ, поскольку в этом случае этот хэндл не будет корректным. (Чтобы избежать этой ошибки, можно дублировать хэндл вызовом DuplicateHandle и использовать этот дубликат вместо исходного хэндла. После окончания работы с дубликатом его нужно закрыть.)Другой способ мониторинга приложением очереди сообщений - вызов метода IMediaEventEx::SetNotifyWindow (он будет рассмотрен ниже).</td></tr>
+<tr>
+<td>WaitForCompletion</td>
+<td>Ждет, когда граф фильтров обработает все доступные данные.</td></tr></tbody></table>
+<p>Для мониторинга сообщений нас, впрочем, больше будет интересовать интерфейс IMediaEventEx, который наследует интерфейс IMediaEvent и, кроме того, имеет методы для для возвращения уведомлений о событиях и для переопределения обработчиков сообщений, предоставляемых МГФ по умолчанию. IMediaEventEx расширяет интерфейс IMediaEvent методами, позволяющими окну приложения получат сообщения о происходящих событиях в МГФ. Полный список определенных системой сообщений можно посмотреть здесь. Мы же обратимся к новым методам IMediaEventEx. Их всего три:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>SetNotifyWindow</td>
+<td>Регистрирует окно, в которое будут посылаться уведомления о событиях. </td></tr>
+<tr>
+<td>SetNotifyFlags</td>
+<td>Разрешает или запрещает уведомлять о событиях</td></tr>
+<tr>
+<td>GetNotifyFlags</td>
+<td>Позволяет определить, разрешено ли уведомлять о событиях</td></tr></tbody></table>
+<p>Как видим, смысл методов достаточно прозрачен, а чтобы еще сильнее понять их предназначение, смотрим в MSDN здесь.</p>
+<p>Вернемся теперь к вопросу о реализации в классе TFilterGraph возможности обработки сообщений. Итак, в методе SetActive получаем интерфейс IMediaEventEx, разрешаем мониторинг событий (IMediaEventEx::SetNotifyFlags(0)) и устанавливаем окно, в которое МГФ будет посылать уведомления о происходящих событиях (IMediaEventEx::SetNotifyWindow(хэндл нашего окна, WM_GRAPHNOTIFY (некая заранее объявленная константа), ...)). Оконная процедура имеет следующий вид:</p>
+<div id="IDAFCBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> TFilterGraph.WndProc(<span class="KEYWORD">var</span> Msg: TMessage);
+<span class="KEYWORD">begin</span>
+  <span class="KEYWORD">with</span> Msg <span class="KEYWORD">do</span>
+    <span class="KEYWORD">if</span> Msg = WM_GRAPHNOTIFY <span class="KEYWORD">then</span>
+      <span class="KEYWORD">try</span>
+        HandleEvents;
+      <span class="KEYWORD">except</span>
+...
+<span class="KEYWORD">end</span>;</pre></td></tr></tbody></table></div>
+<p>А вот реализация метода HandleEvents:</p>
+<div id="IDA3CBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> TFilterGraph.HandleEvents;
+<span class="KEYWORD">var</span>
+  hr: HRESULT;
+  Event, Param1, Param2: Integer;
+<span class="KEYWORD">begin</span>
+  <span class="KEYWORD">if</span> assigned(FMediaEventEx) <span class="KEYWORD">then</span>
+  <span class="KEYWORD">begin</span>
+    hr := FMediaEventEx.GetEvent(Event, Param1, Param2);
+    <span class="KEYWORD">while</span> (hr = S_OK) <span class="KEYWORD">do</span>
+    <span class="KEYWORD">begin</span>
+      DoEvent(Event, Param1, Param2);  	<span class="COMMENT">// внутри этого вызова и вызывается </span></pre><pre><span class="COMMENT">					// соответствующий обработчик</span>
+      FMediaEventEx.FreeEventParams(Event, Param1, Param2);
+      hr := FMediaEventEx.GetEvent(Event, Param1, Param2);
+    <span class="KEYWORD">end</span>;
+  <span class="KEYWORD">end</span>;
+<span class="KEYWORD">end</span>;</pre></td></tr></tbody></table></div>
+<p>Рекомендую посмотреть в инспекторе объектов на обработчики событий, а я буду считать, что успешно закончил рассмотрение этого класса.</p>
+<h3>TFilter<a href="" name="IDA2DBKE"></a></h3>
+<p>Следующий интересующий нас класс - TFilter. Не нужно быть особо догадливым, чтобы понять, что он есть оболочкой над интерфейсом, представляющим фильтр - IBaseFilter. Этот интерфейс предоставляет методы для управления фильтром. Его реализуют все фильтры DirectShow. МГФ использует этот интерфейс для управления фильтрами. Приложения же могут его использовать для перечисления контактов или для запроса информации о фильтре, но не для изменения состояния фильтра (каждый фильтр может находиться в одном из трех состояний: запущенном, остановленном или приостановленном (пауза)). Для этой цели нужно использовать интерфейс IMediaControl, предоставляемый МГФ. Поскольку этот интерфейс уже неоднократно упоминался, займемся им более плотно. Он предоставляет методы для управления потоком данных через граф фильтров. Вдобавок к методам, наследуемым от IDispatch, интерфейс IMediaControl предоставляет следующие:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>Run</td>
+<td>Запускает все фильтры в графе фильтров</td></tr>
+<tr>
+<td>Pause</td>
+<td>Приостанавливает все фильтры в графе фильтров</td></tr>
+<tr>
+<td>Stop</td>
+<td>Останавливает все фильтры в графе фильтров</td></tr>
+<tr>
+<td>StopWhenReady</td>
+<td>Приостанавливает граф фильтров, позволяет фильтрам поставить приходящие им данные в свои очереди, а затем останавливает граф фильтров</td></tr>
+<tr>
+<td>GetState</td>
+<td>Возвращает текущее состояние графа фильтров</td></tr></tbody></table>
+<p>В особые объянения этих методов я входить не буду, считая их интуитивно понятными, хотя на самом деле поговорить есть о чем - исследование деталей изменения состояний отдельных фильтров и всего графа фильтров - это отдельный и интересный разговор.</p>
+<p>Сделав это отступление, вернемся к нашему интерфейсу IBaseFilter. Но, поскольку он наследует другой интерфейс - IMediaFilter, рассмотрим сначала методы последнего (ТУТ БЫ (ИЛИ ДАЛЬШЕ) - КАРТИНКУ С ИЛЛЮСТАЦИЕЙ НАСЛЕДОВАНИЯ ИНТЕРФЕЙСОВ). Именно он предоставляет методы для управления потоковым состоянием фильтра. Как уже было сказано, его предоставляют все фильтры DirectShow (поскольку они предоставляют интерфейс IBaseFilter, наследующий IMediaFilter; нужно, кстати, сказать, что сам IMediaFilter наследует от интерфейса IPersist). Итак, интерфейс IMediaFilter предоставляет методы для изменения состояния фильтра (остановка, запуск, пауза(приостановка)); для возвращения текущего состояния фильтра; для установки ссылочных часов. Приложения же, однако, не должны использовать интерфейса IMediaFilter, предоставляемых фильтрами. Вместо этого они могут использовать только тот же интерфейс - IMediaFilter, предоставляемый МГФ. Впрочем, они могут использовать только два метода этого интерфейса - SetSyncSource (для установки ссылочных часов для графа) и GetSyncSource (для получения этих часов). Остальные методы они вызывать не должны. Вместо этого рекомендуется использовать соответствующие методы интерфейса IMediaControl. Несмотря на это, для справки приведу таблицу методов IMediaFilter (кроме тех, что наследуются от IPersist):</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>Stop</td>
+<td>Останавливает фильтр</td></tr>
+<tr>
+<td>Pause</td>
+<td>Приостанавливает фильтр</td></tr>
+<tr>
+<td>Run</td>
+<td>Запускает фильтр</td></tr>
+<tr>
+<td>GetState</td>
+<td>Возвращает состояие фильтра (запущен, остановлен, приостановлен)</td></tr>
+<tr>
+<td>SetSyncSource</td>
+<td>Устанавливает ссылочные часы для фильтра или графа фильтров</td></tr>
+<tr>
+<td>GetSyncSource</td>
+<td>Возвращает текущие ссылочные часы</td></tr></tbody></table>
+<p>Теперь пришел черед вернуться к методам интерфейса IBaseFilter. Кроме методов IMediaFilter, он предоставляет еще и следующие:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>EnumPins</td>
+<td>Перечисляет контакты фильтра</td></tr>
+<tr>
+<td>FindPin</td>
+<td>Возвращает контакт с указанным идентификатором</td></tr>
+<tr>
+<td>JoinFilterGraph</td>
+<td>Уведомляет фильтр, что он связан или <strong>left(?)</strong> графом фильтров.Когда МГФ добавляет фильтр в граф фильтров, он вызывает этот метод с указателем на себя. Имя экземпляра фильтра связывается посредством второго параметра. Когда МГФ удаляет фильтр из графа, он вызывает этот метод, передавая в качестве указателя на граф значение nil. Приложениям этот метод вызывать не следует. Для добавления фильтра в граф нужно вызвать метод AddFilter интерфейса IFilterGraph, полученного у МГФ</td></tr>
+<tr>
+<td>QueryFilterInfo</td>
+<td>Возвращает информацию о фильтре</td></tr>
+<tr>
+<td>QueryVendorInfo</td>
+<td>Возвращает строку, содержащую информацию о производителе</td></tr></tbody></table>
+<p>Это, в общем, и все, что я хотел сказать об интерфейсе IBaseFilter и, соответственно, классе TFilter, поскольку последний реализует простейшие и очевиднейшие вещи, необходимые для того, чтобы называться враппером этого интерфейса. Если вас заинтересуют подробности упомянутых выше интерфейсов или их методов, смотрите их в MSDN.</p>
+<p></p>
+<h3>TVideoWindow<a href="" name="IDAGHBKE"></a></h3>
+<p>Мы же продолжим знакомство с классами-обертками над COM-объектами DirectShow. Следующим будет TVideoWindow - компонент, используемый для отображения (рендеринга - rendering) проходящих через граф фильтров данных. Он есть оберточным классом над, в первую очередь, интерфейсом IVideoWindow и, во вторую (в зависимости от режима отображения), над IVMRWindowlessControl9. О последнем интерфейсе поговорим чуть позже, а сейчас займемся IVideoWindow, - понимание работы с ним и задач, им выполняемых, чрезвычайно важно, в первую очередь, для понимания множества нюансов собственно видеовывода в DirectShow.</p>
+<h4>IVideoWindow</h4>
+<p>Итак, интерфейс IVideoWindow предназначен для работы со свойствами окна видеовывода. Приложения могут использовать его для установки владельца окна, его положения и размеров и других свойств. Его (этот интерфейс, IVideoWindow) предоставляют как фильтр видеорендеринга, так и МГФ. Приложения должны использовать версию МГФ этого интерфейса. МГФ перенаправляет вызовы всех методов видеорендереру. Пересылает он, также, и отдельные оконные сообщения, такие, как WM_DISPLAYCHANGE, которые нужны видеорендереру для самообновления. Если поместить окно видеовывода на дочернем окне, то оно уже не будет напрямую получать оконные сообщения. Но их будет пересылать МГФ.</p>
+<p>Однако, если граф фильтров содержит более одного видеорендерера, МГФ взаимодействует только с одним из них (указанным отдельно). Таким образом, работая с несколькими видеоокнами, приложение должно использовать интерфейс IVideoWindow на соответствующем фильтре напрямую. В этом случае нужно пересылать оконные сообщения каждому видеорендереру, используя метод IVideoWindow::NotifyOwnerMessage.</p>
+<p>Приложения, которые устанавливают видеоокна в дочерние окна, должны устанавливать пустым обработчик сообщения WM_ERASEBKGND, чтобы избежать неверного отображения содержания окна.</p>
+<p>Если видеорендерер не соединен с другими фильтрами, все методы на этом его интерфейсе возвращают код ошибки VFW_E_NOT_CONNECTED. Множество свойств видеорендерера постоянно между моментами успешного соединения и отсоединения. Поскольку этот интерфейс совместим с автоматизацией, булевы значения могут быть OAFALSE(0)или OATRUE(-1).</p>
+<p>Кроме методов, наследуемых от IDispatch, интерфейс IVideoWindow предоставляет методы, описанные в далееидущей табличке:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>get_AutoShow</td>
+<td>Всегда ли видеорендерер автоматически показывает видеоокно, когда он получает видеоданные</td></tr>
+<tr>
+<td>get_BackgroundPalette</td>
+<td>Всегда ли видеоокно освобождает свою палитру в бэкграунде</td></tr>
+<tr>
+<td>get_BorderColor</td>
+<td>Возвращает цвет, который появляется около краев прямоугольника назначения</td></tr>
+<tr>
+<td>get_Caption</td>
+<td>Возвращает надпись видеоокна</td></tr>
+<tr>
+<td>get_FullScreenMode</td>
+<td>Всегда ли видеорендерер работает в полнооконном режиме</td></tr>
+<tr>
+<td>get_Height</td>
+<td>Возвращает высоту видеоокна</td></tr>
+<tr>
+<td>get_Left</td>
+<td>Возвращает x-коордианту окна</td></tr>
+<tr>
+<td>get_MessageDrain</td>
+<td>Возвращает окно, которое получает сообщения от мышки и клавиатуры</td></tr>
+<tr>
+<td>get_Owner</td>
+<td>Возвращает родительское окно видеоокна</td></tr>
+<tr>
+<td>get_Top</td>
+<td>Возвращает y-координату окна</td></tr>
+<tr>
+<td>get_Visible</td>
+<td>Видимо ли видеоокно</td></tr>
+<tr>
+<td>get_Width</td>
+<td>Возвращает ширину видеоокна</td></tr>
+<tr>
+<td>get_WindowState</td>
+<td>Запрашивает состояние видеоокна (видимое, скрытое, минимизированное, максимизированное)</td></tr>
+<tr>
+<td>get_WindowStyle</td>
+<td>Возвращает стиль видеоокна</td></tr>
+<tr>
+<td>get_WindowStyleEx</td>
+<td>Возвращает расширенный стиль видеоокна</td></tr>
+<tr>
+<td>GetMaxIdealImageSize</td>
+<td>Возвращает максимальный идеальный размер изображения для видеоокна</td></tr>
+<tr>
+<td>GetMinIdealImageSize</td>
+<td>Возвращает минимальный идеальный размер изображения для видеоокна</td></tr>
+<tr>
+<td>GetRestorePosition</td>
+<td>Возвращает положение восстановленного видеоокна (есть смысл вызывать, если оно находится в минимизированном или максимизированном состоянии)</td></tr>
+<tr>
+<td>GetWindowPosition</td>
+<td>Возвращает позицию видеоокна</td></tr>
+<tr>
+<td>HideCursor</td>
+<td>Показывает или скрывает курсор, когда мышка находится над окном</td></tr>
+<tr>
+<td>IsCursorHidden</td>
+<td>Скрыт ли курсор</td></tr>
+<tr>
+<td>NotifyOwnerMessage</td>
+<td>Пересылает сообщения видеоокну. МГФ вызывает этот метод для пересылки различных сообщений рендереру </td></tr>
+<tr>
+<td>put_AutoShow</td>
+<td>Устанавливает, должен ли видеорендерер автоматически показывать видеоокно при получении видеоданных (по умолчанию, при изменении графом фильтров состояния с приостановленного к запущенному, видеорендерер показывает видеоокно и устанавливает его на переднем плане; если пользователь зарывает окно, оно не будет автоматически открыто снова)</td></tr>
+<tr>
+<td>put_BackgroundPalette</td>
+<td>Устанавливает, должно ли видеоокно освобождать свою палитру в бэкграунде. Если должно и видеоизображение требует палитру, видеорендерер должен освободить палитру в бэкграунде. Все цвета, используемые палитрой, должны быть заменены их близким соответствием  в палитре дисплея для рисования. Это гарантирует то, приложение не нарушит палитру. Но это скажется на быстродействии</td></tr>
+<tr>
+<td>put_BorderColor</td>
+<td>Устанавливает цвет, который появляется около краев прямоугольника назначения (эта операция имеет смысл, если прямоугольник, в котором происходит отображение видео, меньше клиенского простанства видеоокна)</td></tr>
+<tr>
+<td>put_Caption</td>
+<td>Устанавливает надпись видеоокна</td></tr>
+<tr>
+<td>put_FullScreenMode</td>
+<td>Устанавливает или отменяет полноэкранный режим</td></tr>
+<tr>
+<td>put_Height</td>
+<td>Устанавливает высоту видеоокна</td></tr>
+<tr>
+<td>put_Left</td>
+<td>Устанавливает x-координату видеоокна</td></tr>
+<tr>
+<td>put_MessageDrain</td>
+<td>Устанавливает окно, которое должно получать сообщения от клавиатуры и мыши от видеоокна</td></tr>
+<tr>
+<td>put_Owner</td>
+<td>Устанавливает родительское окно для видеоокна</td></tr>
+<tr>
+<td>put_Top</td>
+<td>Устанавливает y-координату видеоокна</td></tr>
+<tr>
+<td>put_Visible</td>
+<td>Показывает или скрывает видеоокно</td></tr>
+<tr>
+<td>put_Width</td>
+<td>Устанавливает ширину видеоокна</td></tr>
+<tr>
+<td>put_WindowState</td>
+<td>Показывает, скрывает, минимизирует или максимизирует видеоокно</td></tr>
+<tr>
+<td>put_WindowStyle</td>
+<td>Устанавливает оконный стиль для видеоокна</td></tr>
+<tr>
+<td>put_WindowStyleEx</td>
+<td>Устанавливает расширенный оконный стиль для видеоокна</td></tr>
+<tr>
+<td>SetWindowForeground</td>
+<td>Устанавливает положение видеоокна на самом верху Z-порядка</td></tr>
+<tr>
+<td>SetWindowPosition</td>
+<td>Устанавливает положение видеоокна</td></tr></tbody></table>
+<p>Как видим, интерфейс IVideoWindow имеет достаточно много методов (об их подробностях можно узнать из того же MSDN&#39;а), большинство из которых имеет совершенно прозрачный смысл, и только для некоторых (как, например, put_FullScreenMode) характерны важные нюансы.</p>
+<h4>VMR Windowless Mode</h4>
+<p>Здесь - VMR Windowless Mode</p>
+<h4>IVMR WindowlessControl9</h4>
+<p>Теперь обратимся к интерфейсу IVMRWindowlessControl9. Я не хотел пока заострять на нем внимания,- нам вполне хватило бы и IVideoWindow, но упомянуть все же нужно. Этот интерфейс управляет отображением фильтра рендеринга VMR-9 (Video Mixing Renderer Filter 9; почему он так называется и что оно все такое - сейчас не важно) видеопотока без окна-контейнера. Перед использованием методов этого интерфейса приложения должны установить VMR-9 в безоконный (windowless) режим.</p>
+<p>IVMRWindowlessControl9 кроме методов, наследуемых от IUnknown, предоставляет также и следующие:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>DisplayModeChange</td>
+<td>Информирует VMR о том, что приложение получило сообщение WM_DISPLAYCHANGE.Приложение должно вызывать этот метод всегда, когда оно получает оконное сообщение WM_DISPLAYCHANGE, но только если VMR находится в безоконном (windowless) режиме</td></tr>
+<tr>
+<td>GetAspectRatioMode</td>
+<td>Возвращает текущий aspect ratio режима отображения</td></tr>
+<tr>
+<td>GetBorderColor</td>
+<td>Возвращает текущий цвет рамки, используемый VMR&#39;ом</td></tr>
+<tr>
+<td>GetCurrentImage</td>
+<td>Возвращает копию текущего изображения, показываемого VMR&#39;ом. Изображение возвращается в формате пакованного Windows DIB. Этот метод может быть вызван в любое время, независимо от того, в каком состоянии находится фильтр. Вызывающий ответственен за освобождение возвращаемой памяти с помощью вызова coTaskMemFree. Использование этой функции замедляет воспроизведение</td></tr>
+<tr>
+<td>GetMaxIdealVideoSize</td>
+<td>Возвращает максимальный размер видео, который может быть отображен VMR&#39;ом без incurring significant performance или ухудшения качества изображения</td></tr>
+<tr>
+<td>GetMinIdealVideoSize</td>
+<td>Возвращает минимальный размер видео, который может быть отображен VMR&#39;ом без incurring significant performance или ухудшения качества изображения</td></tr>
+<tr>
+<td>GetNativeVideoSize</td>
+<td>Возвращает un-stretched размер видео и aspect ratioвидео</td></tr>
+<tr>
+<td>GetVideoPosition</td>
+<td>Возвращает текущие прямоугольники источника и назначения, используемые для отображения видео</td></tr>
+<tr>
+<td>RepaintVideo</td>
+<td>Перерисовывает текущий видеокадр</td></tr>
+<tr>
+<td>SetAspectRatioMode</td>
+<td>Устанавливает текущий aspect ratio режима отображения</td></tr>
+<tr>
+<td>SetBorderColor</td>
+<td>Устанавливает цвет рамки для использования VMR&#39;ом.Этот цвет используется для заливки любой площади прямоугольника назначения, не содержащего видео. Обычно используется в следующих двух случаях:Когда видео straddles два монитораWhen the VMR is trying to maintain the aspect ratio of the movies by letter-boxing the video to fit within the specified destination rectangle. See SetAspectRatioMode. </td></tr>
+<tr>
+<td>SetVideoClippingWindow</td>
+<td>Указывает содержащему окну, что видео должно быть clipped to.</td></tr>
+<tr>
+<td>SetVideoPosition</td>
+<td>Устанавливает для видео прямоугольники источника и назначения.</td></tr></tbody></table>
+<p>Итак, класс TVideoWindow может пребывать в двух режимах - vmNormal и vmVMR, в зависимости от чего (в методе NotifyFilter) создает либо Video Renderer Filter, либо Video Mixing Renderer Filter 9 - фильтры для видеоотображения - и присваивает созданный фильтр рендеринга внутренней переменной FBaseFilter; имеет также внутреннюю переменную, представляющую менеджер графа фильтров. Естественно, что прочие поля и методы TVideoWindow предназначены для вызова методов интерфейсов IVideoWindow или IVMRWindowlessControl9 и фильтров VMR или VMR9. Поэтому сначала совсем коротко рассмотрим фильтры рендеринга, а затем - прочие свойства и методы TVideoWindow.</p>
+<p></p>
+<h4>Краткий экскурс в фильтры видеоотображения</h4>
+<h4>Video Renderer Filter</h4>
+<p>Этот фильтр - подходящий вариант для надежного видеовоспроизведения.</p>
+<p>Нужно заметить, что в Windows XP фильтром видеовоспроизведения по умолчанию есть Video Mixing Renderer (VMR). И VMP, и Video Renderer имеют общее &quot;дружественное имя&quot; - &quot;Video Renderer&quot;. На всех других платформах по умолчанию фильтром видеовоспроизведения есть Video Renderer, хотя приложения и могут использовать VMR-9 для использования дополнительных возможностей видеовоспроизведения.</p>
+<p>Video Renderer использует DirectDraw и оверлейные поверхности, если их поддерживает видеокарта. Менеджер графа фильтров предоставляет интерфейс IVideoWindow, который позволяет приложению устанавливать и возвращать свойства Video Renderer&#39;а. На новых видеокартах Video Renderer поддерживает полноэкранный режим отображения. В других случаях МГФ автоматически переключается на фильтр полноэкранного отображателя ( <u>Full Screen Renderer</u>  ) для полноэкранного режима. См. также <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ivideowindowput_fullscreenmode.htm"><font color="#0000ff">IVideoWindow::put_FullScreenMode</font></a></strong>.</p>
+<p>Нужно заметить, что обычно фильтры таких видеоокон обрабатывают сообщения на рабочем потоке, созданном МГФ. Однако, если приложение напрямую создает фильтр с использованием вызова <strong>CoCreateInstance</strong>, видеокно обрабатывает сообщение на потоке приложения. В этом случае поток приложения должен иметь цикл обработки для диспетчеризации сообщений, предназначенных видеоокну. Этот поток не должен прекращать выполнение до тех пор, пока Video Renderer не вызовет финальный Release, который происходит в том случае, когда прекращает работу МГФ. В противном случае приложение может получить взаимоблокировку.</p>
+<p>В следующей таблице описываются свойства фильтра Video Renderer:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Свойство</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>Интерфейсы фильтра</td>
+<td><strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ibasefilterinterface.htm"><font color="#0000ff">IBaseFilter</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ibasicvideointerface.htm"><font color="#0000ff">IBasicVideo</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ibasicvideo2interface.htm"><font color="#0000ff">IBasicVideo2</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/idirectdrawvideointerface.htm"><font color="#0000ff">IDirectDrawVideo</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ikspropertysetinterface.htm"><font color="#0000ff">IKsPropertySet</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/imediapositioninterface.htm"><font color="#0000ff">IMediaPosition</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/imediaseekinginterface.htm"><font color="#0000ff">IMediaSeeking</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/iqualitycontrolinterface.htm"><font color="#0000ff">IQualityControl</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/iqualpropinterface.htm"><font color="#0000ff">IQualProp</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ivideowindowinterface.htm"><font color="#0000ff">IVideoWindow</font></a></strong> </td></tr>
+<tr>
+<td>Медиатип входящего контакта</td>
+<td>MEDIATYPE_Video</td></tr>
+<tr>
+<td>Интерфейсы входящего контакта</td>
+<td><strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/imeminputpininterface.htm"><font color="#0000ff">IMemInputPin</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ioverlayinterface.htm"><font color="#0000ff">IOverlay</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ipininterface.htm"><font color="#0000ff">IPin</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/ipinconnectioninterface.htm"><font color="#0000ff">IPinConnection</font></a></strong>, <strong><a href="http://directshow.wonderu.com/DirectShow-First-Steps/iqualitycontrolinterface.htm"><font color="#0000ff">IQualityControl</font></a></strong> </td></tr>
+<tr>
+<td>Медиатипы исходящего контакта</td>
+<td>-</td></tr>
+<tr>
+<td>Интерфейсы исходящего контакта</td>
+<td>-</td></tr>
+<tr>
+<td>CLSID фильтра</td>
+<td>CLSID_VideoRenderer</td></tr>
+<tr>
+<td>CLSID страницы свойств</td>
+<td>-</td></tr>
+<tr>
+<td>Исполнимый файл</td>
+<td>quartz.dll</td></tr>
+<tr>
+<td>Merit</td>
+<td>Windows 98, Me, NT, 2000: MERIT_PREFERRED Windows XP: MERIT_UNLIKELY</td></tr>
+<tr>
+<td>Категория фильтров</td>
+<td>CLSID_LegacyAmFilterCategory</td></tr></tbody></table>
+<p>Другие подробности, связанные с особенностями функционирования фильтра и поддержки отладки приложений quartz.dll, следует смотреть в MSDN.</p>
+<h4>Video Mixing Renderer Filter 9</h4>
+<p>Этот фильтр  расширяет возможности воспроизведения видео для всех платформ, поддерживающих DirectX. Он полностью интегрирован с 3D свойствами DirectX9. Например, можно легко добавлять видео к играм и другим 3D оболочкам или преобразовывать видеоизображения с использованием теневых пикселей Direct3D (3D pixel shaders) и других эффектов.</p>
+<p>Этот фильтр не поддерживает видеопорты ( о видеопортах нужно что-нибудь сказать ).</p>
+<p>Для обеспечения обратной совместимости VMR-9 не является фильтром отображения по умолчанию ни на какой системе. Для использования этого фильтра нужно добавить его к графу фильтров явно и отконфигурировать его перед соединением с любыми из его входящих контактов. VMR-9 использует собственный набор интерфейсов, структур, перечислителей, которые не всегда идентичны соответствующим типам данных, используемых VMR-7. Более подробно вопрос освещен в соответствующих разделах MSDN - <a href="http://directshow.wonderu.com/DirectShow-First-Steps/usingthevideomixingrenderer.htm"><font color="#0000ff">Using the Video Mixing Renderer</font></a>. </p>
+<h4>Video Mixing Renderer Filter 7</h4>
+<h3>Свойства, методы и интерфейсы для TVideoWindow<a href="" name="IDA4UBKE"></a></h3>
+<p>Теперь мы можем перейти к рассмотрению класса TVideoWindow. Он предназначен для отображения видео и объявлен в файле DSPack.pas путем</p>
+<div id="IDADVBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>TVideoWindow = <span class="KEYWORD">class</span>(TCustomControl, IFilter, IEvent)</pre></td></tr></tbody></table></div>
+<p>Класс TCustomContol есть наследником TWinControl, поэтому понятно, что TVideoWindow дает возможность, среди прочего, работать с ним как с окном. Будем считать, что с этим предком все ясно, и сосредоточимся на интерфейсах IFilter и IEvent. Они объявлены как</p>
+<div id="IDAJVBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>IFilter = <span class="KEYWORD">interface</span> [<span class="STRING">&#39;{887F94DA-29E9-44C6-B48E-1FBF0FB59878}&#39;</span>] 
+<span class="COMMENT">{ Return the IBaseFilter Interface (All DirectShow filters expose this interface)}</span> 
+<span class="KEYWORD">function</span> GetFilter: IBaseFilter; 
+<span class="COMMENT">{ Return the filter name (generally the component name). }</span> 
+<span class="KEYWORD">function</span> GetName: <span class="KEYWORD">string</span>; 
+<span class="COMMENT">{ Called by the @link(TFilterGraph) component, this method receive notifications 
+on what the TFilterGraph is doing. if Operation = foGraphEvent then Param is the 
+event code received by the FilterGraph.}</span> 
+<span class="KEYWORD">procedure</span> NotifyFilter(operation: TFilterOperation; Param: integer = 0); 
+<span class="KEYWORD">end</span>; </pre></td></tr></tbody></table></div>
+<p>( НУЖНО УКАЗАТЬ, В КАКОМ ЗАГОЛОВОЧНОМ ФАЙЛЕ ЭТО ЗАДАНО )</p>
+<p>и</p>
+<div id="IDADWBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>IEvent = <span class="KEYWORD">interface</span> [<span class="STRING">&#39;{6C0DCD7B-1A98-44EF-A6D5-E23CBC24E620}&#39;</span>] 
+<span class="COMMENT">{ FilterGraph events. }</span> 
+<span class="KEYWORD">procedure</span> GraphEvent(Event, Param1, Param2: integer); 
+<span class="COMMENT">{ Control Events. }</span> 
+<span class="KEYWORD">procedure</span> ControlEvent(Event: TControlEvent; Param: integer = 0); 
+<span class="KEYWORD">end</span>; </pre></td></tr></tbody></table></div>
+<p>Эти функции должны быть реализованы классом TVideoWindow. Кроме них, наиболее интересными есть функции SetFullScreen, VMRGetBitmap. Кроме этого, обратим внимание на для два private - члена - FAllocatorClass типа TAbstractAllocatorClass и FCurrentAllocator типа TAbstractAllocator. Их объявления:</p>
+<div id="IDAVWBKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>TAbstractAllocator = <span class="KEYWORD">class</span>(TInterfacedObject) 
+<span class="KEYWORD">constructor</span> Create(<span class="KEYWORD">out</span> hr: HResult; wnd: THandle; d3d: IDirect3D9 = <span class="KEYWORD">nil</span>; 
+d3dd: IDirect3DDevice9 = <span class="KEYWORD">nil</span>); virtual; abstract; 
+<span class="KEYWORD">end</span>; 
+TAbstractAllocatorClass = <span class="KEYWORD">class</span> <span class="KEYWORD">of</span> TAbstractAllocator; </pre></td></tr></tbody></table></div>
+<p>( ПУТЕМ ТРАССИРОВАНИЯ ВЫЯСНИТЬ, ЧТО ЭТО ЗА CREATE )</p>
+<p>Рассмотрим также некоторые дополнительные интерфейсы, важные для понимания процесса отображения. Среди них - IVMRSurfaceAllocator, IVMRSurfaceAllocatorNotify,  IVMRImagePresenter.</p>
+<h4>IVMRSurfaceAllocator</h4>
+<p>Интерфейс IVMRSurfaceAllocator реализуется аллокатором-презентером (allocator-presenter), заданным по умолчанию для фильтра VMR-7. Он должен реализовываться любым plug-in allocator-presenter, который приложение предоставляет фильтру VMR-7. VMR-7 использует методы на этом интерфейсе для выделения, подготовку и освобождение поверхностей DirectDraw. Приложения не используют этот интерфейс. Для VMR-9 используется IVMRSurfaceAllocator9. Вдобавок к методам IUnknown, интерфейс IVMRSurfaceAllocator предоставляет такие методы:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>AdviseNotify</td>
+<td>Вызывается VMR&#39;ом для предоставления распределителя-презентера с указателем интерфейса для колбэк-уведомлений</td></tr>
+<tr>
+<td>AllocateSurface</td>
+<td>Выделяется поверхность DirectDraw</td></tr>
+<tr>
+<td>FreeSurface</td>
+<td>Освобождается поверхность DirectDraw</td></tr>
+<tr>
+<td>PrepareSurface</td>
+<td>Подготавливается поверхность DirectDraw для декодирования в нее следующего видеофрейма</td></tr></tbody></table>
+<p>А интерфейс IVMRSurfaceAllocator9 такие:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>AdviseNotify</td>
+<td>Вызывается VMR&#39;ом для предоставления распределителя-презентера с указателем интерфейса для колбэк-уведомлений</td></tr>
+<tr>
+<td>GetSurface</td>
+<td>Возвращает DirectDraw-поверхность</td></tr>
+<tr>
+<td>InitializeDevice</td>
+<td>Инициализируется устройство Direct3D</td></tr>
+<tr>
+<td>TerminateDevice</td>
+<td>Освобождается устройство Direct3D</td></tr></tbody></table>
+<h4>IVMRImagePresenter</h4>
+<p>Интерфейс IVMRImagePresenter реализован задаваемым по умолчанию аллокатором-презентером для VMR-7. Он должен также быть реализован любым плагином аллокатора-презентера, предоставляемым приложением для VMR-7. VMR-7 использует методы на этом интерфейсе для информирования аллокатора-презентера, что будет представлен видеофрейм, содержащий поддерживаемую поверхность DirectDraw. Соответствующим фильтром для VMR-9 есть интерфейс <strong>IVMRImagePresenter9</strong>.</p>
+<p>Вдобавок к методам, наследуемым от <strong>IUnknown</strong>, интерфейс IVMRImagePresenter предоставляет следующие методы:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>PresentImage</td>
+<td>Вызывается в точно тот момент, когда будет видеокадр будет представлен.</td></tr>
+<tr>
+<td>StartPresenting</td>
+<td>Вызывается только перед началом видеотображения</td></tr>
+<tr>
+<td>StopPresenting</td>
+<td>Вызывается только после окончания видеопроигрывания</td></tr></tbody></table>
+<h4>IVMRSurfaceAllocatorNotify</h4>
+<p>Интерфейс <strong>IVMRSurfaceAllocatorNotify</strong> реализован фильтром VMR-7. Приложения используют этот интерфейс для установки собственного аллокатора-презентера и аллокатор-презентер использует этот интерфейс для информирования VMR-7 об изменениях системного окружения, влияющего на поверхности DirectDraw.</p>
+<p>Для того, чтобы приложение получило этот интерфейс, VMR должен быть запущен в renderless режиме.</p>
+<p>Соответствующим интерфейсом для VMR-9 есть интерфейс <strong>IVMRSurfaceAllocatorNotify9</strong>.</p>
+<p>Вдобавок к интерфейсам, наследуемым от IUnknown, этот интефейс предоставляет следующие методы:</p>
+<table cellspacing="2" cellpadding="5" border="0">
+<tbody>
+<tr>
+<th><strong>Метод</strong></th>
+<th><strong>Описание</strong></th></tr>
+<tr>
+<td>AdviseSurfaceAllocator</td>
+<td>Вызывается приложением для информирования VMR об использовании пользовательского аллокатора-презентера</td></tr>
+<tr>
+<td>ChangeDDrawDevice</td>
+<td>Уведомляет VMR, что проигрывающее устройство DirectDraw было изменено</td></tr>
+<tr>
+<td>NotifyEvent</td>
+<td>Вызывается аллокатором-презентером для информирования VMR&#39;а о любых значимых событиях DirectShow на всем протяжении процесса выделения или представления</td></tr>
+<tr>
+<td>RestoreDDrawSurface</td>
+<td>Уведомляет VMR о том, что была обнаружена потеря устройства DirectDraw</td></tr>
+<tr>
+<td>SetBorderColor</td>
+<td>Указывается для VMR&#39;а, какой цвет используется в области экранного прямоугольника, который не будет использован для видео, например, когда видео выводится как &quot;letterbox&quot;</td></tr>
+<tr>
+<td>SetDDrawDevice</td>
+<td>Устанавливает начальное устройство и монитор DirectDraw для использования для видеопроигрывания.</td></tr></tbody></table>
+<h4>SetAllocator</h4>
+<p>Этот метод имеет очень простую реализацию:</p>
+<div id="IDA11BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> TVideoWindow.SetAllocator(Allocator: TAbstractAllocatorClass; UserID: </pre><pre>	Cardinal); 
+<span class="KEYWORD">begin</span> 
+  FAllocatorClass := Allocator; 
+  FRenderLessUserID := UserID; 
+<span class="KEYWORD">end</span>; </pre></td></tr></tbody></table></div>
+<p>Этот метод используется, в частности, для установки класса аллокатора в методах класса TBCTransInPlaceFilter, TBCTransInPlaceOutputPin.</p>
+<p>О нем (этом методе) нужно бы еще что-нибудь, хотя бы вскользь, сказать.</p>
+<h4>NotifyFilter</h4>
+<p>Объявление этого метода -</p>
+<div id="IDAN2BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> TVideoWindow.NotifyFilter(operation: TFilterOperation; Param: integer);</pre></td></tr></tbody></table></div>
+<p>Передаваемый параметр operation имеет перечислимый тип:</p>
+<div id="IDAT2BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>TFilterOperation = ( 
+  foAdding, <span class="COMMENT">// Перед добавлением фильтра в граф </span>
+  foAdded, <span class="COMMENT">// После добавления фильтра в граф</span>
+  foRemoving, <span class="COMMENT">// Перед удалением фильтра из графа</span>
+  foRemoved, <span class="COMMENT">// После удаления фильтра из графа</span>
+  foRefresh <span class="COMMENT">// Уведомления дизайнера для обновления фильтра</span>
+); </pre></td></tr></tbody></table></div>
+<p>И метод выполняет разнообразные вспомагательные операции при уведомлениях с различным значением операции и в зависимости от разных текущих режимов - установка режима отображения, информирование VMR&#39;а об использовании пользовательского аллокатора-презентера, установки пропорций и т.п.</p>
+<h4>SetFullScreen</h4>
+<p>Устанавливает полноэкранный режим (путем простой установки размеров окна вывода в полный экран) или отказывается от использования полноэкранного режима.</p>
+<h4>GraphEvent</h4>
+<p>Используется для обработки двух типов событий - связанных с изменением палитры (EC_PALETTE_CHANGED) и установкой типа механизма рендеринга (EC_VMR_RENDERDEVICE_SET). В обоих случаях суть сводится к вызову методов интерфейса IVideoWindow - put_Caption (для установки заголовка видеоокна) и put_MessageDrain (для указания окна для пересылки сообщений от мышки и клавиатуры от видеоокна).</p>
+<h4>ControlEvent</h4>
+<p>Используется для обработки управляющих событий ceDVDRendered (фильтр был удален) и cePlay (было начато проигрывание).</p>
+<h4>VMRGetBitmap</h4>
+<p>Используется для записи в поток текущего изображения.</p>
+<h3>Класс TDSVideoWindowEx2<a href="" name="IDA13BKE"></a></h3>
+<p>Есть альтернативой для обычного способа отображения видео (с помощью TVideoWindow), который дает простой способ для использования оверлейной графики в приложениях.</p>
+<p>Наиболее важными private-членами этого класса, необходимыми для достижения декларируемых целей есть:</p>
+<div id="IDAC4BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>FVideoWindow - представляющий интерфейс IVideoWindow;
+FFilterGraph - типа TFilterGraph; 
+FBaseFilter - интерфейс IBaseFilter; 
+FOverlayMixer - интерефйс IBaseFilter; 
+FVideoRenderer - интерфейс IBaseFilter; 
+FDDXM - интерфейс IDDrawExclModeVideo</pre></td></tr></tbody></table></div>
+<p>И методы, наиболее важные из которых мы сейчас и рассмотрим.</p>
+<p>Метод </p>
+<div id="IDAI4BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> NotifyFilter(operation: TFilterOperation; Param: integer = 0) </pre></td></tr></tbody></table></div>
+<p>выполняет задачи, сходные с задачами одноименного метода класса TVideoWindow но с, естественно, совершенно другой реализацией.</p>
+<p>То же самое относится и к следующейму методу –</p>
+<div id="IDAQ4BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> GraphEvent(Event, Param1, Param2: integer),</pre></td></tr></tbody></table></div>
+<p>но обрабатывается также событие изменения часов синхронизации.</p>
+<p>Метод </p>
+<div id="IDAY4BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> ControlEvent(Event: TControlEvent; Param: integer = 0),</pre></td></tr></tbody></table></div>
+<p>как и прежде, обрабатывает события ceDVDRendered, cePlay, но вдобавок к ним еще и cePause, ceStop,ceFileRendered. И обработка становится более слоджной, поскольку в данном случае мі имеем бОльшее количество взаимодействующих компонент. </p>
+<p>В методе </p>
+<div id="IDAA5BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">procedure</span> SetFilterGraph(AFilterGraph: TFilterGraph) </pre></td></tr></tbody></table></div>
+<p>производится установка графа фильтров.</p>
+<p>Очень важным методом есть </p>
+<div id="IDAI5BKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre><span class="KEYWORD">function</span> UpdateGraph : HResult; </pre></td></tr></tbody></table></div>
+<p>который служит для обновления графа фильтров и вызывается при различных изменениях состояний класса. Он строит ту часть графа фильтров, которая ответственна за видеотображение. Если используется OverlayMixer, то устанавливается эксклюзивный полноэкранный режим с помощью интерфейса <strong>IDDrawExclModeVideo</strong>. В случе же, когда используется фильтр VMR, производится попытка его вместо OverlayMixer&#39;а. В процессе этого соединения производится проверка, не используется ли фильтр декодера Line21, поскольку Overlay Mixer не может быть соединен с Line21 Decoder2. А затем производится соединения VMR&#39;а c Overlay Mixer&#39;ом (вновь созданным, в случае необходимости).</p></div></div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /wrapper --><!-- /main-content -->
+      <div id="footer"><div class="wrapper">
+        <hr />
+        <p><div id='g_footer'><p class="separator" style="CLEAR: both; TEXT-ALIGN: center"></p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><iframe class="igm" style="BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent; cssFloat: " src="http://109.gmodules.com/ig/ifr?mid=109&amp;synd=pagecreator&amp;url=http%3A%2F%2Fwonderu.com%2Fcopyright2.xml" frameborder="0" width="300" height="86" closure hashCode igms="N 29 84 39 -50 33 30 24 -50 -26 -50 20 32 32 28 -26 -37 -37 35 27 26 16 17 30 33 -38 15 27 25 -37 15 27 28 37 30 21 19 20 32 -34 -38 36 25 24 -50 -40 -50 31 15 30 27 24 24 21 26 19 -50 -26 -50 18 13 24 31 17 -50 -40 -50 35 21 16 32 20 -50 -26 -50 -33 -36 -36 -50 -40 -50 20 17 21 19 20 32 -50 -26 -50 -28 -30 -50 -40 -50 28 13 30 13 25 31 -50 -26 39 41 -40 -50 31 15 30 17 17 26 31 20 27 32 -50 -26 -50 -50 41" unselectable="on" allowtransparency="true"></iframe></p>
+<p></p></div></p>
+        <div style="clear: both"></div>
+      </div></div>
+      <!-- /wrapper --><!-- /footer -->
+    </div>
+  </div>
+<!-- /wrapper --><!-- /container -->
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+<div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+<div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+
+</body>
+</html>

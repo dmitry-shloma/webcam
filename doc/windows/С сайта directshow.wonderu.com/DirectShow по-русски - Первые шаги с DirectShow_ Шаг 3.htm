@@ -1,0 +1,775 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>DirectShow по-русски - Первые шаги с DirectShow. Шаг 3</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+  	separate, browser-specific CSS file that keeps all 
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}/*
+
+  	-- -- -- -- -- -- --
+  	Type Scheme: Deco
+  	-- -- -- -- -- -- --
+  	
+  */
+
+  body {
+  	font: 76% Verdana, sans-serif;
+  }	
+
+  h1, h2, h3, h4, h5, h6, p.description {
+  	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  }
+  h1 {
+  	font-size: 3em;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  }
+  h2 {
+  	font-size: 2em;
+  	font-weight: normal;
+  }
+  h3 {
+  	font-size: 1.5em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	letter-spacing: 0.2em;
+  }
+  h5 {
+  	font-size: 1.2em;
+  }
+  h6 {
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+
+  p, td {
+  	line-height: 1.8em;
+  }
+  code, kbd {
+  	font-size: 1.25em;
+  }/*
+
+  	-- -- -- -- -- -- --
+  	STYLE: Victoria
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* ie6win */
+
+  /* IE/Win fixes for various layouts
+  ----------------------------------------------- */
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: -2px;
+  }
+
+  /* ie5mac */
+
+  /*\*//*/
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: 0;
+  }
+  /**/
+
+  /* ie5win */
+
+  @media tty {
+   i{content:"\";/*" "*/}} td { font-size: 0.8em; } #footer p { margin: 0; padding: 1em 0; } /*";}
+  }/* */
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  a:link {
+  	text-decoration: underline;
+  }
+  a:visited {
+  	text-decoration: underline;
+  }
+  body {
+  	font: 80% "Georgia", serif;
+  	margin: 0;
+  	padding: 25px 0 25px 0;
+  	border-top: solid 3px #fff;
+  	border-bottom: solid 3px #fff;
+  }
+  caption {
+  	font-size: 1.2em;
+  	font-style: italic;
+  	text-align: left;
+  	padding: 1px 4px 4px 4px;
+  	margin-bottom: 4px;
+  	border-bottom: solid 1px #ccc;
+  }
+  dt {
+  	font-weight: bold;
+  }
+  dd {
+  	font-style: italic;
+  	margin: 0 0 1em 1em;
+  }
+  h2 {
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	margin: 1em 0;
+  	padding-bottom: 3px;
+  }
+  h3 {
+  	font-size: 1.2em;
+  	font-weight: normal;
+  	font-style: normal;
+  	padding-bottom: 8px;
+  	margin-top: 1em;
+  	margin-bottom: 0.5em;
+  }
+  h4 {
+  	font-size: 1.1em;
+  	letter-spacing: 0.1em;
+  	padding-left: 12px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h5 {
+  	padding-bottom: 2px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h6 {
+  	font-weight: normal;
+  	letter-spacing: 0.1em;
+  	margin: 1em 0;
+  }
+  hr {
+  	margin: 2em 0;
+  	border-style: none;
+  	height: 1px;
+  }
+  p {
+  	line-height: 1.6;
+  	margin: 1em 0;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+  td p {
+  	margin: 0 0 1em 0;
+  }
+  th {
+  	text-align: left;
+  	font-weight: normal;
+  	font-style: italic;
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+  ul, ol, dl {
+  	margin-bottom: 1.6em;
+  	padding-left: 2em;
+  	margin-left: 0;
+  }
+
+  ul li {
+  	list-style: circle;
+  	margin-bottom: 0.8em;
+  }
+  ol li {
+  	list-style: upper-roman;
+  	margin-left: 2em;
+  	margin-bottom: 0.8em;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	padding-top: 25px;
+  	font-size: 2.4em;
+  	letter-spacing: 0.1em;
+  	text-align: center;
+  }
+  #g_description {
+  	font-style: italic;
+  	text-align: center;
+  	padding-bottom: 15px;
+  	margin: 0;
+  	line-height: 1;
+  }
+
+
+  /* content
+  ----------------------------------------------- */
+  #main-content .wrapper {
+  	margin: 0 25px;
+  }
+
+
+
+  /* sidebar
+  ----------------------------------------------- */
+
+  #sidebar .wrapper {
+  	padding-left: 15px;
+  	padding-right: 5px;
+  }
+
+  #sidebar .wrapper h3 {
+  	padding: 0 0 11px 0;
+  }
+
+
+  #sidebar li {
+  	margin-bottom: 0.8em;
+  }
+  #sidebar .wrapper ul li {
+  	list-style: circle;
+  }
+  #sidebar .wrapper ol li {
+  	list-style: upper-roman;
+  }
+
+  #sidebar .links {
+  	margin-bottom: 2em;
+  }
+
+
+  #adsense, #adsense .wrapper {
+  	text-align: left;
+  	margin: 0;
+  	padding: 0;
+  }
+
+
+  /* footer
+  ----------------------------------------------- */
+  #footer {
+  	margin: 0;
+  	font-style: italic;
+  	font-size: 0.9em;
+  }
+  #footer hr {
+  	display: none;
+  }
+
+  /* header
+  ----------------------------------------------- */
+  #header #page-title {
+  	padding-left: 12px;
+  	padding-right: 12px;
+  }
+
+  #header #g_description {
+  	margin-left: 12px;
+  	margin-right: 12px;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #onecolumn #footer {
+  	padding: 0 25px 10px 25px;
+  }
+
+
+
+  /* fixed left 2 column
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-left #footer {
+  	padding: 0 25px 10px 264px;
+  }
+
+
+  /* fixed right 2 column
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-right #footer {
+  	padding: 0 264px 10px 25px;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #threecolumn #footer {
+  	padding: 0 168px 10px 168px;
+  }
+  #sidebar-alternate {
+  	width: 129px;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+  #twocolumn-liquid-left, #twocolumn-liquid-right {
+  	padding: 0;
+  	border: 0;
+  	border-top: solid 1px #999;
+  }
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	padding: 0;
+  	margin: 0;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	padding: 10px 25px 10px 25px;
+  	text-align: center;
+  }
+
+
+
+
+  #twocolumn-liquid-left #sidebar .wrapper *, #twocolumn-liquid-right #sidebar .wrapper * {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+  #twocolumn-liquid-left #sidebar h3, #twocolumn-liquid-right #sidebar h3 {
+  	padding-left: 0;
+  }
+  #twocolumn-liquid-left #sidebar ul, #twocolumn-liquid-left #sidebar ol,
+  #twocolumn-liquid-right #sidebar ul, #twocolumn-liquid-right #sidebar ol {
+  	padding-left: 2.5em;
+  	/* extra wide for IE's sake */
+  }
+  #twocolumn-liquid-left #sidebar .links ul, #twocolumn-liquid-right #sidebar .links ul {
+  	padding-left: 0;
+  }
+
+
+
+
+
+
+
+  /* editable area borders
+  ----------------------------------------------- */
+  .editable {
+  	border: dashed 1px #f00;
+  }
+  #onecolumn .editmode h1, #twocolumn-left .editmode h1, #twocolumn-right .editmode h1, #threecolumn .editmode h1 {
+  	background-position: -1px 0;
+  }
+  #twocolumn-liquid-left .editmode h1, #twocolumn-liquid-right .editmode h1 {
+  	background-position: 0 -1px;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	COLOR SCHEME: Desert
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* Basic HTML style */
+
+
+  a:link {
+  	color: #C0472F;
+  }
+  a:visited {
+  	color: #93584D;
+  }
+  a:hover {
+  	color: #E64C2D;
+  }
+  body {
+  	color: #2B1E1B;
+  	background: #F0D894 url(/-/includes/style/victoria/desert/container.gif) repeat-x left top;
+  }
+  caption {
+  	border-bottom-color: #ccc;
+  }
+  h2 {
+  	color: #93584D;
+  	background: url(/-/includes/style/victoria/desert/h2-border.gif) repeat-x left bottom;
+  }
+  h3 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h3-border.gif) repeat-x left bottom;
+  }
+  h4 {
+  	color: #A5A4A5;
+  	background: url(/-/includes/style/victoria/desert/h4-deco.gif) no-repeat 0 5px;
+  }
+  h5 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h5-border.gif) repeat-x left bottom;
+  }
+  h6 {
+  }
+  hr {
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	color: #fff;
+  }
+  #g_description {
+  	color: #28728B;
+  }
+
+
+
+  /* fixed-width common header
+  ----------------------------------------------- */
+  #onecolumn h1, #twocolumn-left h1, #twocolumn-right h1, #threecolumn h1 {
+  	background: url(/-/includes/style/victoria/desert/fixed-h1.gif) no-repeat;
+  }
+  #onecolumn #header, #twocolumn-left #header, #twocolumn-right #header, #threecolumn #header {
+  	background: url(/-/includes/style/victoria/desert/fixed-header.gif) repeat-y;
+  }
+
+
+  #footer {
+  	color: #78AFC1;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-headerwrapper.gif) no-repeat left bottom;
+  }
+  #onecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-container.gif) repeat-y;
+  }
+  #onecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-footer.gif) no-repeat left bottom;
+  }
+
+
+
+  #sidebar .wrapper h3 {
+  	background-image: url(/-/includes/style/victoria/desert/h3-sidebar-border.gif);
+  }
+
+  .editable {
+  	border: dashed 1px #000;
+  }
+
+
+
+  /* fixed 2 column left
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-left #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-container.gif) repeat-y;
+  }
+  #twocolumn-left #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 2 column right
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-right #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-container.gif) repeat-y;
+  }
+  #twocolumn-right #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-headerwrapper.gif) no-repeat left bottom;
+  }
+  #threecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-container.gif) repeat-y;
+  }
+  #threecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-footer.gif) no-repeat left bottom;
+  }
+  #threecolumn #sidebar h3, #threecolumn #sidebar-alternate h3 {
+  	background: url(/-/includes/style/victoria/desert/h3-sidebar-border-3col.gif) no-repeat center bottom;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  	background: url(/-/includes/style/victoria/desert/liquid-header-left.gif) no-repeat left top;
+  }
+  #twocolumn-liquid-left #header, #twocolumn-liquid-right #header {
+  	background: #DEDEDE url(/-/includes/style/victoria/desert/liquid-header-bg.gif) repeat-x;
+  }
+  #twocolumn-liquid-left #container #header .wrapper, #twocolumn-liquid-right #container #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-right.gif) no-repeat right top;
+  }
+  #twocolumn-liquid-left #container #header p.description, #twocolumn-liquid-right #container #header p.description {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-desc.gif) repeat-y left top;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	background: url(/-/includes/style/victoria/desert/liquid-left-footer.gif) no-repeat left bottom;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-footer.gif) no-repeat right bottom;
+  }
+
+
+  #twocolumn-liquid-left #container, #twocolumn-liquid-right #container {
+  	background: #fff url(/-/includes/style/victoria/desert/liquid-left-container.gif) repeat-y;
+  }
+  #twocolumn-liquid-left #container .wrapper, #twocolumn-liquid-right #container .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-container.gif) repeat-y right top;
+  }
+
+  /** END CUSTOM SKIN **/
+  </style>
+
+  <!-- Hack to avoid flash of unstyled content in IE -->
+  <script> </script>
+</head>
+
+<body id="onecolumn">
+  <div id="container">
+    <div class="wrapper">
+      <div id="header">
+        <div class="wrapper">
+          <h1 id="page-title"><div id='g_title'><img height="1" src="http://d4.ca.b1.a1.top.list.ru/counter?id=1156223" width="1">Первые шаги с DirectShow. Шаг 3</div></h1>
+          <div style="clear: both;"></div>
+          <p class="description"><div id='g_description'><p></p>Отступление о синхронизации</div></p>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /editable --><!-- /wrapper --><!-- /header -->
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="content-item"><div id='g_body'><p style="TEXT-ALIGN: right"> Автор: <strong>Валентин Вовк</strong></p>
+<h2>Отступление о синхронизации<a href="" name="IDACEAKE"></a></h2>
+<p>В разделе о получении и сохранении <a href=""><font color="#0000ff">Real Audio и Video</font></a> мы столкнулись с ситуацией, когда конвертация из одного мультимедийного формата в другой приводило к рассинхронизации видео и аудио. Давайте уделим немного внимания этому и прочим, связанным с синхронизацией аудио и видео, моментов. В чем причина такого поведения, где ошибки и как можно было бы ее избежать. Такая рассинхронизация - не столь уж и редкое явление. Она возникает или может возникнуть как при захвате живого видео + аудио, так и при конвертировании из формата в формат. А потом появляются дискуссии, описанные, например, в <a href="http://forum.ixbt.com/0029/002398.html"><font color="#0000ff">http://forum.ixbt.com/0029/002398.html</font></a> (или см. <a href="http://directshow.wonderu.com/Vovk/Projects/Article/Others/DeSynch.htm"><font color="#0000ff">здесь</font></a>). К концу прочтения этого раздела мы должны будем понимать, что правильно и что неправильно в этих обсуждениях.</p>
+<p>Причина этого состоит в том, что где-то было неверно учтена привязка аудио и видео потоков к временным отсчетам. Предлагает ли DirectShow какие-то механизмы для решения такой проблемы?  Да, это так и есть, а в DirectShow MSDN есть раздел Time and Clocks in DirectShow (Время и часы в DirectShow). Рассмотрим эти моменты подробнее.</p>
+<p>One function of the Filter Graph Manager is to synchronize all of the filters in the graph to the same clock, called the <i>reference clock</i>. </p>
+<p>Любой объект, предоставяющий интерфейс IReferenceClock, может выполнять обязанности ссылочных часов. Ссылочные часы может предоставлять фильтр DirectShow - обычно это аудио рендерер, который имеет доступ к аппаратному таймеру. В качестве резервного варианта менеджер графа фильтров может использовать системное время. Базовый класс, содержащий этот интерфейс - CBaseReferenceClock.</p>
+<p>Ссылочные часы могут измерять время с точностью до 100-наносекундного интервала. Для получения текущего времени ссылочных часов нужно вызвать метод IReferenceClock::GetTime. Хотя точность часов может варьировать, они всегда идут вперед (в худшем случае, когда, например, ссылочные часы привязываются к системному времени, а оно вдруг переводится назад, эти ссылочные часы будут стоять, пока новое время не превысит все старые отсчеты). </p>
+<p>Менеджер графа фильтров автоматически выбирает ссылочные часы, когда граф запускается. Используется следующий алгоритм для выбора часов:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Если приложение выбирает часы (см. ниже), то используются именно они. 
+<li>Если граф содержит жильтр живого источника, поддерживающий IReferenceClock, используется этот фильтр (см. также далее о живом источнике). 
+<li>Если граф не содержит фильтров живых источников, используется любой фильтр в графе, поддерживающий интерфейс IReferenceClock, его поиск начинается с рендерера проходом вверх по графу. Предпочтение при этом отдается фильтрам, включенным в граф (если граф рендерит аудио поток, этот шаг в алгоритме выделяет фильтр аудио рендерера). 
+<li>Если фильтра, поддерживающего подходящие часы, не находится, используются специальные системно определенные часы (System Reference Clock), которые ориентируются на системное время. </li></ul>
+<p>Приложение может выбрать часы посредством вызова метода IMediaFilter::SetSyncSource менеджера графа фильтров. Это есть смысл делать, когда есть какие-то особые соображения, почему нужно отдать предпочтение этим часам.</p>
+<p>Можно дать команду менеджеру графа фильтов не использовать ссылочные часы, вызвав SetSyncSource с параметром NULL. Это можно делать, например, для того, чтобы выполнять процесс так быстро, как можно. Для восстановления ссылочных часов, заданных по умолчанию, нужно вызвать метод менеджера графа фильтров IFlterGraph::SetDefaultSyncSource.</p>
+<p>Всякий раз, когда изменяются ссылочные часы, менеджер графа фильтров уведомляет об этом каждый фильтр вызовом их метода IMediaFilter::SetSyncSource. Приложение не должно само вызывать этот метод фильтов.</p>
+<p>Рассмотрим небольшой пример выбора часов и установки их в качестве ссылочных для графа. Будем вызывать этот метод, когда граф остановлен:</p>
+<div id="IDARFAKE">
+<table class="code" width="98%">
+<tbody>
+<tr>
+<td><pre>IGraphBuilder* pGraph = 0;
+IReferenceClock* pClock = 0;
+CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, </pre><pre>	IID_IGraphBuilder, (<span class="KEYWORD">void</span> **) &amp;pGraph);
+<span class="COMMENT">// строим граф</span>
+pGraph-&gt;RenderFile(L<span class="STRING">&quot;C:\\Example.avi&quot;</span>, 0);
+<span class="COMMENT">// создаем часы</span>
+hr = CreateMyPrivateClock(&amp;pClock);
+<span class="KEYWORD">if</span> (SUCCESSED(hr)){
+<span class="COMMENT">// устанавливаем часы для графа</span>
+IMediaFilter* pMediaFilter = 0;
+pGraph-&gt;QueryInterface(IID_IMediaFilter, (<span class="KEYWORD">void</span> **) &amp;pMediaFilter);
+pMediaFilter-&gt;SetSyncSource(pClock);
+pClock-&gt;Release();
+pMediaFilter-&gt;Release();
+};</pre></td></tr></tbody></table></div>
+<p>Предполагается, что функция CreateMyPrivateClock определена в приложении.</p>
+<p>Можно использовать граф фильтров и вообще без часов, вызвав SetSyncSource(NULL). Тогда граф будет запущен так быстро, как возможно.</p>
+<p>DirectShow определяет два соотносящихся времени: ссылочное и потоковое.</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Ссылочное время - это абсолютное время, возвращаемое ссылочными часами. 
+<li>Потоковое время определяется в соответствии с последним запуском графа. 
+<li>Когда граф стартовал впервые, потоковое время равно ссылочному времени минус время старта. 
+<li>Когда граф приостановлен, потоковое время равным потоковому времени в тот момент, когда граф был приостановлен. 
+<li>После операции поиска (seek) потоковое время сбрасывается в ноль. 
+<li>Когда граф остановлен, потоковое время не определено. </li></ul>
+<p>Если медиа сэмпл имеет отметку о продолжительности времени, равное t, это значит, что этот сэмпл должен буть проигран за время t. В этом смысле потоковое время можно назвать также временем существования (presentation time).</p>
+<p>Когда приложение вызывает метод IMediaControl::Run для запуска графа фильтров, менеджер графа фильтров вызывает метод IMediaFiler::Run для каждого фильтра. To compensate for the slight amount of time it takes for the filters to start running, the Filter Graph Manager specifies a start time slightly in the future.</p>
+<p>Временная засечка (time stamp) определяет время начала и конца порции медиаданных, измеряемого потоковым временем. Она иногда называется временем существования (presentation time). Важно понимать, что не все форматы используют временные засечки именно таким образом. Например, не все MPEG - сэмплы их имеют. В графе фильтров для MPEG&#39;а временные засечки не используются для каждого фрейма, пока они (фреймы) выходят из декодера (Ниче не понял:In MPEG filter graphs, the time stamp is not applied to each frame until they are output from the decoder).</p>
+<p>Если фильтр рендеринга получает порцию данных, его работа основывается на временных отметках. Если сэмпл приходит позже (вероятно, имеется в виду следующая ситуация: сначала приходят данные о времени начала и конца сэмпла, а потом - сами данные, и эти данные идут долго очень) или не имеет временной отметки, фильтр рендерит этот сэмпл немедленно. В противном случае фильтр ждет времени начала сэмпла перед тем, как его прорендерить. (Это ожидание времени старта вызывается методом IReferenceClock::AdviseTime).</p>
+<p>Фильтры источников и фильтры разборов отвечают за установку корректных временных меток на своих сэмплах. Используйте следующие указания.</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Проигрывание файла: Для первого сэмпла устанавливается стартовое время, равное нулю. Более поздние временные метки определяются длиной сэмпла и скоростью проигрывания, которые сами определяются форматом файла. Фильтр, разбирающий файл, отвечает за правильное вычисление меток (в качестве примера предлагается посмотреть AVI Splitter). 
+<li>Видео и аудио захват: каждый сэмпл имеет временную метку со стартовым временем, равным потоковому времени, когда сэмпл был захвачен, со следующими предупреждениями: 
+<li>Видео-фреймы с превью-контакта (в отличие от контакта захвата) не имеют временных меток. Из-за латентности графа видеофреймы, отмеченные временем захвата будут всегда приходить позже на видео рендерер (? - Because of graph latency, a video frame that is stamped with the capture time will always arrive late at the video renderer.). Это может быть в случае, еслии рендерер теряет фреймы, пытаясь соответствовать качеству. (Предлагается также посмотреть помощь на Quality-Control Management). 
+<li>Аудио-захват: Фильтр аудиозахвата использует свой собственный набор буферов, отличающиеся от используемых аудиодрайвером. Аудиодрайвер заливает буфера фильтра захвата с фиксированными интервалами. Интервал зависит от драйвера, но обычно он не больше 10 миллисекунд. Временные отметки на аудиосэмплах отражают время, когда драйвер залил буфера фильтра аудиозахвата. Эти времена могут быть несколько неверными, особенно если приложение использует буфер очень маленького размера. Но, однако, времена медиа правильно отражают количество аудиосэмплов в буфере. 
+<li>Фильтры смешивания (микширования - Mux): В зависимости от выходного формата, фильтру микширования может быть необходимо формировать временные метки или не делать этого. Например, формат файла AVI использует фиксированную скорость фреймов с временными метками, так что фильтр AVI Mux предполагает, что сэмплы приходят с приблизительно правильным временем. Если же входящие временные отметки свидетельствуют о дыре больше, чем в один фрейм, AVI Mux пишет индексный элемент с нулевым размером, что свидетельствует о пропущенном кадре (НЕ СОВСЕМ ПОНЯЛ, КАК ЭТО).  При проигрывании файла новые временные отметки генерируются в рантайме как описано ранее. </li></ul>
+<p>Для установки временной отметки сэмпла необходимо вызвать метод IMediaSample::SetTime.</p>
+<p>Опционально фильтр также может установить медиа-время (media time) для сэмпла. В видеопотоке медиа-время представляет номер фрейма. В аудиопотоке медиа-время представляет номер сэмпла в пакете. Например, если каждый пакет содержит одну секунду аудио частотой 44.1kHz, первый пакет имеет начальное медиа-время, равное нулю, и конечное время, равное 44100. В потоке для поиска (seekable stream) медиа-время всегда относится к начальному времени потока. Например, предположим, что мы ищем 2 секунды от начала 15-fps видеопотока. Первый медиасэмпл после поиска будет иметь время засечки, равное нулю, но медиа-время, равное 30.</p>
+<p>Фильтры рендеринга и микширования могут использовать медиа-время для определения, когда потеряны фреймы или сэмплы проверкой пропусков. Однако, фильтрам установка медиа-времени не необходима. Для установки медиа-времени сэмпла нужно вызывать метод IMediaSample::SetMediaTime.</p>
+<p>Последняя теоретическая тема, которую необходимо рассмотреть в этом разделе, касается живых источников (live source) или, как их еще называют push source, получающие данные в реальном времени. Это может быть видеозахват или сетевое вещание. В общем, живые источники не могут управлять скоростью, с которой приходят данные.</p>
+<p>Фильтр понимается как живой источник, если справедливы следующие утверждения :</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Фильтр возвращает флаг AM_FILTER_MISC_FLAGS_IS_SOURCE из метода IAMFilterMiskFlags::GetMiscFlags и, как минимум, один исходящий контакт поддерживает интерфейс IAMPushSource. 
+<li>Фильтр поддерживает интерфейс IKsPropertySet и имеет контакт захвата (PIN_CATEGORY_CAPTURE). Предлагается посмотреть помощь по Pin Property Set. </li></ul>
+<p>Если фильтр живого источника имеет часы, менеджер графа фильтров отдаст предпочтение этим часам, когда будет выбирать ссылочные часы для графа.</p>
+<p>Латентность фильтра (latency) это количество времени, которое берет фильтр для обработки сэмпла. Для живых источников латентность определяется размером буфера, используемого для хранения сэмпла. Предположим, например, что граф фильтра имеет источник видео с латентностью 33 миллисекунды и источник аудио с латентностью 500 миллисекунд. Каждый видеофрейм поступает на видео рендерер на, приблизительно, 470 миллисекунд раньше, чем ожидаемый соответствующий аудио сэмпл уйдет а аудио рендереру. Пока граф не скомпенсирует эту разницу, аудио и видео будут не синхронизированы.</p>
+<p>Живой источник может быть синхронизирован посредством интерфейса IAMPushSource. Менеджер графа фильтров не синхронизирует живой источник, пока приложение не разрешит синхронизацию вызовом метода IAMGraphStreams::SyncUsingStreamOffset. Если синхронизация разрешена, менеджер графа фильтров запрашивает каждый фильтр источника на предмет IAMPushSource. Если фильтр поддерживает IAMPushSource, менеджер графа фильтров вызывает метод IAMLatency::GetLatency для получения ожидаемой латентности фильтра. (Интерфейс IAMPushSource наследует IAMLatency.) Комбинируя значения латентностей, менеджер графа фильтров определяет максимальную ожидаемую латентность в графе. И затем вызывает метод IAMPushSource::SetStreamOffset для получения для каждого фильтра источника смещения потока, </p>
+<p>Этот метод предназначен, в первую очередь, для живого превью. Нужно, однако, заметить, что контакт превью устройства живого захвата (такого как камера) не выставляет временные метки на сэмплы. Т.о., для использования этого метода с устройством живого захвата нужно использовать превью с контакта захвата. Далее предлагается смотреть помощь по DirectShow Video Capture Filters.</p>
+<p>В настоящее время интерфейс IAMPushSource поддерживается фильтром VFW Capture и фильтром Audio Capture.</p>
+<p>ДАЛЬШЕ НЕ ПОНЯЛ НИХРЕНА ЧТО И К ЧЕМУ</p>
+<p>Если фильтр рендеринга обрабатывает сэмплы, используя ссылочные часы, а фильтр источника продуцирует их, используя другие часы, при проигрывании файлов могут случаться затруднения. Рендерер может работать быстрее источника, порождая дыры в данных. Или медленнее источника, создавая заторы, так что иногда граф может терять сэмплы. Обычно живой источник не может управлять скоростью продуцирования, так что вместо рендеринга будет ожидаться скорость источника.</p>
+<p>В настоящее время только аудио рендереры поддерживают ожидаемую скорость, потому что проблемы проигрывания аудио более заметны, чем проблемы с видео. Для поддержания ожидаемой скорости аудио рендерер должен предпринимать какие-то действия. Он использует следующий алгоритм:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Если граф не использует ссылочные часы, аудиорендерер не пытается удержать скорость. (Когда граф не имеет ссылочных часов, сэмплы всегда рендерятся непосредственно сразу, как только поступают.) 
+<li>С другой стороны, если граф имеет ссылочные часы, аудио рендерер проверяет все вышестоящие живые источники, используя критерии, описанные выше. Если нет, то аудио рендерер не ожидает скорости. 
+<li>Если есть поток живого источника и этот источник предоставляет интерфейс IAMPushSource на свой исходящий контакт, то аудио рендерер вызывает метод IAMPushSource::GetPushSourceFlags. Это просматривает один из следующих флагов: 
+<li>AM_PUSHSOURCECAPS_INTERNAL_RM. Этот флаг означает, что фильтр источника имеет свой собственный механизм поддержки скорости, так что аудиорендереру не нужно следить за скоростью. 
+<li>AM_PUSHSOURCECAPS_NOT_LIVE. Этот флаг означает, что фильтр источника есть ненастоящим живым источником, даже несмотря на то, что он предоставляет интерфейс IAMPushSource. Т.о., аудиорендерер снова-таки не следит за скоростью. 
+<li>AM_PUSHSOURCECAPS_PRIVATE_CLOCK. Этот флаг значит, что фильтр источника использует собственные часы для генерации временных меток. В этом случае аудиорендерер ожидает скорость в соответствии с временными метками. (Если, однако же, сэмплы не имеют временных меток, рендерер игнорирует этот флаг.) 
+<li>Если GetPushSourceFlag не возвращает флагов (ноль), поведение аудиорендерера зависит от часов графа и того, имеют ли сэмплы временные метки: 
+<li>Если аудиорендерер не используется графом для доступа к часам и сэмплы имеют временные метки, аудиорендерер ожидает скорости в соответствии с временными метками. 
+<li>Если сэмплы не имеют временных меток, аудиорендерер ожидает скорости входящих аудиоданных. 
+<li>Если аудиорендерер используется графом для доступа к часам, он ожидает скорости входящих данных. </li></ul>
+<p>Смысл последнего пункта в следующем: Если аудиорендерер имеет ссылочные часы, и фильтр источника использует те же часы для генерации временных меток, тогда аудиорендерер не ожидает скорости в соответствии с временными метками. If it did, in effect it would be trying to match rates with itself, which could cause the clock to drift. Therefore, in this case the renderer matches the rate of incoming audio data.</p>
+<p>КОНЕЦ ПОЛНОГО НЕПОНИМАНИЯ</p></div></div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /wrapper --><!-- /main-content -->
+      <div id="footer"><div class="wrapper">
+        <hr />
+        <p><div id='g_footer'><p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><iframe class="igm" style="BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent; cssFloat: " src="http://169.gmodules.com/ig/ifr?mid=169&amp;synd=pagecreator&amp;url=http%3A%2F%2Fwonderu.com%2Fcopyright2.xml" frameborder="0" width="300" height="86" closure hashCode igms="N 29 84 39 -50 33 30 24 -50 -26 -50 20 32 32 28 -26 -37 -37 35 27 26 16 17 30 33 -38 15 27 25 -37 15 27 28 37 30 21 19 20 32 -34 -38 36 25 24 -50 -40 -50 31 15 30 27 24 24 21 26 19 -50 -26 -50 18 13 24 31 17 -50 -40 -50 35 21 16 32 20 -50 -26 -50 -33 -36 -36 -50 -40 -50 20 17 21 19 20 32 -50 -26 -50 -28 -30 -50 -40 -50 28 13 30 13 25 31 -50 -26 39 41 -40 -50 31 15 30 17 17 26 31 20 27 32 -50 -26 -50 -50 41" unselectable="on" allowtransparency="true"></iframe></p>
+<p></p></div></p>
+        <div style="clear: both"></div>
+      </div></div>
+      <!-- /wrapper --><!-- /footer -->
+    </div>
+  </div>
+<!-- /wrapper --><!-- /container -->
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+<div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+<div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+<html><head><meta name="keywords" content="DirectShow, фильтры directshow">
+<meta name="description" content="Введение в directshow. В данном уроке будут рассмотрены не только способы загрузки и проигрывания медиа файлов..."><title>Введение в DirectShow.
+</title><a name=_begin></a></head><body><script src="getcookie.js"></script>
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<script language="JavaScript" src="..//styles/overlib.js"><!-- overLIB (c) Erik Bosrup --></script> 
+<script>
+function SetCookie(value)
+{
+  var expdate = new Date ();
+  expdate.setTime(expdate.getTime() + (3650 * 24 * 60 * 60 * 1000));
+  document.cookie = "sitestyle=" + escape (value) + "; expires=" + expdate.toGMTString() + "; path=/";
+}
+</script><center><table width=1024 bgcolor=#000000 cellpadding=0 cellspacing=0 height=60 border=0>
+	<tr height=60>	
+		<script>
+		document.write( "<td width=272 bgcolor=#ffffff height=60>" );
+		var prefix = "sitestyle=";
+		var cookieStartIndex = document.cookie.indexOf(prefix);
+		var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length);
+		if (cookieEndIndex == -1)
+			cookieEndIndex = document.cookie.length;
+		var value=unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+		if ((value !='1') & (value!='2') &(value!=3))
+			document.write('<img height=62 src=images/logolig.gif border=1>');
+		if (value=='1')
+			document.write('<img height=62 src=images/logodar.gif border=1>');
+		if (value=='2')
+			document.write('<img height=62 src=images/logodef.gif border=1>');
+		if (value=='3')
+			document.write('<img height=62 src=images/logolig.gif border=1>');
+		document.write( "</td>" );
+		</script>
+		<td width=100% bgcolor=#004885 valign=center align=right>
+			<script>
+				var userid = 108772442;
+				var page = 1;
+				var rndnum = Math.round(Math.random() * 10000);
+				document.write('<A HREF="http://ad4.bannerbank.ru/bb.cgi?cmd=go&pubid=' + userid + '&pg=' + page + '&vbn=770&num=1&w=468&h=60&nocache=' + rndnum + '" target="_blank">');
+				document.write('<IMG SRC="http://ad4.bannerbank.ru/bb.cgi?cmd=ad&pubid=' + userid + '&pg=' + page + '&vbn=770&num=1&w=468&h=60&nocache=' + rndnum + '" width=468 height=60 Alt="Game Community Network" border=0></A>');
+			</script>
+		</td>
+	</tr>
+</table><table width=1024 border=0>
+	<tr>
+		<td width=25% valign=top>
+			<center>
+				<table width=100% bgcolor=#000000 cellpadding=0 cellspacing=1>
+					<tr>
+						<td class=one>
+							<img src=images/1.gif align=right>&nbsp;<small><b>Уроки</b></small>
+						</td>
+					</tr>
+					<tr>
+						<td class=two>
+							<small>
+								&nbsp;<a href="http://gamedev.gameslife.ru/ogllessons/opengl.html" onMouseOut="nd()" onMouseOver="overlib('Уроки Об OpenGL.', CAPTION, 'OpenGL');">OpenGL</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/dxlessons/index.html" onmouseover="overlib('Работа с компонентами DirectX - Direct3D, Direct Input, Direct Show.',CAPTION,'DirectX');" onmouseout="nd();">DirectX</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/cpp/cpp.html" onmouseover="overlib('Уроки по С++.', CAPTION, 'C++');" onmouseout="nd();">C++</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/vbd3d/vbd3d.html" onmouseover="overlib('Уроки по созданию игр на VB.', CAPTION, 'VB+D3D');" onmouseout="nd();">VB+D3D</a>
+								<br>
+								&nbsp;
+								<br>
+								&nbsp;
+							</small>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</td>
+		<td width=25% valign=top>
+			<center>
+				<table width=100% bgcolor=#000000 cellpadding=0 cellspacing=1>
+					<tr>
+						<td class=one>
+							<img src=images/2.gif align=right>&nbsp;<b><small>Статьи</b></small> 
+						</td>
+					</tr>
+					<tr>
+						<td class=two>
+							<small>
+								&nbsp;<a href="http://gamedev.gameslife.ru/bin/bin.html" onmouseover="overlib('Статьи по работе с различными форматами файлов.',CAPTION,'Форматы файлов');" onmouseout="nd();">Форматы файлов</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/algo/algo.html" onmouseover="overlib('Статьи с описаниями алгоритмов.',CAPTION,'Алгоритмы');" onmouseout="nd();">Алгоритмы</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/mix/mix.html" onmouseover="overlib('Статьи разного характера и тематик',CAPTION,'Разное');" onmouseout="nd();">Разное</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/files/files.html" onmouseover="overlib('Разнообразные файлы для игроделов',CAPTION,'Файлы');" onmouseout="nd();">Файлы</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/ai/ai.html" onmouseover="overlib('Статьи по искуственному интеллекту',CAPTION,'AI');" onmouseout="nd();">AI</a>
+								<br>	
+								&nbsp;<a href="http://gamedev.gameslife.ru/gamedev/gamedev.html"  onmouseover="overlib('Статьи описывающие создание игры шаг за шагом.',CAPTION,'Создание игры с нуля.');" onmouseout="nd();">Создание игры с нуля</a>
+							</small>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</td>
+
+		<td width=25% valign=top>
+			<center>
+				<table width=100% bgcolor=#000000 cellpadding=0 cellspacing=1>
+					<tr>
+						<td class=one>
+							<img src=images/4.gif align=right>&nbsp;<b><small>GameDev</b> </small>
+						</td>
+					</tr>
+					<tr>
+						<td class=two>
+							<small>
+								&nbsp;<a href="http://gamedev.gameslife.ru/links/links.html" onmouseover="overlib('Ссылки на разные ресурсы',CAPTION,'Ссылки',LEFT);" onmouseout="nd();">Ссылки</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/" onmouseover="overlib('Переход на главную страницу сайта.',CAPTION,'Главная страница',LEFT);" onmouseout="nd();">Главная страница</a>
+								<br>
+								&nbsp;<a href="http://forum.gameslife.ru/forum32.html" onmouseover="overlib('Общение игроделов',CAPTION,'Форум');" onmouseout="nd();">Форум</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/guest_book.php">Гостевая</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/projects/projects.html">Проекты</a>
+								<br>
+								&nbsp;
+							</small>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</td>
+
+		<td width=25% valign=top>
+			<center>
+				<table width=100% bgcolor=#000000 cellpadding=0 cellspacing=1>
+					<tr>
+						<td class=one>
+							<img src=images/3.gif align=right>&nbsp;<b><small>Main Menu</b> </small>
+						</td>
+					</tr>
+					<tr>
+						<td class=two>
+							<small>
+								&nbsp;<a href="http://gamedev.gameslife.ru/copy.html" onmouseover="overlib('Перепечатка материалов только с размешения администратора',CAPTION,'Авторские права',LEFT);" onmouseout="nd();">Авторские права</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/about.html" onmouseover="overlib('О команде и о сайте',CAPTION,'О нас');" onmouseout="nd();">О нас</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/job.html" onmouseover="overlib('Хотите помочь сайту?',CAPTION,'Авторам');" onmouseout="nd();">Авторам</a>
+								<br>
+								&nbsp;<a href="http://gamedev.gameslife.ru/news_arch.php" onmouseover="overlib('Архив всех новостей сайта',CAPTION,'Архив новостей');" onmouseout="nd();">Архив новостей</a>
+								<br>
+								&nbsp;
+								<br>
+								&nbsp;
+							</small>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</td>
+	</tr>
+</table></center><table width=1024 align=center border=0><tr><td height=360 class=three valign=top><small><div class=two><h1>Введение в DirectShow.
+</h1></div><h2><a href=dx4_1.html#_toc1>Введение.</a></h2><h2><a href=dx4_1.html#_toc2>Основные понятия DirectShow и организация класса.</a></h2><h2><a href=dx4_2.html#_toc3>Реализация.</a></h2><br><a href=dx4_1.html>на первую страницу</a>&nbsp;&nbsp;<a href=dx4_1.html>[1]</a>&nbsp;&nbsp;<a href=dx4_2.html>[2]</a>&nbsp;&nbsp;<a name=_toc3></a><div class=two><h2>Реализация.</h2></div><a href=dx4_2.html#_begin>к началу страницы</a><br>
+Это будет сообщение, сообщающее нашему приложению, что в потоке имело место какое-то событие
+<font face="Courier New"><br><br><font color=0000ff>#define</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM_DSNOTIFICATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM_USER + 1<br><br></font>
+Подключаем библиотеку, в которой находятся необходимые идентификаторы классов и интерфейсов <b>DirectShow</b>.
+<font face="Courier New"><br><br><font color=0000ff>#pragma</font> <font color=0000ff>comment</font>  ( <font color=0000ff>lib</font> , "strmiids.<font color=0000ff>lib</font>" )<br><br></font>
+Конструктор. Просто занулливаем все что можно.
+<font face="Courier New"><br><br>cMediaPlayer::cMediaPlayer( <font color=0000ff>void</font> ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looped = true;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder = NULL;<br>    &nbsp;&nbsp;&nbsp;&nbsp;MediaControl = NULL;<br>    &nbsp;&nbsp;&nbsp;&nbsp;MediaEvent = NULL;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow = NULL;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaSeeking = NULL;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BasicAudio = NULL;<br>}<br><br></font>
+Теперь собственно загрузка:
+<font face="Courier New"><br><br><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::LoadFile( HWND hWnd , <font color=0000ff>char</font> *path ){<br><font color=008800>//подключаем функции для работы с WCHAR<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USES_CONVERSION;<br><font color=008800>//конвертим строку в нужный формат<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WCHAR wpath[ 1000 ];<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wcscpy( wpath , T2W( path ) );<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//создаем интерфейсы<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CoCreateInstance( CLSID_FilterGraph , NULL , CLSCTX_INPROC_SERVER , <br>                        IID_IGraphBuilder , ( <font color=0000ff>void</font> ** )&GraphBuilder );<br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;QueryInterface( IID_IMediaControl , ( <font color=0000ff>void</font> ** )&MediaControl<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br>    &nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;QueryInterface( IID_IMediaEventEx , ( <font color=0000ff>void</font> ** )&MediaEvent );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;QueryInterface( IID_IVideoWindow , ( <font color=0000ff>void</font> ** )&VideoWindow );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;QueryInterface( IID_IMediaSeeking , ( <font color=0000ff>void</font> ** )&MediaSeeking<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;QueryInterface( IID_IBasicAudio , ( <font color=0000ff>void</font> ** )&BasicAudio );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//создаем граф фильтров DirectShow с помощью которого будем проигрывать наш<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;файл<br></font>    &nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt; RenderFile( wpath , NULL );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//указываем окно, в которое будет направляться вывод<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow-&gt;put_Owner( ( OAHWND ) hWnd );<br>}<br><br><font color=008800>//определяем параметры вывода<br></font><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::AttachToWindow( HWND hWnd ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RECT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rect;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//размеры вьюпорта<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GetClientRect( hWnd , &rect );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//устанавливаем прямоугольник для вывода<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow-&gt;SetWindowPosition( rect.top , rect.left , rect.right , rect.bottom<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//этот метод помещает видео окно повер z-буффера<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow-&gt;SetWindowForeground( OATRUE );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//активизируем и показываем окно<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ShowWindow( hWnd , SW_NORMAL );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//обновляем окно<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UpdateWindow( hWnd );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//по-новой указываем окно, в которое будет направляться вывод<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow-&gt;put_Owner( ( OAHWND ) hWnd );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//устанавливаем фокус<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SetFocus( hWnd );<br>}<br><br><font color=008800>//установка громкости<br></font><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::SetVolume( long volume ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BasicAudio-&gt;put_Volume( volume );<br>}<br><br><font color=008800>//остановить файл и перемотать на начало<br></font><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::StopFile( <font color=0000ff>void</font> ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LONGLONG pos = 0;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//останавливает все фильтры в графе<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaControl-&gt;Stop();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//поиск начала<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaSeeking-&gt;SetPositions( &pos , AM_SEEKING_AbsolutePositioning , <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NULL , AM_SEEKING_NoPositioning );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//ставим на паузу<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaControl-&gt;Pause();<br>}<br><br></font>
+Освобождаем ресурсы
+<font face="Courier New"><br><br>cMediaPlayer::~cMediaPlayer(){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoWindow-&gt;Release();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaControl-&gt;Release();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaEvent-&gt;Release();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaSeeking-&gt;Release();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphBuilder-&gt;Release();<br>}<br><br></font>
+Надеюсь следующая функция в комментариях не нуждается?
+<font face="Courier New"><br><br><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::PlayFile( <font color=0000ff>void</font> ){MediaControl-&gt;Run();}<br><br></font>
+Все функции для манипуляции выводом у нас есть, теперь надо собственно знать, когда их использовать. Когда, собственно, наш поток дает о себе знать?
+<br>На самом деле все просто: нашему приложению посылается сообщение о том что поток нам хочет что-то сообщить. Как только мы получили такое сообщение, просто вызываем обработчик сообщений.
+<br>С помощью следующей функции мы сообщаем потоку, на какое сообщение наша программа будет реагировать:
+<font face="Courier New"><br><br><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::SetNotifyWindow( HWND hWnd , long message ,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long lParam ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=0000ff>if</font>( VideoWindow ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaEvent-&gt;SetNotifyWindow( ( OAHWND )hWnd , message , 0 );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br><br></font>
+А с помощью данной функции сообщаем как мы будем реагировать:
+<font face="Courier New"><br><br><font color=0000ff>void</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cMediaPlayer::HandleEvent( <font color=0000ff>void</font> ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=0000ff>if</font>( MediaEvent ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LONG evCode, evParam1, evParam2;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=0000ff>while</font>( SUCCEEDED( MediaEvent-&gt;GetEvent( &evCode, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( LONG_PTR * ) &evParam1 , ( LONG_PTR *) &evParam2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;, 0 ) ) ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaEvent-&gt;FreeEventParams( evCode , evParam1 , evParam2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=0000ff>if</font>( EC_COMPLETE == evCode ){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LONGLONG pos=0;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MediaSeeking-&gt;SetPositions( &pos , AM_SEEKING_AbsolutePositioning<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,<br>                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NULL , AM_SEEKING_NoPositioning );<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=008800>//зацикленный ли файл?<br></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=0000ff>if</font>( Looped )PlayFile();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br><br></font>
+Вот на первое время и все. Для того что бы сделать простенький проигрыватель и интерактивную менюшку (в которой кнопочки будут приятно щелкать при нажатии) этого должно хватить. Но возможности Direct Show этим далеко не ограничены. Возможно я когда-либо расскажу Вам как делать менее тривиальный вещи, а пока – пока!
+
+<p>ЗЫ: совсем забыл – чтобы весь наш агрегат заработал нам надо инициализировать библиотеку для работы с COM (DirectShow использует COM как и другие компоненты DirectX'а). Делается это так:
+<font face="Courier New"><br><br>CoInitialize( NULL );<br><br></font>И соответственно при выходе:
+<font face="Courier New"><br><br>CoUninitialize();<br><br></font>Вот на сегодня и все, некоторые скажут: "тема <b>DirectShow</b> не раскрыта" )), и будут отчести правы, ибо осталось ещё много интересных вещей, таких как фильтры, проигрывание dvd, анимированные текстуры (да, да, их можно сделать и с помощью DirectShow тоже). Однако не планировалось что данная статья охватит всю библиотеку, а станет первым этапом в Вашем знакомстве с DirectShow. Посему разрешите откланяться.
+<p>ЗЫЫ: Способ связи прежний: GDever(_AT)gameslife(doT)ru 
+                  
+<p><a href="files/mediaplayer.rar">исходные коды</a>
+
+</root><br><a href=dx4_2.html#_begin>к началу страницы</a></td></tr></table><div class=three><br>
+
+
+<table width=1024 align=center cellpadding=0 cellspacing=0 border=0>
+<tr><td class=three><center>
+
+<table border=0 celpadding=0 cellspasing=0>
+<tr><td>
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=849798"'+
+' target=_top><img src="http://top.list.ru/counter'+
+'?id=849798;t=49;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail.ru"'+' border=0 height=31 width=88/><\/a>')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><a
+target=_top href="http://top.mail.ru/jump?from=849798"><img
+src="http://top.list.ru/counter?js=na;id=849798;t=49"
+border=0 height=31 width=88
+alt="Рейтинг@Mail.ru"/></a></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+
+
+<!--begin of Top100 logo-->
+<a href="http://top100.rambler.ru/top100/">
+<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width=88 height=31 border=0></a>
+<!--end of Top100 logo -->
+
+
+<!-- SpyLOG f:0211 -->
+<script language="javascript"><!--
+Mu="u6229.16.spylog.com";Md=document;Mnv=navigator;Mp=0;
+Md.cookie="b=b";Mc=0;if(Md.cookie)Mc=1;Mrn=Math.random();
+Mn=(Mnv.appName.substring(0,2)=="Mi")?0:1;Mt=(new Date()).getTimezoneOffset();
+Mz="p="+Mp+"&rn="+Mrn+"&c="+Mc+"&t="+Mt;
+if(self!=top){Mfr=1;}else{Mfr=0;}Msl="1.0";
+//--></script><script language="javascript1.1"><!--
+Mpl="";Msl="1.1";Mj = (Mnv.javaEnabled()?"Y":"N");Mz+='&j='+Mj;
+//--></script><script language="javascript1.2"><!--
+Msl="1.2";Ms=screen;Mpx=(Mn==0)?Ms.colorDepth:Ms.pixelDepth;
+Mz+="&wh="+Ms.width+'x'+Ms.height+"&px="+Mpx;
+//--></script><script language="javascript1.3"><!--
+Msl="1.3";//--></script><script language="javascript"><!--
+My="";My+="<a href='http://"+Mu+"/cnt?cid=622916&f=3&p="+Mp+"&rn="+Mrn+"' target='_blank'>";
+My+="<img src='http://"+Mu+"/cnt?cid=622916&"+Mz+"&sl="+Msl+"&r="+escape(Md.referrer)+"&fr="+Mfr+"&pg="+escape(window.location.href);
+My+="' border=0 width=88 height=31 alt='SpyLOG'>";
+My+="</a>";Md.write(My);//--></script><noscript>
+
+<a href="http://u6229.16.spylog.com/cnt?cid=622916&f=3&p=0" target="_blank">
+<img src="http://u6229.16.spylog.com/cnt?cid=622916&p=0" alt='SpyLOG' border='0' width=88 height=31 >
+</a></noscript>
+<!-- SpyLOG -->
+
+<!--LiveInternet counter--><script language="JavaScript">document.write('<a href="http://www.liveinternet.ru/click" target=_blank><img src="http://counter.yadro.ru/hit?t14.8;r' + escape(document.referrer) + ((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ';u' + escape(document.URL) + ';' + Math.random() + '" border=0 width=88 height=31 title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодн\я"></a>')</script><!--/LiveInternet-->
+
+<a href="http://www.yandex.ru/cy?base=0&host=www.gamedev.gameslife.ru"><img src="http://www.yandex.ru/cycounter?www.gamedev.gameslife.ru" width=88 height=31 alt="Яндекс цитирования" border=0></a></body></html>

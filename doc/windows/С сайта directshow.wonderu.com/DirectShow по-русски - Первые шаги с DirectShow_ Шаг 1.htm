@@ -1,0 +1,719 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <title>DirectShow по-русски - Первые шаги с DirectShow. Шаг 1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+  	separate, browser-specific CSS file that keeps all 
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}/*
+
+  	-- -- -- -- -- -- --
+  	Type Scheme: Deco
+  	-- -- -- -- -- -- --
+  	
+  */
+
+  body {
+  	font: 76% Verdana, sans-serif;
+  }	
+
+  h1, h2, h3, h4, h5, h6, p.description {
+  	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  }
+  h1 {
+  	font-size: 3em;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  }
+  h2 {
+  	font-size: 2em;
+  	font-weight: normal;
+  }
+  h3 {
+  	font-size: 1.5em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	letter-spacing: 0.2em;
+  }
+  h5 {
+  	font-size: 1.2em;
+  }
+  h6 {
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+
+  p, td {
+  	line-height: 1.8em;
+  }
+  code, kbd {
+  	font-size: 1.25em;
+  }/*
+
+  	-- -- -- -- -- -- --
+  	STYLE: Victoria
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* ie6win */
+
+  /* IE/Win fixes for various layouts
+  ----------------------------------------------- */
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: -2px;
+  }
+
+  /* ie5mac */
+
+  /*\*//*/
+  * html #threecolumn #main-content {
+  	width: 429px;
+  	margin-left: 0;
+  }
+  /**/
+
+  /* ie5win */
+
+  @media tty {
+   i{content:"\";/*" "*/}} td { font-size: 0.8em; } #footer p { margin: 0; padding: 1em 0; } /*";}
+  }/* */
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  a:link {
+  	text-decoration: underline;
+  }
+  a:visited {
+  	text-decoration: underline;
+  }
+  body {
+  	font: 80% "Georgia", serif;
+  	margin: 0;
+  	padding: 25px 0 25px 0;
+  	border-top: solid 3px #fff;
+  	border-bottom: solid 3px #fff;
+  }
+  caption {
+  	font-size: 1.2em;
+  	font-style: italic;
+  	text-align: left;
+  	padding: 1px 4px 4px 4px;
+  	margin-bottom: 4px;
+  	border-bottom: solid 1px #ccc;
+  }
+  dt {
+  	font-weight: bold;
+  }
+  dd {
+  	font-style: italic;
+  	margin: 0 0 1em 1em;
+  }
+  h2 {
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	margin: 1em 0;
+  	padding-bottom: 3px;
+  }
+  h3 {
+  	font-size: 1.2em;
+  	font-weight: normal;
+  	font-style: normal;
+  	padding-bottom: 8px;
+  	margin-top: 1em;
+  	margin-bottom: 0.5em;
+  }
+  h4 {
+  	font-size: 1.1em;
+  	letter-spacing: 0.1em;
+  	padding-left: 12px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h5 {
+  	padding-bottom: 2px;
+  	margin: 1.5em 0 1em 0;
+  }
+  h6 {
+  	font-weight: normal;
+  	letter-spacing: 0.1em;
+  	margin: 1em 0;
+  }
+  hr {
+  	margin: 2em 0;
+  	border-style: none;
+  	height: 1px;
+  }
+  p {
+  	line-height: 1.6;
+  	margin: 1em 0;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+  td p {
+  	margin: 0 0 1em 0;
+  }
+  th {
+  	text-align: left;
+  	font-weight: normal;
+  	font-style: italic;
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+  ul, ol, dl {
+  	margin-bottom: 1.6em;
+  	padding-left: 2em;
+  	margin-left: 0;
+  }
+
+  ul li {
+  	list-style: circle;
+  	margin-bottom: 0.8em;
+  }
+  ol li {
+  	list-style: upper-roman;
+  	margin-left: 2em;
+  	margin-bottom: 0.8em;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	padding-top: 25px;
+  	font-size: 2.4em;
+  	letter-spacing: 0.1em;
+  	text-align: center;
+  }
+  #g_description {
+  	font-style: italic;
+  	text-align: center;
+  	padding-bottom: 15px;
+  	margin: 0;
+  	line-height: 1;
+  }
+
+
+  /* content
+  ----------------------------------------------- */
+  #main-content .wrapper {
+  	margin: 0 25px;
+  }
+
+
+
+  /* sidebar
+  ----------------------------------------------- */
+
+  #sidebar .wrapper {
+  	padding-left: 15px;
+  	padding-right: 5px;
+  }
+
+  #sidebar .wrapper h3 {
+  	padding: 0 0 11px 0;
+  }
+
+
+  #sidebar li {
+  	margin-bottom: 0.8em;
+  }
+  #sidebar .wrapper ul li {
+  	list-style: circle;
+  }
+  #sidebar .wrapper ol li {
+  	list-style: upper-roman;
+  }
+
+  #sidebar .links {
+  	margin-bottom: 2em;
+  }
+
+
+  #adsense, #adsense .wrapper {
+  	text-align: left;
+  	margin: 0;
+  	padding: 0;
+  }
+
+
+  /* footer
+  ----------------------------------------------- */
+  #footer {
+  	margin: 0;
+  	font-style: italic;
+  	font-size: 0.9em;
+  }
+  #footer hr {
+  	display: none;
+  }
+
+  /* header
+  ----------------------------------------------- */
+  #header #page-title {
+  	padding-left: 12px;
+  	padding-right: 12px;
+  }
+
+  #header #g_description {
+  	margin-left: 12px;
+  	margin-right: 12px;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #onecolumn #footer {
+  	padding: 0 25px 10px 25px;
+  }
+
+
+
+  /* fixed left 2 column
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-left #footer {
+  	padding: 0 25px 10px 264px;
+  }
+
+
+  /* fixed right 2 column
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #twocolumn-right #footer {
+  	padding: 0 264px 10px 25px;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	padding-bottom: 10px;
+  }
+  #threecolumn #footer {
+  	padding: 0 168px 10px 168px;
+  }
+  #sidebar-alternate {
+  	width: 129px;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+  #twocolumn-liquid-left, #twocolumn-liquid-right {
+  	padding: 0;
+  	border: 0;
+  	border-top: solid 1px #999;
+  }
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	padding: 0;
+  	margin: 0;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	padding: 10px 25px 10px 25px;
+  	text-align: center;
+  }
+
+
+
+
+  #twocolumn-liquid-left #sidebar .wrapper *, #twocolumn-liquid-right #sidebar .wrapper * {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+  #twocolumn-liquid-left #sidebar h3, #twocolumn-liquid-right #sidebar h3 {
+  	padding-left: 0;
+  }
+  #twocolumn-liquid-left #sidebar ul, #twocolumn-liquid-left #sidebar ol,
+  #twocolumn-liquid-right #sidebar ul, #twocolumn-liquid-right #sidebar ol {
+  	padding-left: 2.5em;
+  	/* extra wide for IE's sake */
+  }
+  #twocolumn-liquid-left #sidebar .links ul, #twocolumn-liquid-right #sidebar .links ul {
+  	padding-left: 0;
+  }
+
+
+
+
+
+
+
+  /* editable area borders
+  ----------------------------------------------- */
+  .editable {
+  	border: dashed 1px #f00;
+  }
+  #onecolumn .editmode h1, #twocolumn-left .editmode h1, #twocolumn-right .editmode h1, #threecolumn .editmode h1 {
+  	background-position: -1px 0;
+  }
+  #twocolumn-liquid-left .editmode h1, #twocolumn-liquid-right .editmode h1 {
+  	background-position: 0 -1px;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	COLOR SCHEME: Desert
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* Basic HTML style */
+
+
+  a:link {
+  	color: #C0472F;
+  }
+  a:visited {
+  	color: #93584D;
+  }
+  a:hover {
+  	color: #E64C2D;
+  }
+  body {
+  	color: #2B1E1B;
+  	background: #F0D894 url(/-/includes/style/victoria/desert/container.gif) repeat-x left top;
+  }
+  caption {
+  	border-bottom-color: #ccc;
+  }
+  h2 {
+  	color: #93584D;
+  	background: url(/-/includes/style/victoria/desert/h2-border.gif) repeat-x left bottom;
+  }
+  h3 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h3-border.gif) repeat-x left bottom;
+  }
+  h4 {
+  	color: #A5A4A5;
+  	background: url(/-/includes/style/victoria/desert/h4-deco.gif) no-repeat 0 5px;
+  }
+  h5 {
+  	color: #28728B;
+  	background: url(/-/includes/style/victoria/desert/h5-border.gif) repeat-x left bottom;
+  }
+  h6 {
+  }
+  hr {
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 1px 4px;
+  }
+
+
+
+
+  /* Header
+  ----------------------------------------------- */
+  h1 {
+  	color: #fff;
+  }
+  #g_description {
+  	color: #28728B;
+  }
+
+
+
+  /* fixed-width common header
+  ----------------------------------------------- */
+  #onecolumn h1, #twocolumn-left h1, #twocolumn-right h1, #threecolumn h1 {
+  	background: url(/-/includes/style/victoria/desert/fixed-h1.gif) no-repeat;
+  }
+  #onecolumn #header, #twocolumn-left #header, #twocolumn-right #header, #threecolumn #header {
+  	background: url(/-/includes/style/victoria/desert/fixed-header.gif) repeat-y;
+  }
+
+
+  #footer {
+  	color: #78AFC1;
+  }
+
+  /* fixed 1 column
+  ----------------------------------------------- */
+  #onecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-headerwrapper.gif) no-repeat left bottom;
+  }
+  #onecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-container.gif) repeat-y;
+  }
+  #onecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-one-footer.gif) no-repeat left bottom;
+  }
+
+
+
+  #sidebar .wrapper h3 {
+  	background-image: url(/-/includes/style/victoria/desert/h3-sidebar-border.gif);
+  }
+
+  .editable {
+  	border: dashed 1px #000;
+  }
+
+
+
+  /* fixed 2 column left
+  ----------------------------------------------- */
+  #twocolumn-left #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-left #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-container.gif) repeat-y;
+  }
+  #twocolumn-left #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-left-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 2 column right
+  ----------------------------------------------- */
+  #twocolumn-right #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-headerwrapper.gif) no-repeat left bottom;
+  }
+  #twocolumn-right #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-container.gif) repeat-y;
+  }
+  #twocolumn-right #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-right-footer.gif) no-repeat left bottom;
+  }
+
+
+  /* fixed 3 column
+  ----------------------------------------------- */
+  #threecolumn #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-headerwrapper.gif) no-repeat left bottom;
+  }
+  #threecolumn #container {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-container.gif) repeat-y;
+  }
+  #threecolumn #footer {
+  	background: url(/-/includes/style/victoria/desert/fixed-three-footer.gif) no-repeat left bottom;
+  }
+  #threecolumn #sidebar h3, #threecolumn #sidebar-alternate h3 {
+  	background: url(/-/includes/style/victoria/desert/h3-sidebar-border-3col.gif) no-repeat center bottom;
+  }
+
+
+  /* liquid 2 column, right and left
+  ----------------------------------------------- */
+
+  #twocolumn-liquid-left h1, #twocolumn-liquid-right h1 {
+  	margin: 0;
+  	background: url(/-/includes/style/victoria/desert/liquid-header-left.gif) no-repeat left top;
+  }
+  #twocolumn-liquid-left #header, #twocolumn-liquid-right #header {
+  	background: #DEDEDE url(/-/includes/style/victoria/desert/liquid-header-bg.gif) repeat-x;
+  }
+  #twocolumn-liquid-left #container #header .wrapper, #twocolumn-liquid-right #container #header .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-right.gif) no-repeat right top;
+  }
+  #twocolumn-liquid-left #container #header p.description, #twocolumn-liquid-right #container #header p.description {
+  	background: url(/-/includes/style/victoria/desert/liquid-header-desc.gif) repeat-y left top;
+  }
+
+
+  #twocolumn-liquid-left #footer, #twocolumn-liquid-right #footer {
+  	background: url(/-/includes/style/victoria/desert/liquid-left-footer.gif) no-repeat left bottom;
+  }
+  #twocolumn-liquid-left #container #footer .wrapper, #twocolumn-liquid-right #container #footer .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-footer.gif) no-repeat right bottom;
+  }
+
+
+  #twocolumn-liquid-left #container, #twocolumn-liquid-right #container {
+  	background: #fff url(/-/includes/style/victoria/desert/liquid-left-container.gif) repeat-y;
+  }
+  #twocolumn-liquid-left #container .wrapper, #twocolumn-liquid-right #container .wrapper {
+  	background: url(/-/includes/style/victoria/desert/liquid-right-container.gif) repeat-y right top;
+  }
+
+  /** END CUSTOM SKIN **/
+  </style>
+
+  <!-- Hack to avoid flash of unstyled content in IE -->
+  <script> </script>
+</head>
+
+<body id="onecolumn">
+  <div id="container">
+    <div class="wrapper">
+      <div id="header">
+        <div class="wrapper">
+          <h1 id="page-title"><div id='g_title'><img height="1" src="http://d4.ca.b1.a1.top.list.ru/counter?id=1156223" width="1">Первые шаги с DirectShow. Шаг 1</div></h1>
+          <div style="clear: both;"></div>
+          <p class="description"><div id='g_description'><p></p>Что такое DirectShow? Что такое фильтр?</div></p>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /editable --><!-- /wrapper --><!-- /header -->
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="content-item"><div id='g_body'><p style="TEXT-ALIGN: right"> Автор: <strong>Валентин Вовк</strong></p>
+<h2>Что такое DirectShow<a href="" name="IDA3IAKE"></a></h2>
+<p>Microsoft выпустила Video for Windows 1.x в ноябре 1992 года для Windows 3.1 в оптимизированном виде для захвата видео и сохранения его на диск. С тех пор показатели видеозахвата очень серьезно улучшились благодаря использованию шины PCI, bus mastering controllers, NT striped sets, Fast/Wide SCSI и прямой передачи захваченного видео из памяти адаптера на диск без промежуточного копирования данных в память. Несмотря на характеристики захвата, превышающие сейчас 20 мегабайт в секунду и большое количество клиентов для VfW, недостатки в архитектуре VfW с точки зрения необходимости поддержки видеоконференций потребовали разработки новой технологии видеозахвата.</p>
+<p>Архитектуре VfW недостает важных свойтсв с точки зрения видеоконференций, телевизионного просмотра, захвата видеополей и поддержки дополнительных потоков данных таких, как VBI - vertical blanking interval - вертикальных интервалов гашения. Разнообразные производители расширили VfW путем реализации дополнительных возможностей. Однако, без стандартизации интерфейсов, приложения, использующие эти возможности, должны включать аппаратно-зависимый код. Тесная связь между драйверами захвата VfW и и драйверами дисплея значит то, что изменения, внесенные в драйвера захвата, требуют изменений и для драйверов дисплея.</p>
+<p>Вдобавок, интерфейс VfW, AVICap не очень хорошо работает с DirectShow, поскольку AVICap распределяет буфера. Если к DirectShow доступаться через AVICap, буфера должны быть скопированы в точке передачи, что очень неэффективно. Для интеграции DVD, MPEG декодеров, видео-декодеров и тюнеров, расширений видеопортов (video port extensions - VPE) и аудио-кодеров на одном адаптере, необходима унифицированная драйверная модель, поддерживающая все эти устройства и управляющая их ресурсами.</p>
+<p>DirectShow - это API, позволяющий Windows-приложениям управлять широким спектром устройств аудио/видео ввода, включающий (но не ограниченный) DV камеры, веб-камеры, DVD-устройства, карты TV-тюнеров. Оно поддерживает также различные форматы, от WAV и AVI до Windows Media. DirectShow, кроме этого, расширяемо, оно позволяет поддерживать устройства третьих производителей, форматы и компоненты обработки.</p>
+<p>DirectShow предлагает как высокоуровневую модель приложения, позволяющую быстро разрабатывать цифровые медиаприложения, так и низкоуровневую классовую модель, позволяющую третьим производителям создавать собственные компоненты аудио и видео обработки.</p>
+<p>Необходимо немного сказать об эволюции DirectShow. Она началась с поддержки в Windows 3.1 видеозахвата, предоставляемого моделью Видео для Windows (Video for Windows -VfW). VfW была прогрессивной технологией для своего времени, но имела серьезные ограничения. Одним из них было то, что менеджер видеокомпрессии (Video Compression Manager - VCM) не был разработан для управлениями кодеками, которые бы передавали видеофреймы в разном порядке во время сжатия. Таким образом, было затруднительно писать MPEG-кодеки, базирующиеся на VCM.</p>
+<p>Windows также предоставлял простую поддержку аудио и видео проигрывания через набор команд MCI - Media Control Interface, который использовался драйверами mciavi. Хотя инфраструктура MCI допускала MPEG-декодеры, она никогда не была полностью портирована на 32-юитную архитектуру, и не базировалась на COM. Для снятия этих ограничений Microsoft начала проект, известный под названием Quartz, в котором была заложена поддержка проигрывания MPEG-1 для Windows.</p>
+<p>В то время возникало множество новых устройств, таких, как цифровых видеокамер, новые медиформаты, такие, как MPEG-2 или DVD, и новые технологии, такие, как видеоконференции. Становилась понятной необходимость новой оболочки, позволяющей заставить работать вместе эти новые технологии максимально эффективно не только каждую саму по себе, но и под единым началом. Эта оболочка должна была быть расширяемое, чтобы третьи производители могли осуществлять поддержку своих специальных аппаратных средств, нестандартных форматов и процессов программной обработки. Эта оболочка должна была бы максимально упростить разработку программ, предоставить возможность низкоуровневого управления потоковыми операциями и модифицировать необходимые аудио и видео данные.</p>
+<p>Для соответствия этим многочисленным требованиям группа разработчиков проекта Quartz начала с существующего проекта Clockwork. Clockwork был модульной оболочкой, в которой совместно работали полунезависимые компоненты, следуя предписаниям набора правил, для обработки медиапотоков. Группа разработчиков Quartz&#39;а адаптировала эту модель для работы с Windows и обеспечила поддержку устройств третьих производителей. Результатом стала базирующуяся на COM потоковая архитектура, которая через шесть лет стала базисом сотен приложений под Windows.</p>
+<p>Эта архитектура первоначально называлась ActiveMovie и впервые появилась в 1995 году с DirectX SDK. В 1996 году ActiveMovie была переименована в DirectShow. В 1998 году, вместе с DirectX Media 6.1, была добавлена поддержка для DVD и приложений аналогового телевидения. В 2000 году DirectShow стала частью DirectX SDK в составе DirectX 8.0, и допоолнительно стала поддерживать Windows Media Format, DirectShow Editing Services и API видеоредактирования.</p>
+<h2>Что такое фильтр</h2>
+<p>Цифровые видеопотоки представляют собой последовательности видеофреймов, которые могут быть несжатыми RGB-изображениями или, если поток сжат, набором цировых значений, который можно декодировать для получения изображения. Обычно видео проигрывается со скоростью 25 или 30 кадров в секунду. Несжатый цифровой аудиопоток содержит последовательность значений, кождое  из которых есть целым, представляющую из себя квантованную (округленную) амплитуду аналогового сигнала в определенный момент времени. При качестве CD-аудио данные имеют точность 16 бит на отсчет и записываются и воспроизводятся как звук максимальной частоты 44,1 килогерц. Сжатый видеопоток не содержит действительных последовательностей данных, но, как и видеопоток, содержит значения, которые декодер использует для восстановления исходного потока перед тем, как подать его в звуковую карту.</p>
+<p>Аудио и видеопотоки могут быть обработаны самыми разными способами. Они могут быть скомбинированы, проанализированы, перемешаны, скопированы, сгенерированы, изменены и т.д. В DirectShow все эти операции скрыты в фильтрах - COM-объектах, имеющих стандартное поведение. Фильтры, читающие файлы, расщепляющие бинарные данные на разные (например, аудио и видео) потоки - демультиплексоры, фильтры-компрессоры и фильтры-декомпрессоры, фильтры, отображающие аудио или видеоданные, фильтры - драйверы устройств - все это фильтры, которые знают, как они должны взаимодействовать, кроме обработки данных, - с другими фильтрами - для передачи потоковых данных. Приложения соединяют эти фильтры в необходимом порядке.</p>
+<p>Фильтры могут быть трех основных типов: фильтры источников для ввода, фильтры преобразования для обработки и фильтры рендеринга для отображения информации.</p>
+<p>Фильтр источника вводит данные в поток. Эти данные он может получать из файла или, например, видеокамеры, веб-камеры, TV-тюнера, сетевого потока и т.д. DirectShow тесно связана с моделью Windows-драйвером (Windows Driver Model - WDM); любое медиаустройство с правильно реализованным WDM-драйвером автоматически предоставляется для приложения как DirectShow фильтр источника. DirectShow предоставляет также фильтры источников для ввода данных из файлов, DVD- и VfW-устройств.</p>
+<p>Фильтры преобразования получают входящие данные от некоторого другого фильтра, обрабатывают их и посылают следующему фильтру. Фильтры преобразования могут анализировать потоки, кодировать их и декодировать и т.д., т.е. проводить анализ или манипуляции над аудио и видеоданными. DirectShow предоставляет множество разнообразных фильтов преобразования для управления различными сжатиями и форматами файлов, включая аналоговые и телевизионные сигналы.</p>
+<p>Фильтры рендеринга принимают данные от фильтров источников или преобразования и отображают их на экране, выводят через колонки, в файлы, устройства и т.д. Часть &quot;Direct&quot; в названии &quot;DirectShow&quot; отражает тот факт, что фильтры рендеринга используют технологии DirectDraw и DirectSound для передачи данных в видео- и звуковую карту. Вдобавок DirectShow поддерживает свойства потокого ядра, что позволяет таким устройствам захвата, как ТВ-тюнеры и DVD-устройства передавать данные на внешние устройства в режиме ядра для сохранения расходов переходов из режима ядра в пользовательский режим в случаях, когда приложение не требует этих данных.</p>
+<p>Ниже приведена схема фильтров и их соединения при проигрывании avi-файла:</p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><a style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px; cssFloat: " href="avi_filter_graph.gif/avi_filter_graph-full.jpg" imageanchor="1"><img style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; cssFloat: " src="avi_filter_graph.gif/avi_filter_graph-full.jpg" zl="391" GALLERYIMG="no"></a></p>
+<p>Здесь фильтром источника есть File Source (Async), фильтами рендеринга - Video Renderer и Default DirectSound Device, а фильтами преобразования - AVI Splitter и AVI Decompressor.</p>
+<h4>Для кого эта статья</h4>
+<p>В первую очередь, для тех, кто задает на форумах вопросы вроде:</p>
+<ul style="LIST-STYLE-TYPE: square">
+<li>Кто знает как передавать потоковое видео по локальной сети с тв-тюнера, по TCP/IP или по HTTP? 
+<li>Хто знает где можно получить инфу о написание видео проигрывателя? 
+<li>Моя программа выводит видео с захватывающего устройства. Пользователь нажимает кнопку и с живого видео выдергивается стопкадр. Проблема в том, что ... </li></ul>
+<p>За один месяц на медиа-форуме <a href="http://www.delphimaster.ru/">мастеров дельфи</a> я насчитал вопросов, связанных с видео, касающихся DirectShow, около 15 (при общем их количестве ~120, т.е. 12,5%). При этом сознательно не касаюсь вопросов о звуке, поскольку сам звуковой тематикой вплотную не занимался. Впрочем, с точки зрения конечного программиста, эта статья покрывает достаточно много вопросов начинающих о работе со звуком. Т.е. эта статья может быть потенциально интересна четверти медиа-вопрошающих.</p></div></div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <!-- /wrapper --><!-- /main-content -->
+      <div id="footer"><div class="wrapper">
+        <hr />
+        <p><div id='g_footer'><p class="separator" style="CLEAR: both; TEXT-ALIGN: center"></p>
+<p class="separator" style="CLEAR: both; TEXT-ALIGN: center"><iframe class="igm" style="BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent; cssFloat: " src="http://160.gmodules.com/ig/ifr?mid=160&amp;synd=pagecreator&amp;url=http%3A%2F%2Fwonderu.com%2Fcopyright2.xml" frameborder="0" width="300" height="86" closure hashCode igms="N 29 84 39 -50 33 30 24 -50 -26 -50 20 32 32 28 -26 -37 -37 35 27 26 16 17 30 33 -38 15 27 25 -37 15 27 28 37 30 21 19 20 32 -34 -38 36 25 24 -50 -40 -50 31 15 30 27 24 24 21 26 19 -50 -26 -50 18 13 24 31 17 -50 -40 -50 35 21 16 32 20 -50 -26 -50 -33 -36 -36 -50 -40 -50 20 17 21 19 20 32 -50 -26 -50 -28 -30 -50 -40 -50 28 13 30 13 25 31 -50 -26 39 41 -40 -50 31 15 30 17 17 26 31 20 27 32 -50 -26 -50 -50 41" unselectable="on" allowtransparency="true"></iframe></p>
+<p></p></div></p>
+        <div style="clear: both"></div>
+      </div></div>
+      <!-- /wrapper --><!-- /footer -->
+    </div>
+  </div>
+<!-- /wrapper --><!-- /container -->
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+<div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+<div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+
+</body>
+</html>
