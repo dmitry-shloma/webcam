@@ -1,0 +1,12 @@
+USB 2.0 Camera
+Device path: \\?\usb#vid_04f2&pid_b1f1&mi_00#6&24f80f85&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+USB2.0 PC CAMERA
+Device path: \\?\usb#vid_18ec&pid_3399&mi_00#7&1ad699f2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+USB2.0 PC CAMERA
+Device path: \\?\usb#vid_1908&pid_2310&mi_00#7&2b686007&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+USB2.0 PC CAMERA
+Device path: \\?\usb#vid_1908&pid_2311&mi_00#7&23e90bcc&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+USB2.0 PC CAMERA
+Device path: \\?\usb#vid_1908&pid_2311&mi_00#7&3022064f&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+USB2.0 PC CAMERA
+Device path: \\?\usb#vid_1908&pid_2311&mi_00#7&36a2bc71&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global

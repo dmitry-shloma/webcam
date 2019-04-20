@@ -3,7 +3,8 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
 
-HEADERS =
+HEADERS = \
+    helper.h
 
 SOURCES = \
     main.cpp

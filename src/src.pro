@@ -1,4 +1,5 @@
 TEMPLATE = subdirs
 
 SUBDIRS = \
-    webcam-preview
+    webcam-vfw \
+    webcam-dshow

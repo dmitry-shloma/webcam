@@ -1,24 +1,38 @@
-#include <stdio.h>
+#ifndef HELPER_H
+#define HELPER_H
 
-#include <windows.h>
+#include <stdlib.h>
 #include <dshow.h>
 
+struct DEVICE_INFO {
+    OLECHAR FriendlyName[255];
+    OLECHAR DevicePath[255];
+};
+
+/**
+ * @brief EnumerateDevices Перечисление системных устройств (кодеки, устройства ауд/вид захвата и т.д.)
+ * @param category
+ * @param ppEnum
+ * @return
+ */
 HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum);
-void DisplayDeviceInformation(IEnumMoniker *pEnum);
+
+/**
+ * @brief GetDeviceInformation Получение информации об устройстве
+ * @param pEnum
+ * @param info
+ */
+void GetDeviceInformation(IEnumMoniker *pEnum, struct DEVICE_INFO *info);
 
 HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 {
-    // Create the System Device Enumerator.
     ICreateDevEnum *pDevEnum;
     HRESULT hr = CoCreateInstance(CLSID_SystemDeviceEnum, NULL,
         CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pDevEnum));
 
-    if (SUCCEEDED(hr))
-    {
-        // Create an enumerator for the category.
+    if (SUCCEEDED(hr)) {
         hr = pDevEnum->CreateClassEnumerator(category, ppEnum, 0);
-        if (hr == S_FALSE)
-        {
+        if (hr == S_FALSE) {
             hr = VFW_E_NOT_FOUND;  // The category is empty. Treat as an error.
         }
         pDevEnum->Release();
@@ -26,7 +40,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
     return hr;
 }
 
-void DisplayDeviceInformation(IEnumMoniker *pEnum)
+void GetDeviceInformation(IEnumMoniker *pEnum, struct DEVICE_INFO *info)
 {
     IMoniker *pMoniker = NULL;
 
@@ -34,8 +48,7 @@ void DisplayDeviceInformation(IEnumMoniker *pEnum)
     {
         IPropertyBag *pPropBag;
         HRESULT hr = pMoniker->BindToStorage(0, 0, IID_PPV_ARGS(&pPropBag));
-        if (FAILED(hr))
-        {
+        if (FAILED(hr)) {
             pMoniker->Release();
             continue;
         }
@@ -45,31 +58,23 @@ void DisplayDeviceInformation(IEnumMoniker *pEnum)
 
         // Get description or friendly name.
         hr = pPropBag->Read(L"Description", &var, 0);
-        if (FAILED(hr))
-        {
+        if (FAILED(hr)) {
             hr = pPropBag->Read(L"FriendlyName", &var, 0);
         }
-        if (SUCCEEDED(hr))
-        {
+        if (SUCCEEDED(hr)) {
             printf("%S\n", var.bstrVal);
+
+//            StringCbCopy(info->FriendlyName, 255, var.bstrVal);
             VariantClear(&var);
         }
 
         hr = pPropBag->Write(L"FriendlyName", &var);
 
-        // WaveInID applies only to audio capture devices.
-        hr = pPropBag->Read(L"WaveInID", &var, 0);
-        if (SUCCEEDED(hr))
-        {
-            printf("WaveIn ID: %d\n", var.lVal);
-            VariantClear(&var);
-        }
-
         hr = pPropBag->Read(L"DevicePath", &var, 0);
-        if (SUCCEEDED(hr))
-        {
+        if (SUCCEEDED(hr)) {
             // The device path is not intended for display.
             printf("Device path: %S\n", var.bstrVal);
+//            StringCbCopy(info->DevicePath, 255, var.bstrVal);
             VariantClear(&var);
         }
 
@@ -78,28 +83,4 @@ void DisplayDeviceInformation(IEnumMoniker *pEnum)
     }
 }
 
-int main()
-{
-    HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);
-    if (FAILED(hr)) {
-        printf("ERROR\n");
-        return 1;
-    }
-    IEnumMoniker *pEnum;
-
-    hr = EnumerateDevices(CLSID_VideoInputDeviceCategory, &pEnum);
-    if (SUCCEEDED(hr)) {
-        DisplayDeviceInformation(pEnum);
-        pEnum->Release();
-    }
-
-    hr = EnumerateDevices(CLSID_AudioInputDeviceCategory, &pEnum);
-    if (SUCCEEDED(hr)) {
-        DisplayDeviceInformation(pEnum);
-        pEnum->Release();
-    }
-
-
-    CoUninitialize();
-    return 0;
-}
+#endif // HELPER_H
