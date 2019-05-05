@@ -4,7 +4,8 @@ CONFIG += console
 CONFIG -= qt
 
 SOURCES = \
-    main.c
+    main.c \
+    webcam-capture.c
 
 QMAKE_CFLAGS += -std=c99
 
