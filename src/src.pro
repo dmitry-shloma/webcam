@@ -1,5 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS = \
-    webcam-vfw \
-    webcam-dshow
+    lesson2
+#    webcam-v4l #\
+#    webcam-vfw \
+#    webcam-dshow
