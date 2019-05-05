@@ -1,0 +1,2144 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://linuxtv.org/wiki/index.php/Streaming-V4L
+Subject: Streaming-V4L - LinuxTVWiki
+Date: Sun, 5 May 2019 09:55:19 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----"
+
+
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: text/html
+Content-ID: <frame-572942FC2419877AB117CF80BCD11751@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/index.php/Streaming-V4L
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Streaming-V4L - LinuxTVWiki</title>
+<meta name=3D"generator" content=3D"MediaWiki 1.22.15">
+<link rel=3D"shortcut icon" href=3D"https://linuxtv.org/wiki/skins/common/i=
+mages/linuxtv-icon.png">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://linuxtv.org/wiki/opensearch_desc.php" title=3D"LinuxTVWiki (en)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://linuxtv.=
+org/wiki/api.php?action=3Drsd">
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"LinuxTVWiki =
+Atom feed" href=3D"https://linuxtv.org/wiki/index.php?title=3DSpecial:Recen=
+tChanges&amp;feed=3Datom">
+<link rel=3D"stylesheet" href=3D"https://linuxtv.org/wiki/load.php?debug=3D=
+false&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cshared%7Cs=
+kins.vector&amp;only=3Dstyles&amp;skin=3Dvector&amp;*">
+<style>
+.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .=
+mw-collapsible-toggle-li{list-style:none}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:4250852ed234=
+9a0d4d0fc6509a3e7d4c */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:=
+none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{=
+margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:w=
+hite;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:=
+-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-res=
+ults{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding=
+:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padd=
+ing:0.01em 0.25em;text-align:left}.suggestions-result-current{background-co=
+lor:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text=
+-align:left}.suggestions-special .special-query{color:black;font-style:ital=
+ic;text-align:left}.suggestions-special .special-hover{background-color:sil=
+ver}.suggestions-result-current .special-label,.suggestions-result-current =
+.special-query{color:white}.autoellipsis-matched,.highlight{font-weight:bol=
+d}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:9780324491b6=
+53a3780e2d029bdc140c */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-=
+index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedi=
+t{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-=
+height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dc=
+d9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;-webk=
+it-box-shadow:0 2px 5px 0 #ccc;box-shadow:0 2px 5px 0 #ccc;-webkit-transiti=
+on:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transiti=
+on:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all=
+ 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-fa=
+ded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;backgroun=
+d-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{bac=
+kground-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAM=
+AAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///=
+////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9Qg=
+DdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9W=
+iTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpEN=
+mvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1=
+R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/y=
+FeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMA=
+AQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ej=
+t8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVg=
+KgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq=
+2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceT=
+L/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(http=
+s://linuxtv.org/wiki/resources/mediawiki.action/images/green-checkmark.png?=
+2014-03-28T00:01:40Z)!ie;background-position:left}.postedit-close{position:=
+absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;lin=
+e-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:n=
+one;opacity:0.2;filter:alpha(opacity=3D20)}.postedit-close:hover{color:blac=
+k;text-decoration:none;opacity:0.4;filter:alpha(opacity=3D40)}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:97656de42ca0=
+3680251338cc8b4098f4 */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:h=
+over,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSu=
+ggest-link:focus{text-decoration:none;color:black}.suggestions-result-curre=
+nt a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-l=
+ink:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.sugge=
+stions-result-current a.mw-searchSuggest-link:focus{color:white}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:52b1797f70c7=
+e4094dfa4191101944e8 */</style><meta name=3D"ResourceLoaderDynamicStyles" c=
+ontent=3D"">
+<link rel=3D"stylesheet" href=3D"https://linuxtv.org/wiki/load.php?debug=3D=
+false&amp;lang=3Den&amp;modules=3Dsite&amp;only=3Dstyles&amp;skin=3Dvector&=
+amp;*">
+<style>a:lang(ar),a:lang(ckb),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang=
+(ur){text-decoration:none}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:bcb2e3aede4e=
+0315e0822cbffaf0bb3e */</style>
+
+
+
+
+<!--[if lt IE 7]><style type=3D"text/css">body{behavior:url("/wiki/skins/ve=
+ctor/csshover.min.htc")}</style><![endif]--></head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-Streaming-V4L=
+ skin-vector action-view vector-animateLayout">
+		<div id=3D"mw-page-base" class=3D"noprint"></div>
+		<div id=3D"mw-head-base" class=3D"noprint"></div>
+		<div id=3D"content" class=3D"mw-body" role=3D"main">
+			<a id=3D"top"></a>
+			<div id=3D"mw-js-message" style=3D"display:none;"></div>
+						<h1 id=3D"firstHeading" class=3D"firstHeading" lang=3D"en"><span dir=
+=3D"auto">Streaming-V4L</span></h1>
+			<div id=3D"bodyContent">
+								<div id=3D"siteSub">From LinuxTVWiki</div>
+								<div id=3D"contentSub"></div>
+												<div id=3D"jump-to-nav" class=3D"mw-jump">
+					Jump to:					<a href=3D"https://linuxtv.org/wiki/index.php/Streaming-V=
+4L#mw-navigation">navigation</a>, 					<a href=3D"https://linuxtv.org/wiki/=
+index.php/Streaming-V4L#p-search">search</a>
+				</div>
+				<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-content=
+-ltr"><p>Software applications that can use V4L devices to stream or broadc=
+ast audio and video over a network or the Internet.
+</p>
+<div id=3D"toc" class=3D"toc"><div id=3D"toctitle"><h2>Contents</h2><span c=
+lass=3D"toctoggle">&nbsp;[<a href=3D"https://linuxtv.org/wiki/index.php/Str=
+eaming-V4L#" class=3D"internal" id=3D"togglelink">hide</a>]&nbsp;</span></d=
+iv>
+<ul>
+<li class=3D"toclevel-1 tocsection-1"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Software"><span class=3D"tocnumber">1</span> <span c=
+lass=3D"toctext">Software</span></a></li>
+<li class=3D"toclevel-1 tocsection-2"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Guides"><span class=3D"tocnumber">2</span> <span cla=
+ss=3D"toctext">Guides</span></a></li>
+<li class=3D"toclevel-1 tocsection-3"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#VLC_instructions"><span class=3D"tocnumber">3</span>=
+ <span class=3D"toctext">VLC instructions</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-4"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Stream_a_file_to_a_designated_machine"><span class=
+=3D"tocnumber">3.1</span> <span class=3D"toctext">Stream a file to a design=
+ated machine</span></a></li>
+<li class=3D"toclevel-2 tocsection-5"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Stream_a_file_to_the_network"><span class=3D"tocnumb=
+er">3.2</span> <span class=3D"toctext">Stream a file to the network</span><=
+/a></li>
+<li class=3D"toclevel-2 tocsection-6"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Stream_from_a_webcam"><span class=3D"tocnumber">3.3<=
+/span> <span class=3D"toctext">Stream from a webcam</span></a></li>
+<li class=3D"toclevel-2 tocsection-7"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Stream_from_television"><span class=3D"tocnumber">3.=
+4</span> <span class=3D"toctext">Stream from television</span></a></li>
+<li class=3D"toclevel-2 tocsection-8"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#Example_script"><span class=3D"tocnumber">3.5</span>=
+ <span class=3D"toctext">Example script</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class=3D"mw-headline" id=3D"Software">Software</span></h2>
+<ul>
+<li> <a href=3D"https://linuxtv.org/wiki/index.php/GStreamer" title=3D"GStr=
+eamer">GStreamer</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.videola=
+n.org/vlc/streaming.html">VideoLan</a> (VLC media player and VLS) -- the si=
+mplest place to start
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://ffmpeg.mpla=
+yerhq.hu/ffserver-doc.html">ffserver</a> -- an HTTP/RTSP multimedia streami=
+ng server for live and recorded broadcasts
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://xawdecode.s=
+ourceforge.net/">XdTV</a> -- XdTV is a software that allows you to watch re=
+cord &amp; stream TV
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://mpeg4ip.sou=
+rceforge.net/">MPEG4IP</a> -- industrial-strength integration project spons=
+ored by Cisco
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://developer.a=
+pple.com/darwin/projects/streaming">Darwin streaming server</a>  -- Apple's=
+ open source streaming server and proxy. Supports RTSP/RTP serving of MOV f=
+iles.
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.litech.=
+org/spook">spook</a> -- capture live video and audio and stream it over an =
+IP network
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.flumoti=
+on.net/">Flumotion</a> -- an easy-to-use multi-format distributed streaming=
+ server
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.cs.colu=
+mbia.edu/~hgs/rtsp/implementations.html">List of clients and servers</a>
+</li>
+</ul>
+<h2><span class=3D"mw-headline" id=3D"Guides">Guides</span></h2>
+<ul>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.videola=
+n.org/doc/streaming-howto/en/ch02.html">VLC streaming HowTo</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.videola=
+n.org/doc/videolan-howto/en/ch08.html">Stream from a tv card or webcam with=
+ VLC or VLS</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.tldp.or=
+g/REF/VLC-User-Guide/x1110.html">VLC user guide -- stream utput</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.engadge=
+t.com/2005/11/29/how-to-stream-almost-anything-using-vlc/">HowTo Stream alm=
+ost anything using VLC</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.linuxjo=
+urnal.com/article/6720">Streaming MPEG-4 with Linux -- mpeg4ip, ffmpeg, and=
+ Darwin Streaming Server (Linux Journal)</a>
+</li>
+</ul>
+<h2><span class=3D"mw-headline" id=3D"VLC_instructions">VLC instructions</s=
+pan></h2>
+<p>VLC has a small web server built in, so you don't need any other softwar=
+e to stream.
+</p><p>Note if these commands don't work, you may need to upgrade your VLC.=
+ This was done on Debian sid using vlc 0.8.5-svn20060212-0 from the <a rel=
+=3D"nofollow" class=3D"external text" href=3D"http://nightlies.videolan.org=
+/build/">nightly builds</a> for 386 and amd64.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Stream_a_file_to_a_designated_machine=
+">Stream a file to a designated machine</span></h3>
+<p>Skip the gui with "-I dummy" -- this allows you to start a streaming ses=
+sion on a remote machine.
+</p>
+<pre>   vlc file.avi -I dummy --sout udp://123.45.678.9:8080 --loop
+</pre>
+<p>The more recent syntax also works -- note the single quotes, and add "vl=
+c:quit" to quit after the file is played:
+</p>
+<pre>   vlc file.avi -I dummy --sout '#std{access=3Dudp,mux=3Dts,dst=3D123.=
+45.678.9:8080}'  vlc:quit
+</pre>
+<p>Receive:=20
+</p>
+<pre>   vlc udp://@:8080
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Stream_a_file_to_the_network">Stream =
+a file to the network</span></h3>
+<p>Again, quotes mandatory:
+</p>
+<pre>   vlc file.avi -I dummy --sout '#std{access=3Dmmsh,dst=3D:8080}' --tt=
+l 12 vlc:quit
+</pre>
+<pre>   vlc file.avi -I dummy --sout '#std{access=3Dmmsh,dst=3D:8080}' --tt=
+l 12 --loop
+</pre>
+<p>Receive:
+</p>
+<pre>   vlc mmsh://servername:8080
+</pre>
+<p>See <a href=3D"https://linuxtv.org/wiki/index.php/Streaming-V4L#Example_=
+script">example script below</a>.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Stream_from_a_webcam">Stream from a w=
+ebcam</span></h3>
+<pre>   vlc -I dummy -v --noaudio --ttl 12 v4l:/dev/video0:size=3D320x240 \
+   --sout '#std{access=3Dmmsh,dst=3D:8080}' -V X11=20
+</pre>
+<pre>   vlc -I dummy -v --noaudio --ttl 12 v4l:/dev/video0:size=3D320x240 \
+   --sout '#transcode{vcodec=3Dmp4v,vb=3D128}:std{access=3Dmmsh,dst=3D:8080=
+}'
+</pre>
+<p>Receive:
+</p>
+<pre>   vlc mmsh://123.45.678.9:8080
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Stream_from_television">Stream from t=
+elevision</span></h3>
+<p>Use this to find tv channel frequencies:
+</p>
+<pre>   scantv - scan a v4l device for TV stations
+</pre>
+<p>Stream tv to a single designated machine:
+</p>
+<pre>   vlc --color
+   v4l:/dev/video2:norm=3Dntsc:frequency=3D77250:size=3D640x480:\
+   adev=3D/dev/dsp2:audio=3D0 --sout #transcode{vcodec=3Dmp4v,acodec=3Dmpga=
+,vb=3D512,\
+   ab=3D128,samplerate=3D44100,venc=3Dffmpeg{keyint=3D80,hurry-up,vt=3D8000=
+00},\
+   deinterlace}:std{access=3Dudp,mux=3Dts,dst=3D123.45.678.9:8080} --ttl 12=
+ -I dummy=20
+</pre>
+<p>Receive:
+</p>
+<pre>   vlc udp://@:8080
+</pre>
+<p>Stream tv to the network:
+</p>
+<pre>   vlc --color
+   v4l:/dev/video2:norm=3Dntsc:frequency=3D77250:size=3D640x480:\
+   adev=3D/dev/dsp2:audio=3D0 --sout #transcode{vcodec=3Dmp4v,acodec=3Dmpga=
+,vb=3D512,\
+   ab=3D128,samplerate=3D44100,venc=3Dffmpeg{keyint=3D80,hurry-up,vt=3D8000=
+00},\
+   deinterlace}:std{access=3Dmmsh,dst=3D:8080} --ttl 12 -I dummy=20
+</pre>
+<p>Receive:
+</p>
+<pre>   vlc mmsh://servername:8080
+</pre>
+<p>Tested and works. There are lots of variants of this that don't work -- =
+ymmv.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Example_script">Example script</span>=
+</h3>
+<p>Customize the script to fit your environment -- this version assumes a f=
+irewall that blocks off all but three incoming ports.
+</p>
+<pre>
+#!/bin/bash
+#
+# stream &lt;input file&gt; &lt;port&gt;
+#
+# Stream a video file to the network
+#
+# ------------------------------------------------------------------------
+
+# Check for filename parameter
+if [ -z "$1" ]
+ then
+  echo "Use stream &lt;input file&gt; &lt;port&gt;";
+  echo "Which file do you want to stream?";
+   exit
+fi
+
+# Check for file presence
+if [ -e "$1" ]
+ then echo "Found" $1
+ else echo "There's no" $1
+  exit
+fi
+
+# Check for port parameter
+if [ -z "$2" ]
+ then
+  echo "Use stream &lt;input file&gt; &lt;port&gt;";
+  echo "Which port do you want to stream to? (use 5003, 5900, or 8080)";
+   exit
+fi
+
+# Check port parameter value (if you're behind a firewall)
+if [ "$2" =3D "5003" -o "$2" =3D "5900" -o "$2" =3D "8080" ]
+  then echo "";
+  else echo "If you want to stream to this port, change this script!";
+   exit
+fi
+
+starttim=3D$(date +%F\&nbsp;%H:%M:%S)
+startsec=3D$(date +%s)
+echo "Streaming start time:" $starttim
+
+ vlc $1 -I dummy --sout "#std{access=3Dmmsh,dst=3D:$2}" --ttl 12 --loop;
+
+echo "Streaming start time:" $starttim
+echo "Streaming end time &nbsp;:" $(date +%F\&nbsp;%H:%M:%S)
+endsec=3D$(date +%s)
+echo "Total streaming time in seconds:" $(( $endsec - $startsec ))
+
+</pre>
+<p>This makes it very easy to ssh into a remote machine and issue something=
+ like,
+</p>
+<pre>stream filename 8080 &amp;
+</pre>
+<p>You can then type "exit", but to release your terminal you will have to =
+kill that ssh session on your local machine.
+</p><p>More elegantly, you can start a screen session and run the stream in=
+side it:
+</p>
+<pre>screen
+stream filename 8080
+</pre>
+<p>Press ctrl-a d to detach; you are now free to leave the machine. To chec=
+k out the stream or stop it, ssh back to the remote machine and press ctrl-=
+a r. You can of course have several screen sessions running, each with its =
+own video stream.=20
+</p><p>CPU consumption of these streams is modest, but beware: they simply =
+shift the load over to the router, so you can get a very clogged router.
+</p>
+<!--=20
+NewPP limit report
+CPU time usage: 0.028 seconds
+Real time usage: 0.031 seconds
+Preprocessor visited node count: 34/1000000
+Preprocessor generated node count: 56/1000000
+Post=E2=80=90expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key linuxtvwikidb:pcache:idhash:3679-0!*!0!=
+!en!*!* and timestamp 20190505094508
+ -->
+</div>								<div class=3D"printfooter">
+				Retrieved from "<a href=3D"https://linuxtv.org/wiki/index.php?title=3DS=
+treaming-V4L&amp;oldid=3D18470">https://linuxtv.org/wiki/index.php?title=3D=
+Streaming-V4L&amp;oldid=3D18470</a>"				</div>
+												<div id=3D"catlinks" class=3D"catlinks"><div id=3D"mw-normal-ca=
+tlinks" class=3D"mw-normal-catlinks"><a href=3D"https://linuxtv.org/wiki/in=
+dex.php/Special:Categories" title=3D"Special:Categories">Categories</a>: <u=
+l><li><a href=3D"https://linuxtv.org/wiki/index.php/Category:Software" titl=
+e=3D"Category:Software">Software</a></li><li><a href=3D"https://linuxtv.org=
+/wiki/index.php/Category:Apps_%26_Utilities" title=3D"Category:Apps &amp; U=
+tilities">Apps &amp; Utilities</a></li></ul></div></div>												<div cl=
+ass=3D"visualClear"></div>
+							</div>
+		</div>
+		<div id=3D"mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id=3D"mw-head">
+				<div id=3D"p-personal" role=3D"navigation" class=3D"" aria-labelledby=
+=3D"p-personal-label">
+	<h3 id=3D"p-personal-label">Personal tools</h3>
+	<ul>
+<li id=3D"pt-login"><a href=3D"https://linuxtv.org/wiki/index.php?title=3DS=
+pecial:UserLogin&amp;returnto=3DStreaming-V4L" title=3D"You are encouraged =
+to log in; however, it is not mandatory [alt-shift-o]" accesskey=3D"o">Log =
+in / create account</a></li>	</ul>
+</div>
+				<div id=3D"left-navigation">
+					<div id=3D"p-namespaces" role=3D"navigation" class=3D"vectorTabs" aria=
+-labelledby=3D"p-namespaces-label">
+	<h3 id=3D"p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li id=3D"ca-nstab-main" class=3D"selected"><span><a href=3D"https://l=
+inuxtv.org/wiki/index.php/Streaming-V4L" title=3D"View the content page [al=
+t-shift-c]" accesskey=3D"c">Page</a></span></li>
+					<li id=3D"ca-talk" class=3D"new"><span><a href=3D"https://linuxtv.org/=
+wiki/index.php?title=3DTalk:Streaming-V4L&amp;action=3Dedit&amp;redlink=3D1=
+" title=3D"Discussion about the content page [alt-shift-t]" accesskey=3D"t"=
+>Discussion</a></span></li>
+			</ul>
+</div>
+<div id=3D"p-variants" role=3D"navigation" class=3D"vectorMenu emptyPortlet=
+" aria-labelledby=3D"p-variants-label">
+	<h3 id=3D"mw-vector-current-variant">
+		</h3>
+	<h3 id=3D"p-variants-label" tabindex=3D"0"><span>Variants</span><a href=3D=
+"https://linuxtv.org/wiki/index.php/Streaming-V4L#" tabindex=3D"-1"></a></h=
+3>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id=3D"right-navigation">
+					<div id=3D"p-views" role=3D"navigation" class=3D"vectorTabs" aria-labe=
+lledby=3D"p-views-label">
+	<h3 id=3D"p-views-label">Views</h3>
+	<ul>
+					<li id=3D"ca-view" class=3D"selected"><span><a href=3D"https://linuxtv=
+.org/wiki/index.php/Streaming-V4L">Read</a></span></li>
+					<li id=3D"ca-viewsource"><span><a href=3D"https://linuxtv.org/wiki/ind=
+ex.php?title=3DStreaming-V4L&amp;action=3Dedit" title=3D"This page is prote=
+cted.
+You can view its source [alt-shift-e]" accesskey=3D"e">View source</a></spa=
+n></li>
+					<li id=3D"ca-history" class=3D"collapsible"><span><a href=3D"https://l=
+inuxtv.org/wiki/index.php?title=3DStreaming-V4L&amp;action=3Dhistory" title=
+=3D"Past revisions of this page [alt-shift-h]" accesskey=3D"h">View history=
+</a></span></li>
+			</ul>
+</div>
+<div id=3D"p-cactions" role=3D"navigation" class=3D"vectorMenu emptyPortlet=
+" aria-labelledby=3D"p-cactions-label">
+	<h3 id=3D"p-cactions-label" tabindex=3D"0"><span>Actions</span><a href=3D"=
+https://linuxtv.org/wiki/index.php/Streaming-V4L#" tabindex=3D"-1"></a></h3=
+>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id=3D"p-search" role=3D"search">
+	<h3><label for=3D"searchInput">Search</label></h3>
+	<form action=3D"https://linuxtv.org/wiki/index.php" id=3D"searchform">
+				<div id=3D"simpleSearch">
+						<input name=3D"search" placeholder=3D"Search" title=3D"Search LinuxTV=
+Wiki [alt-shift-f]" accesskey=3D"f" id=3D"searchInput" tabindex=3D"1" autoc=
+omplete=3D"off">						<button type=3D"submit" name=3D"button" title=3D"Sear=
+ch the pages for this text" id=3D"searchButton"><img src=3D"https://linuxtv=
+.org/wiki/skins/vector/images/search-ltr.png?303" alt=3D"Search" width=3D"1=
+2" height=3D"13"></button>							=09
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id=3D"mw-panel" class=3D"collapsible-nav">
+					<div id=3D"p-logo" role=3D"banner"><a style=3D"background-image: url(/=
+wiki/skins/common/images/linuxtv.png);" href=3D"https://linuxtv.org/wiki/in=
+dex.php/Main_Page" title=3D"Visit the main page"></a></div>
+				<div class=3D"portal first persistent" role=3D"navigation" id=3D"p-navi=
+gation" aria-labelledby=3D"p-navigation-label">
+	<h3 id=3D"p-navigation-label">Navigation</h3>
+	<div class=3D"body">
+		<ul>
+			<li id=3D"n-LinuxTV-Home"><a href=3D"http://www.linuxtv.org/" rel=3D"nof=
+ollow">LinuxTV Home</a></li>
+			<li id=3D"n-mainpage"><a href=3D"https://linuxtv.org/wiki/index.php/Main=
+_Page" title=3D"Visit the main page [alt-shift-z]" accesskey=3D"z">Main Pag=
+e</a></li>
+			<li id=3D"n-categories"><a href=3D"https://linuxtv.org/wiki/index.php/Sp=
+ecial:Categories">Categories</a></li>
+			<li id=3D"n-recentchanges"><a href=3D"https://linuxtv.org/wiki/index.php=
+/Special:RecentChanges" title=3D"A list of recent changes in the wiki [alt-=
+shift-r]" accesskey=3D"r">Recent changes</a></li>
+			<li id=3D"n-randompage"><a href=3D"https://linuxtv.org/wiki/index.php/Sp=
+ecial:Random" title=3D"Load a random page [alt-shift-x]" accesskey=3D"x">Ra=
+ndom page</a></li>
+			<li id=3D"n-help"><a href=3D"https://www.mediawiki.org/wiki/Special:MyLa=
+nguage/Help:Contents" rel=3D"nofollow" title=3D"The place to find out">Help=
+</a></li>
+		</ul>
+	</div>
+</div>
+<div class=3D"portal expanded" role=3D"navigation" id=3D"p-tb" aria-labelle=
+dby=3D"p-tb-label">
+	<h3 id=3D"p-tb-label" tabindex=3D"2"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/Streaming-V4L#">Tools</a></h3>
+	<div class=3D"body" style=3D"display: block;">
+		<ul>
+			<li id=3D"t-whatlinkshere"><a href=3D"https://linuxtv.org/wiki/index.php=
+/Special:WhatLinksHere/Streaming-V4L" title=3D"A list of all wiki pages tha=
+t link here [alt-shift-j]" accesskey=3D"j">What links here</a></li>
+			<li id=3D"t-recentchangeslinked"><a href=3D"https://linuxtv.org/wiki/ind=
+ex.php/Special:RecentChangesLinked/Streaming-V4L" title=3D"Recent changes i=
+n pages linked from this page [alt-shift-k]" accesskey=3D"k">Related change=
+s</a></li>
+			<li id=3D"t-specialpages"><a href=3D"https://linuxtv.org/wiki/index.php/=
+Special:SpecialPages" title=3D"A list of all special pages [alt-shift-q]" a=
+ccesskey=3D"q">Special pages</a></li>
+			<li id=3D"t-print"><a href=3D"https://linuxtv.org/wiki/index.php?title=
+=3DStreaming-V4L&amp;printable=3Dyes" rel=3D"alternate" title=3D"Printable =
+version of this page [alt-shift-p]" accesskey=3D"p">Printable version</a></=
+li>
+			<li id=3D"t-permalink"><a href=3D"https://linuxtv.org/wiki/index.php?tit=
+le=3DStreaming-V4L&amp;oldid=3D18470" title=3D"Permanent link to this revis=
+ion of the page">Permanent link</a></li>
+			<li id=3D"t-info"><a href=3D"https://linuxtv.org/wiki/index.php?title=3D=
+Streaming-V4L&amp;action=3Dinfo">Page information</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id=3D"footer" role=3D"contentinfo">
+							<ul id=3D"footer-info">
+											<li id=3D"footer-info-lastmod"> This page was last modified on 5=
+ December 2008, at 00:48.</li>
+											<li id=3D"footer-info-viewcount">This page has been accessed 44,=
+510 times.</li>
+									</ul>
+							<ul id=3D"footer-places">
+											<li id=3D"footer-places-privacy"><a href=3D"https://linuxtv.org/=
+wiki/index.php/LinuxTVWiki:Privacy_policy" title=3D"LinuxTVWiki:Privacy pol=
+icy">Privacy policy</a></li>
+											<li id=3D"footer-places-about"><a href=3D"https://linuxtv.org/wi=
+ki/index.php/LinuxTVWiki:About" title=3D"LinuxTVWiki:About">About LinuxTVWi=
+ki</a></li>
+											<li id=3D"footer-places-disclaimer"><a href=3D"https://linuxtv.o=
+rg/wiki/index.php/LinuxTVWiki:General_disclaimer" title=3D"LinuxTVWiki:Gene=
+ral disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id=3D"footer-icons" class=3D"noprint">
+					<li id=3D"footer-poweredbyico">
+						<a href=3D"https://www.mediawiki.org/"><img src=3D"https://linuxtv.or=
+g/wiki/skins/common/images/poweredby_mediawiki_88x31.png" alt=3D"Powered by=
+ MediaWiki" width=3D"88" height=3D"31"></a>
+					</li>
+				</ul>
+						<div style=3D"clear:both"></div>
+		</div>
+	=09
+
+
+<!-- Served in 0.071 secs. -->
+=09
+
+<div class=3D"suggestions" style=3D"display: none; font-size: 13px;"><div c=
+lass=3D"suggestions-results"></div><div class=3D"suggestions-special"></div=
+></div></body></html>
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+@media print {
+  a.stub, a.new { color: rgb(186, 0, 0); text-decoration: none; }
+  #toc { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 2=
+49, 249); padding: 5px; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { border: none; width: auto; margin-top: 0.5em; margin-bottom: =
+0.8em; background-color: transparent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+white; font-size: 94%; text-align: center; overflow: hidden; padding: 3px !=
+important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.magnify { display: none; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  table.rimage { float: right; width: 1pt; position: relative; margin-left:=
+ 1em; margin-bottom: 1em; text-align: center; }
+  body { background: white; color: black; margin: 0px; padding: 0px; }
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, #colophon, =
+.mw-editsection, .toctoggle, .tochidden, div#f-poweredbyico, div#f-copyrigh=
+tico, li#viewcount, li#about, li#disclaimer, li#mobileview, li#privacy, #fo=
+oter-places, .mw-hidden-catlinks, tr.mw-metadata-show-hide-extended, span.m=
+w-filepage-other-resolutions, #filetoc, .usermessage, .patrollink, #mw-navi=
+gation { display: none; }
+  ul { list-style-type: square; }
+  #content { background: none; direction: ltr; border: none !important; pad=
+ding: 0px !important; margin: 0px !important; }
+  #footer { background: white; color: black; margin-top: 1em; border-top: 1=
+px solid rgb(170, 170, 170); direction: ltr; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+  p { margin: 1em 0px; line-height: 1.2em; }
+  pre, .mw-code { border: 1pt dashed black; white-space: pre; font-size: 8p=
+t; overflow: auto; padding: 1em 0px; background: white; color: black; }
+  table.listing, table.listing td { border: 1pt solid black; border-collaps=
+e: collapse; }
+  a { color: black !important; background: none !important; padding: 0px !i=
+mportant; }
+  a:link, a:visited { color: rgb(85, 34, 0); background: transparent; text-=
+decoration: underline; }
+  #content a.external.text::after, #content a.external.autonumber::after { =
+content: " (" attr(href) ")"; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  #content { background: white; color: black; }
+  #column-content { margin: 0px !important; }
+  #column-content #content { padding: 1em; margin: 0px !important; }
+  a, a.external, a.new, a.stub { color: black !important; text-decoration: =
+none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  img { border: none; vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #siteNotice { display: none; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); margin: 2px; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  table.diff { background: white; }
+  td.diff-otitle { background: rgb(255, 255, 255); }
+  td.diff-ntitle { background: rgb(255, 255, 255); }
+  td.diff-addedline { background: rgb(204, 255, 204); font-size: smaller; b=
+order: 2px solid black; }
+  td.diff-deletedline { background: rgb(255, 255, 170); font-size: smaller;=
+ border: 2px dotted black; }
+  td.diff-context { background: rgb(238, 238, 238); font-size: smaller; }
+  .diffchange { color: silver; font-weight: bold; text-decoration: underlin=
+e; }
+  table.wikitable, table.mw_metadata { margin: 1em 0px; border: 1px solid r=
+gb(170, 170, 170); background: white; border-collapse: collapse; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { text-align: center; background: white; font-weight: bold; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  a.sortheader { margin: 0px 0.3em; }
+  .wikitable, .thumb, img { break-inside: avoid; }
+  h2, h3, h4, h5, h6 { break-after: avoid; }
+  p { widows: 3; orphans: 3; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1px solid rgb(170, 170, 170); margin: 0.1em 0px; zoom: 1=
+; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: none; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  mark { background-color: yellow; color: black; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr[title], .explain[title] { border-bottom: 1px dotted; cursor: help; }
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .allpagesredirect, .redirect-in-category, .watchlistredir { font-style: i=
+talic; }
+  span.comment { font-style: italic; }
+  span.changedby { font-size: 95%; }
+  .texvc { direction: ltr; unicode-bidi: embed; }
+  img.tex { vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  #toolbar img { cursor: pointer; }
+  div.mw-filepage-resolutioninfo { font-size: smaller; }
+  h2#filehistory { clear: both; }
+  table.filehistory th, table.filehistory td { vertical-align: top; }
+  table.filehistory th { text-align: left; }
+  table.filehistory td.mw-imagepage-filesize, table.filehistory th.mw-image=
+page-filesize { white-space: nowrap; }
+  table.filehistory td.filehistory-selected { font-weight: bold; }
+  .filehistory a img, #file img:hover { background: url("data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgAR=
+gDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC") repeat white; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: top; }
+  .prefsection td.mw-label { width: 20%; }
+  .prefsection table { width: 100%; }
+  .prefsection table.mw-htmlform-matrix { width: auto; }
+  .mw-icon-question { background: linear-gradient(transparent, transparent)=
+ 0% 0% / 13px 13px, url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4w=
+IiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciA=
+xNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApIC=
+AtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0d=
+HA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZl=
+cnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N=
+2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT=
+0iMHB4Ig0KCSB3aWR0aD0iMjEuMDU5cHgiIGhlaWdodD0iMjEuMDZweCIgdmlld0JveD0iMCAwI=
+DIxLjA1OSAyMS4wNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjEuMDU5IDIxLjA2IiB4=
+bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiM1NzU3NTciIGQ9Ik0xMC41MjksMEM=
+0LjcxNSwwLDAsNC43MTQsMCwxMC41MjlzNC43MTUsMTAuNTMsMTAuNTI5LDEwLjUzYzUuODE2LD=
+AsMTAuNTI5LTQuNzE1LDEwLjUyOS0xMC41Mw0KCVMxNi4zNDYsMCwxMC41MjksMHogTTEwLjUyN=
+ywxNi43NjdjLTAuODYxLDAtMS40OTgtMC42ODgtMS40OTgtMS41MTZjMC0wLjg2MiwwLjYzNy0x=
+LjUzNCwxLjQ5OC0xLjUzNGMwLjgyOCwwLDEuNSwwLjY3MiwxLjUsMS41MzQNCglDMTIuMDI3LDE=
+2LjA3OCwxMS4zNTUsMTYuNzY3LDEwLjUyNywxNi43Njd6IE0xMi42NjQsMTAuMjU1Yy0wLjcyMy=
+wwLjU2OC0xLDAuOTMxLTEsMS43Mzl2MC41SDkuNDU5di0wLjYwMw0KCWMwLTEuNTE3LDAuNDQ5L=
+TIuMTM2LDEuMTU0LTIuNjg4YzAuNzA3LTAuNTUyLDEuMTM5LTAuODQ1LDEuMTM5LTEuNjM3YzAt=
+MC42NzItMC40MTQtMS4wNTEtMS4yNC0xLjA1MQ0KCWMtMC43MDcsMC0xLjMyOCwwLjE4OS0xLjk=
+4MiwwLjYzOEw3LjQ3OSw1LjM0NmMwLjg2MS0wLjYwNCwxLjkzLTEuMDM0LDMuMzQyLTEuMDM0Yz=
+EuOTEyLDAsMy41MTYsMS4wNTEsMy41MTYsMy4wNjYNCglDMTQuMzM2LDguODA4LDEzLjU0Myw5L=
+jU2NiwxMi42NjQsMTAuMjU1eiIvPg0KPC9zdmc+DQo=3D") no-repeat; display: inline-=
+block; height: 13px; width: 13px; margin-left: 4px; }
+  .mw-icon-question:lang(ar), .mw-icon-question:lang(fa), .mw-icon-question=
+:lang(ur) { transform: scaleX(-1); }
+  td.mw-submit { white-space: nowrap; }
+  table.mw-htmlform-nolabel td.mw-label { width: 1px; }
+  tr.mw-htmlform-vertical-label td.mw-label { text-align: left !important; =
+}
+  .mw-htmlform-invalid-input td.mw-input input { border-color: red; }
+  .mw-htmlform-flatlist div.mw-htmlform-flatlist-item { display: inline; ma=
+rgin-right: 1em; white-space: nowrap; }
+  .mw-htmlform-matrix td { padding-left: 0.5em; padding-right: 0.5em; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-ipb-conveniencelinks, p.mw-protect-editreasons, p.mw-filedelete-edit=
+reasons, p.mw-delete-editreasons, p.mw-revdel-editreasons { font-size: 90%;=
+ text-align: right; }
+  .os-suggest { overflow: hidden auto; position: absolute; top: 0px; left: =
+0px; width: 0px; background-color: white; border-style: solid; border-color=
+: rgb(170, 170, 170); border-width: 1px; z-index: 99; font-size: 95%; }
+  table.os-suggest-results { font-size: 95%; cursor: pointer; border: 0px; =
+border-collapse: collapse; width: 100%; }
+  .os-suggest-result, .os-suggest-result-hl { white-space: nowrap; backgrou=
+nd-color: white; color: black; padding: 2px; }
+  .os-suggest-result-hl, .os-suggest-result-hl-webkit { background-color: r=
+gb(76, 89, 166); color: white; }
+  .os-suggest-toggle { position: relative; left: 1ex; font-size: 65%; }
+  .os-suggest-toggle-def { position: absolute; top: 0px; left: 0px; font-si=
+ze: 65%; visibility: hidden; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory span.minor { font-weight: bold; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisiondelete-button, #mw-fileduplicatesearch-icon { float: =
+right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  #shared-image-dup, #shared-image-conflict { font-style: italic; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.new { color: rgb(186, 0, 0); }
+  a.feedlink { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEU=
+gAAAAwAAAAMCAYAAABWdVznAAAB5UlEQVR42k2SzU8TQQDF5+8w8S8QRWl2t90tFxOPxosxYuIB=
+kBjiCROpWiV8tIKUtoomJhgIMcSEC4SIcNCDxnD14sHEbpCW7nbb0m7p9mu37TxnhkCc0xzee/m=
+9N0N+DZ47nw77UuYzhZrPFViTfhQiARRnVRzNqyjHNdgJjRoROcW1hIn17FgvrLkbyE/2ozBxBa=
+WZPthzPlQTEupvZDTfKXCXAjAjsk5YKj0cuwjadMBPO/cbja9xVF+r/4n9aK+oqLwKUpKb8CMX6=
+oWzu4DWz010naIwUjuN1vrAmbjxVoG9EATJTwUERu3TFJy1IZaswf0eAzou4DrobN4V4uOYhCPW=
+ixSjqmCmrROkbmkf7sYwvK0RxtcErWRxnNRQmu5DYToAwlyiYO3DALy9RcCrs3QPne378L69FCH=
+1L0lYTy7DYvikPK+JNRrvrzHmO/DWbzFTjXXIiOSubaBd+Avj4SWYYQXEjgfFGrSk86robA3C+5=
+EQydW1UdT3Pop7NnwVRogbkhrl03X/7AA1C83V63CWb54YPsdR2ZgVdyN6G5lxiRJzRtLZo/DpT=
+tfgBTmzwEg/6MH+vQvQh3pwEPLp4msYUSVVSQZpOaah+EJFnq3B38d4KuNwXEbmkUQPHvvE1/gH=
+GQ6mWZBs5g0AAAAASUVORK5CYII=3D") left center no-repeat; padding-left: 16px;=
+ }
+  .plainlinks a { background: none !important; padding: 0px !important; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  table.collapsed tr.collapsable { display: none; }
+  .error, .warning, .success { font-size: larger; }
+  .error { color: rgb(204, 0, 0); }
+  .warning { color: rgb(112, 80, 0); }
+  .success { color: rgb(0, 144, 0); }
+  .errorbox, .warningbox, .successbox { border: 1px solid; padding: 0.5em 1=
+em; margin-bottom: 1em; display: inline-block; zoom: 1; }
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; color: inh=
+erit; font-weight: bold; display: inline; margin: 0px 0.5em 0px 0px; border=
+: none; }
+  .errorbox { color: rgb(204, 0, 0); border-color: rgb(250, 197, 197); back=
+ground-color: rgb(250, 227, 227); }
+  .warningbox { color: rgb(112, 80, 0); border-color: rgb(253, 226, 155); b=
+ackground-color: rgb(253, 241, 209); }
+  .successbox { color: rgb(0, 144, 0); border-color: rgb(183, 253, 181); ba=
+ckground-color: rgb(225, 253, 223); }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  #mw_trackbacks { border: 1px solid rgb(187, 187, 255); background-color: =
+rgb(238, 238, 255); padding: 0.2em; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  .TablePager { min-width: 80%; }
+  .TablePager_nav { margin: 0px auto; }
+  .TablePager_nav td { padding: 3px; text-align: center; }
+  .TablePager_nav a { text-decoration: none; }
+  .imagelist td, .imagelist th { white-space: nowrap; }
+  .imagelist .TablePager_col_links { background-color: rgb(238, 238, 255); =
+}
+  .imagelist .TablePager_col_img_description { white-space: normal; }
+  .imagelist th.TablePager_sort { background-color: rgb(204, 204, 255); }
+  ul#filetoc { text-align: center; border: 1px solid rgb(170, 170, 170); ba=
+ckground-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; margin-bo=
+ttom: 0.5em; margin-left: 0px; margin-right: 0px; }
+  #filetoc li { display: inline; list-style-type: none; padding-right: 2em;=
+ }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); background-color: rgb(249, 249, 249); margin: 2px; }
+  li.gallerybox div.thumb img { display: block; margin: 0px auto; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  ul.mw-gallery-nolines li.gallerybox div.thumb { background-color: transpa=
+rent; border: none; }
+  ul.mw-gallery-nolines li.gallerybox div.gallerytext { text-align: center;=
+ }
+  ul.mw-gallery-packed li.gallerybox div.thumb, ul.mw-gallery-packed-overla=
+y li.gallerybox div.thumb, ul.mw-gallery-packed-hover li.gallerybox div.thu=
+mb { background-color: transparent; border: none; }
+  ul.mw-gallery-packed li.gallerybox div.thumb img, ul.mw-gallery-packed-ov=
+erlay li.gallerybox div.thumb img, ul.mw-gallery-packed-hover li.gallerybox=
+ div.thumb img { margin: 0px auto; }
+  ul.mw-gallery-packed-hover li.gallerybox, ul.mw-gallery-packed-overlay li=
+.gallerybox { position: relative; }
+  ul.mw-gallery-packed-hover div.gallerytextwrapper { overflow: hidden; hei=
+ght: 0px; }
+  ul.mw-gallery-packed-hover li.gallerybox:hover div.gallerytextwrapper, ul=
+.mw-gallery-packed-overlay li.gallerybox div.gallerytextwrapper, ul.mw-gall=
+ery-packed-hover li.gallerybox.mw-gallery-focused div.gallerytextwrapper { =
+position: absolute; opacity: 0.8; zoom: 1; background-color: white; padding=
+: 5px 10px; bottom: 0px; left: 0px; height: auto; font-weight: bold; margin=
+: 2px; }
+  ul.mw-gallery-packed-hover, ul.mw-gallery-packed-overlay, ul.mw-gallery-p=
+acked { text-align: center; }
+  ul.mw-gallery-packed-hover div.gallerytext, ul.mw-gallery-packed-overlay =
+div.gallerytext { opacity: 1; position: relative; }
+  .mw-ajax-loader { background-image: url("data:image/gif;base64,R0lGODlhIA=
+AgAOMAAP///wAAAMbGxoSEhLa2tpqamjY2NlZWVtjY2OTk5Ly8vB4eHgQEBP///////////yH/C=
+05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAAIAAgAAAE5/DJSWlhperN52JLhSSdRgwVo1IC=
+QZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBk+EDskxTBDPZwuAkkqIfxIQyhBQBFvHwSDITM5VDW=
+6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87pa=
+qbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7AP=
+dpB309RnHOG5g/qXGLDaC457D1zZ/V/nmOM82XiHRLYKhKP1oZmADdEAAAh+QQFCgAPACwAAAAA=
+GAAXAAAEcvDJSesiNetplqlDsYnUYlIGw2jGV55SoS5sq0wmLS3qoBWtAw42mG0ehxYp90CoGKR=
+Ny8U8qFzNweCGwlJkgolCq0VIEAbMkUIghxLrDcLti2/Gg7D9qN774wkKBIOEfw+ChIV/gYmDho=
++QkZKTR3p7EQAh+QQFCgAPACwBAAAAHQAOAAAEcvDJSScxNev9jjkZwU2IUhkodSzLKA2DOKGYR=
+LD1CA/InEoGlkui2PlyuKGkADM9aI8EayGbJDYI4zM1YIEmAwajkCAoehNmTNNaLsQMHmGuuEYH=
+gpHAAGfUBHNzeUp9VBQJCoFOLmFxWHNoQweRWEocEQAh+QQFCgAPACwHAAAAGQARAAAEavDJ+cQ=
+QNOtdRsnf9iRINpyZYYgEgU3nQKnr1hIJjEqHGmqIlkInexRUB5FE0So9YhKaUpK4SaAPlWaxIF=
+AETQ3B4BxzF2Kn8nBeJKebdm3SgksKXDt8kNP7/xoMgoMLP36DiAyAD4kMhREAIfkEBQoADwAsD=
+gAAABIAGAAABGUQFfSqvZiUghXF1cZZxTCA4WYh5omKVqugD/woLV2rT/u9KoJpFDIYaIJBwnIw=
+GogoivOoq0wPs6r1qe16v5WFeEzVjc+LKnphIIC9g193wGC4uvX6Aoo05BllVQULeXdadAxuEQA=
+h+QQFCgAPACwOAAAAEgAeAAAEgDCp9Kq9WBGFBb5ECBbFV4XERaYmahGk14qPQJbm4z53foq2Aq=
+uiGAwQJsQQYTRyfIlCc4DzTY8+i8CZxQy74KxhTD58P+S0Qaw+hN8WyruwWMDrdcM5ecAv3CYDD=
+DIEBngmBwwMaxeGJgmKDFVdggx2bwuKA28EkXAGinJhVCYRACH5BAUKAA8ALA8AAQARAB8AAAR8=
+8Mn5UKIYC0KyT5ziZQqHjBQSohRHXGzFCSkHU/eTlCa7uTSUi6DIeVSEU0yiXDo9g6i0EIRKr6h=
+rlPrsOgkGQ8EZDh+eZcOosKAcymPKYLE4TwphCWMvoS86HnsME3RqgXwSBnQjghR+h4MTB4sZjR=
+iAGAsMbU4FDHFLEQAh+QQFCgAPACwIAA4AGAASAAAEbPDJSesjOKtk+8yg4nkgto1oihIqKgyD2=
+FpwjcxUUtRDMROG2wPBkz0EjEHHYKgoYMKHgcE4PBZYCbM5KlAZHOxCUmBaPQuq8pqVHJg+GnUs=
+EVO2nTQjzqZPmB1UXHVtE3wVOxUGC4M4H34qEQAh+QQFCgAPACwCABIAHQAOAAAEePDJSat96FJ=
+0tEUEkV0DwwwepYSEklDEYpopJbCEIBkzY+geweD1SKxCiJJpUZAgmBbCYNCcIFaJggk1OSwWKI=
+NYMh2MLMRJ7LsbPxTl2sTAbhsmhalC/vje7VZxNXQLBHNuEnlcKV8dh38TCmcehhUHBo58cpA1E=
+QAh+QQFCgAPACwAAA8AGQARAAAEZ7AsRuu7OOtbO9tgJnlfaJ7omQwpuixFCxrvK2dHvRwoQmw1=
+w+8i3PgIggzBpjEYLoPohUBNoJzPR5T1OCpOB2dMK70oqIhQwcmDlh8J6nCDzWwzAmrIqblnEFZ=
+qGgUDYzcaAgNJGxEAIfkEBQoADwAsAQAIABEAGAAABFyQMDaevfiOyVbJ4GNwjCGEWLGQaLZRbY=
+ZUcW3feK7vaGEYNsXh96sRgYiW73e4JAYn0O9zKQwGhAdhi5pdLdts6DpQgLkgBfkSHl+TZ7ELi=
+2mDEHKLgmC+JRQJEQAh+QQFCgAPACwAAAIADgAdAAAEcvDJ+cqgeDJmMt4M4U3DtozTsl1oASJp=
+RxnbkS6LIT4Cw0oHHO4A8xAMwhPqgSssH4nnknAwWK+Zq1ZGoW650vAOpRgMBCOEee2xrAtRTNl=
+cQEsI8Yd6oKAICARFHgmAYx4KgIIZCIB9ZIB5RgR2KAmKEQA7"); background-position: c=
+enter center; background-repeat: no-repeat; padding: 16px; position: relati=
+ve; top: -16px; }
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("data:imag=
+e/gif;base64,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3D=3D"); background-position: cente=
+r center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lan=
+g(kk-arab) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAP///01NTZOTk1lZWefn57i4uJSUlPPz82VlZdDQ0HFxcaysrNvb28TExAA=
+AAAAAACH5BAAAAAAALAAAAAALAAsAAAQrUIRJqQQ455nNNBgHJANBDAwgZsVwqIG2IEQYYwXy2l=
+q/Kg3NqqeSVCqCCAA7"); background-position: left center; background-repeat: =
+no-repeat; cursor: pointer; font-size: 0.8em; text-decoration: underline; c=
+olor: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAAtop+7z+GCWwpW51oStz8rb6yZzrafF3bnR5Nzn8QBcoD91oABQmf///wA=
+AAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSH=
+pyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4b=
+XB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMy=
+OjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTk=
+vMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bW=
+xuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9I=
+mh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnht=
+cD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudEl=
+EPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5NkQ0QUQzRjI0NzRCNUQwIiB4bXBNTTpEb2N1bW=
+VudElEPSJ4bXAuZGlkOjJBN0FFQTQwQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXBNTTpJb=
+nN0YW5jZUlEPSJ4bXAuaWlkOjJBN0FFQTNGQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXA6=
+Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml=
+2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTk1RkVBQ0=
+ZBOEQxNTU5MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTk2R=
+DRBRDNGMjQ3NEI1RDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l=
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eD=
+f3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqK=
+empaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb=
+25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3=
+NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAA=
+h+QQAAAAAACwAAAAACwALAAAEK3CxSalsOOeZxRQY1yBKkihFI2aDEqiMRgBJGGMD8NpavxoHza=
+qnklQqiwgAOw=3D=3D"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  .tipsy { padding: 5px 5px 10px; font-size: 12px; position: absolute; z-in=
+dex: 100000; overflow: visible; }
+  .tipsy-inner { padding: 5px 8px 4px; background-color: rgb(214, 243, 255)=
+; color: black; border: 1px solid rgb(93, 201, 244); max-width: 300px; text=
+-align: left; }
+  .tipsy-arrow { position: absolute; background: url("data:image/gif;base64=
+,R0lGODlhDQANAMQAAPf399bz/9vu9m/O9NXy/8Pm9svp9pfd+YLW943X9LTn++z093XQ9WnM9O=
+Lw9p/c9YTU9InY9/T292DK9Jre+afj+rvq/Nzv9rjk9brl9cPt/ZLb+GbL9MLs/ZHb+KLh+iH5B=
+AAAAAAALAAAAAANAA0AAAVK4BGMZBkcg2WW1lBEKxkVAFTFFQQAwkSYhIlgB3hQTJQHEbBodEia=
+xmIJyHhIGwwVIGEoAgqGZAswIAIIA3mX+CTWOwfHAd9dtiEAOw=3D=3D") left top no-repe=
+at; width: 13px; height: 13px; }
+  .tipsy-se .tipsy-arrow { bottom: -2px; right: 10px; background-position: =
+0% 100%; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-multi, .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: emb=
+ed; direction: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .mw-editsection, .toctoggle { user-select: none; }
+  .mw-editsection { font-size: small; font-weight: normal; margin-left: 1em=
+; vertical-align: baseline; line-height: 1em; display: inline-block; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section { margin-left: 1em; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section { margin-right: 1em; }
+}
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 132%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; line-height: 1.5em; }
+  p img { margin: 0px; }
+  ul { line-height: 1.5em; list-style-type: square; margin: 0.3em 0px 0px 1=
+.6em; padding: 0px; }
+  ol { line-height: 1.5em; margin: 0.3em 0px 0px 3.2em; padding: 0px; list-=
+style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { line-height: 1.5em; margin-left: 1.6em; margin-bottom: 0.1em; }
+  q { font-family: Times, "Times New Roman", serif; font-style: italic; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { background-color: rgb(249, 249, 249); }
+  pre, .mw-code { padding: 1em; border: 1px solid rgb(221, 221, 221); color=
+: black; background-color: rgb(249, 249, 249); }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; line-height: 1.5em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; }
+  select { vertical-align: top; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning { border: 1px solid rgb(170, 170, 170); backgroun=
+d-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc, .toc { display: table; zoom: 1; padding: 7px; }
+  table#toc, table.toc { border-collapse: collapse; }
+  table#toc td, table.toc td { padding: 0px; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  #toc .toctoggle, .toc .toctoggle { font-size: 94%; }
+  .toccolours { border: 1px solid rgb(170, 170, 170); background-color: rgb=
+(249, 249, 249); padding: 5px; font-size: 95%; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+rgb(249, 249, 249); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; font-size: 94%; pa=
+dding: 3px !important; }
+  div.magnify { margin-left: 3px; border: none !important; background: none=
+ !important; }
+  div.magnify a, div.magnify img { display: block; border: none !important;=
+ background: none !important; }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  #editform textarea { display: block; box-sizing: border-box; }
+  #userlogin, #userloginForm { border: 1px solid rgb(204, 204, 204); paddin=
+g: 1.2em; margin: 0.5em; }
+  #loginend { margin: 0.5em; }
+  #loginend table { width: 100%; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading, #firstHeading { margin-bottom: 0.1em; line-height: 1.2em; =
+padding-bottom: 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(125, 125, 125); width: auto; }
+  span.subpages { display: block; }
+}
+
+@media screen {
+  html { font-size: 1em; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-s=
+erif; }
+  body { background-color: rgb(246, 246, 246); font-size: 1em; }
+  div#content { line-height: 1.5em; margin-left: 10em; padding: 1.5em 1.5em=
+ 1.5em 1.75em; border-width: 1px 0px 1px 1px; border-style: solid; border-c=
+olor: rgb(167, 215, 249); border-image: initial; margin-top: -1px; backgrou=
+nd-color: white; color: black; direction: ltr; }
+  #mw-navigation h2 { position: absolute; top: -9999px; }
+  #mw-page-base { height: 5em; background-color: white; background-image: u=
+rl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAsCAIAAAArRUU2AAAAO=
+klEQVR42lWNWwoAQAgCde9/59mgF30EOmgKeJLmUHjGpzbBdXnl6F5oV5/J9e/tr/czydmt7RT3=
+3floBCM5ZQLqdwAAAABJRU5ErkJggg=3D=3D"); background-position: left bottom; b=
+ackground-repeat: repeat-x; }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; }
+  div#mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  div#mw-head h3 { margin: 0px; padding: 0px; }
+  div.emptyPortlet { display: none; }
+  #p-personal { position: absolute; top: 0.33em; right: 0.75em; z-index: 10=
+0; }
+  #p-personal h3 { display: none; }
+  #p-personal ul { list-style-type: none; list-style-image: none; margin: 0=
+px; padding-left: 10em; }
+  #p-personal li { line-height: 1.125em; float: left; margin-left: 0.75em; =
+margin-top: 0.5em; font-size: 0.75em; white-space: nowrap; }
+  #left-navigation { float: left; margin-left: 10em; margin-top: 2.5em; mar=
+gin-bottom: -2.5em; display: inline; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  div.vectorTabs h3, div.vectorMenu h3 span { display: none; }
+  div.vectorTabs { float: left; height: 2.5em; }
+  div.vectorTabs { background-image: url("data:image/png;base64,iVBORw0KGgo=
+AAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3hLKk=
+gGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAASUVOR=
+K5CYII=3D"); background-position: left bottom; background-repeat: no-repeat=
+; padding-left: 1px; }
+  div.vectorTabs ul { float: left; height: 100%; list-style-type: none; lis=
+t-style-image: none; margin: 0px; padding: 0px; }
+  div.vectorTabs ul li { float: left; line-height: 1.125em; display: inline=
+-block; height: 100%; margin: 0px; padding: 0px; background-color: rgb(243,=
+ 243, 243); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSU=
+hEUgAAAAEAAABkCAIAAADITs03AAAAPElEQVR4XuWK2xEAIAzCsPvv5DSu0ahX3yv4wQVyGGCSv=
+g2dnJvduT8sz/IwKOIfjCi2z/76FhHeJcslVZQFLUC06LZ/AAAAAElFTkSuQmCC"); backgrou=
+nd-position: left bottom; background-repeat: repeat-x; white-space: nowrap;=
+ }
+  div.vectorTabs ul > li { display: block; }
+  div.vectorTabs li.selected { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADUlEQVQIHWNoYBgWEACJ5TIB0K=
+9KcAAAAABJRU5ErkJggg=3D=3D"); }
+  div.vectorTabs li a { display: inline-block; height: 1.9em; padding-left:=
+ 0.5em; padding-right: 0.5em; color: rgb(6, 69, 173); cursor: pointer; font=
+-size: 0.8em; }
+  div.vectorTabs li > a { display: block; }
+  div.vectorTabs li.icon a { background-position: right bottom; background-=
+repeat: no-repeat; }
+  div.vectorTabs span a { display: inline-block; padding-top: 1.25em; }
+  div.vectorTabs span > a { float: left; display: block; }
+  div.vectorTabs span { display: inline-block; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42m=
+VO2wrAUAhy/f8fz+niVMTYQ3hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7=
+l+2K+EFX91B1daOi7sAAAAASUVORK5CYII=3D"); background-position: right bottom;=
+ background-repeat: no-repeat; }
+  div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  div.vectorTabs li.new a, div.vectorTabs li.new a:visited { color: rgb(165=
+, 88, 88); }
+  div.vectorMenu { direction: ltr; float: left; background-image: linear-gr=
+adient(transparent, transparent), url("data:image/svg+xml;base64,PD94bWwgdm=
+Vyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlY=
+XRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2Zwog=
+ICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmN=
+jPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3=
+d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwO=
+i8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAv=
+c3ZnIgogICB2ZXJzaW9uPSIxLjEiCiAgIHdpZHRoPSIyMiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ=
+9InN2ZzIiPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPS=
+JtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphY=
+m91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAg=
+ICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2R=
+jL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+Ci=
+AgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgd=
+HJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAg=
+IDxwYXRoCiAgICAgICBkPSJNIDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQ=
+yNCA2LjM2NjY2NDksMy43NzI5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMD=
+c3OTEsMCwwLDEuNTc2NjE2LC0xMS44ODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoM=
+jk4NSIKICAgICAgIHN0eWxlPSJmaWxsOiM3OTc5Nzk7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5v=
+bmUiIC8+CiAgPC9nPgo8L3N2Zz4K"); background-position: 100% 60%; background-r=
+epeat: no-repeat; cursor: pointer; }
+  div.vectorMenuFocus { background-image: linear-gradient(transparent, tran=
+sparent), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZG=
+luZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlI=
+ChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDov=
+L3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmV=
+jb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi=
+8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL=
+3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIx=
+LjEiCiAgIHdpZHRoPSIyMiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiA=
+gICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPH=
+JkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8Z=
+GM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAg=
+ICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1=
+hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KIC=
+AgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhd=
+GUoMCwtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJN=
+IDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI=
+5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMDc3OTEsMCwwLDEuNTc2NjE2LC=
+0xMS44ODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoMjk4NSIKICAgICAgIHN0eWxlP=
+SJmaWxsOiM5MjkyOTI7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgPC9nPgo8L3N2=
+Zz4K"); background-position: 100% 60%; }
+  body.rtl div.vectorMenu { direction: rtl; }
+  div#mw-head div.vectorMenu h3 { float: left; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42m=
+VO2wrAUAhy/f8fz+niVMTYQ3hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7=
+l+2K+EFX91B1daOi7sAAAAASUVORK5CYII=3D"); background-repeat: no-repeat; back=
+ground-position: left bottom; margin-left: -1px; }
+  div#mw-head div.vectorMenu > h3 { background-image: none; }
+  div#mw-head div.vectorMenu h4, div.vectorMenu#p-variants #mw-vector-curre=
+nt-variant { display: inline-block; float: left; font-size: 0.8em; padding-=
+left: 0.5em; padding-top: 1.375em; font-weight: normal; border: none; }
+  div.vectorMenu h3 a { display: inline-block; width: 24px; height: 1.9em; =
+text-decoration: none; background-image: url("data:image/png;base64,iVBORw0=
+KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3=
+hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAAS=
+UVORK5CYII=3D"); background-repeat: no-repeat; background-position: right b=
+ottom; }
+  div.vectorMenu h3 > a { display: block; }
+  div.vectorMenu div.menu { position: relative; display: none; clear: both;=
+ text-align: left; }
+  body.rtl div.vectorMenu div.menu { margin-left: 24px; }
+  body.rtl div.vectorMenu > div.menu { margin-left: auto; }
+  div.vectorMenu:hover div.menu, div.vectorMenu div.menuForceShow { display=
+: block; }
+  div.vectorMenu ul { position: absolute; background-color: white; border-w=
+idth: 0px 1px 1px; border-style: solid; border-color: silver; border-image:=
+ initial; list-style-type: none; list-style-image: none; padding: 0px; marg=
+in: 0px 0px 0px -1px; text-align: left; }
+  div.vectorMenu li { padding: 0px; margin: 0px; text-align: left; line-hei=
+ght: 1em; }
+  div.vectorMenu li a { display: inline-block; padding: 0.5em; white-space:=
+ nowrap; color: rgb(6, 69, 173); cursor: pointer; font-size: 0.8em; }
+  div.vectorMenu li > a { display: block; }
+  div.vectorMenu li.selected a, div.vectorMenu li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  #p-search h3 { display: none; }
+  #p-search { float: left; }
+  #p-search { margin-right: 0.5em; margin-left: 0.5em; }
+  #p-search form, #p-search input { margin: 0.4em 0px 0px; }
+  div#simpleSearch { display: block; width: 14em; height: 1.4em; margin-top=
+: 0.65em; position: relative; min-height: 1px; border: 1px solid rgb(170, 1=
+70, 170); color: black; background-color: white; background-image: url("dat=
+a:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAAJUlEQVQI=
+HQXBsQEAAAjDoND/73UWdnerhmHVsDQZJrNWVg3Dqge6bgMe6bejNAAAAABJRU5ErkJggg=3D=
+=3D"); background-position: left top; background-repeat: repeat-x; }
+  div#simpleSearch input:focus { outline: none; }
+  div#simpleSearch input { color: black; }
+  div#simpleSearch input.placeholder { color: rgb(153, 153, 153); }
+  div#simpleSearch input::-webkit-input-placeholder { color: rgb(153, 153, =
+153); }
+  div#simpleSearch input#searchInput { position: absolute; top: 0px; left: =
+0px; width: 90%; margin: 0px; padding: 0.2em 0px 0.2em 0.2em; outline: none=
+; border: none; font-size: 13px; background-color: transparent; direction: =
+ltr; }
+  div#simpleSearch button#searchButton { position: absolute; width: 10%; ri=
+ght: 0px; top: 0px; padding: 0.3em 0.4em 0.2em 0px; margin: 0px; border: no=
+ne; cursor: pointer; background-color: transparent; background-image: none;=
+ }
+  div#simpleSearch button#searchButton img { border: none; margin: -3px 0px=
+ 0px; padding: 0px; }
+  div#simpleSearch button#searchButton > img { margin: 0px; }
+  div#mw-panel { font-size: inherit; position: absolute; top: 160px; paddin=
+g-top: 1em; width: 10em; left: 0px; }
+  div#mw-panel div.portal { padding-bottom: 1.5em; direction: ltr; }
+  div#mw-panel div.portal h3 { font-weight: normal; color: rgb(68, 68, 68);=
+ padding: 0px 1.75em 0.25em 0.25em; cursor: default; border: none; font-siz=
+e: 0.75em; }
+  div#mw-panel div.portal div.body { padding-top: 0.5em; margin: 0px 0px 0p=
+x 1.25em; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhE=
+UgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIp=
+H1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC"); background-repeat: no-repeat; backgrou=
+nd-position: left top; }
+  div#mw-panel div.portal div.body ul { list-style-type: none; list-style-i=
+mage: none; padding: 0px; margin: 0px; }
+  div#mw-panel div.portal div.body ul li { line-height: 1.125em; padding: 0=
+px 0px 0.5em; margin: 0px; font-size: 0.75em; overflow-wrap: break-word; }
+  div#mw-panel div.portal div.body ul li a { color: rgb(6, 69, 173); }
+  div#mw-panel div.portal div.body ul li a:visited { color: rgb(11, 0, 128)=
+; }
+  div#footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; directi=
+on: ltr; }
+  div#footer ul { list-style-type: none; list-style-image: none; margin: 0p=
+x; padding: 0px; }
+  div#footer ul li { margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51=
+); font-size: 0.7em; }
+  div#footer #footer-icons { float: right; }
+  body.ltr div#footer #footer-places { float: left; }
+  div#footer #footer-info li { line-height: 1.4em; }
+  div#footer #footer-icons li { float: left; margin-left: 0.5em; line-heigh=
+t: 2em; text-align: right; }
+  div#footer #footer-places li { float: left; margin-right: 1em; line-heigh=
+t: 2em; }
+  #p-logo { position: absolute; top: -160px; left: 0px; width: 10em; height=
+: 160px; }
+  #p-logo a { display: block; width: 10em; height: 160px; background-repeat=
+: no-repeat; background-position: center center; text-decoration: none; }
+  #preftoc { width: 100%; float: left; clear: both; background-image: url("=
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAhCAAAAAA90p5jAAAAAnRST=
+lMAAHaTzTgAAAAgSURBVAhbY2Bg+Mf0HwpBrH9Q8i8TAxDDeAiIUAHVBQDawh8M4pNxOQAAAABJ=
+RU5ErkJggg=3D=3D"); background-position: left bottom; background-repeat: no=
+-repeat; margin: 0px !important; padding: 0px !important; }
+  #preftoc li { float: left; margin: 0px; padding: 0px 1px 0px 0px; height:=
+ 2.25em; white-space: nowrap; list-style-type: none; list-style-image: none=
+; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEA=
+AAAhCAAAAAA90p5jAAAAAnRSTlMAAHaTzTgAAAAgSURBVAhbY2Bg+Mf0HwpBrH9Q8i8TAxDDeAi=
+IUAHVBQDawh8M4pNxOQAAAABJRU5ErkJggg=3D=3D"); background-position: right bot=
+tom; background-repeat: no-repeat; }
+  #preftoc li:first-child { margin-left: 1px; }
+  #preftoc a, #preftoc a:active { display: inline-block; position: relative=
+; color: rgb(6, 69, 173); padding: 0.5em; text-decoration: none; background=
+-image: none; font-size: 0.9em; }
+  #preftoc a:hover, #preftoc a:focus { text-decoration: underline; }
+  #preftoc li.selected a { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAEAAAAhCAQAAACysAk0AAAAHElEQVQIW2P6z8DE8J+JgQGKQFwMhC=
+aIn4shCAC27Qc86OAoxwAAAABJRU5ErkJggg=3D=3D"); background-position: center b=
+ottom; background-repeat: repeat-x; color: rgb(51, 51, 51); text-decoration=
+: none; }
+  #preferences { float: left; width: 100%; margin: -2px 0px 0px; clear: bot=
+h; border: 1px solid rgb(204, 204, 204); background-color: rgb(250, 250, 25=
+0); }
+  #preferences fieldset { border-right: none; border-bottom: none; border-l=
+eft: none; border-image: initial; border-top: 1px solid rgb(204, 204, 204);=
+ }
+  #preferences fieldset.prefsection { border: none; padding: 0px; margin: 1=
+em; }
+  #preferences legend { color: rgb(102, 102, 102); }
+  #preferences fieldset.prefsection legend.mainLegend { display: none; }
+  #preferences td { padding-left: 0.5em; padding-right: 0.5em; }
+  .htmlform-tip { font-size: x-small; padding: 0.2em 2em; color: rgb(102, 1=
+02, 102); }
+  #preferences div.mw-prefs-buttons { padding: 1em; }
+  #preferences div.mw-prefs-buttons input { margin-right: 0.25em; }
+  ul { list-style-type: disc; list-style-image: url("data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXR=
+STlMAQObYZgAAABNJREFUCB1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII=3D"); =
+}
+  pre, .mw-code { line-height: 1.3em; }
+  #siteNotice { font-size: 0.8em; }
+  #firstHeading { padding-top: 0px; margin-top: 0px; font-size: 1.6em; }
+  #pt-userpage, #pt-anonuserpage, #pt-login { background-position: left top=
+; background-repeat: no-repeat; background-image: linear-gradient(transpare=
+nt, transparent), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIi=
+BlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua=
+3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0i=
+aHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3J=
+lYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMT=
+k5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZ=
+y8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxu=
+czp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKICAgdmVyc2lvbj0iMS4xIgo=
+gICB3aWR0aD0iMTIiCiAgIGhlaWdodD0iMTMuODM3NDU4IgogICBpZD0ic3ZnMjEwOCI+CiAgPG=
+1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjgiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb=
+3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4=
+bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0=
+iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOn=
+RpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ld=
+GFkYXRhPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMzIj4KICAgIDxsaW5lYXJHcmFkaWVudAogICAg=
+ICAgaWQ9ImxpbmVhckdyYWRpZW50NDM1NiI+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9=
+wNDM1OCIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMDtzdG9wLW9wYWNpdHk6MS=
+IKICAgICAgICAgb2Zmc2V0PSIwIiAvPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDQzN=
+jAiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjAiCiAg=
+ICAgICAgIG9mZnNldD0iMSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3J=
+hZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDQzNDQiPgogICAgICA8c3RvcAogICAgIC=
+AgICBpZD0ic3RvcDQzNDYiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiM3MjdlMGE7c3Rvc=
+C1vcGFjaXR5OjEiCiAgICAgICAgIG9mZnNldD0iMCIgLz4KICAgICAgPHN0b3AKICAgICAgICAg=
+aWQ9InN0b3A0MzQ4IgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojNWI2NTA4O3N0b3Atb3B=
+hY2l0eToxIgogICAgICAgICBvZmZzZXQ9IjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIC=
+AgPGxpbmVhckdyYWRpZW50CiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0MzM4Ij4KICAgICAgP=
+HN0b3AKICAgICAgICAgaWQ9InN0b3A0MzQwIgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjoj=
+ZTliMTVlO3N0b3Atb3BhY2l0eToxIgogICAgICAgICBvZmZzZXQ9IjAiIC8+CiAgICAgIDxzdG9=
+wCiAgICAgICAgIGlkPSJzdG9wNDM0MiIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6Izk2Nj=
+QxNjtzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIxIiAvPgogICAgPC9saW5lYXJHc=
+mFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50NDE2=
+MyI+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wNDE2NSIKICAgICAgICAgc3R5bGU9InN=
+0b3AtY29sb3I6IzNiNzRiYztzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIwIiAvPg=
+ogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDQxNjciCiAgICAgICAgIHN0eWxlPSJzdG9wL=
+WNvbG9yOiMyZDU5OTA7c3RvcC1vcGFjaXR5OjEiCiAgICAgICAgIG9mZnNldD0iMSIgLz4KICAg=
+IDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJ=
+HcmFkaWVudDM4MjQiPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDM4MjYiCiAgICAgIC=
+AgIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjEiCiAgICAgICAgIG9mZ=
+nNldD0iMCIgLz4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AzODI4IgogICAgICAgICBz=
+dHlsZT0ic3RvcC1jb2xvcjojYzljOWM5O3N0b3Atb3BhY2l0eToxIgogICAgICAgICBvZmZzZXQ=
+9IjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50CiAgICAgIC=
+BpZD0ibGluZWFyR3JhZGllbnQzODE2Ij4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AzO=
+DE4IgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwO3N0b3Atb3BhY2l0eToxIgog=
+ICAgICAgICBvZmZzZXQ9IjAiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wMzgyMCI=
+KICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMDtzdG9wLW9wYWNpdHk6MCIKICAgIC=
+AgICAgb2Zmc2V0PSIxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFka=
+WVudAogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50MzgwMCI+CiAgICAgIDxzdG9wCiAgICAgICAg=
+IGlkPSJzdG9wMzgwMiIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I2Y0ZDliMTtzdG9wLW9=
+wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIwIiAvPgogICAgICA8c3RvcAogICAgICAgICBpZD=
+0ic3RvcDM4MDQiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiNkZjk3MjU7c3RvcC1vcGFja=
+XR5OjEiCiAgICAgICAgIG9mZnNldD0iMSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8=
+cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOS4zNDQ5MzEiCiAgICAgICBjeT0iMTcuMDY0MDc=
+3IgogICAgICAgcj0iOS4xNjIwNTc5IgogICAgICAgZng9IjI5LjM0NDkzMSIKICAgICAgIGZ5PS=
+IxNy4wNjQwNzciCiAgICAgICBpZD0icmFkaWFsR3JhZGllbnQzODA2IgogICAgICAgeGxpbms6a=
+HJlZj0iI2xpbmVhckdyYWRpZW50MzgwMCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFj=
+ZU9uVXNlIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICA=
+gICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMT=
+I2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50MzgyM=
+iIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVu=
+dFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE=
+9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzAuOTM1OTIxIg=
+ogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDM4MzAiCiAgI=
+CAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZGllbnRVbml0=
+cz0idXNlclNwYWNlT25Vc2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOC4=
+wODk3NDEiCiAgICAgICBjeT0iMjcuMjAzMDgzIgogICAgICAgcj0iMTMuNTY1MzYiCiAgICAgIC=
+BmeD0iMjguMDg5NzQxIgogICAgICAgZnk9IjI3LjIwMzA4MyIKICAgICAgIGlkPSJyYWRpYWxHc=
+mFkaWVudDQxNjkiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ0MTYzIgogICAg=
+ICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9=
+ybT0ibWF0cml4KDEuMjk3NTY0LDAsMCwwLjg4NDgzMSwtOC4zNTg1MDUsNC45NDA0NjkpIiAvPg=
+ogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMjkuMzQ0OTMxIgogICAgICAgY3k9IjE3L=
+jA2NDA3NyIKICAgICAgIHI9IjkuMTYyMDU3OSIKICAgICAgIGZ4PSIyOS4zNDQ5MzEiCiAgICAg=
+ICBmeT0iMTcuMDY0MDc3IgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDE3MSIKICAgICAgIHh=
+saW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MDAiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2=
+VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC43ODc5OTgsM=
+CwwLDAuNzg3OTk4LDYuMjIxMTk4LDMuNjE3NjI3KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAog=
+ICAgICAgeDE9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzA=
+uOTM1OTIxIgogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudD=
+QxNzUiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZ=
+GllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0idHJh=
+bnNsYXRlKDAuNzA3MTA4LDApIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzE=
+uMTEyNjk4IgogICAgICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgIC=
+AgIGZ4PSIzMS4xMTI2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhb=
+EdyYWRpZW50NDE3OSIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAg=
+ICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWV=
+udAogICAgICAgeDE9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj=
+0iMzAuOTM1OTIxIgogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFka=
+WVudDQzMjYiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAg=
+Z3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0=
+idHJhbnNsYXRlKC0xMi40MTc4OSwtNykiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIG=
+N4PSIyOS4zNDQ5MzEiCiAgICAgICBjeT0iMTcuMDY0MDc3IgogICAgICAgcj0iOS4xNjIwNTc5I=
+gogICAgICAgZng9IjI5LjM0NDkzMSIKICAgICAgIGZ5PSIxNy4wNjQwNzciCiAgICAgICBpZD0i=
+cmFkaWFsR3JhZGllbnQ0MzI4IgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM=
+zOCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbn=
+RUcmFuc2Zvcm09Im1hdHJpeCgwLjc4Nzk5OCwwLDAsMC43ODc5OTgsNi4yMjExOTgsMy42MTc2M=
+jcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICAgICAg=
+Y3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMTI2OTg=
+iCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDMzMCIKIC=
+AgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVudFVua=
+XRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjMw=
+LjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzAuOTM1OTIxIgogICA=
+gICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDQzMzIiCiAgICAgIC=
+B4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZGllbnRVbml0cz0id=
+XNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMy4x=
+MjUsLTcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICA=
+gICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMT=
+I2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDMzN=
+iIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVu=
+dFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxyYWRpYWxHcmFkaWVudAogICAgICAgY3g=
+9IjE2LjIxNDc0MSIKICAgICAgIGN5PSIxOS44MzY0NjgiCiAgICAgICByPSIxMy41NjUzNiIKIC=
+AgICAgIGZ4PSIxNi4yMTQ3NDEiCiAgICAgICBmeT0iMTkuODM2NDY4IgogICAgICAgaWQ9InJhZ=
+GlhbEdyYWRpZW50NDM1MCIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNDQi=
+CiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJ=
+hbnNmb3JtPSJtYXRyaXgoMSwwLDAsMC42ODE5MTcsMCw4LjIzMzc3MykiIC8+CiAgICA8bGluZW=
+FyR3JhZGllbnQKICAgICAgIHgxPSIyMC42NjE2OTUiCiAgICAgICB5MT0iMzUuODE3OTc0IgogI=
+CAgICAgeDI9IjIyLjYyNjkyNSIKICAgICAgIHkyPSIzNi4yMTc3NTgiCiAgICAgICBpZD0ibGlu=
+ZWFyR3JhZGllbnQ0MzYyIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiI=
+KICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcm=
+Fuc2Zvcm09Im1hdHJpeCgwLjk4MzM3NSwwLjE4MTU4OCwtMC4xODE1ODgsMC45ODMzNzUsNi4yM=
+zE3MTYsLTIuNjUxNDY2KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4=
+Njc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICAgICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHk=
+yPSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0MzY2IgogICAgICAgeGxpbm=
+s6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTc=
+GFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4y=
+MTAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNTUuMTA5NiwtMy45NDUyMDkpIiAvPgogICAgPGxpbmV=
+hckdyYWRpZW50CiAgICAgICB4MT0iMjAuNjYxNjk1IgogICAgICAgeTE9IjM1LjgxNzk3NCIKIC=
+AgICAgIHgyPSIyMi42MjY5MjUiCiAgICAgICB5Mj0iMzYuMjE3NzU4IgogICAgICAgaWQ9Imxpb=
+mVhckdyYWRpZW50NDM3MiIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNTYi=
+CiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJ=
+hbnNmb3JtPSJtYXRyaXgoMC45ODMzNzUsMC4xODE1ODgsLTAuMTgxNTg4LDAuOTgzMzc1LC03Lj=
+A3MjEyLC05LjgyNDkyKSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4N=
+jc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICAgICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHky=
+PSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0Mzc0IgogICAgICAgeGxpbms=
+6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcG=
+FjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4yM=
+TAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNDEuODA1NzYsLTExLjExODY2KSIgLz4KICAgIDxsaW5l=
+YXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4Njc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICA=
+gICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHkyPSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZW=
+FyR3JhZGllbnQxMzY2IgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKI=
+CAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFu=
+c2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4yMTAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNDEuODA=
+1NzYsLTExLjExODY2KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIwLjY2MT=
+Y5NSIKICAgICAgIHkxPSIzNS44MTc5NzQiCiAgICAgICB4Mj0iMjIuNjI2OTI1IgogICAgICAge=
+TI9IjM2LjIxNzc1OCIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDEzNjkiCiAgICAgICB4bGlu=
+azpocmVmPSIjbGluZWFyR3JhZGllbnQ0MzU2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclN=
+wYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTgzMzc1LDAuMT=
+gxNTg4LC0wLjE4MTU4OCwwLjk4MzM3NSwtNy4wNzIxMiwtOS44MjQ5MikiIC8+CiAgICA8bGluZ=
+WFyR3JhZGllbnQKICAgICAgIHgxPSIzMC45MzU5MjEiCiAgICAgICB5MT0iMjkuNTUzNDg2Igog=
+ICAgICAgeDI9IjMwLjkzNTkyMSIKICAgICAgIHkyPSIzNS44MDM0ODYiCiAgICAgICBpZD0ibGl=
+uZWFyR3JhZGllbnQxMzcyIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50MzgyNC=
+IKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUc=
+mFuc2Zvcm09InRyYW5zbGF0ZSgtMTIuNDE3ODksLTcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50=
+CiAgICAgICBjeD0iMTYuMjE0NzQxIgogICAgICAgY3k9IjE5LjgzNjQ2OCIKICAgICAgIHI9IjE=
+zLjU2NTM2IgogICAgICAgZng9IjE2LjIxNDc0MSIKICAgICAgIGZ5PSIxOS44MzY0NjgiCiAgIC=
+AgICBpZD0icmFkaWFsR3JhZGllbnQxMzgxIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyY=
+WRpZW50NDM0NCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAg=
+Z3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwwLjY4MTkxNywwLDguMjMzNzczKSIgLz4=
+KICAgIDxyYWRpYWxHcmFkaWVudAogICAgICAgY3g9IjMxLjExMjY5OCIKICAgICAgIGN5PSIxOS=
+4wMDg2MjEiCiAgICAgICByPSI4LjY2MjA1NzkiCiAgICAgICBmeD0iMzEuMTEyNjk4IgogICAgI=
+CAgZnk9IjE5LjAwODYyMSIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVudDIyNDMiCiAgICAgICB4=
+bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODE2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXN=
+lclNwYWNlT25Vc2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOC4wODk3ND=
+EiCiAgICAgICBjeT0iMjcuMjAzMDgzIgogICAgICAgcj0iMTMuNTY1MzYiCiAgICAgICBmeD0iM=
+jguMDg5NzQxIgogICAgICAgZnk9IjI3LjIwMzA4MyIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVu=
+dDIyNDUiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ0MTYzIgogICAgICAgZ3J=
+hZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0ibW=
+F0cml4KDEuMjk3NTY0LDAsMCwwLjg4NDgzMSwtOC4zNTg1MDUsNC45NDA0NjkpIiAvPgogICAgP=
+GxpbmVhckdyYWRpZW50CiAgICAgICB4MT0iMzAuOTM1OTIxIgogICAgICAgeTE9IjI5LjU1MzQ4=
+NiIKICAgICAgIHgyPSIzMC45MzU5MjEiCiAgICAgICB5Mj0iMzUuODAzNDg2IgogICAgICAgaWQ=
+9ImxpbmVhckdyYWRpZW50MjI0NyIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudD=
+M4MjQiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxyYWRpY=
+WxHcmFkaWVudAogICAgICAgY3g9IjMxLjExMjY5OCIKICAgICAgIGN5PSIxOS4wMDg2MjEiCiAg=
+ICAgICByPSI4LjY2MjA1NzkiCiAgICAgICBmeD0iMzEuMTEyNjk4IgogICAgICAgZnk9IjE5LjA=
+wODYyMSIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVudDIyNDkiCiAgICAgICB4bGluazpocmVmPS=
+IjbGluZWFyR3JhZGllbnQzODE2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc=
+2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOS4zNDQ5MzEiCiAgICAgICBj=
+eT0iMTcuMDY0MDc3IgogICAgICAgcj0iOS4xNjIwNTc5IgogICAgICAgZng9IjI5LjM0NDkzMSI=
+KICAgICAgIGZ5PSIxNy4wNjQwNzciCiAgICAgICBpZD0icmFkaWFsR3JhZGllbnQyMjUxIgogIC=
+AgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50MzgwMCIKICAgICAgIGdyYWRpZW50VW5pd=
+HM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjc4=
+Nzk5OCwwLDAsMC43ODc5OTgsNi4yMjExOTgsMy42MTc2MjcpIiAvPgogICAgPGxpbmVhckdyYWR=
+pZW50CiAgICAgICB4MT0iMjAuNjYxNjk1IgogICAgICAgeTE9IjM1LjgxNzk3NCIKICAgICAgIH=
+gyPSIyMi42MjY5MjUiCiAgICAgICB5Mj0iMzYuMjE3NzU4IgogICAgICAgaWQ9ImxpbmVhckdyY=
+WRpZW50MjI1MyIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNTYiCiAgICAg=
+ICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3J=
+tPSJtYXRyaXgoMC45ODMzNzUsMC4xODE1ODgsLTAuMTgxNTg4LDAuOTgzMzc1LDYuMjMxNzE2LC=
+0yLjY1MTQ2NikiIC8+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIHgxPSIyMi42ODY3NjYiC=
+iAgICAgICB5MT0iMzYuMzkwNCIKICAgICAgIHgyPSIyMS40MDg0NTUiCiAgICAgICB5Mj0iMzUu=
+NzM5NjMyIgogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50MjI1NSIKICAgICAgIHhsaW5rOmhyZWY=
+9IiNsaW5lYXJHcmFkaWVudDQzNTYiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPbl=
+VzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuOTc3Njg1LDAuMjEwMDc1L=
+DAuMjEwMDc1LDAuOTc3Njg1LDU1LjEwOTYsLTMuOTQ1MjA5KSIgLz4KICA8L2RlZnM+CiAgPGcK=
+ICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNS4wMDAwMDM5LC0zMi4wNzAxMTIpIgogICAgIGl=
+kPSJsYXllcjEiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lIiAvPgogIDxnCiAgICAgdHJhbn=
+Nmb3JtPSJ0cmFuc2xhdGUoLTUuMDAwMDAzOSwtMzIuMDcwMTEyKSIKICAgICBpZD0ibGF5ZXIyI=
+gogICAgIHN0eWxlPSJkaXNwbGF5OmlubGluZSI+CiAgICA8ZwogICAgICAgdHJhbnNmb3JtPSJt=
+YXRyaXgoMC4zOTAxMjc5MywwLDAsMC4zOTAxMjc5MywtMS4wODkxNTc4LDI4LjIyOTc5KSIKICA=
+gICAgIGlkPSJnMjIzMCI+CiAgICAgIDxwYXRoCiAgICAgICAgIGQ9Im0gMzkuNzc0NzU1LDE5Lj=
+AwODYyMSBhIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAxIDEgLTE3LjMyNDExNSwwIDguNjYyMDU3O=
+Sw4LjY2MjA1NzkgMCAxIDEgMTcuMzI0MTE1LDAgeiIKICAgICAgICAgdHJhbnNmb3JtPSJtYXRy=
+aXgoMS43NzU1MSwwLDAsMC45NTkxODMsLTI0LjI1MzIyLDE4Ljc3MTUzKSIKICAgICAgICAgaWQ=
+9InBhdGg0MzA2IgogICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtmaWxsOnVybCgjcmFkaW=
+FsR3JhZGllbnQyMjQzKTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6b=
+m9uZTtzdHJva2Utd2lkdGg6MXB4O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNw=
+bGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgICA8cGF0aAogICAgICAgICBkPSJ=
+tIDI1Ljk4NjE3NCw0MS42MzYwMzkgMTAuNjA2NjAyLDAgYyAzLjAwNTIwNCwwIDUuOTgwNDg0LC=
+0xLjEwMTkzMiA3LjA3MTA2NywtNC4yNDI2NDEgMS4wMzU2MzksLTIuOTgyNDc2IDAuMTc2Nzc3L=
+C04LjY2MjA1OCAtNi41NDA3MzcsLTEzLjI1ODI1MiBsIC0xMi41NTExNDYsMCBjIC02LjcxNzUx=
+NCw0LjI0MjY0IC03LjU1Njk5MSwxMC4wNDQ4MzEgLTYuMDEwNDA3LDEzLjQzNTAyOCAxLjU3NTU=
+5NSwzLjQ1Mzc5IDQuMjQyNjQsNC4wNjU4NjUgNy40MjQ2MjEsNC4wNjU4NjUgeiIKICAgICAgIC=
+AgaWQ9InBhdGg0MzA4IgogICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtmaWxsOnVybCgjc=
+mFkaWFsR3JhZGllbnQyMjQ1KTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJv=
+a2U6IzIwNGE4NztzdHJva2Utd2lkdGg6MXB4O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1=
+saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjE7c3Ryb2=
+tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7bWFya2VyOm5vbmU7dmlzaWJpb=
+Gl0eTp2aXNpYmxlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxw=
+YXRoCiAgICAgICAgIGQ9Im0gMjYuNjkzMjgxLDI1LjcyNjEzNiBjIDMuMTgxOTgsMi44Mjg0Mjc=
+gNC41OTYxOTQsMTMuMDgxNDc2IDQuNTk2MTk0LDEzLjA4MTQ3NiAwLDAgMS40MTQyMTMsLTEwLj=
+I1MzA0OCAzLjg4OTA4NywtMTMuMjU4MjUyIGwgLTguNDg1MjgxLDAuMTc2Nzc2IHoiCiAgICAgI=
+CAgIGlkPSJwYXRoNDMxMCIKICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7ZmlsbDp1cmwo=
+I2xpbmVhckdyYWRpZW50MjI0Nyk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3R=
+yb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjFweDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libG=
+U7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgI=
+CAgZD0ibSAyOC45NzI3MjEsMjYuNzg2Nzk3IGMgMCwwIC0yLjE1MTMyMywxLjY2MDMzNSAtMS45=
+NjU5OTEsMy42NjA1MzMgLTIuMDQxMjI2LC0xLjgwMDc5NCAtMi4wOTk4NzMsLTUuMjUxNTI0IC0=
+yLjA5OTg3MywtNS4yNTE1MjQgbCA0LjA2NTg2NCwxLjU5MDk5MSB6IgogICAgICAgICBpZD0icG=
+F0aDQzMTIiCiAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZpbGw6IzcyOWZjZjtmaWxsL=
+W9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MXB4=
+O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp=
+2aXNpYmxlIiAvPgogICAgICA8cGF0aAogICAgICAgICBkPSJtIDI1LjkxNDg2Miw0MC41OTM5Mz=
+MgMTAuNDkzNDQ3LC0wLjAyMjEgYyAyLjYzOTcyMywwIDUuMjUzMTYxLC0wLjk2NzkxOSA2LjIxM=
+TExMiwtMy43MjY2NjcgMC45MDk2ODksLTIuNjE5NzYgLTAuMDk0NzIsLTcuNjA4NjE0IC01Ljk5=
+NTI3OSwtMTEuNjQ1ODM3IEwgMjUuMDk5NDE3LDI0Ljk1NjI2NCBjIC01LjkwMDU1NywzLjcyNjY=
+2NyAtNy4wNDI2Miw4LjgyMzIxOSAtNS42NjIwMjksMTIuMDQ0MTgyIDEuMzgwNTkyLDMuMjIwOT=
+YzIDMuMzk1MjExLDMuNTcxMzkgNi40Nzc0NzQsMy41OTM0ODcgeiIKICAgICAgICAgaWQ9InBhd=
+Gg0MzE0IgogICAgICAgICBzdHlsZT0ib3BhY2l0eTowLjIxNTE4OTg2O2NvbG9yOiMwMDAwMDA7=
+ZmlsbDpub25lO3N0cm9rZTojZmZmZmZmO3N0cm9rZS13aWR0aDowLjk5OTk5OTc2cHg7c3Ryb2t=
+lLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0Oj=
+Q7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZ=
+XQ6MDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZs=
+b3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAzMy40MTA3OTUsMjYuNzg=
+2Nzk3IGMgMCwwIDIuMTUxMzIzLDEuNjYwMzM1IDEuOTY1OTkxLDMuNjYwNTMzIDIuMDQxMjI2LC=
+0xLjgwMDc5NCAyLjA5OTg3MywtNS4yNTE1MjQgMi4wOTk4NzMsLTUuMjUxNTI0IGwgLTQuMDY1O=
+DY0LDEuNTkwOTkxIHoiCiAgICAgICAgIGlkPSJwYXRoNDMxNiIKICAgICAgICAgc3R5bGU9ImNv=
+bG9yOiMwMDAwMDA7ZmlsbDojNzI5ZmNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2R=
+kO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxcHg7bWFya2VyOm5vbmU7dmlzaWJpbGl0eTp2aX=
+NpYmxlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxwYXRoCiAgI=
+CAgICAgIGQ9Im0gMzkuNzc0NzU1LDE5LjAwODYyMSBhIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAx=
+IDEgLTE3LjMyNDExNSwwIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAxIDEgMTcuMzI0MTE1LDAgeiI=
+KICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMTI1LDMuNSkiCiAgICAgICAgIGlkPS=
+JwYXRoNDMxOCIKICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7ZmlsbDp1cmwoI3JhZGlhb=
+EdyYWRpZW50MjI0OSk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5v=
+bmU7c3Ryb2tlLXdpZHRoOjFweDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGx=
+heTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibS=
+AzOS43NzQ3NTUsMTkuMDA4NjIxIGEgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAtMTcuMzI0M=
+TE1LDAgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAxNy4zMjQxMTUsMCB6IgogICAgICAgICBp=
+ZD0icGF0aDQzMjAiCiAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZpbGw6dXJsKCNyYWR=
+pYWxHcmFkaWVudDIyNTEpO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZT=
+ojYzE3ZDExO3N0cm9rZS13aWR0aDoxcHg7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpb=
+mVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2Ut=
+ZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDttYXJrZXI6bm9uZTt2aXNpYmlsaXR=
+5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdG=
+gKICAgICAgICAgZD0ibSAzOS43NzQ3NTUsMTkuMDA4NjIxIGEgOC42NjIwNTc5LDguNjYyMDU3O=
+SAwIDEgMSAtMTcuMzI0MTE1LDAgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAxNy4zMjQxMTUs=
+MCB6IgogICAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjg3NzA5NSwwLDAsMC44NzcwOTUsMy4=
+4MjM5MjcsMi4zMzYyNjcpIgogICAgICAgICBpZD0icGF0aDQzMjIiCiAgICAgICAgIHN0eWxlPS=
+JvcGFjaXR5OjAuMTk2MjAyNTQ7Y29sb3I6IzAwMDAwMDtmaWxsOm5vbmU7c3Ryb2tlOiNmZmZmZ=
+mY7c3Ryb2tlLXdpZHRoOjEuMTQwMTI4MjVweDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2Ut=
+bGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxO3N0cm9=
+rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO21hcmtlcjpub25lO3Zpc2liaW=
+xpdHk6dmlzaWJsZTtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgICA8c=
+GF0aAogICAgICAgICBkPSJtIDIxLjg1MTc5LDQwLjc3NTE5NyBjIC0xLjI0NzYwNywtMC41NDQ5=
+NjkgLTEuODA1OTk0LC0xLjg1ODI3NyAtMS44MDU5OTQsLTEuODU4Mjc3IDAuODQxMjgxLC00LjA=
+2OTEzNiAzLjcxOTkyNSwtNy4wNDYyMTYgMy43MTk5MjUsLTcuMDQ2MjE2IDAsMCAtMi4yNzkzMj=
+EsNi40MTE1MTQgLTEuOTEzOTMxLDguOTA0NDkzIHoiCiAgICAgICAgIGlkPSJwYXRoNDM1NCIKI=
+CAgICAgICAgc3R5bGU9Im9wYWNpdHk6MC4yMjc4NDgwNztjb2xvcjojMDAwMDAwO2ZpbGw6dXJs=
+KCNsaW5lYXJHcmFkaWVudDIyNTMpO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N=
+0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxcHg7bWFya2VyOm5vbmU7dmlzaWJpbGl0eTp2aXNpYm=
+xlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxwYXRoCiAgICAgI=
+CAgIGQ9Im0gNDAuNzU3NDk3LDM5LjkxNjg0NiBjIDEuMjMxMjUxLC0wLjU4MDk3OCAxLjgwNDM4=
+LC0yLjAwMjMyMSAxLjgwNDM4LC0yLjAwMjMyMSAtMC45NTkxMiwtNC4wNDI5ODMgLTMuOTc2MTQ=
+5LC02Ljg0MjgyMSAtMy45NzYxNDksLTYuODQyODIxIDAsMCAyLjQ2NDU5Myw2LjM0MjYwMiAyLj=
+E3MTc2OSw4Ljg0NTE0MiB6IgogICAgICAgICBpZD0icGF0aDQzNjQiCiAgICAgICAgIHN0eWxlP=
+SJvcGFjaXR5OjAuMjI3ODQ4MDc7Y29sb3I6IzAwMDAwMDtmaWxsOnVybCgjbGluZWFyR3JhZGll=
+bnQyMjU1KTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJ=
+va2Utd2lkdGg6MXB4O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNwbGF5OmlubG=
+luZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg=3D=3D"); p=
+adding-left: 15px !important; }
+  .redirectText { font-size: 140%; }
+  .redirectMsg img { vertical-align: text-bottom; }
+  #bodyContent { position: relative; width: 100%; line-height: 1.5em; font-=
+size: 0.8em; }
+  .skin-vector .mw-notification-area { font-size: 0.8em; }
+  .skin-vector .mw-notification-area-layout { top: 7em; }
+  .skin-vector .mw-notification { background-color: rgba(255, 255, 255, 0.9=
+3); padding: 0.75em 1.5em; border: 1px solid rgb(167, 215, 249); border-rad=
+ius: 0.75em; box-shadow: rgba(0, 0, 0, 0.125) 0px 2px 10px 0px; }
+  #ca-unwatch.icon a, #ca-watch.icon a { margin: 0px; padding: 3.1em 0px 0p=
+x; outline: none; display: block; width: 26px; height: 0px; overflow: hidde=
+n; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFg=
+AAAAQCAMAAAClQEgHAAADAFBMVEXz+fv///91w/+t3P/G0NOh2v/N2evy/v665f/O7P7O8f/C5f=
++FuuePtcGW1v+O0f6g1v/a1cvCsnHx45T5+vzKwq2+rGN5xP/f2s/6+vme1v+b1P+HzP+W0v9zw=
+f+Uv86+rXT+/uuFxPTEsmWi3f/Y8v+z3/+Y1//k1IuZ2v9xxP/JtmTo7POJw+664v/C7f+xx+F+=
+tuPj5ufq7e2Ktsbs8fl9zP/R3vDD6v/Ny4v1/v+Gy/+zz6utvcKJxPLU7v+Ou87Wz768zJShydq=
+Usrx3xf//+9WUyvS02Oqn3v+j3frZ6M3i9v/Nw3uw3f+98/+Erb7It4iSuuLbx2uIrbqCteJxw/=
+++5v+Lzv/K1NXt/P+9rWi/soaxqZDPzMZsvv/r6ufy8O319vdovf/+/f3x7+qt3/++tqTy8vDf2=
+czIslD29vWq2v/8/Pu+rnfBs4hnu/+Rz/9uwP/V0s3n03fo5uGk1//HwK7Pu2nk3tPRybb57ave=
+2tPDsnaDyf/5+Pb6//+ozt/J4czO2ark9Py7q3T9/f78/f2SwPCTwdC0xMfd+f+R0f+W0unFvmj=
+R3Oyc0PqyxdvO6fmt2u7b4OHn6+zP2dp2uvHV4vP58szv/P/DvXP//M+AzP/x5avC0pP2+fyNs8=
+J/u+zU3em5rW16tejU7e2q19bA5fnVxXl0wf++2bLbynx8tdHh5/H16ar///zP1NvOvGjAs4/l5=
+rnv//+erbHLvGj///l+uufCtI/09fb6+/vO3PC93c/a8fmv3P/z9ficyuWw3/+our3BrnOHt+KR=
+1/+24v3Numje2dDW7+THysv7/PySr7r68saSoqrp//+gyt/G5/zFtXCou9KHu+rw8/eW0Pp3w/+=
+/s2DHt2rBsW388bKTyO/29/fMuGh+rL/B0+rJ5NzS8f3//eTG6fmLs7/HztfT2avWxHOYrcLd2d=
+DP1deYu+D///q5zujMumrs7u7//Nzt6+jJ9P/7/P6a1//17bnNwm3t7OjAxca7ycz4+fmn2f/19=
+PM9fBugAAAAAXRSTlMAQObYZgAAAjxJREFUeF6101OMLEEYhuH+h8batm3b9h7btm3btm3btm3b=
+mJ6amu2a9En25nxXnTdP/tRNU9r92EyxrnYT9v70UjW9fEIQKzTs2JS1y5yvVMuf3ANn2VyHr2t=
+rsfV14ZtesPqNQtLnA/Rje1oNgJUtWHpJtktafTY/QpKj8zuDJp/OBuibz5v0i1D1um04A+Bg36=
+xRK6KHTH0tlfqKZbtCPuv57VllvosPIX9wWFL6+EpQTyhOT7KTY2XSdZn77FS6f1jj/vxdAe7+s=
+WljueFludy9ooyrsT5Dq3xOxLMsUS6X+2BAxIwbBVRgPDB2nodh3WPMXmSAu7ejUCx1bdlZpbKy=
+UkluC3T+7jk/0QFNVyjyvqn9jieRgBc/kdLNotcjnN94darqxpfjXH9b2rTrbctx3raa6U80Rr0=
+087rGnyoeiA5EBgdSzLWehrqD00eiHz6qsik3a9teGeBN+v6Wmj7K9DsK7/ejAw95FLE/Raj3MC=
+D7Pke+NadBnWtKgZ4f7UF3z2jsXy1FB6bHkLCnEeqpJmRfoLTmcFKWm7n56/nEWZxST9uUJdjHV=
+ALEXQCAZBJ2mQnQwwhga02yj8uIchtZ/iWKX6jnd4ceiU70CM3EPhlcgn9WFD+GeSRsA7e8El7a=
+G8FNshdK+PPvjylR+AXo+U8rnBKOD5qTt1Ab7tkNpztPvuoOAU3Xd6e7wcXmFkRf5POW7gLZFGP=
+Sb0HeUOuHVOCfE33gNTTH98z7MPvgMHwvbO4//f/bX94WpZENI84pAAAAAElFTkSuQmCC"); }
+  #ca-unwatch.icon a { background-position: -43px 60%; }
+  #ca-watch.icon a { background-position: 5px 60%; }
+  #ca-unwatch.icon a:hover, #ca-unwatch.icon a:focus { background-position:=
+ -67px 60%; }
+  #ca-watch.icon a:hover, #ca-watch.icon a:focus { background-position: -19=
+px 60%; }
+  #ca-unwatch.icon a.loading, #ca-watch.icon a.loading { background-image: =
+url("data:image/gif;base64,R0lGODlhEAAQAMQfANra2uLi4vDw8PLy8ujo6Ozs7NbW1vj4=
++Pb29s7Oztzc3NTU1O7u7uDg4NHR0erq6v39/d7e3vz8/Pv7+/7+/tPT09jY2Pr6+tnZ2efn5/X=
+19eXl5ebm5vT09P///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAwAfACwAAAAAEAAQAAAFa+=
+Anjl9QkShacVqabp2XuKjjecHhStrjHDdIgtORiCyWSEZwud0mg0zEUhkYnNhsY/O5OCRZrEEwg=
+vzCkgqZhGiEB1wUgRGeAFKApqcjcJ5QCx4aFQEECX1/JAlJJBsVFRMkEBkXLhyVNJkhACH5BAkD=
+AB8ALAAAAAAQABAAAAV74CeO4hUQZEoGhqGqWzQtEnlYRCYMGSB5BkTKQCgUOBGPkjBIdQDKqBL=
+haJI4D6l0gylMRg6IVkmhNBIjxWBM8XAwHNFAIdYWDA0SRhNtKy0CJAUVEAcRAQJkFikZDg4EBB=
+0RDR4dGCkIEhAjFBsBDwovKo0BoioFQiMhACH5BAkDAB8ALAAAAAAQABAAAAWB4CeO5HeU33OVl=
+5IIpYEFh/QR1rYNZSMUAYVBwfBYbKRJwwPxFDxQjAbloECvHgMEBUBgPZTApjSxeL+eQGDUsQwk=
+aGhBcUBYinGI5GBIEBwEGhxwVwwLFgoRHQwECgIADRFXBgUfEygfEBEDTmuYIxAJFAYwnyMFABV=
+bpiMYGSghACH5BAkDAB8ALAAAAAAQABAAAAV+4CdKjWieKOJs6De1U5Zhg4YcmaG0kXcElQDtEW=
+kZPMgMBGlofQDIqK9pmhAADClSEDBtAICJROvR7EQGx5LsgQAOogKm0LhQ2IDRQRJRFKIHAh4XA=
+XknEw5REQsRBgAOEigRFBQEERofAgJiKBoZAgsXTicUDgYDoygNXU4hACH5BAUDAB8ALAAAAAAQ=
+ABAAAAV54Cd+EFBNY6p+hgCssOERGwSP3eZBgUIEG0xhdGFpPMjChjNoRD6XIGBDQVo9FIcogZn=
+srlbLQNRQfMEewVN0ERAaaE9AoDoECGj76lBBTxQwDlYBEQweGwwqEDIHCwIbBgAAFioUBgUOdC=
+IaBRwrBhUHNykQY6MfIQA7"); background-position: 5px 60%; }
+  #ca-unwatch.icon a span, #ca-watch.icon a span { display: none; }
+  div.vectorTabs ul { background-image: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3h=
+LKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAASU=
+VORK5CYII=3D"); background-position: right bottom; background-repeat: no-re=
+peat; }
+  .tipsy { font-size: 0.8em; }
+  body.vector-animateLayout div#content, body.vector-animateLayout div#foot=
+er, body.vector-animateLayout #left-navigation { transition: margin-left 25=
+0ms ease 0s, padding 250ms ease 0s; }
+  body.vector-animateLayout #p-logo { transition: left 250ms ease 0s; }
+  body.vector-animateLayout #mw-panel { transition: padding-right 250ms eas=
+e 0s; }
+  body.vector-animateLayout #p-search { transition: margin-right 250ms ease=
+ 0s; }
+  body.vector-animateLayout #p-personal { transition: right 250ms ease 0s; =
+}
+  body.vector-animateLayout #mw-head-base { transition: margin-left 250ms e=
+ase 0s; }
+  div#content a.external { background-position: right center; background-re=
+peat: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAA=
+AANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVElEQVR42n3PgQkAIAhEUXdqJ3dqJ3e6IoTPUSQc=
+gj4EQ5IlUiLE0Jil3PECXhcHGBhZ8kg4hwxAu3MZeCGeyFnAXp4hqNQPnt7QL0nADpD6wHccLvn=
+AKksq8iiaAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"https://"], .link-https { background-posi=
+tion: right center; background-repeat: no-repeat; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdUlEQVQ=
+YV2P4//8/Awxv3LThf0dXKxyD+DA5DEUg+tWrV2AaWTFcIboJyJrhCtGtRMcgebhpL2/4/v//Lv=
+n//x+7IRjIfn8v+P/t055gxZgKPzaC8Y/nMYQVLpnM8f/zo3AqKfzyOOL/h/sh/59c9sBUSIyvA=
+eRdJWjk4E//AAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"mailto:"], .link-mailto { background-posi=
+tion: right center; background-repeat: no-repeat; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAMFBMVEX=
+///////+IioX29vbq6unJx8O9vbvl5ePZ2NX7+/iysrLp5+KjoZyop6Oxrqrx8O1Uz2ohAAAAAX=
+RSTlMAQObYZgAAAENJREFUeNotxscBwCAMA0AsudAS9t82hnCvK2kAUQ6FCPSuzvy/x3wf0RFir=
+6KAnbKqMSstMEnZZW/0cWqNVMs6Lv8AS44BeHjFSEUAAAAASUVORK5CYII=3D"); padding-ri=
+ght: 13px; }
+  div#content a.external[href^=3D"news:"] { background-position: right cent=
+er; background-repeat: no-repeat; background-image: url("data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAe0lEQVR42o2QQQqAIBBFPbD=
+XCKJTGBTRIqJN7qL2gp5BcOEppvowSWSU8HDxn38GRVkV9AeIH+cuSilvxBhJKfUQEWR4iHjNcN=
+tBXly3Bbf3nnltZDHbiFHWOmCMuXDWIYM4TgNpPVMIIY1MIOv6lgQRiaat3z4ae5/ODo3dPZDhr=
+8jNAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"ftp://"], .link-ftp { background-position=
+: right center; background-repeat: no-repeat; background-image: url("data:i=
+mage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATElEQVR4XlX=
+IQQrAIAwAwfzej/QtPqQUepBiqR68bWMghOzeRpCCf4DsDb26OfDk0quxo8KtN6AEGtEzNh5eRs=
+bOx2RlHCw9YxSYR34KRKBV5WnY6QAAAABJRU5ErkJggg=3D=3D"); padding-right: 13px; =
+}
+  div#content a.external[href^=3D"irc://"], div#content a.external[href^=3D=
+"ircs://"], .link-irc { background-position: right center; background-repea=
+t: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAAN=
+SUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdElEQVR42n3Q3QqAIAwGUF8+iF4rCrwpewzxH7y3tnS=
+grAafMHaQqdj2tczL9BmYPyUEND8FuIda6y7GGBbCAGOtxaSUWEjIOVe89zyshSCEwO+oLtWahr=
+pXSylfCEeFhE51lBhjyTkjIjj+24gI1ltowOUGKEFJ6nMQqWQAAAAASUVORK5CYII=3D"); pad=
+ding-right: 13px; }
+  div#content a.external[href$=3D".ogg"], div#content a.external[href$=3D".=
+OGG"], div#content a.external[href$=3D".mid"], div#content a.external[href$=
+=3D".MID"], div#content a.external[href$=3D".midi"], div#content a.external=
+[href$=3D".MIDI"], div#content a.external[href$=3D".mp3"], div#content a.ex=
+ternal[href$=3D".MP3"], div#content a.external[href$=3D".wav"], div#content=
+ a.external[href$=3D".WAV"], div#content a.external[href$=3D".wma"], div#co=
+ntent a.external[href$=3D".WMA"], .link-audio { background-position: right =
+center; background-repeat: no-repeat; background-image: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAMFBMVEX///91fyrI0Xt=
+5gzPCzGuyv0bw8eubomu3u5qQlWafo4HV25q3w1CLljOEjjKRlHTuBCtpAAAAAXRSTlMAQObYZg=
+AAADdJREFUCFtjYGgUFBRnYBBSUlJkYDCCkIKCIFKAEUZmiohNdGRYs/XW6VgGkbhC1xcMjB8Y5=
+BMA6nkLTrUjfj0AAAAASUVORK5CYII=3D"); padding-right: 13px; }
+  div#content a.external[href$=3D".ogm"], div#content a.external[href$=3D".=
+OGM"], div#content a.external[href$=3D".avi"], div#content a.external[href$=
+=3D".AVI"], div#content a.external[href$=3D".mpeg"], div#content a.external=
+[href$=3D".MPEG"], div#content a.external[href$=3D".mpg"], div#content a.ex=
+ternal[href$=3D".MPG"], .link-video { background-position: right center; ba=
+ckground-repeat: no-repeat; background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAAAoAAAAKCAAAAACoWZBhAAAAAnRSTlMA/1uRIrUAAABbSURBVHjaL=
+Y2xCUAxCAVdXbAOWLrE663sAoJkhZA5UuQn8Ltr7o7O7iqifR/asJwzDZtGG8bh1QZpBizYUkkW=
+vApYcpGtyh9quiOMU5+GBo+rvVjNlBv7F9H4A3inRvd0XEi0AAAAAElFTkSuQmCC"); padding=
+-right: 13px; }
+  div#content a.external[href$=3D".pdf"], div#content a.external[href$=3D".=
+PDF"], div#content a.external[href*=3D".pdf#"], div#content a.external[href=
+*=3D".PDF#"], div#content a.external[href*=3D".pdf?"], div#content a.extern=
+al[href*=3D".PDF?"], .link-document { background-position: right center; ba=
+ckground-repeat: no-repeat; background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATklEQVR4XmXKQQqAMAwF0X/7XsSz9=
+CSKiyIIFRFcjMmihmiGbB5fqDCaQJ4j46pzYLUWe+cXZ6OVBhTS0srY2Njp/+XxXXZOLu6EUWAO=
+PX1vnwTBe6qQAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  #mw-panel.collapsible-nav .portal { background-position: left top; backgr=
+ound-repeat: no-repeat; background-image: url("data:image/png;base64,iVBORw=
+0KGgoAAAANSUhEUgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS=
+5youFW1UREfiIpH1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC"); margin: -11px 9px 10px 1=
+1px; padding: 0.25em 0px !important; }
+  #mw-panel.collapsible-nav .portal h3 { font-size: 0.75em; color: rgb(77, =
+77, 77); font-weight: normal; background-position: left center; background-=
+repeat: no-repeat; background-image: linear-gradient(transparent, transpare=
+nt), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0=
+iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodH=
+RwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1c=
+mwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21t=
+b25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1=
+yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zy=
+IKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIxLjEiC=
+iAgIHdpZHRoPSIxNiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiAgICAg=
+aWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjp=
+SREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm=
+9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgI=
+CAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2Ui=
+IC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDw=
+vcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC=
+wtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJNIDEwL=
+jAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI5OTMy=
+IHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMDc3OTEsMCwwLDEuNTc2NjE2LC0xNC4=
+zODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoMjk4NSIKICAgICAgIHN0eWxlPSJmaW=
+xsOiM3OTc5Nzk7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgPC9nPgo8L3N2Zz4K"=
+); padding: 4px 0px 3px 1.5em; margin-bottom: 0px; }
+  #mw-panel.collapsible-nav .portal h3:hover { cursor: pointer; text-decora=
+tion: none; }
+  #mw-panel.collapsible-nav .portal h3 a { color: rgb(77, 77, 77); text-dec=
+oration: none; }
+  #mw-panel.collapsible-nav .portal .body { margin: 0px 0px 0px 1.25em; pad=
+ding-top: 0px; display: none; background-image: none !important; }
+  #mw-panel.collapsible-nav .portal .body ul li { padding: 0.25em 0px; }
+  #mw-panel.collapsible-nav .portal.first { background-image: none; margin-=
+top: 0px; }
+  #mw-panel.collapsible-nav .portal.first h3 { display: none; }
+  #mw-panel.collapsible-nav .portal.persistent .body { display: block; marg=
+in-left: 0.5em; }
+  #mw-panel.collapsible-nav .portal.persistent h3 { padding-left: 0.7em; cu=
+rsor: default; background-image: none !important; }
+  #mw-panel.collapsible-nav .portal.collapsed h3 { color: rgb(6, 69, 173); =
+background-position: left center; background-repeat: no-repeat; background-=
+image: linear-gradient(transparent, transparent), url("data:image/svg+xml;b=
+ase64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vI=
+j8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8p=
+IC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8=
+iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOn=
+JkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sb=
+nM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cu=
+dzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIxLjEiCiAgIHdpZHRoPSIxNiIKICAgaGVpZ2h=
+0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZG=
+F0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgI=
+CAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2Rj=
+OmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDo=
+vL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPj=
+wvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhP=
+gogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtMTAzNi4wMjg4KSIKICAgICBpZD0i=
+bGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJNIDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc=
+2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im=
+1hdHJpeCgwLC0yLjczMDc3OTEsMS41NzY2MTYsMCwwLjA1MTQzODU1LDEwNjYuNDE0OCkiCiAgI=
+CAgICBpZD0icGF0aDI5ODUiCiAgICAgICBzdHlsZT0iZmlsbDojNzk3OTc5O2ZpbGwtb3BhY2l0=
+eToxO3N0cm9rZTpub25lIiAvPgogIDwvZz4KPC9zdmc+Cg=3D=3D"); margin-bottom: 0px;=
+ }
+  #mw-panel.collapsible-nav .portal.collapsed h3:hover { text-decoration: u=
+nderline; }
+  #mw-panel.collapsible-nav .portal.collapsed h3 a { color: rgb(6, 69, 173)=
+; }
+}
+
+@media screen and (min-width: 982px) {
+  div#content { margin-left: 11em; padding: 1.25em 1.5em 1.5em; }
+  #p-logo { left: 0.5em; }
+  div#footer { margin-left: 11em; padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  #p-search { margin-right: 1em; }
+  #left-navigation { margin-left: 11em; }
+  #p-personal { right: 1em; }
+  #mw-head-base { margin-left: 11em; }
+}
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+table.wikitable, table.prettytable { margin: 1em 1em 1em 0px; background: r=
+gb(249, 249, 249); border: 1px solid rgb(170, 170, 170); border-collapse: c=
+ollapse; }
+
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettyt=
+able td { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+
+table.wikitable th, table.prettytable th { background: rgb(242, 242, 242); =
+text-align: center; }
+
+table.wikitable caption, table.prettytable caption { margin-left: inherit; =
+margin-right: inherit; }
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/vector/images/search-ltr.png?303
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAAAAAC4QtCeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAAJ0Uk5TAP9bkSK1AAAAaklEQVQI12P4///u3NrauXf/AwHD//05YLAf
+xLmbl7/n48c9+Xn3gZxJYDGg/BQgpyznC4jzJacMmVOMrgxowMFPnw5CDIAZnbMLxAFaWl09txrE
+Y/gPAe87gTwY5//PmTmr4Jz/f699BgAmIHmp1XxJagAAAABJRU5ErkJggg==
+
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/common/images/linuxtv.png
+
+iVBORw0KGgoAAAANSUhEUgAAAIgAAAAkCAMAAABluoL1AAAAM1BMVEUAAABQUFDPz8////+vr68w
+MDBgYGDv7+8gICDf399wcHB/f39AQEAQEBC/v7+Pj4+fn5+1+UTSAAAACXBIWXMAAAsTAAALEwEA
+mpwYAAAAB3RJTUUH1AkMFC4xQ0sr6gAAAfxJREFUeNrtmMt6hCAMRpkJgzhc5P2ftgoUEy6SduXC
+bKZiJIfAn/BViMdYpgDgcwcQOOwBQbbsHP4Wh2Tz30cpdziYWzNoIVs4xz77o9t/XwBv4uyS2H2j
++fc+oqkCiC06n8fyvi+baK6Mhf3J5OkVdv7uAzJ9szazWLyO2gKKb3sgBjmXQZ9BIP8Sb5+qINRl
+EdokI/Np1jEIdn5xQWJmfDXLKi625tjJMtsYRAgtcXKnIIIeKttsValR51kKJfwQxJSv2CABxwj0
+hNEtIpECA8T8CUSnvbSHfUdtggQ8BJeFdQ2Csz0HET1VXIKgjE9Azj3kgNTKEDMQpIYJSPxTcUHS
+CoupGciKnGYg7/KeA8IwS3MMgglylkcOiLbYZiBkJhaIZ4I4ekTWaxBNBD4FKQr+h2r8JQi0LeAK
+RGxZh3OQtp1cgaAawgOJTxu3xE8LSQm40MgMEJlcpiCaStY1jjQg6agsEJsO1RQkVCmId58hSH1r
+YIDkfj4ECQnE1DN1py6jtaziuKzUX8WK8AoQSO5s0VTWRyuTroRjQKOOorrg5qx796Z60eWVbcp4
++Ua161fsa+jg4tSAWCxH0wNR3eVDus0OQFbBAlEdJ9kpn7+EvS639FKicHqxyTrL7ohVHXe3N79g
+R7sZXAzqe/fCTimRAHf5d8NjU/sB+94bqrXr5IoAAAAASUVORK5CYII=
+
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/common/images/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAANjElEQVR4Xu2ZeXBVVZ7HP3d5a17y
+sgcSEhISxCQINiCoiIoKbbt0K9qj7dCo1YujjY7d6Gjp6Exr6bTbjNNttwVqIbQiioIguAwow2KE
+kEACAVnyQvbtZXnv5e3v3nvmcatIUSyK4F8jn6pT9+R37jm/yvf93je/U5EAPB5PAfAScBlQwNlw
+jg5gK7CgtLS0Q2psbBwHVGUmcblcqKrKmXMOTdMIBoMMJAFmHBF4RVZW1q1utxvDMDh7ziHLMoFA
+gL6+vlVHBPaNHj3azffOOVpaWoKyEMKdVJwzRRgxjuLt/F+OYhiJH3wVCyFc6rBQQnAmdLUuISf/
+Dg7UvoSivUL2yF4GWheRIIu8olswETpICj9EZM6SrqZ1tDe9hCS6yc9WiAZbCPoeI2vkTLS4D82/
+dFjceLSXHxqyEIKzwWFvwqUuxKa9jzB0Aq1XEYvE6Wl9E29TOWHtEnydu2jZdRXRnleJBJo5Ha76
+r4+5Z9lWnl5Xz1FCcY1vIxhLcDKGjotHEzq+SJzHV9dwlC5/mNl//pQ739zM+zWtnC1CCNSjk9MV
+2jA0GFqB7P4FAKpjCFkWZGcKRFwH4UVVVLKtzzAQKSbk/YzM9BfJqYwz0O7HnvrkaeUqyU7l1dun
+c9PC9dQ09/H61oOg6FxTWkwkoTGlNJ3qZi9XluXzcV03U8rcrN7dimYYlGSlMqs8n0dW7uDBq8dT
+29JH51AQq5bCwz8p58OGJr5s7CGuGabwQojhD2dMMu+Pzx/FxgPdtPsD/Gr6eezt9LO7s5/fTB/3
+ncQFUM3JSTz4xnsXAjDr0vHcP/dS1n6xj4eeXscz919HY9MaFvx8AUPiVaT4JEhsREkYyNEYCSHj
+UgSxgESqqwNryrPoqqCnt5BNja/w5JxFLF56PaWjM/n7mmreXlvDjMmlPP/QzziW3e0DPPDeV9w0
+cTRv72jktiklXDwmm/ve2cb4EVms2OGnutVLtz9COKbzyZ4gjb1+ZpcXsPirRvpDUfLTnQQjCT6o
+a+bOaWV81NDKo6sDhOM6f7ltGgd6/Lywfs+wGFZFxuMN8IlooyQjDYussKGhh50dveYHJoQ4gwo+
+BZ9vO8QVk0t44JfTATjc0URvsItb5lQiScv46oNplE74LZlWG0ogiMOQsBkCCR0RA6wg6RLRhBPJ
+qqKFruTS89qZe9dK3PY83Kk/Zf4/Xs6fXtvAtvoTbWN0lounb5yE22HlgRXbsMoKFkUmrmv8uCKf
++e9VcW1FIZ80tHHfleebX2+X3YLbbuPiohGMSLMjIeGwqskh43ZaGT8yg7w0B9uae7CqMnZVRdPF
+sbZhVvBLt0xl3tJNPH/TVOa/s52xuWlcVpbHGWBW8EktwpViwyHbzLgW7+Wnkxfy4EYPFpYT8RYz
+anQG4Za9qDY/8ZiNxJDA0FLR0XG6YqS5EmjR5FA1DK9A5Q3ycl/mmokZdA4UMMbMB6nJPGku+wn5
+L8jPIM1uMeP3XVbBi1/Us6Ra5uqyQsrzU/nF1GKuHJtvije5MIu0klH8aWAXVU09lOSkMqkwmy+b
+eplWks2MMSP5qqnHrMi5U0tJsar887vb0YVBcbZrOHe6w2L68sOrqrl1QiklWS4kRWdqcfaZVK85
+pP3794vkndm84h1L3mWPMb3yfFYunAfA6s/q+PPC/+b1B1uwsoesFJVUETEroLY6HWtERREx9HAC
+MpLijIhSUDQA6TJDOiRUGz5xLxOuNVi9ZB6zZ5YBUH79M5QWZbP21Xv4JnRDmB6ZrGi+icFwjAyn
+7VvjgWgCp1VBleUT8ghAlSVCMY3HVtfyzM8m47KpfBdUVcXj8ZzagwUSIq6ZceHfSEnuE9w9x05O
+iYFdtZt+S8JgsCGV9FCcvj4f/TEHDosgI9KNL+EmK0chJTOG1WEhEb+Q9PSbufmGP6LYo8P5TrcP
+lyWGK/qbSHdYzXe+LZ5qU0+aV5YYjjutSlLcSaRYFXPvmXQR8ikXUcAeAyBh+xFtHVcz58qDOOyH
+iSkZhJRUIhEn/R0y4VicFtnJYL5Kp9tKh+ZC9YWRjliHpjAUdCJowt+9jlBUkEgofBs3/G0Dz63f
+w7G8uf0Q1/9tPe2+EKdLVVMvz362m6+7ffzhg+pTv9fYx4KVw+u8tuUQ79Z5TDsRAhZ8sINFWw6a
+ZzX1DfEvq2o4lreqPTz9Sf3J++CTDQkNRIo5t9jcWByzef6NSny910GvjjMSpa/fgrdTIxi3EkyR
+6IgOEbcbKE4ZS4pBJC5jd0KKbSbZYw8w5oJH+Z/VU9B0YziPieCE/NubvSyuOoQvHDNjyT0s3HyQ
+zY09DIZiw/sP9vjpHYqcsL+5f4i+YJSBUIwvPb1m9U8qzBpeH4rG8XiHhs/OdVv5sL51+KzFVY0s
+29Zszg/1Bvh0XzsTCzMoz3Ob525u7B7O5Q/HKc50UTky/QQdv/mqLGnD8X6vmw0NxTx+jxdZHsQI
+xijM1RlMtRMMyDgTNlK0KO6gTJYIEHWlYchxIhEVw7EOrXU8fZYVoOjYVHU4nzhF/vH56dgUhTUN
+rcydUkq1ZwCnTeHSMTlISPT5NOa9tYmeUAjdgLmTy1gwq5xARONXy7ZwsHcIp0UlM8VKXqrDFHqr
+p4c7ppSwqq6VJ9ftwqYq5LocaMLg5VsuYmx2OjUt/VwxNo+ooSX3mLqwqbGTCQWZKBJsO+zltsnF
+OG2mbXDP0hpmjM3FYhHs6ernpgmF3+EmF1EAMPQwBZmv8+lza7FIVQx1K4hBge50Mu4KA7cjSn44
+TJluJysWJ4qK6taRHTGCCUBWCcS92CJ38NQTaygv2spRhCZxMgwBcy4czUd7WgFYvqOZ6yoLzA5A
+kSUeWbODsTlutj10A6t+O5PFSfvY5unnqbUNaAmZ9fNns+yuy/EO6sR13bxENPcHaRsMJ/vrHTxz
+/RQ+f2A2t04cQ5XHa545c1yuOd/d5mPCKDdFWc7knhDbD/cz+/wCApEEjd4AsiThslpYUnXY7KVv
+n1bI4cEAnr7g8R586jYNpOGXpPAeFL2O19aMYd417UAORkoPYc2GvThC2awwmfuj9LcpBK0ymaMV
+SiYKtFQHbS0GJDRKShQ6wkt58s9vUXFBJSMKBCaKQHBi/lDM7HdZWt3I/i4/tR1efj97Op/v7zYt
+oaqli/K8DO5cusXsBASC9+o91HT08defX0KOy2aOf72hgndqDyMBKTaVjQe6uLAonRsn5gNw9/Ri
+3t55EH8kzrXlo5KVvRObReLS0SPoD8ZY29BG60CIf7suj4YuH6oiY1Ek9vf4eLpzFxvu/QmKBBLC
+7DyOaRrMccoKDkZ05NQQJq6ptEbvZsWWYqSMpaRnSPgGJWSHYl4k5AwYNUvFfdUoiq/OoLgiTsKm
+o6fYyau0YERstDSNRQtuALsVI+HiKLquE4kmOJ6EYZDvdjBtdC7z393BqCw7RZkpRDTNvHHZVIUZ
+ZbncdXEZv5xayu9nlvMPk4qJGzp9wRhH6Q9oCI7+0uCyqwxGohxLMKaR0A0qR7oJRjXer2vhkjHZ
+TCvJYVHVAZwWhXy30/Tqo63cCJeLSSPyePurNk7FsQKfYM4TxubQPRDnlaSf6bqBykXsqyulq/lx
+Nu0ZT2omSJKGKkeJYCdqsaGk5pN6QTpRp8AXEmBTCQWdFE+QGFf+Nfva0slTsklLc+AfivDX5NmK
+IjOmMOuE/MFogmhcZ87EIra19nBzZYkZ90diuO1W7qisZE1DCy6rSocvxKItHkoz05g3oYL5y2v5
+dF8HK2pbeXx1PYYQaIbBQDjKNeNGMhSEh1fuZPOhHn737nb2dvnMrz0ICtNTaeoPMDY3lYr85Nwb
+NP8eCCGIawaRhJZ86oDglTsmsWRvHR/v9CIbqrl2rBuYz927d4toNCr8fv9JR3Nb9/C8cf9K0dVS
+I3ZXvyG66ieK7l2jRP3WuaJzd4mItGeIfV8+JLrrzhOtm5zCszVd9O7LEV5PqWjc9RfR15gt2ve4
+xMG9nx9/9knHPUs2ik5vv+gf9Inf/X2TaO7ymvEHl20WDYe7hM/nF4++v1UUPfKWmPof74mPqlqG
+9z67ukaM/+NycfkLq8S/f7hNvPBxjdjpaRePvL/FXK/7uk/c+Lc1ovyJ5eL+tzYnxyZRfajNXFtd
+c0A89M6XR+Zmjl8v/kJsbDh8ZM18PrV6u9hzuFMseG+zGfukqlPcu3iLeP2LBvHcuh1HtTI1PaKt
+VF9fL8aNG0csFuN0adn7PLlFtzHY+iz5lQuJdEzEYvOiO3bTsfdWjJgH1Z7Abr2K/JJafJFFpGRe
+hL9nK2nZP0K15/D/HZvNxoEDB467yZ0mRRUPEw8fwJ7za8ye0p+OrA6QNTaLtPwbSYT+E13/DWk5
+F9M7eDMu5z8hq/vIKJg1nOuHgOnBZ/qfZKtzHBk5UwAIWysZ4lEAsgr+wMDgJeSUPYIvHiCr6Fb8
+oReJRbr4oZHUFqm2tlZUVFSQ9Ay+P85ht9vZt2/fcW3aOb53i1BjsZhf13X39+eN55AkybSHpLZB
+ORKJfNHb22uWtCzLnB3nSGpoatnT00NS2/XSmjVrKoAtZWVlmQUFBVitVs6cc8TjcTo6OmhsbBwA
+ZkgAy5cvLwBeBi4DRnA2nKMb2Ao8ePvtt3f8Hzi+11yfLqsyAAAAAElFTkSuQmCC
+
+------MultipartBoundary--SJ5fa1suN9qveJaPEHuLpLWBdhjkgHHJLsjYbsbyYW------

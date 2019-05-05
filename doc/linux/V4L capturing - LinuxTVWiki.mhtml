@@ -1,0 +1,3208 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://linuxtv.org/wiki/index.php/V4L_capturing
+Subject: V4L capturing - LinuxTVWiki
+Date: Sun, 5 May 2019 09:54:25 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----"
+
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: text/html
+Content-ID: <frame-D05CC3600A33EE27B6C40DCC6AD8F91C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/index.php/V4L_capturing
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>V4L capturing - LinuxTVWiki</title>
+<meta name=3D"generator" content=3D"MediaWiki 1.22.15">
+<link rel=3D"shortcut icon" href=3D"https://linuxtv.org/wiki/skins/common/i=
+mages/linuxtv-icon.png">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://linuxtv.org/wiki/opensearch_desc.php" title=3D"LinuxTVWiki (en)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://linuxtv.=
+org/wiki/api.php?action=3Drsd">
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"LinuxTVWiki =
+Atom feed" href=3D"https://linuxtv.org/wiki/index.php?title=3DSpecial:Recen=
+tChanges&amp;feed=3Datom">
+<link rel=3D"stylesheet" href=3D"https://linuxtv.org/wiki/load.php?debug=3D=
+false&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cshared%7Cs=
+kins.vector&amp;only=3Dstyles&amp;skin=3Dvector&amp;*">
+<style>
+.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .=
+mw-collapsible-toggle-li{list-style:none}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:4250852ed234=
+9a0d4d0fc6509a3e7d4c */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:=
+none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{=
+margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:w=
+hite;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:=
+-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-res=
+ults{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding=
+:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padd=
+ing:0.01em 0.25em;text-align:left}.suggestions-result-current{background-co=
+lor:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text=
+-align:left}.suggestions-special .special-query{color:black;font-style:ital=
+ic;text-align:left}.suggestions-special .special-hover{background-color:sil=
+ver}.suggestions-result-current .special-label,.suggestions-result-current =
+.special-query{color:white}.autoellipsis-matched,.highlight{font-weight:bol=
+d}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:9780324491b6=
+53a3780e2d029bdc140c */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-=
+index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedi=
+t{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-=
+height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dc=
+d9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;-webk=
+it-box-shadow:0 2px 5px 0 #ccc;box-shadow:0 2px 5px 0 #ccc;-webkit-transiti=
+on:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transiti=
+on:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all=
+ 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-fa=
+ded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;backgroun=
+d-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{bac=
+kground-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAM=
+AAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///=
+////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9Qg=
+DdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9W=
+iTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpEN=
+mvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1=
+R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/y=
+FeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMA=
+AQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ej=
+t8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVg=
+KgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq=
+2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceT=
+L/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(http=
+s://linuxtv.org/wiki/resources/mediawiki.action/images/green-checkmark.png?=
+2014-03-28T00:01:40Z)!ie;background-position:left}.postedit-close{position:=
+absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;lin=
+e-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:n=
+one;opacity:0.2;filter:alpha(opacity=3D20)}.postedit-close:hover{color:blac=
+k;text-decoration:none;opacity:0.4;filter:alpha(opacity=3D40)}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:97656de42ca0=
+3680251338cc8b4098f4 */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:h=
+over,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSu=
+ggest-link:focus{text-decoration:none;color:black}.suggestions-result-curre=
+nt a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-l=
+ink:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.sugge=
+stions-result-current a.mw-searchSuggest-link:focus{color:white}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:52b1797f70c7=
+e4094dfa4191101944e8 */</style><meta name=3D"ResourceLoaderDynamicStyles" c=
+ontent=3D"">
+<link rel=3D"stylesheet" href=3D"https://linuxtv.org/wiki/load.php?debug=3D=
+false&amp;lang=3Den&amp;modules=3Dsite&amp;only=3Dstyles&amp;skin=3Dvector&=
+amp;*">
+<style>a:lang(ar),a:lang(ckb),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang=
+(ur){text-decoration:none}
+/* cache key: linuxtvwikidb:resourceloader:filter:minify-css:7:bcb2e3aede4e=
+0315e0822cbffaf0bb3e */</style>
+
+
+
+
+<!--[if lt IE 7]><style type=3D"text/css">body{behavior:url("/wiki/skins/ve=
+ctor/csshover.min.htc")}</style><![endif]--></head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-V4L_capturing=
+ skin-vector action-view vector-animateLayout">
+		<div id=3D"mw-page-base" class=3D"noprint"></div>
+		<div id=3D"mw-head-base" class=3D"noprint"></div>
+		<div id=3D"content" class=3D"mw-body" role=3D"main">
+			<a id=3D"top"></a>
+			<div id=3D"mw-js-message" style=3D"display:none;"></div>
+						<h1 id=3D"firstHeading" class=3D"firstHeading" lang=3D"en"><span dir=
+=3D"auto">V4L capturing</span></h1>
+			<div id=3D"bodyContent">
+								<div id=3D"siteSub">From LinuxTVWiki</div>
+								<div id=3D"contentSub"></div>
+												<div id=3D"jump-to-nav" class=3D"mw-jump">
+					Jump to:					<a href=3D"https://linuxtv.org/wiki/index.php/V4L_capturi=
+ng#mw-navigation">navigation</a>, 					<a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#p-search">search</a>
+				</div>
+				<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-content=
+-ltr"><p>This page discusses how to capture analogue video for offline cons=
+umption (especially digitising old VHS tapes).  For information about strea=
+ming live video (e.g. webcams), see <a href=3D"https://linuxtv.org/wiki/ind=
+ex.php/Streaming-V4L" title=3D"Streaming-V4L">the streaming page</a>.  For =
+information about digital video (DVB), see <a href=3D"https://linuxtv.org/w=
+iki/index.php/TV_Related_Software" title=3D"TV Related Software">TV-related=
+ software</a>.
+</p>
+<div id=3D"toc" class=3D"toc"><div id=3D"toctitle"><h2>Contents</h2><span c=
+lass=3D"toctoggle">&nbsp;[<a href=3D"https://linuxtv.org/wiki/index.php/V4L=
+_capturing#" class=3D"internal" id=3D"togglelink">hide</a>]&nbsp;</span></d=
+iv>
+<ul>
+<li class=3D"toclevel-1 tocsection-1"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Overview"><span class=3D"tocnumber">1</span> <span c=
+lass=3D"toctext">Overview</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-2"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Recommended_process"><span class=3D"tocnumber">1.1</=
+span> <span class=3D"toctext">Recommended process</span></a></li>
+<li class=3D"toclevel-2 tocsection-3"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Suggested_software"><span class=3D"tocnumber">1.2</s=
+pan> <span class=3D"toctext">Suggested software</span></a></li>
+<li class=3D"toclevel-2 tocsection-4"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Choosing_formats"><span class=3D"tocnumber">1.3</spa=
+n> <span class=3D"toctext">Choosing formats</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-5"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Setting_up"><span class=3D"tocnumber">2</span> <span=
+ class=3D"toctext">Setting up</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-6"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Connecting_your_video"><span class=3D"tocnumber">2.1=
+</span> <span class=3D"toctext">Connecting your video</span></a></li>
+<li class=3D"toclevel-2 tocsection-7"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Finding_your_TV_norm"><span class=3D"tocnumber">2.2<=
+/span> <span class=3D"toctext">Finding your TV norm</span></a></li>
+<li class=3D"toclevel-2 tocsection-8"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Determining_your_video_device"><span class=3D"tocnum=
+ber">2.3</span> <span class=3D"toctext">Determining your video device</span=
+></a></li>
+<li class=3D"toclevel-2 tocsection-9"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#Determining_your_audio_device"><span class=3D"tocnum=
+ber">2.4</span> <span class=3D"toctext">Determining your audio device</span=
+></a></li>
+<li class=3D"toclevel-2 tocsection-10"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Getting_your_device_capabilities"><span class=3D"to=
+cnumber">2.5</span> <span class=3D"toctext">Getting your device capabilitie=
+s</span></a></li>
+<li class=3D"toclevel-2 tocsection-11"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Video_formats"><span class=3D"tocnumber">2.6</span>=
+ <span class=3D"toctext">Video formats</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-12"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Video_heights"><span class=3D"tocnumber">2.6.1</spa=
+n> <span class=3D"toctext">Video heights</span></a></li>
+<li class=3D"toclevel-3 tocsection-13"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Video_framerates"><span class=3D"tocnumber">2.6.2</=
+span> <span class=3D"toctext">Video framerates</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-2 tocsection-14"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Correcting_your_colour_settings"><span class=3D"toc=
+number">2.7</span> <span class=3D"toctext">Correcting your colour settings<=
+/span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-15"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Encoding_an_accurate_video"><span class=3D"tocnumbe=
+r">3</span> <span class=3D"toctext">Encoding an accurate video</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-16"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Handling_desynchronised_audio_and_video"><span clas=
+s=3D"tocnumber">3.1</span> <span class=3D"toctext">Handling desynchronised =
+audio and video</span></a></li>
+<li class=3D"toclevel-2 tocsection-17"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Measuring_audio_noise"><span class=3D"tocnumber">3.=
+2</span> <span class=3D"toctext">Measuring audio noise</span></a></li>
+<li class=3D"toclevel-2 tocsection-18"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Choosing_formats_2"><span class=3D"tocnumber">3.3</=
+span> <span class=3D"toctext">Choosing formats</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-19"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Transcoding_a_usable_video"><span class=3D"tocnumbe=
+r">4</span> <span class=3D"toctext">Transcoding a usable video</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-20"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Cleaning_audio"><span class=3D"tocnumber">4.1</span=
+> <span class=3D"toctext">Cleaning audio</span></a></li>
+<li class=3D"toclevel-2 tocsection-21"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Cleaning_video"><span class=3D"tocnumber">4.2</span=
+> <span class=3D"toctext">Cleaning video</span></a></li>
+<li class=3D"toclevel-2 tocsection-22"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Choosing_formats_3"><span class=3D"tocnumber">4.3</=
+span> <span class=3D"toctext">Choosing formats</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-23"><a href=3D"https://linuxtv.org/wiki/=
+index.php/V4L_capturing#Wrapping_it_all_up_in_a_script"><span class=3D"tocn=
+umber">5</span> <span class=3D"toctext">Wrapping it all up in a script</spa=
+n></a></li>
+</ul>
+</div>
+
+<h2><span class=3D"mw-headline" id=3D"Overview">Overview</span></h2>
+<p>Analogue video technology was largely designed before the advent of comp=
+uters, so accurately digitising a video is a difficult problem.  For exampl=
+e, software often assumes a constant frame rate throughout a video, but ana=
+logue technologies can deliver different numbers of frames from second to s=
+econd.  This page will present a framework for recording video, which you c=
+an alter for your specific requirements.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Recommended_process">Recommended proc=
+ess</span></h3>
+<p>Your workflow should look something like this:
+</p>
+<ol>
+<li> <b>Set your system up</b> - understand the quirks of your TV card, VCR=
+ etc.
+</li>
+<li> <b>Encode an accurate copy of the source video</b> - handle issues wit=
+h the analogue half of the system.  Do as little digital processing as poss=
+ible
+</li>
+<li> <b>Transcode a usable copy of the video</b> - convert the previous fil=
+e to something pleasing to use
+</li>
+<li> <b>Try the video and transcode again</b> - check whether the video wor=
+ks how you want, otherwise try some different settings
+</li>
+</ol>
+<p>Converting analogue input to a digital format is hard - VCRs overheat an=
+d damage tapes, computers use too much CPU and drop frames, disk drives fil=
+l up, etc.  Creating a <i>good</i> digital video is also hard - not all sof=
+tware supports all formats, overscan and background hiss distract the viewe=
+r, videos need to be split into useful chunks, and so on.  It's much easier=
+ to learn the process and produce a quality result if you tackle <i>encodin=
+g</i> in one step and <i>transcoding</i> in another.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Suggested_software">Suggested softwar=
+e</span></h3>
+<p>This page assumes you have installed the following programs:
+</p>
+<ul>
+<li> <a href=3D"https://linuxtv.org/wiki/index.php/GStreamer" title=3D"GStr=
+eamer">gst-launch-1.0</a> for capturing video (probably part of the <i>gstr=
+eamer1.0-tools</i> package)
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://ffmpeg.org/=
+">FFMpeg</a> for saving and editing video (probably part of the <i>ffmpeg</=
+i> package)
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://git.linuxtv=
+.org/v4l-utils.git">v4l-ctl</a> for controlling your video card (probably p=
+art of the <i>v4l-utils</i> package)
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://mpv.io/">mp=
+v</a> for viewing videos (probably part of the <i>mpv</i> package)
+</li>
+</ul>
+<p>There are alternatives for each of these (e.g. the older <i>0.10</i> ser=
+ies of <a href=3D"https://linuxtv.org/wiki/index.php/GStreamer" title=3D"GS=
+treamer">GStreamer</a> and the <i>libav</i> fork of <a rel=3D"nofollow" cla=
+ss=3D"external text" href=3D"http://ffmpeg.org/">FFMpeg</a>).  You should b=
+e able to modify the instructions below to suit your preferences.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Choosing_formats">Choosing formats</s=
+pan></h3>
+<p>When you create a video, you need to choose your <i>video format</i> (e.=
+g. XviD or MPEG-2), <i>audio format</i> (e.g. WAV or MP3) and <i>container =
+format</i> (e.g. AVI or MP4).  There's constant work to improve the <i>code=
+cs</i> that create audio/video and the <i>muxers</i> that create containers=
+, and whole new formats are invented fairly regularly, so this page can't r=
+ecommend any specific formats.  For example, as of late 2015 <a rel=3D"nofo=
+llow" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/MPEG-2"=
+>MPEG-2</a> is the most widely supported by older DVD players, <a rel=3D"no=
+follow" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/H.264=
+/MPEG-4_AVC">H.624</a> is becoming a de facto standard in modern web browse=
+rs, and people are waiting to see whether <a rel=3D"nofollow" class=3D"exte=
+rnal text" href=3D"https://en.wikipedia.org/wiki/High_Efficiency_Video_Codi=
+ng">HEVC</a> will be blocked by patent trolls.  That's probably enough to d=
+ecide which video codec is right for you in late 2015, but the facts will h=
+ave changed even by early 2016.
+</p><p>You'll need to do some research to find the currently-recommended fo=
+rmats.  Wikipedia's comparisons of <a rel=3D"nofollow" class=3D"external te=
+xt" href=3D"https://en.wikipedia.org/wiki/Comparison_of_audio_coding_format=
+s">audio</a>, <a rel=3D"nofollow" class=3D"external text" href=3D"https://e=
+n.wikipedia.org/wiki/Comparison_of_video_codecs">video</a> and <a rel=3D"no=
+follow" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/Compa=
+rison_of_container_formats">container</a> formats are a good place to start=
+.  Here are some important things to look for:
+</p>
+<ul>
+<li> <b>encoding speed</b> - during the encoding stage, using too much CPU =
+load will cause frame-drops as the computer tries to keep up
+</li>
+<li> <b>accuracy</b> - some formats are <i>lossless</i>, others throw away =
+information to improve speed and/or reduce file size
+</li>
+<li> <b>file size</b> - different formats use different amounts of disk spa=
+ce, even with the same accuracy
+</li>
+<li> <b>compatibility</b> - newer formats usually produce better results bu=
+t can't be played by older software
+</li>
+</ul>
+<p>Remember that you can use different formats in the <i>encode</i> and <i>=
+transcode</i> stages.  Speed and accuracy are most important when encoding,=
+ so you should use a modern, fast, low-loss format to create your initial a=
+ccurate copy of the source video.  But size and compatibility are most impo=
+rtant for playback, so you should transcode to a format that produces a sma=
+ller or more compatible file.  For example, as of late 2015 you might encod=
+e FLAC audio and x264 video into a Matroska file, then transcode MP3 audio =
+and MPEG-2 video into an AVI file.  You can examine the result and transcod=
+e again from the original if the file is too large or your grandmother's DV=
+D player won't play it.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Setting_up">Setting up</span></h2>
+<p>Before you can record a video, you need to set your system up and identi=
+fy the following information:
+</p>
+<ul>
+<li> connector type (RF, composite or S-video)
+</li>
+<li> TV norm (some variant of PAL, NTSC or SECAM)
+</li>
+<li> video device (<code>/dev/video<i>&lt;number&gt;</i></code>)
+</li>
+<li> audio device (<code>hw:CARD=3D<i>&lt;id&gt;</i>,DEV=3D<i>&lt;number&gt=
+;</i></code>)
+</li>
+<li> video capabilities (<code>video/x-raw, format=3DUYVY, framerate=3D<i>&=
+lt;fraction&gt;</i>, width=3D<i>&lt;int&gt;</i>, height=3D<i>&lt;int&gt;</i=
+>)
+</code></li><code>
+</code><li><code> audio capabilities (&lt;code&gt;audio/x-raw, rate=3D<i>&l=
+t;int&gt;</i>, channels=3D<i>&lt;int&gt;</i></code>)
+</li>
+<li> colour settings (optional - hue, saturation, brightness and contrast)
+</li>
+</ul>
+<p>This section will explain how to find these.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Connecting_your_video">Connecting you=
+r video</span></h3>
+<table>
+<tbody><tr>
+<td style=3D"text-align:right;"><a href=3D"https://linuxtv.org/wiki/index.p=
+hp/File:Rf-connector.png" class=3D"image"><img alt=3D"Rf-connector.png" src=
+=3D"https://linuxtv.org/wiki/images/6/67/Rf-connector.png" width=3D"85" hei=
+ght=3D"54"></a>
+</td>
+<td style=3D"text-align:center; font-weight: bold; color:#FF0000"> avoid
+</td>
+<td><a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikipedi=
+a.org/wiki/RF_connector">RF Connector</a>
+</td>
+<td> tends to create more noise than the alternatives.  Usually input #0, s=
+hows snow when disconnected
+</td></tr>
+<tr>
+<td style=3D"text-align:right;"><a href=3D"https://linuxtv.org/wiki/index.p=
+hp/File:Composite-video-connector.png" class=3D"image"><img alt=3D"Composit=
+e-video-connector.png" src=3D"https://linuxtv.org/wiki/images/e/ef/Composit=
+e-video-connector.png" width=3D"131" height=3D"74"></a>
+</td>
+<td style=3D"text-align:center; font-weight: bold; color:#00AA00"> use
+</td>
+<td><a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikipedi=
+a.org/wiki/Composite_video">Composite video connector</a>
+</td>
+<td> widely supported and produces a good signal.  Usually input #1, shows =
+blackness when disconnected
+</td></tr>
+<tr>
+<td style=3D"text-align:right;"><a href=3D"https://linuxtv.org/wiki/index.p=
+hp/File:S-video-connector.png" class=3D"image"><img alt=3D"S-video-connecto=
+r.png" src=3D"https://linuxtv.org/wiki/images/c/c4/S-video-connector.png" w=
+idth=3D"53" height=3D"63"></a>
+</td>
+<td style=3D"text-align:center; font-weight: bold; color:#777700"> use if a=
+vailable
+</td>
+<td><a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikipedi=
+a.org/wiki/S-Video">S-video connector</a>
+</td>
+<td> should produce a good video signal but most hardware needs a converter=
+.  Usually input #2, shows blackness when disconnected
+</td></tr></tbody></table>
+<p>Connect your video source (TV or VCR) to your computer however you can. =
+ Each type of connector has slightly different properties - try whatever yo=
+u can and see what works.  If you have a TV card that supports multiple inp=
+uts, you will need to specify the input number when you come to record.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Finding_your_TV_norm">Finding your TV=
+ norm</span></h3>
+<p>Most TV cards only support the TV norm of the country they were sold in =
+(e.g. PAL-I in the UK or NTSC-M in the Americas), but it's best to confirm =
+this just in case.  Wikipedia has <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"https://en.wikipedia.org/wiki/File:PAL-NTSC-SECAM.svg">a graph o=
+f colour systems by country</a> and <a rel=3D"nofollow" class=3D"external t=
+ext" href=3D"https://en.wikipedia.org/wiki/Broadcast_television_systems#ITU=
+_standards">a complete list of standards</a> with countries they're used in=
+.
+</p><p>If you like, you can store your TV norm in an environment variable:
+</p>
+<pre>TV_NORM=3D&lt;norm&gt;
+</pre>
+<p>For example, if your norm was <code>PAL-I</code>, you might type <code>T=
+V_NORM=3DPAL-I</code> into your terminal.  This guide will use <code>$TV_NO=
+RM</code> to refer to your video norm - if you choose not to set an environ=
+ment variable, you will need to replace instances of <code>$TV_NORM</code> =
+with your TV norm.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Determining_your_video_device">Determ=
+ining your video device</span></h3>
+<p>Once you have connected your input, you need to determine the name Linux=
+ gives it.  See all your video devices by doing:
+</p>
+<pre>ls /dev/video*
+</pre>
+<p>One of these is the device you want.  Most people only have one, or can =
+figure it out by disconnecting devices and rerunning the above command.  Ot=
+herwise, check the capabilities of each device:
+</p>
+<pre>for VIDEO_DEVICE in /dev/video*&nbsp;; do echo -e "\n\n$VIDEO_DEVICE\n=
+"&nbsp;; v4l2-ctl --device=3D$VIDEO_DEVICE --list-inputs&nbsp;; done
+</pre>
+<p>Usually you will see e.g. a webcam with a single input and a TV card wit=
+h multiple inputs.  If you're still not sure which one you want, try each o=
+ne in turn:
+</p>
+<pre>mpv av://v4l2:&lt;device&gt; tv:///&lt;whichever-input-number-you-conn=
+ected&gt;
+# or ...
+mpv --tv-device=3D&lt;device&gt; tv:///&lt;whichever-input-number-you-conne=
+cted&gt;  # only works in mpv v0.25.0 or lower
+</pre>
+<p>Before you start, plug everything in and start playing a tape in your VC=
+R.  That way you won't be confused by weird issues (like seeing snow instea=
+d of blackness from a composite cable, because <i>the VCR's</i> RF connecto=
+r is unplugged).  Usually input #0 is the RF connector, input #1 is the com=
+posite connector and input #2 is the S-video connector; but some video card=
+s are different so check your input numbers against the output of <code>v4l=
+2-ctl</code>.
+</p><p>If you like, you can store your device and input number in environme=
+nt variables:
+</p>
+<pre>VIDEO_DEVICE=3D&lt;device&gt;
+VIDEO_INPUT=3D&lt;whichever-input-number-you-connected&gt;
+</pre>
+<p>Further examples on this page will use <code>$VIDEO_DEVICE</code> and <c=
+ode>$VIDEO_INPUT</code> - you will need to replace these if you don't set e=
+nvironment variables.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Determining_your_audio_device">Determ=
+ining your audio device</span></h3>
+<p>See all of your audio devices by doing:
+</p>
+<pre>arecord -l
+</pre>
+<p>Again, it should be fairly obvious which of these is the right one.  Get=
+ the device names by doing:
+</p>
+<pre>arecord -L | grep ^hw:
+</pre>
+<p>If you're not sure which one you want, try each in turn:
+</p>
+<pre>mpv --tv-device=3D$VIDEO_DEVICE --tv-adevice=3D&lt;device&gt; tv:///$V=
+IDEO_INPUT  # mpv version 0.25.0 or lower
+</pre>
+<p>Again, you should hear your tape playing when you get the right one.  No=
+te: always use an ALSA <i>hw</i> device, as they are closest to the hardwar=
+e.  Pulse audio devices and ALSA's <i>plughw</i> devices add extra layers t=
+hat, while more convenient for most uses, only cause headaches for us.
+</p><p>Optionally set your device in an environment variable:
+</p>
+<pre>AUDIO_DEVICE=3D&lt;device&gt;
+</pre>
+<p>Further examples on this page will use <code>$AUDIO_DEVICE</code> in pla=
+ce of an actual audio device - you will need to replace this if you don't s=
+et environment variables.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Getting_your_device_capabilities">Get=
+ting your device capabilities</span></h3>
+<p>To find the capabilities of your video device, do:
+</p>
+<pre>gst-launch-1.0 --gst-debug=3Dv4l2src:5 v4l2src device=3D$VIDEO_DEVICE&=
+nbsp;! fakesink 2&gt;&amp;1 | sed -une '/caps of src/ s/[:;] /\n/gp'
+</pre>
+<p>To find the capabilities of your audio device, do:
+</p>
+<pre>gst-launch-1.0 --gst-debug=3Dalsa:5 alsasrc device=3D$AUDIO_DEVICE&nbs=
+p;! fakesink 2&gt;&amp;1 | sed -une '/returning caps/  s/[s;] /\n/gp'
+</pre>
+<p>You will need to press <kbd>ctrl+c</kbd> to close each of these programs=
+ when they've printed some output.  When you record your video, you will ne=
+ed to specify capabilities based on the ranges displayed here.  Some things=
+ to remember:
+</p>
+<ul>
+<li> audio <code>format</code> is optional (your software can decide this a=
+utomatically)
+</li>
+<li> video <code>format</code> (discussed below) should be optional, but as=
+ of 2015 a bug means you should specify <code>format=3DUYVY</code>
+</li>
+<li> video <code>height</code> (discussed below) should be the appropriate =
+height for your TV norm
+</li>
+<li> video <code>framerate</code> (discussed below) should be the appropria=
+te value for your TV norm, but may need to be tweaked for your hardware
+</li>
+<li> <code>pixel-aspect-ratio</code> will be set below - do not specify it =
+here
+</li>
+<li> for all other capabilities, just pick the highest number (or delete it=
+ altogether if there's only one choice)
+</li>
+</ul>
+<p>For example, if your TV norm was some variant of PAL and your video card=
+ showed these results:
+</p>
+<pre>$ gst-launch-1.0 --gst-debug=3Dv4l2src:5 v4l2src device=3D$VIDEO_DEVIC=
+E ! fakesink 2&gt;&amp;1 | sed -une '/caps of src/ s/[:;] /\n/gp'
+0:00:00.052071821 29657      0x139fc50 DEBUG                v4l2src gstv4l2=
+src.c:306:gst_v4l2src_negotiate:&lt;v4l2src0&gt; caps of src
+video/x-raw, format=3D(string)YUY2, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)UYVY, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)Y42B, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)I420, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)YV12, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)xRGB, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)BGRx, framerate=3D(fraction)25/1, width=3D(in=
+t)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, p=
+ixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)RGB, framerate=3D(fraction)25/1, width=3D(int=
+)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, pi=
+xel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)BGR, framerate=3D(fraction)25/1, width=3D(int=
+)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, pi=
+xel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)RGB16, framerate=3D(fraction)25/1, width=3D(i=
+nt)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, =
+pixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)RGB15, framerate=3D(fraction)25/1, width=3D(i=
+nt)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, =
+pixel-aspect-ratio=3D(fraction)54/59
+video/x-raw, format=3D(string)GRAY8, framerate=3D(fraction)25/1, width=3D(i=
+nt)[ 48, 720 ], height=3D(int)[ 32, 578 ], interlace-mode=3D(string)mixed, =
+pixel-aspect-ratio=3D(fraction)54/59
+</pre>
+<pre>$ gst-launch-1.0 --gst-debug=3Dalsa:5 alsasrc device=3D$AUDIO_DEVICE !=
+ fakesink 2&gt;&amp;1 | sed -une '/returning caps/  s/[s;] /\n/gp'
+0:00:00.039231863 30898      0x25fcde0 INFO                    alsa gstalsa=
+src.c:318:gst_alsasrc_getcaps:&lt;alsasrc0&gt; returning cap
+audio/x-raw, format=3D(string){ S16LE, U16LE }, layout=3D(string)interleave=
+d, rate=3D(int)32000, channels=3D(int)2, channel-mask=3D(bitmask)0x00000000=
+00000003
+audio/x-raw, format=3D(string){ S16LE, U16LE }, layout=3D(string)interleave=
+d, rate=3D(int)32000, channels=3D(int)1
+</pre>
+<p>Then you would select <code>video/x-raw, format=3DUYVY, framerate=3D25/1=
+, width=3D720, height=3D576</code> and <code>audio/x-raw, rate=3D32000, cha=
+nnels=3D2</code>
+</p><p>Once again, you can set your capabilities in an environment variable=
+, but you will need to put quote marks around them:
+</p>
+<pre>VIDEO_CAPABILITIES=3D"&lt;capabilities&gt;"
+AUDIO_CAPABILITIES=3D"&lt;capabilities&gt;"
+</pre>
+<p>For example, <code>AUDIO_CAPABILITIES=3D"audio/x-raw, rate=3D32000, chan=
+nels=3D2"</code>.  Further examples on this page will use <code>$VIDEO_CAPA=
+BILITIES</code> and <code>$AUDIO_CAPABILITIES</code> in place of actual cap=
+abilities - you will need to replace these if you don't set environment var=
+iables.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Video_formats">Video formats</span></=
+h3>
+<p>Different video formats will affect the colours in your video.  In pract=
+ice, most formats simply won't work, and <code>format=3DUYVY</code> or <cod=
+e>format=3DYUY2</code> will give the best results.  This section provides m=
+ore detail in case you need to make a different choice.
+</p><p>Computers usually describe colours using one of the <a rel=3D"nofoll=
+ow" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/RGB">RGB<=
+/a> family of formats - three numbers specifying an amount of red, green an=
+d blue.  Modern computers mainly use RGB24 - for example, CSS colour codes =
+are RGB24.  Here's what CSS colour codes would look like if they used diffe=
+rent types of RGB format:
+</p>
+<table>
+<caption> What a CSS hex code for <span style=3D"color:#6B8E23">OliveDrab</=
+span> would look like in different RGB formats
+</caption>
+<tbody><tr>
+<th> Format
+</th>
+<th> Example
+</th>
+<th> Comments
+</th></tr>
+<tr>
+<td> <a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikiped=
+ia.org/wiki/Web_colors#Hex_triplet">RGB24</a>
+</td>
+<td> <span style=3D"color:#6B8E23">#6B8E23</span>
+</td>
+<td> red, green and blue (in that order), on a scale of 0 to 255
+</td></tr>
+<tr>
+<td> BGR24
+</td>
+<td> <span style=3D"color:#6B8E23">#238E6B</span>
+</td>
+<td> blue, green and red (in that order), on a scale of 0 to 255
+</td></tr>
+<tr>
+<td> <a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikiped=
+ia.org/wiki/High_color">RGB16</a>
+</td>
+<td> <span style=3D"color:#688c20">#6c64</span>
+</td>
+<td> red, green and blue (in that order), red and blue on a scale of 0 to 3=
+2, green on a scale of 0 to 64
+</td></tr>
+<tr>
+<td> <a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikiped=
+ia.org/wiki/High_color">RGB15</a>
+</td>
+<td> <span style=3D"color:#688820">#3624</span>
+</td>
+<td> red, green and blue (in that order), on a scale of 0 to 32
+</td></tr></tbody></table>
+<p>These formats are all quite similar, and historically have all served us=
+eful purposes.  RGB15 and RGB16 have less information and should be avoided=
+ nowadays, BGR24 is fine but happened not to become popular.
+</p><p>Analogue television didn't use RGB.  Black-and-white TV described co=
+lours using one number - brightness.  Colour television added two more numb=
+ers - how much of the brightness was blue and how much was red (green was t=
+hen calculated from that information).  These three numbers are often refer=
+red to as Y, U and V, so the family of colour formats used by television is=
+ called <a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wiki=
+pedia.org/wiki/YUV">YUV</a>.
+</p><p>Like with different members of the RGB family, some members of the Y=
+UV family are better (UYVY is better than YV12), and some are arbitrarily d=
+ifferent (UYVY is just as good as YUY2).
+</p><p>Because your source video was created using a YUV format, you should=
+ encode with a YUV format if possible.  RGB formats will lose a bit of colo=
+ur information during the conversion process, and you won't gain anything b=
+y it.  Look through the <a rel=3D"nofollow" class=3D"external text" href=3D=
+"https://valadoc.org/gstreamer-video-1.0/Gst.Video.Format.html">list of vid=
+eo formats</a> and pick whichever YUV format has the highest numbers (<i>pa=
+cked</i> vs. <i>planar</i> doesn't matter).
+</p>
+<h4><span class=3D"mw-headline" id=3D"Video_heights">Video heights</span></=
+h4>
+<p>Some devices report a maximum height of <i>578</i>.  A PAL TV signal is =
+576 lines tall and an NTSC signal is 486 lines, so <code>height=3D578</code=
+> won't give you the best picture quality.  To confirm this, tune to a non-=
+existent TV channel then take a screenshot of the snow:
+</p>
+<pre>gst-launch-1.0 -q v4l2src device=3D$VIDEO_DEVICE \
+   &nbsp;! $VIDEO_CAPABILITIES, height=3D578 \
+   &nbsp;! imagefreeze \
+   &nbsp;! autovideosink
+</pre>
+<p><a href=3D"https://linuxtv.org/wiki/images/8/8a/578-lines-of-static.png"=
+ class=3D"internal" title=3D"578-lines-of-static.png">Here's an example of =
+what you might see</a> - notice the blurring in the middle of the picture. =
+ Now take a screenshot with the appropriate height for your TV norm:
+</p>
+<pre>gst-launch-1.0 -q v4l2src device=3D$VIDEO_DEVICE \
+   &nbsp;! $VIDEO_CAPABILITIES, height=3D&lt;appropriate-height&gt; \
+   &nbsp;! imagefreeze \
+   &nbsp;! autovideosink
+</pre>
+<p><a href=3D"https://linuxtv.org/wiki/images/b/bc/576-lines-of-static.png"=
+ class=3D"internal" title=3D"576-lines-of-static.png">Here's an example tak=
+en with height=3D576</a> - notice the middle of this picture is nice and cr=
+isp.
+</p><p>You may want to test this yourself and set your height to whatever l=
+ooks best.
+</p>
+<h4><span class=3D"mw-headline" id=3D"Video_framerates">Video framerates</s=
+pan></h4>
+<p>Due to hardware issues, some V4L devices produce slightly too many (or t=
+oo few) frames per second.  To check your system's actual frame rate, start=
+ your video source (e.g. a VCR or webcam) then run this command:
+</p>
+<pre>gst-launch-1.0 v4l2src device=3D$VIDEO_DEVICE \
+   &nbsp;! $VIDEO_CAPABILITIES \
+   &nbsp;! fpsdisplaysink fps-update-interval=3D100000
+</pre>
+<ol>
+<li> Let it run for 100 seconds to get a large enough sample.  It should pr=
+int some statistics in the bottom of the window - write down the number of =
+frames dropped
+</li>
+<li> Let it run for another 100 seconds, then write down the new number of =
+frames dropped
+</li>
+<li> Calculate <code>(second number) - (first number) - 1</code> (e.g. 5007=
+ - 2504 - 1 =3D=3D 2502)
+<ul>
+<li> You need to subtract one because <code>fpsdisplaysink</code> drops one=
+ frame every time it displays the counter
+</li>
+</ul>
+</li>
+<li> That number is exactly one hundred times your framerate, so you should=
+ tell your software e.g. <code>framerate=3D2502/100</code>
+</li>
+</ol>
+<p>Note: VHS framerates can vary within the same file.  To get an accurate =
+measure of a VHS recording's framerate, encode to a format that supports va=
+riable framerates then retrieve the video's duration and total number of fr=
+ames.  You can then transcode a new file with your desired frame rate.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Correcting_your_colour_settings">Corr=
+ecting your colour settings</span></h3>
+<p>Most TV cards have acceptable colour settings by default, but you might =
+get some benefit by configuring things manually.  First check the controls =
+available for your hardware:
+</p>
+<pre>v4l2-ctl --device=3D$VIDEO_DEVICE --list-ctrls | tee tv-card-settings-=
+$( date --iso-8601=3Dseconds ).txt
+</pre>
+<p>This also saves your settings to a file for future reference.  Next, wat=
+ch your video with some graphs:
+</p>
+<pre>ffplay -f lavfi "
+    movie=3D$VIDEO_DEVICE, scale=3D720:-1, fps=3D25, split [h0] [v0];
+    [h0] histogram=3Dlevels_mode=3Dlogarithmic, drawgrid=3Dw=3D8:h=3Din_h:c=
+olor=3Dblue@0.5, drawbox=3Diw/2:0:1:ih:red@0.5, pad=3Diw+720:ih [h1];
+    [h1][v0] overlay=3Dmain_w-overlay_w:(main_h-overlay_h)/2 [out0]
+"
+</pre>
+<p>Because analogue videos use <a rel=3D"nofollow" class=3D"external text" =
+href=3D"https://en.wikipedia.org/wiki/YUV">YUV</a> instead of <a rel=3D"nof=
+ollow" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/RGB">R=
+GB</a>, the graphs represent your input's brightness, greenness-blueness an=
+d greenness-redness.  You should set your video card's controls so the brig=
+htest, bluest and redest inputs move the graphs all the way to the right wi=
+thout going past the edge; and so the darkest and greenest inputs move the =
+graphs all the way to the left.  While that's running, do this in a second =
+window:
+</p>
+<pre>v4l2-ctl --device=3D$VIDEO_DEVICE  --set-ctrl=3Dcontrast=3D32
+</pre>
+<p>The video should turn much greyer, and the main spike of the top graph s=
+hould move closer to the centre.  Different video cards provide different c=
+ontrols, but here is some advice on choosing the best values for each one:
+</p>
+<ul>
+<li> changing the brightness moves the centre of the top graph, contrast al=
+ters its range
+</li>
+<li> changing the hue moves the centre of the bottom two graphs, saturation=
+ controls their range
+</li>
+<li> composite and S-video inputs produce blackness when they're disconnect=
+ed - viewing this makes it easier to set brightness
+</li>
+<li> some video cards have an <code>invert</code> control - toggling this w=
+hen showing a black screen makes it easier to set contrast
+</li>
+<li> some VCRs have configuration menus with blue backgrounds - viewing thi=
+s makes it easier to set saturation
+</li>
+<li> when playing most videos, the peaks of the colour graphs should tend t=
+o be equally far from the centre (one to the left, one to the right) - view=
+ing this makes it easier to set hue
+</li>
+<li> connecting a camcorder lets you capture any colour you like - try vide=
+oing a <a rel=3D"nofollow" class=3D"external text" href=3D"https://en.wikip=
+edia.org/wiki/Testcard">testcard</a>, or just coloured paper
+</li>
+</ul>
+<h2><span class=3D"mw-headline" id=3D"Encoding_an_accurate_video">Encoding =
+an accurate video</span></h2>
+<p>Your first step should be to record an accurate copy of your source vide=
+o.  A good quality encoding can use anything up to 30 gigabytes per hour, s=
+o figure out how long your video is and make sure you have enough space.
+</p><p>As well as the values above, you will need to decide the following (=
+preferably storing them as environment variables):
+</p>
+<ul>
+<li> <code>ENCODE_VIDEO_FORMAT</code> - the format you chose to encode the =
+accurate copy of your video (see <code>ffmpeg -encoders</code> for a list)
+</li>
+<li> <code>ENCODE_AUDIO_FORMAT</code> - the format you chose to encode the =
+accurate copy of your audio (see <code>ffmpeg -encoders</code> for a list)
+</li>
+<li> <code>ENCODE_MUXER_FORMAT</code> - the format you chose to mux your vi=
+deos together (see <code>ffmpeg -formats</code> for a list)
+</li>
+<li> <code>ENCODE_VIDEO_OPTIONS</code> - settings for your video format (se=
+e <code>ffmpeg --help encoder=3D$ENCODE_VIDEO_FORMAT</code> for a list)
+</li>
+<li> <code>ENCODE_AUDIO_OPTIONS</code> - settings for your audio format (se=
+e <code>ffmpeg --help encoder=3D$ENCODE_AUDIO_FORMAT</code> for a list)
+</li>
+<li> <code>ENCODE_MUXER_OPTIONS</code> - settings for your muxer format (se=
+e <code>ffmpeg --help muxer=3D$ENCODE_MUXER_FORMAT</code> for a list)
+</li>
+<li> <code>ENCODE_FILENAME</code> - your preferred filename (see <code>ffmp=
+eg --help muxer=3D$ENCODE_MUXER_FORMAT</code> for suggested extensions)
+</li>
+</ul>
+<p><a rel=3D"nofollow" class=3D"external text" href=3D"http://ffmpeg.org/">=
+FFmpeg</a> is widely recommended, but can't handle the quirks of capturing =
+analogue video.  To avoid desynchronising audio and video, you need to comb=
+ine it with <a href=3D"https://linuxtv.org/wiki/index.php/GStreamer" title=
+=3D"GStreamer">GStreamer</a>:
+</p>
+<pre>ffmpeg \
+    -i &lt;(
+        gst-launch-1.0 -q \
+            v4l2src device=3D"$VIDEO_DEVICE" do-timestamp=3Dtrue norm=3D"$T=
+V_NORM" pixel-aspect-ratio=3D1 \
+                ! $VIDEO_CAPABILITIES \
+                ! queue max-size-buffers=3D0 max-size-time=3D0 max-size-byt=
+es=3D0 \
+                ! mux. \
+            alsasrc device=3D"$AUDIO_DEVICE" do-timestamp=3Dtrue \
+                ! $AUDIO_CAPABILITIES \
+                ! queue max-size-buffers=3D0 max-size-time=3D0 max-size-byt=
+es=3D0 \
+                ! mux. \
+            matroskamux name=3Dmux \
+                ! queue max-size-buffers=3D0 max-size-time=3D0 max-size-byt=
+es=3D0 \
+                ! fdsink fd=3D1
+    ) \
+    -c:v $ENCODE_VIDEO_FORMAT $ENCODE_VIDEO_OPTIONS \
+    -c:a $ENCODE_AUDIO_FORMAT $ENCODE_AUDIO_OPTIONS \
+    -f   $ENCODE_MUXER_FORMAT $ENCODE_MUXER_OPTIONS \
+    "$ENCODE_FILENAME"
+</pre>
+<p>This command does two things:
+</p>
+<ul>
+<li> tells GStreamer to record raw audio and video use a <a rel=3D"nofollow=
+" class=3D"external text" href=3D"http://www.matroska.org/">Matroska media =
+container</a> to communicate with FFmpeg
+</li>
+<li> tells FFmpeg to accept the video from GStreamer and encode it using th=
+e settings you specified (e.g. remuxing to your preferred container format)
+</li>
+</ul>
+<p>If you have enough free disk space, you could just save the raw video as=
+ your accurate copy - see <a href=3D"https://linuxtv.org/wiki/index.php/GSt=
+reamer" title=3D"GStreamer">GStreamer</a> for details.
+</p><p>Make sure to start <code>ffmpeg</code> before pressing play - it's e=
+asier to remove the first few frames while transcoding than to prepend a se=
+cond recording to the start of a video.  But consider setting your VCR to p=
+lay from AV instead of a TV channel - it will make those first few frames b=
+lack, which is easier on the eye when you're deciding which frames to remov=
+e.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Handling_desynchronised_audio_and_vid=
+eo">Handling desynchronised audio and video</span></h3>
+<p>Most people can skip this step - <a href=3D"https://linuxtv.org/wiki/ind=
+ex.php/GStreamer" title=3D"GStreamer">GStreamer</a> should be able to synch=
+ronise your audio and video automatically using the <code>do-timestamp</cod=
+e> setting.  If your audio and video aren't synchronised (most noticeable w=
+hen people's mouths don't quite move in time to their words), first check y=
+ou're using a raw <code>hw</code> audio device, as <code>plughw</code> devi=
+ces can cause synchronisation issues.  If the problem still occurs with a r=
+aw <code>hw</code> audio device, your hardware may not support timestamps s=
+o you'll have to fix it during transcoding.
+</p><p>If you need to resync audio and video during transcoding, you can ma=
+ke your life easier by creating <a rel=3D"nofollow" class=3D"external text"=
+ href=3D"https://en.wikipedia.org/wiki/Clapperboard">clapperboard</a> effec=
+ts at the start of your videos - hook up a camcorder, run your capture comm=
+and, then clap your hands in front of the camera before pressing play on yo=
+ur VCR.  Failing that, make note of any moments where an obvious visual ele=
+ment occurred at the same moment as an obvious audio element (such as the c=
+lunk when a cup is placed on a table).
+</p><p>Once you've recorded your video, you'll need to calculate your desir=
+ed A/V offset.  For the best result, play your video with precise timestamp=
+s (e.g. <code>mpv --osd-fractions "$ENCODE_FILENAME"</code>) and open your =
+audio in an audio editor (e.g. <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://audacityteam.org/">Audacity</a>), then find the exact frame =
+when your clapperboard video/audio occurred and subtract one from the other=
+.  To confirm your result, run <code>mpv --audio-delay=3D&lt;result&gt; "$E=
+NCODE_FILENAME"</code> and make sure it looks right.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Measuring_audio_noise">Measuring audi=
+o noise</span></h3>
+<p>Your hardware will create a small amount of audio noise in your recordin=
+g.  If you want to remove this later, you'll need to measure it for every h=
+ardware configuration you use - S-video vs. composite, laptop charging vs. =
+unplugged, and so on.
+</p><p>You'll need a recording of about half a second of your system in a r=
+esting state, which you will use later to remove noise.  This can be a sile=
+nt TV channel or paused tape, but if you're using composite or S-video conn=
+ectors, the easiest thing is probably just to record a few moments of black=
+ness before pressing play.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Choosing_formats_2">Choosing formats<=
+/span></h3>
+<p>Your encoding formats need to encode in real-time and lose as little inf=
+ormation as possible.  Even if you plan to throw that information away duri=
+ng transcoding, an accurate initial recording will give you more freedom wh=
+en the time comes.  For example, your muxer format should support <i>variab=
+le frame rates</i> so you can measure your video's frame rate.  Once you ha=
+ve that information, you could use it to calculate an accurate transcoding =
+frame rate or to cut out sections where your VCR delivered the wrong number=
+ of frames - either way the information is useful even though it was lost f=
+rom the final video.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Transcoding_a_usable_video">Transcodi=
+ng a usable video</span></h2>
+<p>The video you recorded should accurately represent your source video, bu=
+t will probably be a large file, be a noisy experience, and might not even =
+play in some programs.  You need to <i>transcode</i> it to a more usable fo=
+rmat.  You can use any program(s) to do this, but it's probably easiest to =
+continue using <a rel=3D"nofollow" class=3D"external text" href=3D"http://f=
+fmpeg.org/">FFmpeg</a>:
+</p>
+<pre>ffmpeg -i "$ENCODE_FILENAME" \
+    -c:v &lt;transcode-video-format&gt; &lt;transcode-video-options&gt; \
+    -c:a &lt;transcode-audio-format&gt; &lt;transcode-audio-options&gt; \
+    -f   &lt;transcode-muxer-format&gt; &lt;transcode-muxer-options&gt; \
+    &lt;transcode-filename&gt;
+</pre>
+<p>If you're happy with the result, you can stop here.  But you might want =
+to improve the video, for example:
+</p>
+<ul>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"https://trac.ffmpe=
+g.org/wiki/Seeking">Cut sections out of your video with the -ss and -t opti=
+ons</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"https://trac.ffmpe=
+g.org/wiki/FilteringGuide">Add complex filters to clean up the video and au=
+dio</a>
+</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://stackoverfl=
+ow.com/questions/20254846/how-to-add-an-external-audio-track-to-a-video-fil=
+e-using-vlc-or-ffmpeg-command-l">Edit the audio with Audacity then copy the=
+ new version back in</a>
+</li>
+</ul>
+<p>Some of these improvements require you to identify the millisecond where=
+ an event occurred.  <code>mpv --osd-fractions</code> will print millisecon=
+d-accurate timestamps, and <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://mpv.io/manual/master/#keyboard-control">its default keybindings<=
+/a> allow you to step back and forward one frame at a time.
+</p><p>This section will discuss some of the high-level issues you'll face =
+if you choose to improve your video.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Cleaning_audio">Cleaning audio</span>=
+</h3>
+<p>Any analogue recording will contain a certain amount of background noise=
+.  Cleaning noise is optional, and you'll always be able to produce a sligh=
+tly better result if you spend a little longer on it, so this section will =
+just introduce enough theory to get you started.  Audacity's <a rel=3D"nofo=
+llow" class=3D"external text" href=3D"http://manual.audacityteam.org/o/man/=
+equalization.html">equalizer</a> and <a rel=3D"nofollow" class=3D"external =
+text" href=3D"https://wiki.audacityteam.org/wiki/Noise_Reduction">noise red=
+uction effect</a> are good places to start experimenting.
+</p><p>The major noise sources are:
+</p>
+<ul>
+<li> <b>your audio codec</b> might throw away sound it thinks you won't hea=
+r in order to reduce file size
+</li>
+<li> <b>your recording system</b> will produce a small, consistent amount o=
+f noise based on its various electrical and mechanical components
+</li>
+<li> <b>VHS format limitations</b> cause static at high and low frequencies=
+, depending on the VCR's settings
+</li>
+<li> <b>imperfections in tape recording and playback</b> produce noise that=
+ differs between recordings and even between scenes
+</li>
+</ul>
+<p>A lossless audio format (e.g. WAV or FLAC) should ensure your original e=
+ncoding doesn't produce any extra noise.  Even if you transcode to a format=
+ like MP3 that throws information away, a lossless original ensures there's=
+ only one lot of noise in the result.
+</p><p>The primary means of reducing noise is the frequency-based <a rel=3D=
+"nofollow" class=3D"external text" href=3D"http://en.wikipedia.org/wiki/Noi=
+se_gate">noise gate</a>, which <i>blocks</i> some frequencies and <i>passes=
+</i> others.  <i>High-pass</i> and <i>low-pass</i> filters pass noise above=
+ or below a certain frequency, and can be combined into <i>band-pass</i> or=
+ even <i>multi-band</i> filters.  The rest of this section discusses how to=
+ build a series of noise gates for your audio.
+</p><p>Identify noise from your recording system by recording the sound of =
+a paused tape or silent television channel for a few seconds.  If possible,=
+ use the near-silence at the start of your recording so you can guarantee y=
+our sample matches your current hardware configuration.  Use this baseline =
+recording as a <i>noise profile</i> which your software uses to build a mul=
+ti-band noise gate.  You can apply that noise gate to the whole recording, =
+and to other recordings with the same hardware that don't have a usable sam=
+ple.
+</p><p>Identify VHS format limitations by searching online for information =
+based on your TV norm (NTSC, PAL or SECAM), your recording quality (normal =
+or Hi-Fi) and your VHS play mode (short- or long-play).  <a rel=3D"nofollow=
+" class=3D"external text" href=3D"https://en.wikipedia.org/wiki/VHS#Audio_r=
+ecording">Wikipedia's discussion of VHS audio recording</a> is a good place=
+ to start.  If you're able to find the information, gate your recordings wi=
+th high-pass and low-pass filters that only allow frequencies within the ra=
+nge your tape actually records.  For example, a long-play recording of a PA=
+L tape will produce static below 100Hz and above 4kHz so you should gate yo=
+ur recording to only pass audio in the 100Hz-4000Hz range.  If you can't fi=
+nd the information, you can determine it experimentally by trying out diffe=
+rent filters to see what sounds right - your system probably produces stati=
+c below about 10Hz or 100Hz and above about 4kHz or 12kHz, so try high- and=
+ low-pass filters in those ranges until you stop hearing background noise. =
+ If you don't remove this noise source, the next step will do a reasonable =
+job of guessing it for you anyway.
+</p><p>Identify imperfections in recording and playback by watching the vid=
+eo and looking for periods of silence.  You only need half a second of back=
+ground noise to generate a profile, but the number of profiles is up to you=
+.  Some people grab one profile for a whole recording, others combine clips=
+ into averaged noise profiles, others cut audio into scenes and de-noise ea=
+ch in turn.  At a minimum, tapes with multiple recordings should be split u=
+p and each one de-noised separately - a tape containing a TV program record=
+ed in LP mode in one VCR followed by a home video recorded in SP in another=
+ VCR will produce two very different noise profiles, even if played back al=
+l in one go.
+</p><p>It's good to apply filters in the right order (system profile, then =
+VHS limits, then recording profiles), but beyond that noise reduction is ve=
+ry subjective.  For example, intelligent noise reduction tends to remove mo=
+re noise in quiet periods but less when it would risk losing signal, which =
+can sound like a snare drum being brushed whenever someone speaks.  But dum=
+b filters silence the same frequencies at all times, which can make everyth=
+ing sound muffled.
+</p><p>You can run your audio through as many gates as you like, and even r=
+epeat the same filter several times.  If you use a noise reduction profile,=
+ you can even get different results from different programs (see for exampl=
+e <a rel=3D"nofollow" class=3D"external text" href=3D"http://sourceforge.ne=
+t/p/sox/mailman/message/30019023/">this comparison of sox and Audacity's al=
+gorithms</a>).  There's no right answer but there's always a better result =
+if you spend a bit more time, so you'll need to decide for yourself when th=
+e result is good enough.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Cleaning_video">Cleaning video</span>=
+</h3>
+<p>Much like audio, you can spend as long as you like cleaning your video. =
+ But whereas audio cleaning tends to be about doing one thing really well (=
+separating out frequencies of signal and noise), video cleaning tends to be=
+ about getting decent results in different circumstances.  For example, you=
+ might want to just remove the overscan lines at the bottom of a VHS record=
+ing, denoise a video slightly to reduce file size, or aggressively remove g=
+rains to make a low-quality recording watchable.  <a rel=3D"nofollow" class=
+=3D"external text" href=3D"https://ffmpeg.org/ffmpeg-filters.html">FFmpeg's=
+ video filter list</a> is a good place to start, but here are a few things =
+you should know.
+</p><p>Some programs need video to have a specified aspect ratio.  If you s=
+imply crop out the ugly overscan lines at the bottom of your video, some pr=
+ograms may refuse to play your video.  Instead you should <i>mask</i> the a=
+rea with blackness.  In <code>ffmpeg</code>, you would use a <code>crop</co=
+de> filter to remove the overscan followed by a <code>pad</code> filter to =
+put the image back to its original height.
+</p><p>Analogue video is <a rel=3D"nofollow" class=3D"external text" href=
+=3D"https://en.wikipedia.org/wiki/Interlaced_video">interlaced</a>, essenti=
+ally interleaving two consecutive video frames within each image.  This con=
+fuses video filters that compare neighbouring pixels (e.g. to look for brig=
+ht grains in dark areas of the screen), so you should <i>deinterleave</i> t=
+he frames before using such filters, then <i>interleave</i> them again afte=
+rwards.  For example, an <code>ffmpeg</code> filter chain might start with =
+<code>il=3Dd:d:d</code> and end with <code>il=3Di:i:i</code>.  If you skip =
+the trailing <code>il=3Di:i:i</code>, you can see that de-interleaving work=
+s by putting each image in a different half of the frame to trick other fil=
+ters into doing the right thing.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Choosing_formats_3">Choosing formats<=
+/span></h3>
+<p>Your transcoding format needs to be small and compatible with whatever s=
+oftware you will use to play it back.  If you can't find accurate informati=
+on about your players, create a short test video and try it on your system.=
+  Your video codec may well have options to reduce file size at the cost of=
+ encoding time, so you may want to leave your computer transcoding overnigh=
+t to get the best file size.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Wrapping_it_all_up_in_a_script">Wrapp=
+ing it all up in a script</span></h2>
+<p><a href=3D"https://linuxtv.org/wiki/index.php/V4L_capturing/script" titl=
+e=3D"V4L capturing/script">A V4L capture script</a> has been written based =
+on this page.  It presents the commands above in a more usable package, and=
+ adds several extra functions that were too complex to describe here.  For =
+example, it will encode a secondary "review" file that makes it easier to f=
+ind cut-points in videos.
+</p><p>If you would rather write your own, consider looking through the scr=
+ipt for inspiration.  You can see the commands it runs by searching for <co=
+de>CMD_</code> on <a href=3D"https://linuxtv.org/wiki/index.php/V4L_capturi=
+ng/script" title=3D"V4L capturing/script">the script page</a>.
+</p>
+<!--=20
+NewPP limit report
+CPU time usage: 0.122 seconds
+Real time usage: 0.134 seconds
+Preprocessor visited node count: 141/1000000
+Preprocessor generated node count: 206/1000000
+Post=E2=80=90expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key linuxtvwikidb:pcache:idhash:3622-0!*!0!=
+!en!2!* and timestamp 20190505091722
+ -->
+</div>								<div class=3D"printfooter">
+				Retrieved from "<a href=3D"https://linuxtv.org/wiki/index.php?title=3DV=
+4L_capturing&amp;oldid=3D35906">https://linuxtv.org/wiki/index.php?title=3D=
+V4L_capturing&amp;oldid=3D35906</a>"				</div>
+												<div id=3D"catlinks" class=3D"catlinks catlinks-allhidden"></di=
+v>												<div class=3D"visualClear"></div>
+							</div>
+		</div>
+		<div id=3D"mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id=3D"mw-head">
+				<div id=3D"p-personal" role=3D"navigation" class=3D"" aria-labelledby=
+=3D"p-personal-label">
+	<h3 id=3D"p-personal-label">Personal tools</h3>
+	<ul>
+<li id=3D"pt-login"><a href=3D"https://linuxtv.org/wiki/index.php?title=3DS=
+pecial:UserLogin&amp;returnto=3DV4L+capturing" title=3D"You are encouraged =
+to log in; however, it is not mandatory [alt-shift-o]" accesskey=3D"o">Log =
+in / create account</a></li>	</ul>
+</div>
+				<div id=3D"left-navigation">
+					<div id=3D"p-namespaces" role=3D"navigation" class=3D"vectorTabs" aria=
+-labelledby=3D"p-namespaces-label">
+	<h3 id=3D"p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li id=3D"ca-nstab-main" class=3D"selected"><span><a href=3D"https://l=
+inuxtv.org/wiki/index.php/V4L_capturing" title=3D"View the content page [al=
+t-shift-c]" accesskey=3D"c">Page</a></span></li>
+					<li id=3D"ca-talk"><span><a href=3D"https://linuxtv.org/wiki/index.php=
+/Talk:V4L_capturing" title=3D"Discussion about the content page [alt-shift-=
+t]" accesskey=3D"t">Discussion</a></span></li>
+			</ul>
+</div>
+<div id=3D"p-variants" role=3D"navigation" class=3D"vectorMenu emptyPortlet=
+" aria-labelledby=3D"p-variants-label">
+	<h3 id=3D"mw-vector-current-variant">
+		</h3>
+	<h3 id=3D"p-variants-label" tabindex=3D"0"><span>Variants</span><a href=3D=
+"https://linuxtv.org/wiki/index.php/V4L_capturing#" tabindex=3D"-1"></a></h=
+3>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id=3D"right-navigation">
+					<div id=3D"p-views" role=3D"navigation" class=3D"vectorTabs" aria-labe=
+lledby=3D"p-views-label">
+	<h3 id=3D"p-views-label">Views</h3>
+	<ul>
+					<li id=3D"ca-view" class=3D"selected"><span><a href=3D"https://linuxtv=
+.org/wiki/index.php/V4L_capturing">Read</a></span></li>
+					<li id=3D"ca-viewsource"><span><a href=3D"https://linuxtv.org/wiki/ind=
+ex.php?title=3DV4L_capturing&amp;action=3Dedit" title=3D"This page is prote=
+cted.
+You can view its source [alt-shift-e]" accesskey=3D"e">View source</a></spa=
+n></li>
+					<li id=3D"ca-history" class=3D"collapsible"><span><a href=3D"https://l=
+inuxtv.org/wiki/index.php?title=3DV4L_capturing&amp;action=3Dhistory" title=
+=3D"Past revisions of this page [alt-shift-h]" accesskey=3D"h">View history=
+</a></span></li>
+			</ul>
+</div>
+<div id=3D"p-cactions" role=3D"navigation" class=3D"vectorMenu emptyPortlet=
+" aria-labelledby=3D"p-cactions-label">
+	<h3 id=3D"p-cactions-label" tabindex=3D"0"><span>Actions</span><a href=3D"=
+https://linuxtv.org/wiki/index.php/V4L_capturing#" tabindex=3D"-1"></a></h3=
+>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id=3D"p-search" role=3D"search">
+	<h3><label for=3D"searchInput">Search</label></h3>
+	<form action=3D"https://linuxtv.org/wiki/index.php" id=3D"searchform">
+				<div id=3D"simpleSearch">
+						<input name=3D"search" placeholder=3D"Search" title=3D"Search LinuxTV=
+Wiki [alt-shift-f]" accesskey=3D"f" id=3D"searchInput" tabindex=3D"1" autoc=
+omplete=3D"off">						<button type=3D"submit" name=3D"button" title=3D"Sear=
+ch the pages for this text" id=3D"searchButton"><img src=3D"https://linuxtv=
+.org/wiki/skins/vector/images/search-ltr.png?303" alt=3D"Search" width=3D"1=
+2" height=3D"13"></button>							=09
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id=3D"mw-panel" class=3D"collapsible-nav">
+					<div id=3D"p-logo" role=3D"banner"><a style=3D"background-image: url(/=
+wiki/skins/common/images/linuxtv.png);" href=3D"https://linuxtv.org/wiki/in=
+dex.php/Main_Page" title=3D"Visit the main page"></a></div>
+				<div class=3D"portal first persistent" role=3D"navigation" id=3D"p-navi=
+gation" aria-labelledby=3D"p-navigation-label">
+	<h3 id=3D"p-navigation-label">Navigation</h3>
+	<div class=3D"body">
+		<ul>
+			<li id=3D"n-LinuxTV-Home"><a href=3D"http://www.linuxtv.org/" rel=3D"nof=
+ollow">LinuxTV Home</a></li>
+			<li id=3D"n-mainpage"><a href=3D"https://linuxtv.org/wiki/index.php/Main=
+_Page" title=3D"Visit the main page [alt-shift-z]" accesskey=3D"z">Main Pag=
+e</a></li>
+			<li id=3D"n-categories"><a href=3D"https://linuxtv.org/wiki/index.php/Sp=
+ecial:Categories">Categories</a></li>
+			<li id=3D"n-recentchanges"><a href=3D"https://linuxtv.org/wiki/index.php=
+/Special:RecentChanges" title=3D"A list of recent changes in the wiki [alt-=
+shift-r]" accesskey=3D"r">Recent changes</a></li>
+			<li id=3D"n-randompage"><a href=3D"https://linuxtv.org/wiki/index.php/Sp=
+ecial:Random" title=3D"Load a random page [alt-shift-x]" accesskey=3D"x">Ra=
+ndom page</a></li>
+			<li id=3D"n-help"><a href=3D"https://www.mediawiki.org/wiki/Special:MyLa=
+nguage/Help:Contents" rel=3D"nofollow" title=3D"The place to find out">Help=
+</a></li>
+		</ul>
+	</div>
+</div>
+<div class=3D"portal expanded" role=3D"navigation" id=3D"p-tb" aria-labelle=
+dby=3D"p-tb-label">
+	<h3 id=3D"p-tb-label" tabindex=3D"2"><a href=3D"https://linuxtv.org/wiki/i=
+ndex.php/V4L_capturing#">Tools</a></h3>
+	<div class=3D"body" style=3D"display: block;">
+		<ul>
+			<li id=3D"t-whatlinkshere"><a href=3D"https://linuxtv.org/wiki/index.php=
+/Special:WhatLinksHere/V4L_capturing" title=3D"A list of all wiki pages tha=
+t link here [alt-shift-j]" accesskey=3D"j">What links here</a></li>
+			<li id=3D"t-recentchangeslinked"><a href=3D"https://linuxtv.org/wiki/ind=
+ex.php/Special:RecentChangesLinked/V4L_capturing" title=3D"Recent changes i=
+n pages linked from this page [alt-shift-k]" accesskey=3D"k">Related change=
+s</a></li>
+			<li id=3D"t-specialpages"><a href=3D"https://linuxtv.org/wiki/index.php/=
+Special:SpecialPages" title=3D"A list of all special pages [alt-shift-q]" a=
+ccesskey=3D"q">Special pages</a></li>
+			<li id=3D"t-print"><a href=3D"https://linuxtv.org/wiki/index.php?title=
+=3DV4L_capturing&amp;printable=3Dyes" rel=3D"alternate" title=3D"Printable =
+version of this page [alt-shift-p]" accesskey=3D"p">Printable version</a></=
+li>
+			<li id=3D"t-permalink"><a href=3D"https://linuxtv.org/wiki/index.php?tit=
+le=3DV4L_capturing&amp;oldid=3D35906" title=3D"Permanent link to this revis=
+ion of the page">Permanent link</a></li>
+			<li id=3D"t-info"><a href=3D"https://linuxtv.org/wiki/index.php?title=3D=
+V4L_capturing&amp;action=3Dinfo">Page information</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id=3D"footer" role=3D"contentinfo">
+							<ul id=3D"footer-info">
+											<li id=3D"footer-info-lastmod"> This page was last modified on 1=
+1 March 2018, at 13:39.</li>
+											<li id=3D"footer-info-viewcount">This page has been accessed 91,=
+098 times.</li>
+									</ul>
+							<ul id=3D"footer-places">
+											<li id=3D"footer-places-privacy"><a href=3D"https://linuxtv.org/=
+wiki/index.php/LinuxTVWiki:Privacy_policy" title=3D"LinuxTVWiki:Privacy pol=
+icy">Privacy policy</a></li>
+											<li id=3D"footer-places-about"><a href=3D"https://linuxtv.org/wi=
+ki/index.php/LinuxTVWiki:About" title=3D"LinuxTVWiki:About">About LinuxTVWi=
+ki</a></li>
+											<li id=3D"footer-places-disclaimer"><a href=3D"https://linuxtv.o=
+rg/wiki/index.php/LinuxTVWiki:General_disclaimer" title=3D"LinuxTVWiki:Gene=
+ral disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id=3D"footer-icons" class=3D"noprint">
+					<li id=3D"footer-poweredbyico">
+						<a href=3D"https://www.mediawiki.org/"><img src=3D"https://linuxtv.or=
+g/wiki/skins/common/images/poweredby_mediawiki_88x31.png" alt=3D"Powered by=
+ MediaWiki" width=3D"88" height=3D"31"></a>
+					</li>
+				</ul>
+						<div style=3D"clear:both"></div>
+		</div>
+	=09
+
+
+<!-- Served in 0.084 secs. -->
+=09
+
+<div class=3D"suggestions" style=3D"display: none; font-size: 13px;"><div c=
+lass=3D"suggestions-results"></div><div class=3D"suggestions-special"></div=
+></div></body></html>
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+@media print {
+  a.stub, a.new { color: rgb(186, 0, 0); text-decoration: none; }
+  #toc { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 2=
+49, 249); padding: 5px; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { border: none; width: auto; margin-top: 0.5em; margin-bottom: =
+0.8em; background-color: transparent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+white; font-size: 94%; text-align: center; overflow: hidden; padding: 3px !=
+important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.magnify { display: none; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  table.rimage { float: right; width: 1pt; position: relative; margin-left:=
+ 1em; margin-bottom: 1em; text-align: center; }
+  body { background: white; color: black; margin: 0px; padding: 0px; }
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, #colophon, =
+.mw-editsection, .toctoggle, .tochidden, div#f-poweredbyico, div#f-copyrigh=
+tico, li#viewcount, li#about, li#disclaimer, li#mobileview, li#privacy, #fo=
+oter-places, .mw-hidden-catlinks, tr.mw-metadata-show-hide-extended, span.m=
+w-filepage-other-resolutions, #filetoc, .usermessage, .patrollink, #mw-navi=
+gation { display: none; }
+  ul { list-style-type: square; }
+  #content { background: none; direction: ltr; border: none !important; pad=
+ding: 0px !important; margin: 0px !important; }
+  #footer { background: white; color: black; margin-top: 1em; border-top: 1=
+px solid rgb(170, 170, 170); direction: ltr; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+  p { margin: 1em 0px; line-height: 1.2em; }
+  pre, .mw-code { border: 1pt dashed black; white-space: pre; font-size: 8p=
+t; overflow: auto; padding: 1em 0px; background: white; color: black; }
+  table.listing, table.listing td { border: 1pt solid black; border-collaps=
+e: collapse; }
+  a { color: black !important; background: none !important; padding: 0px !i=
+mportant; }
+  a:link, a:visited { color: rgb(85, 34, 0); background: transparent; text-=
+decoration: underline; }
+  #content a.external.text::after, #content a.external.autonumber::after { =
+content: " (" attr(href) ")"; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  #content { background: white; color: black; }
+  #column-content { margin: 0px !important; }
+  #column-content #content { padding: 1em; margin: 0px !important; }
+  a, a.external, a.new, a.stub { color: black !important; text-decoration: =
+none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  img { border: none; vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #siteNotice { display: none; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); margin: 2px; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  table.diff { background: white; }
+  td.diff-otitle { background: rgb(255, 255, 255); }
+  td.diff-ntitle { background: rgb(255, 255, 255); }
+  td.diff-addedline { background: rgb(204, 255, 204); font-size: smaller; b=
+order: 2px solid black; }
+  td.diff-deletedline { background: rgb(255, 255, 170); font-size: smaller;=
+ border: 2px dotted black; }
+  td.diff-context { background: rgb(238, 238, 238); font-size: smaller; }
+  .diffchange { color: silver; font-weight: bold; text-decoration: underlin=
+e; }
+  table.wikitable, table.mw_metadata { margin: 1em 0px; border: 1px solid r=
+gb(170, 170, 170); background: white; border-collapse: collapse; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { text-align: center; background: white; font-weight: bold; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  a.sortheader { margin: 0px 0.3em; }
+  .wikitable, .thumb, img { break-inside: avoid; }
+  h2, h3, h4, h5, h6 { break-after: avoid; }
+  p { widows: 3; orphans: 3; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1px solid rgb(170, 170, 170); margin: 0.1em 0px; zoom: 1=
+; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: none; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  mark { background-color: yellow; color: black; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr[title], .explain[title] { border-bottom: 1px dotted; cursor: help; }
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .allpagesredirect, .redirect-in-category, .watchlistredir { font-style: i=
+talic; }
+  span.comment { font-style: italic; }
+  span.changedby { font-size: 95%; }
+  .texvc { direction: ltr; unicode-bidi: embed; }
+  img.tex { vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  #toolbar img { cursor: pointer; }
+  div.mw-filepage-resolutioninfo { font-size: smaller; }
+  h2#filehistory { clear: both; }
+  table.filehistory th, table.filehistory td { vertical-align: top; }
+  table.filehistory th { text-align: left; }
+  table.filehistory td.mw-imagepage-filesize, table.filehistory th.mw-image=
+page-filesize { white-space: nowrap; }
+  table.filehistory td.filehistory-selected { font-weight: bold; }
+  .filehistory a img, #file img:hover { background: url("data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgAR=
+gDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC") repeat white; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: top; }
+  .prefsection td.mw-label { width: 20%; }
+  .prefsection table { width: 100%; }
+  .prefsection table.mw-htmlform-matrix { width: auto; }
+  .mw-icon-question { background: linear-gradient(transparent, transparent)=
+ 0% 0% / 13px 13px, url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4w=
+IiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciA=
+xNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApIC=
+AtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0d=
+HA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZl=
+cnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N=
+2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT=
+0iMHB4Ig0KCSB3aWR0aD0iMjEuMDU5cHgiIGhlaWdodD0iMjEuMDZweCIgdmlld0JveD0iMCAwI=
+DIxLjA1OSAyMS4wNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjEuMDU5IDIxLjA2IiB4=
+bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiM1NzU3NTciIGQ9Ik0xMC41MjksMEM=
+0LjcxNSwwLDAsNC43MTQsMCwxMC41MjlzNC43MTUsMTAuNTMsMTAuNTI5LDEwLjUzYzUuODE2LD=
+AsMTAuNTI5LTQuNzE1LDEwLjUyOS0xMC41Mw0KCVMxNi4zNDYsMCwxMC41MjksMHogTTEwLjUyN=
+ywxNi43NjdjLTAuODYxLDAtMS40OTgtMC42ODgtMS40OTgtMS41MTZjMC0wLjg2MiwwLjYzNy0x=
+LjUzNCwxLjQ5OC0xLjUzNGMwLjgyOCwwLDEuNSwwLjY3MiwxLjUsMS41MzQNCglDMTIuMDI3LDE=
+2LjA3OCwxMS4zNTUsMTYuNzY3LDEwLjUyNywxNi43Njd6IE0xMi42NjQsMTAuMjU1Yy0wLjcyMy=
+wwLjU2OC0xLDAuOTMxLTEsMS43Mzl2MC41SDkuNDU5di0wLjYwMw0KCWMwLTEuNTE3LDAuNDQ5L=
+TIuMTM2LDEuMTU0LTIuNjg4YzAuNzA3LTAuNTUyLDEuMTM5LTAuODQ1LDEuMTM5LTEuNjM3YzAt=
+MC42NzItMC40MTQtMS4wNTEtMS4yNC0xLjA1MQ0KCWMtMC43MDcsMC0xLjMyOCwwLjE4OS0xLjk=
+4MiwwLjYzOEw3LjQ3OSw1LjM0NmMwLjg2MS0wLjYwNCwxLjkzLTEuMDM0LDMuMzQyLTEuMDM0Yz=
+EuOTEyLDAsMy41MTYsMS4wNTEsMy41MTYsMy4wNjYNCglDMTQuMzM2LDguODA4LDEzLjU0Myw5L=
+jU2NiwxMi42NjQsMTAuMjU1eiIvPg0KPC9zdmc+DQo=3D") no-repeat; display: inline-=
+block; height: 13px; width: 13px; margin-left: 4px; }
+  .mw-icon-question:lang(ar), .mw-icon-question:lang(fa), .mw-icon-question=
+:lang(ur) { transform: scaleX(-1); }
+  td.mw-submit { white-space: nowrap; }
+  table.mw-htmlform-nolabel td.mw-label { width: 1px; }
+  tr.mw-htmlform-vertical-label td.mw-label { text-align: left !important; =
+}
+  .mw-htmlform-invalid-input td.mw-input input { border-color: red; }
+  .mw-htmlform-flatlist div.mw-htmlform-flatlist-item { display: inline; ma=
+rgin-right: 1em; white-space: nowrap; }
+  .mw-htmlform-matrix td { padding-left: 0.5em; padding-right: 0.5em; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-ipb-conveniencelinks, p.mw-protect-editreasons, p.mw-filedelete-edit=
+reasons, p.mw-delete-editreasons, p.mw-revdel-editreasons { font-size: 90%;=
+ text-align: right; }
+  .os-suggest { overflow: hidden auto; position: absolute; top: 0px; left: =
+0px; width: 0px; background-color: white; border-style: solid; border-color=
+: rgb(170, 170, 170); border-width: 1px; z-index: 99; font-size: 95%; }
+  table.os-suggest-results { font-size: 95%; cursor: pointer; border: 0px; =
+border-collapse: collapse; width: 100%; }
+  .os-suggest-result, .os-suggest-result-hl { white-space: nowrap; backgrou=
+nd-color: white; color: black; padding: 2px; }
+  .os-suggest-result-hl, .os-suggest-result-hl-webkit { background-color: r=
+gb(76, 89, 166); color: white; }
+  .os-suggest-toggle { position: relative; left: 1ex; font-size: 65%; }
+  .os-suggest-toggle-def { position: absolute; top: 0px; left: 0px; font-si=
+ze: 65%; visibility: hidden; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory span.minor { font-weight: bold; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisiondelete-button, #mw-fileduplicatesearch-icon { float: =
+right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  #shared-image-dup, #shared-image-conflict { font-style: italic; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.new { color: rgb(186, 0, 0); }
+  a.feedlink { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEU=
+gAAAAwAAAAMCAYAAABWdVznAAAB5UlEQVR42k2SzU8TQQDF5+8w8S8QRWl2t90tFxOPxosxYuIB=
+kBjiCROpWiV8tIKUtoomJhgIMcSEC4SIcNCDxnD14sHEbpCW7nbb0m7p9mu37TxnhkCc0xzee/m=
+9N0N+DZ47nw77UuYzhZrPFViTfhQiARRnVRzNqyjHNdgJjRoROcW1hIn17FgvrLkbyE/2ozBxBa=
+WZPthzPlQTEupvZDTfKXCXAjAjsk5YKj0cuwjadMBPO/cbja9xVF+r/4n9aK+oqLwKUpKb8CMX6=
+oWzu4DWz010naIwUjuN1vrAmbjxVoG9EATJTwUERu3TFJy1IZaswf0eAzou4DrobN4V4uOYhCPW=
+ixSjqmCmrROkbmkf7sYwvK0RxtcErWRxnNRQmu5DYToAwlyiYO3DALy9RcCrs3QPne378L69FCH=
+1L0lYTy7DYvikPK+JNRrvrzHmO/DWbzFTjXXIiOSubaBd+Avj4SWYYQXEjgfFGrSk86robA3C+5=
+EQydW1UdT3Pop7NnwVRogbkhrl03X/7AA1C83V63CWb54YPsdR2ZgVdyN6G5lxiRJzRtLZo/DpT=
+tfgBTmzwEg/6MH+vQvQh3pwEPLp4msYUSVVSQZpOaah+EJFnq3B38d4KuNwXEbmkUQPHvvE1/gH=
+GQ6mWZBs5g0AAAAASUVORK5CYII=3D") left center no-repeat; padding-left: 16px;=
+ }
+  .plainlinks a { background: none !important; padding: 0px !important; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  table.collapsed tr.collapsable { display: none; }
+  .error, .warning, .success { font-size: larger; }
+  .error { color: rgb(204, 0, 0); }
+  .warning { color: rgb(112, 80, 0); }
+  .success { color: rgb(0, 144, 0); }
+  .errorbox, .warningbox, .successbox { border: 1px solid; padding: 0.5em 1=
+em; margin-bottom: 1em; display: inline-block; zoom: 1; }
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; color: inh=
+erit; font-weight: bold; display: inline; margin: 0px 0.5em 0px 0px; border=
+: none; }
+  .errorbox { color: rgb(204, 0, 0); border-color: rgb(250, 197, 197); back=
+ground-color: rgb(250, 227, 227); }
+  .warningbox { color: rgb(112, 80, 0); border-color: rgb(253, 226, 155); b=
+ackground-color: rgb(253, 241, 209); }
+  .successbox { color: rgb(0, 144, 0); border-color: rgb(183, 253, 181); ba=
+ckground-color: rgb(225, 253, 223); }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  #mw_trackbacks { border: 1px solid rgb(187, 187, 255); background-color: =
+rgb(238, 238, 255); padding: 0.2em; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  .TablePager { min-width: 80%; }
+  .TablePager_nav { margin: 0px auto; }
+  .TablePager_nav td { padding: 3px; text-align: center; }
+  .TablePager_nav a { text-decoration: none; }
+  .imagelist td, .imagelist th { white-space: nowrap; }
+  .imagelist .TablePager_col_links { background-color: rgb(238, 238, 255); =
+}
+  .imagelist .TablePager_col_img_description { white-space: normal; }
+  .imagelist th.TablePager_sort { background-color: rgb(204, 204, 255); }
+  ul#filetoc { text-align: center; border: 1px solid rgb(170, 170, 170); ba=
+ckground-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; margin-bo=
+ttom: 0.5em; margin-left: 0px; margin-right: 0px; }
+  #filetoc li { display: inline; list-style-type: none; padding-right: 2em;=
+ }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); background-color: rgb(249, 249, 249); margin: 2px; }
+  li.gallerybox div.thumb img { display: block; margin: 0px auto; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  ul.mw-gallery-nolines li.gallerybox div.thumb { background-color: transpa=
+rent; border: none; }
+  ul.mw-gallery-nolines li.gallerybox div.gallerytext { text-align: center;=
+ }
+  ul.mw-gallery-packed li.gallerybox div.thumb, ul.mw-gallery-packed-overla=
+y li.gallerybox div.thumb, ul.mw-gallery-packed-hover li.gallerybox div.thu=
+mb { background-color: transparent; border: none; }
+  ul.mw-gallery-packed li.gallerybox div.thumb img, ul.mw-gallery-packed-ov=
+erlay li.gallerybox div.thumb img, ul.mw-gallery-packed-hover li.gallerybox=
+ div.thumb img { margin: 0px auto; }
+  ul.mw-gallery-packed-hover li.gallerybox, ul.mw-gallery-packed-overlay li=
+.gallerybox { position: relative; }
+  ul.mw-gallery-packed-hover div.gallerytextwrapper { overflow: hidden; hei=
+ght: 0px; }
+  ul.mw-gallery-packed-hover li.gallerybox:hover div.gallerytextwrapper, ul=
+.mw-gallery-packed-overlay li.gallerybox div.gallerytextwrapper, ul.mw-gall=
+ery-packed-hover li.gallerybox.mw-gallery-focused div.gallerytextwrapper { =
+position: absolute; opacity: 0.8; zoom: 1; background-color: white; padding=
+: 5px 10px; bottom: 0px; left: 0px; height: auto; font-weight: bold; margin=
+: 2px; }
+  ul.mw-gallery-packed-hover, ul.mw-gallery-packed-overlay, ul.mw-gallery-p=
+acked { text-align: center; }
+  ul.mw-gallery-packed-hover div.gallerytext, ul.mw-gallery-packed-overlay =
+div.gallerytext { opacity: 1; position: relative; }
+  .mw-ajax-loader { background-image: url("data:image/gif;base64,R0lGODlhIA=
+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"); background-position: c=
+enter center; background-repeat: no-repeat; padding: 16px; position: relati=
+ve; top: -16px; }
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("data:imag=
+e/gif;base64,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3D=3D"); background-position: cente=
+r center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lan=
+g(kk-arab) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAP///01NTZOTk1lZWefn57i4uJSUlPPz82VlZdDQ0HFxcaysrNvb28TExAA=
+AAAAAACH5BAAAAAAALAAAAAALAAsAAAQrUIRJqQQ455nNNBgHJANBDAwgZsVwqIG2IEQYYwXy2l=
+q/Kg3NqqeSVCqCCAA7"); background-position: left center; background-repeat: =
+no-repeat; cursor: pointer; font-size: 0.8em; text-decoration: underline; c=
+olor: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAAtop+7z+GCWwpW51oStz8rb6yZzrafF3bnR5Nzn8QBcoD91oABQmf///wA=
+AAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSH=
+pyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4b=
+XB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMy=
+OjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTk=
+vMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bW=
+xuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9I=
+mh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnht=
+cD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudEl=
+EPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5NkQ0QUQzRjI0NzRCNUQwIiB4bXBNTTpEb2N1bW=
+VudElEPSJ4bXAuZGlkOjJBN0FFQTQwQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXBNTTpJb=
+nN0YW5jZUlEPSJ4bXAuaWlkOjJBN0FFQTNGQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXA6=
+Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml=
+2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTk1RkVBQ0=
+ZBOEQxNTU5MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTk2R=
+DRBRDNGMjQ3NEI1RDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l=
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eD=
+f3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqK=
+empaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb=
+25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3=
+NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAA=
+h+QQAAAAAACwAAAAACwALAAAEK3CxSalsOOeZxRQY1yBKkihFI2aDEqiMRgBJGGMD8NpavxoHza=
+qnklQqiwgAOw=3D=3D"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  .tipsy { padding: 5px 5px 10px; font-size: 12px; position: absolute; z-in=
+dex: 100000; overflow: visible; }
+  .tipsy-inner { padding: 5px 8px 4px; background-color: rgb(214, 243, 255)=
+; color: black; border: 1px solid rgb(93, 201, 244); max-width: 300px; text=
+-align: left; }
+  .tipsy-arrow { position: absolute; background: url("data:image/gif;base64=
+,R0lGODlhDQANAMQAAPf399bz/9vu9m/O9NXy/8Pm9svp9pfd+YLW943X9LTn++z093XQ9WnM9O=
+Lw9p/c9YTU9InY9/T292DK9Jre+afj+rvq/Nzv9rjk9brl9cPt/ZLb+GbL9MLs/ZHb+KLh+iH5B=
+AAAAAAALAAAAAANAA0AAAVK4BGMZBkcg2WW1lBEKxkVAFTFFQQAwkSYhIlgB3hQTJQHEbBodEia=
+xmIJyHhIGwwVIGEoAgqGZAswIAIIA3mX+CTWOwfHAd9dtiEAOw=3D=3D") left top no-repe=
+at; width: 13px; height: 13px; }
+  .tipsy-se .tipsy-arrow { bottom: -2px; right: 10px; background-position: =
+0% 100%; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-multi, .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: emb=
+ed; direction: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .mw-editsection, .toctoggle { user-select: none; }
+  .mw-editsection { font-size: small; font-weight: normal; margin-left: 1em=
+; vertical-align: baseline; line-height: 1em; display: inline-block; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section { margin-left: 1em; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section { margin-right: 1em; }
+}
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 132%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; line-height: 1.5em; }
+  p img { margin: 0px; }
+  ul { line-height: 1.5em; list-style-type: square; margin: 0.3em 0px 0px 1=
+.6em; padding: 0px; }
+  ol { line-height: 1.5em; margin: 0.3em 0px 0px 3.2em; padding: 0px; list-=
+style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { line-height: 1.5em; margin-left: 1.6em; margin-bottom: 0.1em; }
+  q { font-family: Times, "Times New Roman", serif; font-style: italic; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { background-color: rgb(249, 249, 249); }
+  pre, .mw-code { padding: 1em; border: 1px solid rgb(221, 221, 221); color=
+: black; background-color: rgb(249, 249, 249); }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; line-height: 1.5em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; }
+  select { vertical-align: top; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning { border: 1px solid rgb(170, 170, 170); backgroun=
+d-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc, .toc { display: table; zoom: 1; padding: 7px; }
+  table#toc, table.toc { border-collapse: collapse; }
+  table#toc td, table.toc td { padding: 0px; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  #toc .toctoggle, .toc .toctoggle { font-size: 94%; }
+  .toccolours { border: 1px solid rgb(170, 170, 170); background-color: rgb=
+(249, 249, 249); padding: 5px; font-size: 95%; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+rgb(249, 249, 249); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; font-size: 94%; pa=
+dding: 3px !important; }
+  div.magnify { margin-left: 3px; border: none !important; background: none=
+ !important; }
+  div.magnify a, div.magnify img { display: block; border: none !important;=
+ background: none !important; }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  #editform textarea { display: block; box-sizing: border-box; }
+  #userlogin, #userloginForm { border: 1px solid rgb(204, 204, 204); paddin=
+g: 1.2em; margin: 0.5em; }
+  #loginend { margin: 0.5em; }
+  #loginend table { width: 100%; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading, #firstHeading { margin-bottom: 0.1em; line-height: 1.2em; =
+padding-bottom: 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(125, 125, 125); width: auto; }
+  span.subpages { display: block; }
+}
+
+@media screen {
+  html { font-size: 1em; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-s=
+erif; }
+  body { background-color: rgb(246, 246, 246); font-size: 1em; }
+  div#content { line-height: 1.5em; margin-left: 10em; padding: 1.5em 1.5em=
+ 1.5em 1.75em; border-width: 1px 0px 1px 1px; border-style: solid; border-c=
+olor: rgb(167, 215, 249); border-image: initial; margin-top: -1px; backgrou=
+nd-color: white; color: black; direction: ltr; }
+  #mw-navigation h2 { position: absolute; top: -9999px; }
+  #mw-page-base { height: 5em; background-color: white; background-image: u=
+rl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAsCAIAAAArRUU2AAAAO=
+klEQVR42lWNWwoAQAgCde9/59mgF30EOmgKeJLmUHjGpzbBdXnl6F5oV5/J9e/tr/czydmt7RT3=
+3floBCM5ZQLqdwAAAABJRU5ErkJggg=3D=3D"); background-position: left bottom; b=
+ackground-repeat: repeat-x; }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; }
+  div#mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  div#mw-head h3 { margin: 0px; padding: 0px; }
+  div.emptyPortlet { display: none; }
+  #p-personal { position: absolute; top: 0.33em; right: 0.75em; z-index: 10=
+0; }
+  #p-personal h3 { display: none; }
+  #p-personal ul { list-style-type: none; list-style-image: none; margin: 0=
+px; padding-left: 10em; }
+  #p-personal li { line-height: 1.125em; float: left; margin-left: 0.75em; =
+margin-top: 0.5em; font-size: 0.75em; white-space: nowrap; }
+  #left-navigation { float: left; margin-left: 10em; margin-top: 2.5em; mar=
+gin-bottom: -2.5em; display: inline; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  div.vectorTabs h3, div.vectorMenu h3 span { display: none; }
+  div.vectorTabs { float: left; height: 2.5em; }
+  div.vectorTabs { background-image: url("data:image/png;base64,iVBORw0KGgo=
+AAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3hLKk=
+gGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAASUVOR=
+K5CYII=3D"); background-position: left bottom; background-repeat: no-repeat=
+; padding-left: 1px; }
+  div.vectorTabs ul { float: left; height: 100%; list-style-type: none; lis=
+t-style-image: none; margin: 0px; padding: 0px; }
+  div.vectorTabs ul li { float: left; line-height: 1.125em; display: inline=
+-block; height: 100%; margin: 0px; padding: 0px; background-color: rgb(243,=
+ 243, 243); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSU=
+hEUgAAAAEAAABkCAIAAADITs03AAAAPElEQVR4XuWK2xEAIAzCsPvv5DSu0ahX3yv4wQVyGGCSv=
+g2dnJvduT8sz/IwKOIfjCi2z/76FhHeJcslVZQFLUC06LZ/AAAAAElFTkSuQmCC"); backgrou=
+nd-position: left bottom; background-repeat: repeat-x; white-space: nowrap;=
+ }
+  div.vectorTabs ul > li { display: block; }
+  div.vectorTabs li.selected { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADUlEQVQIHWNoYBgWEACJ5TIB0K=
+9KcAAAAABJRU5ErkJggg=3D=3D"); }
+  div.vectorTabs li a { display: inline-block; height: 1.9em; padding-left:=
+ 0.5em; padding-right: 0.5em; color: rgb(6, 69, 173); cursor: pointer; font=
+-size: 0.8em; }
+  div.vectorTabs li > a { display: block; }
+  div.vectorTabs li.icon a { background-position: right bottom; background-=
+repeat: no-repeat; }
+  div.vectorTabs span a { display: inline-block; padding-top: 1.25em; }
+  div.vectorTabs span > a { float: left; display: block; }
+  div.vectorTabs span { display: inline-block; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42m=
+VO2wrAUAhy/f8fz+niVMTYQ3hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7=
+l+2K+EFX91B1daOi7sAAAAASUVORK5CYII=3D"); background-position: right bottom;=
+ background-repeat: no-repeat; }
+  div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  div.vectorTabs li.new a, div.vectorTabs li.new a:visited { color: rgb(165=
+, 88, 88); }
+  div.vectorMenu { direction: ltr; float: left; background-image: linear-gr=
+adient(transparent, transparent), url("data:image/svg+xml;base64,PD94bWwgdm=
+Vyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlY=
+XRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2Zwog=
+ICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmN=
+jPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3=
+d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwO=
+i8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAv=
+c3ZnIgogICB2ZXJzaW9uPSIxLjEiCiAgIHdpZHRoPSIyMiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ=
+9InN2ZzIiPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPS=
+JtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphY=
+m91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAg=
+ICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2R=
+jL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+Ci=
+AgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgd=
+HJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAg=
+IDxwYXRoCiAgICAgICBkPSJNIDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQ=
+yNCA2LjM2NjY2NDksMy43NzI5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMD=
+c3OTEsMCwwLDEuNTc2NjE2LC0xMS44ODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoM=
+jk4NSIKICAgICAgIHN0eWxlPSJmaWxsOiM3OTc5Nzk7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5v=
+bmUiIC8+CiAgPC9nPgo8L3N2Zz4K"); background-position: 100% 60%; background-r=
+epeat: no-repeat; cursor: pointer; }
+  div.vectorMenuFocus { background-image: linear-gradient(transparent, tran=
+sparent), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZG=
+luZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlI=
+ChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDov=
+L3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmV=
+jb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi=
+8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL=
+3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIx=
+LjEiCiAgIHdpZHRoPSIyMiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiA=
+gICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPH=
+JkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8Z=
+GM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAg=
+ICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1=
+hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KIC=
+AgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhd=
+GUoMCwtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJN=
+IDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI=
+5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMDc3OTEsMCwwLDEuNTc2NjE2LC=
+0xMS44ODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoMjk4NSIKICAgICAgIHN0eWxlP=
+SJmaWxsOiM5MjkyOTI7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgPC9nPgo8L3N2=
+Zz4K"); background-position: 100% 60%; }
+  body.rtl div.vectorMenu { direction: rtl; }
+  div#mw-head div.vectorMenu h3 { float: left; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42m=
+VO2wrAUAhy/f8fz+niVMTYQ3hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7=
+l+2K+EFX91B1daOi7sAAAAASUVORK5CYII=3D"); background-repeat: no-repeat; back=
+ground-position: left bottom; margin-left: -1px; }
+  div#mw-head div.vectorMenu > h3 { background-image: none; }
+  div#mw-head div.vectorMenu h4, div.vectorMenu#p-variants #mw-vector-curre=
+nt-variant { display: inline-block; float: left; font-size: 0.8em; padding-=
+left: 0.5em; padding-top: 1.375em; font-weight: normal; border: none; }
+  div.vectorMenu h3 a { display: inline-block; width: 24px; height: 1.9em; =
+text-decoration: none; background-image: url("data:image/png;base64,iVBORw0=
+KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3=
+hLKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAAS=
+UVORK5CYII=3D"); background-repeat: no-repeat; background-position: right b=
+ottom; }
+  div.vectorMenu h3 > a { display: block; }
+  div.vectorMenu div.menu { position: relative; display: none; clear: both;=
+ text-align: left; }
+  body.rtl div.vectorMenu div.menu { margin-left: 24px; }
+  body.rtl div.vectorMenu > div.menu { margin-left: auto; }
+  div.vectorMenu:hover div.menu, div.vectorMenu div.menuForceShow { display=
+: block; }
+  div.vectorMenu ul { position: absolute; background-color: white; border-w=
+idth: 0px 1px 1px; border-style: solid; border-color: silver; border-image:=
+ initial; list-style-type: none; list-style-image: none; padding: 0px; marg=
+in: 0px 0px 0px -1px; text-align: left; }
+  div.vectorMenu li { padding: 0px; margin: 0px; text-align: left; line-hei=
+ght: 1em; }
+  div.vectorMenu li a { display: inline-block; padding: 0.5em; white-space:=
+ nowrap; color: rgb(6, 69, 173); cursor: pointer; font-size: 0.8em; }
+  div.vectorMenu li > a { display: block; }
+  div.vectorMenu li.selected a, div.vectorMenu li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  #p-search h3 { display: none; }
+  #p-search { float: left; }
+  #p-search { margin-right: 0.5em; margin-left: 0.5em; }
+  #p-search form, #p-search input { margin: 0.4em 0px 0px; }
+  div#simpleSearch { display: block; width: 14em; height: 1.4em; margin-top=
+: 0.65em; position: relative; min-height: 1px; border: 1px solid rgb(170, 1=
+70, 170); color: black; background-color: white; background-image: url("dat=
+a:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAAJUlEQVQI=
+HQXBsQEAAAjDoND/73UWdnerhmHVsDQZJrNWVg3Dqge6bgMe6bejNAAAAABJRU5ErkJggg=3D=
+=3D"); background-position: left top; background-repeat: repeat-x; }
+  div#simpleSearch input:focus { outline: none; }
+  div#simpleSearch input { color: black; }
+  div#simpleSearch input.placeholder { color: rgb(153, 153, 153); }
+  div#simpleSearch input::-webkit-input-placeholder { color: rgb(153, 153, =
+153); }
+  div#simpleSearch input#searchInput { position: absolute; top: 0px; left: =
+0px; width: 90%; margin: 0px; padding: 0.2em 0px 0.2em 0.2em; outline: none=
+; border: none; font-size: 13px; background-color: transparent; direction: =
+ltr; }
+  div#simpleSearch button#searchButton { position: absolute; width: 10%; ri=
+ght: 0px; top: 0px; padding: 0.3em 0.4em 0.2em 0px; margin: 0px; border: no=
+ne; cursor: pointer; background-color: transparent; background-image: none;=
+ }
+  div#simpleSearch button#searchButton img { border: none; margin: -3px 0px=
+ 0px; padding: 0px; }
+  div#simpleSearch button#searchButton > img { margin: 0px; }
+  div#mw-panel { font-size: inherit; position: absolute; top: 160px; paddin=
+g-top: 1em; width: 10em; left: 0px; }
+  div#mw-panel div.portal { padding-bottom: 1.5em; direction: ltr; }
+  div#mw-panel div.portal h3 { font-weight: normal; color: rgb(68, 68, 68);=
+ padding: 0px 1.75em 0.25em 0.25em; cursor: default; border: none; font-siz=
+e: 0.75em; }
+  div#mw-panel div.portal div.body { padding-top: 0.5em; margin: 0px 0px 0p=
+x 1.25em; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhE=
+UgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIp=
+H1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC"); background-repeat: no-repeat; backgrou=
+nd-position: left top; }
+  div#mw-panel div.portal div.body ul { list-style-type: none; list-style-i=
+mage: none; padding: 0px; margin: 0px; }
+  div#mw-panel div.portal div.body ul li { line-height: 1.125em; padding: 0=
+px 0px 0.5em; margin: 0px; font-size: 0.75em; overflow-wrap: break-word; }
+  div#mw-panel div.portal div.body ul li a { color: rgb(6, 69, 173); }
+  div#mw-panel div.portal div.body ul li a:visited { color: rgb(11, 0, 128)=
+; }
+  div#footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; directi=
+on: ltr; }
+  div#footer ul { list-style-type: none; list-style-image: none; margin: 0p=
+x; padding: 0px; }
+  div#footer ul li { margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51=
+); font-size: 0.7em; }
+  div#footer #footer-icons { float: right; }
+  body.ltr div#footer #footer-places { float: left; }
+  div#footer #footer-info li { line-height: 1.4em; }
+  div#footer #footer-icons li { float: left; margin-left: 0.5em; line-heigh=
+t: 2em; text-align: right; }
+  div#footer #footer-places li { float: left; margin-right: 1em; line-heigh=
+t: 2em; }
+  #p-logo { position: absolute; top: -160px; left: 0px; width: 10em; height=
+: 160px; }
+  #p-logo a { display: block; width: 10em; height: 160px; background-repeat=
+: no-repeat; background-position: center center; text-decoration: none; }
+  #preftoc { width: 100%; float: left; clear: both; background-image: url("=
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAhCAAAAAA90p5jAAAAAnRST=
+lMAAHaTzTgAAAAgSURBVAhbY2Bg+Mf0HwpBrH9Q8i8TAxDDeAiIUAHVBQDawh8M4pNxOQAAAABJ=
+RU5ErkJggg=3D=3D"); background-position: left bottom; background-repeat: no=
+-repeat; margin: 0px !important; padding: 0px !important; }
+  #preftoc li { float: left; margin: 0px; padding: 0px 1px 0px 0px; height:=
+ 2.25em; white-space: nowrap; list-style-type: none; list-style-image: none=
+; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEA=
+AAAhCAAAAAA90p5jAAAAAnRSTlMAAHaTzTgAAAAgSURBVAhbY2Bg+Mf0HwpBrH9Q8i8TAxDDeAi=
+IUAHVBQDawh8M4pNxOQAAAABJRU5ErkJggg=3D=3D"); background-position: right bot=
+tom; background-repeat: no-repeat; }
+  #preftoc li:first-child { margin-left: 1px; }
+  #preftoc a, #preftoc a:active { display: inline-block; position: relative=
+; color: rgb(6, 69, 173); padding: 0.5em; text-decoration: none; background=
+-image: none; font-size: 0.9em; }
+  #preftoc a:hover, #preftoc a:focus { text-decoration: underline; }
+  #preftoc li.selected a { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAEAAAAhCAQAAACysAk0AAAAHElEQVQIW2P6z8DE8J+JgQGKQFwMhC=
+aIn4shCAC27Qc86OAoxwAAAABJRU5ErkJggg=3D=3D"); background-position: center b=
+ottom; background-repeat: repeat-x; color: rgb(51, 51, 51); text-decoration=
+: none; }
+  #preferences { float: left; width: 100%; margin: -2px 0px 0px; clear: bot=
+h; border: 1px solid rgb(204, 204, 204); background-color: rgb(250, 250, 25=
+0); }
+  #preferences fieldset { border-right: none; border-bottom: none; border-l=
+eft: none; border-image: initial; border-top: 1px solid rgb(204, 204, 204);=
+ }
+  #preferences fieldset.prefsection { border: none; padding: 0px; margin: 1=
+em; }
+  #preferences legend { color: rgb(102, 102, 102); }
+  #preferences fieldset.prefsection legend.mainLegend { display: none; }
+  #preferences td { padding-left: 0.5em; padding-right: 0.5em; }
+  .htmlform-tip { font-size: x-small; padding: 0.2em 2em; color: rgb(102, 1=
+02, 102); }
+  #preferences div.mw-prefs-buttons { padding: 1em; }
+  #preferences div.mw-prefs-buttons input { margin-right: 0.25em; }
+  ul { list-style-type: disc; list-style-image: url("data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXR=
+STlMAQObYZgAAABNJREFUCB1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII=3D"); =
+}
+  pre, .mw-code { line-height: 1.3em; }
+  #siteNotice { font-size: 0.8em; }
+  #firstHeading { padding-top: 0px; margin-top: 0px; font-size: 1.6em; }
+  #pt-userpage, #pt-anonuserpage, #pt-login { background-position: left top=
+; background-repeat: no-repeat; background-image: linear-gradient(transpare=
+nt, transparent), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIi=
+BlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua=
+3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0i=
+aHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3J=
+lYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMT=
+k5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZ=
+y8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxu=
+czp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKICAgdmVyc2lvbj0iMS4xIgo=
+gICB3aWR0aD0iMTIiCiAgIGhlaWdodD0iMTMuODM3NDU4IgogICBpZD0ic3ZnMjEwOCI+CiAgPG=
+1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjgiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb=
+3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4=
+bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0=
+iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOn=
+RpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ld=
+GFkYXRhPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMzIj4KICAgIDxsaW5lYXJHcmFkaWVudAogICAg=
+ICAgaWQ9ImxpbmVhckdyYWRpZW50NDM1NiI+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9=
+wNDM1OCIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMDtzdG9wLW9wYWNpdHk6MS=
+IKICAgICAgICAgb2Zmc2V0PSIwIiAvPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDQzN=
+jAiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjAiCiAg=
+ICAgICAgIG9mZnNldD0iMSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3J=
+hZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDQzNDQiPgogICAgICA8c3RvcAogICAgIC=
+AgICBpZD0ic3RvcDQzNDYiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiM3MjdlMGE7c3Rvc=
+C1vcGFjaXR5OjEiCiAgICAgICAgIG9mZnNldD0iMCIgLz4KICAgICAgPHN0b3AKICAgICAgICAg=
+aWQ9InN0b3A0MzQ4IgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojNWI2NTA4O3N0b3Atb3B=
+hY2l0eToxIgogICAgICAgICBvZmZzZXQ9IjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIC=
+AgPGxpbmVhckdyYWRpZW50CiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0MzM4Ij4KICAgICAgP=
+HN0b3AKICAgICAgICAgaWQ9InN0b3A0MzQwIgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjoj=
+ZTliMTVlO3N0b3Atb3BhY2l0eToxIgogICAgICAgICBvZmZzZXQ9IjAiIC8+CiAgICAgIDxzdG9=
+wCiAgICAgICAgIGlkPSJzdG9wNDM0MiIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6Izk2Nj=
+QxNjtzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIxIiAvPgogICAgPC9saW5lYXJHc=
+mFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50NDE2=
+MyI+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wNDE2NSIKICAgICAgICAgc3R5bGU9InN=
+0b3AtY29sb3I6IzNiNzRiYztzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIwIiAvPg=
+ogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDQxNjciCiAgICAgICAgIHN0eWxlPSJzdG9wL=
+WNvbG9yOiMyZDU5OTA7c3RvcC1vcGFjaXR5OjEiCiAgICAgICAgIG9mZnNldD0iMSIgLz4KICAg=
+IDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJ=
+HcmFkaWVudDM4MjQiPgogICAgICA8c3RvcAogICAgICAgICBpZD0ic3RvcDM4MjYiCiAgICAgIC=
+AgIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjEiCiAgICAgICAgIG9mZ=
+nNldD0iMCIgLz4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AzODI4IgogICAgICAgICBz=
+dHlsZT0ic3RvcC1jb2xvcjojYzljOWM5O3N0b3Atb3BhY2l0eToxIgogICAgICAgICBvZmZzZXQ=
+9IjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50CiAgICAgIC=
+BpZD0ibGluZWFyR3JhZGllbnQzODE2Ij4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AzO=
+DE4IgogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwO3N0b3Atb3BhY2l0eToxIgog=
+ICAgICAgICBvZmZzZXQ9IjAiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIGlkPSJzdG9wMzgyMCI=
+KICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMDtzdG9wLW9wYWNpdHk6MCIKICAgIC=
+AgICAgb2Zmc2V0PSIxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFka=
+WVudAogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50MzgwMCI+CiAgICAgIDxzdG9wCiAgICAgICAg=
+IGlkPSJzdG9wMzgwMiIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I2Y0ZDliMTtzdG9wLW9=
+wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIwIiAvPgogICAgICA8c3RvcAogICAgICAgICBpZD=
+0ic3RvcDM4MDQiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiNkZjk3MjU7c3RvcC1vcGFja=
+XR5OjEiCiAgICAgICAgIG9mZnNldD0iMSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8=
+cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOS4zNDQ5MzEiCiAgICAgICBjeT0iMTcuMDY0MDc=
+3IgogICAgICAgcj0iOS4xNjIwNTc5IgogICAgICAgZng9IjI5LjM0NDkzMSIKICAgICAgIGZ5PS=
+IxNy4wNjQwNzciCiAgICAgICBpZD0icmFkaWFsR3JhZGllbnQzODA2IgogICAgICAgeGxpbms6a=
+HJlZj0iI2xpbmVhckdyYWRpZW50MzgwMCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFj=
+ZU9uVXNlIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICA=
+gICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMT=
+I2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50MzgyM=
+iIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVu=
+dFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE=
+9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzAuOTM1OTIxIg=
+ogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDM4MzAiCiAgI=
+CAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZGllbnRVbml0=
+cz0idXNlclNwYWNlT25Vc2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOC4=
+wODk3NDEiCiAgICAgICBjeT0iMjcuMjAzMDgzIgogICAgICAgcj0iMTMuNTY1MzYiCiAgICAgIC=
+BmeD0iMjguMDg5NzQxIgogICAgICAgZnk9IjI3LjIwMzA4MyIKICAgICAgIGlkPSJyYWRpYWxHc=
+mFkaWVudDQxNjkiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ0MTYzIgogICAg=
+ICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9=
+ybT0ibWF0cml4KDEuMjk3NTY0LDAsMCwwLjg4NDgzMSwtOC4zNTg1MDUsNC45NDA0NjkpIiAvPg=
+ogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMjkuMzQ0OTMxIgogICAgICAgY3k9IjE3L=
+jA2NDA3NyIKICAgICAgIHI9IjkuMTYyMDU3OSIKICAgICAgIGZ4PSIyOS4zNDQ5MzEiCiAgICAg=
+ICBmeT0iMTcuMDY0MDc3IgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDE3MSIKICAgICAgIHh=
+saW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MDAiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2=
+VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC43ODc5OTgsM=
+CwwLDAuNzg3OTk4LDYuMjIxMTk4LDMuNjE3NjI3KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAog=
+ICAgICAgeDE9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzA=
+uOTM1OTIxIgogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudD=
+QxNzUiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZ=
+GllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0idHJh=
+bnNsYXRlKDAuNzA3MTA4LDApIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzE=
+uMTEyNjk4IgogICAgICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgIC=
+AgIGZ4PSIzMS4xMTI2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhb=
+EdyYWRpZW50NDE3OSIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAg=
+ICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWV=
+udAogICAgICAgeDE9IjMwLjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj=
+0iMzAuOTM1OTIxIgogICAgICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFka=
+WVudDQzMjYiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAg=
+Z3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0=
+idHJhbnNsYXRlKC0xMi40MTc4OSwtNykiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIG=
+N4PSIyOS4zNDQ5MzEiCiAgICAgICBjeT0iMTcuMDY0MDc3IgogICAgICAgcj0iOS4xNjIwNTc5I=
+gogICAgICAgZng9IjI5LjM0NDkzMSIKICAgICAgIGZ5PSIxNy4wNjQwNzciCiAgICAgICBpZD0i=
+cmFkaWFsR3JhZGllbnQ0MzI4IgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM=
+zOCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbn=
+RUcmFuc2Zvcm09Im1hdHJpeCgwLjc4Nzk5OCwwLDAsMC43ODc5OTgsNi4yMjExOTgsMy42MTc2M=
+jcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICAgICAg=
+Y3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMTI2OTg=
+iCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDMzMCIKIC=
+AgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVudFVua=
+XRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjMw=
+LjkzNTkyMSIKICAgICAgIHkxPSIyOS41NTM0ODYiCiAgICAgICB4Mj0iMzAuOTM1OTIxIgogICA=
+gICAgeTI9IjM1LjgwMzQ4NiIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDQzMzIiCiAgICAgIC=
+B4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODI0IgogICAgICAgZ3JhZGllbnRVbml0cz0id=
+XNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMy4x=
+MjUsLTcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50CiAgICAgICBjeD0iMzEuMTEyNjk4IgogICA=
+gICAgY3k9IjE5LjAwODYyMSIKICAgICAgIHI9IjguNjYyMDU3OSIKICAgICAgIGZ4PSIzMS4xMT=
+I2OTgiCiAgICAgICBmeT0iMTkuMDA4NjIxIgogICAgICAgaWQ9InJhZGlhbEdyYWRpZW50NDMzN=
+iIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDM4MTYiCiAgICAgICBncmFkaWVu=
+dFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxyYWRpYWxHcmFkaWVudAogICAgICAgY3g=
+9IjE2LjIxNDc0MSIKICAgICAgIGN5PSIxOS44MzY0NjgiCiAgICAgICByPSIxMy41NjUzNiIKIC=
+AgICAgIGZ4PSIxNi4yMTQ3NDEiCiAgICAgICBmeT0iMTkuODM2NDY4IgogICAgICAgaWQ9InJhZ=
+GlhbEdyYWRpZW50NDM1MCIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNDQi=
+CiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJ=
+hbnNmb3JtPSJtYXRyaXgoMSwwLDAsMC42ODE5MTcsMCw4LjIzMzc3MykiIC8+CiAgICA8bGluZW=
+FyR3JhZGllbnQKICAgICAgIHgxPSIyMC42NjE2OTUiCiAgICAgICB5MT0iMzUuODE3OTc0IgogI=
+CAgICAgeDI9IjIyLjYyNjkyNSIKICAgICAgIHkyPSIzNi4yMTc3NTgiCiAgICAgICBpZD0ibGlu=
+ZWFyR3JhZGllbnQ0MzYyIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiI=
+KICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcm=
+Fuc2Zvcm09Im1hdHJpeCgwLjk4MzM3NSwwLjE4MTU4OCwtMC4xODE1ODgsMC45ODMzNzUsNi4yM=
+zE3MTYsLTIuNjUxNDY2KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4=
+Njc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICAgICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHk=
+yPSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0MzY2IgogICAgICAgeGxpbm=
+s6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTc=
+GFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4y=
+MTAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNTUuMTA5NiwtMy45NDUyMDkpIiAvPgogICAgPGxpbmV=
+hckdyYWRpZW50CiAgICAgICB4MT0iMjAuNjYxNjk1IgogICAgICAgeTE9IjM1LjgxNzk3NCIKIC=
+AgICAgIHgyPSIyMi42MjY5MjUiCiAgICAgICB5Mj0iMzYuMjE3NzU4IgogICAgICAgaWQ9Imxpb=
+mVhckdyYWRpZW50NDM3MiIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNTYi=
+CiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJ=
+hbnNmb3JtPSJtYXRyaXgoMC45ODMzNzUsMC4xODE1ODgsLTAuMTgxNTg4LDAuOTgzMzc1LC03Lj=
+A3MjEyLC05LjgyNDkyKSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4N=
+jc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICAgICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHky=
+PSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ0Mzc0IgogICAgICAgeGxpbms=
+6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcG=
+FjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4yM=
+TAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNDEuODA1NzYsLTExLjExODY2KSIgLz4KICAgIDxsaW5l=
+YXJHcmFkaWVudAogICAgICAgeDE9IjIyLjY4Njc2NiIKICAgICAgIHkxPSIzNi4zOTA0IgogICA=
+gICAgeDI9IjIxLjQwODQ1NSIKICAgICAgIHkyPSIzNS43Mzk2MzIiCiAgICAgICBpZD0ibGluZW=
+FyR3JhZGllbnQxMzY2IgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NDM1NiIKI=
+CAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFu=
+c2Zvcm09Im1hdHJpeCgtMC45Nzc2ODUsMC4yMTAwNzUsMC4yMTAwNzUsMC45Nzc2ODUsNDEuODA=
+1NzYsLTExLjExODY2KSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgeDE9IjIwLjY2MT=
+Y5NSIKICAgICAgIHkxPSIzNS44MTc5NzQiCiAgICAgICB4Mj0iMjIuNjI2OTI1IgogICAgICAge=
+TI9IjM2LjIxNzc1OCIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDEzNjkiCiAgICAgICB4bGlu=
+azpocmVmPSIjbGluZWFyR3JhZGllbnQ0MzU2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclN=
+wYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTgzMzc1LDAuMT=
+gxNTg4LC0wLjE4MTU4OCwwLjk4MzM3NSwtNy4wNzIxMiwtOS44MjQ5MikiIC8+CiAgICA8bGluZ=
+WFyR3JhZGllbnQKICAgICAgIHgxPSIzMC45MzU5MjEiCiAgICAgICB5MT0iMjkuNTUzNDg2Igog=
+ICAgICAgeDI9IjMwLjkzNTkyMSIKICAgICAgIHkyPSIzNS44MDM0ODYiCiAgICAgICBpZD0ibGl=
+uZWFyR3JhZGllbnQxMzcyIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50MzgyNC=
+IKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUc=
+mFuc2Zvcm09InRyYW5zbGF0ZSgtMTIuNDE3ODksLTcpIiAvPgogICAgPHJhZGlhbEdyYWRpZW50=
+CiAgICAgICBjeD0iMTYuMjE0NzQxIgogICAgICAgY3k9IjE5LjgzNjQ2OCIKICAgICAgIHI9IjE=
+zLjU2NTM2IgogICAgICAgZng9IjE2LjIxNDc0MSIKICAgICAgIGZ5PSIxOS44MzY0NjgiCiAgIC=
+AgICBpZD0icmFkaWFsR3JhZGllbnQxMzgxIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyY=
+WRpZW50NDM0NCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAg=
+Z3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwwLjY4MTkxNywwLDguMjMzNzczKSIgLz4=
+KICAgIDxyYWRpYWxHcmFkaWVudAogICAgICAgY3g9IjMxLjExMjY5OCIKICAgICAgIGN5PSIxOS=
+4wMDg2MjEiCiAgICAgICByPSI4LjY2MjA1NzkiCiAgICAgICBmeD0iMzEuMTEyNjk4IgogICAgI=
+CAgZnk9IjE5LjAwODYyMSIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVudDIyNDMiCiAgICAgICB4=
+bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQzODE2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXN=
+lclNwYWNlT25Vc2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOC4wODk3ND=
+EiCiAgICAgICBjeT0iMjcuMjAzMDgzIgogICAgICAgcj0iMTMuNTY1MzYiCiAgICAgICBmeD0iM=
+jguMDg5NzQxIgogICAgICAgZnk9IjI3LjIwMzA4MyIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVu=
+dDIyNDUiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ0MTYzIgogICAgICAgZ3J=
+hZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0ibW=
+F0cml4KDEuMjk3NTY0LDAsMCwwLjg4NDgzMSwtOC4zNTg1MDUsNC45NDA0NjkpIiAvPgogICAgP=
+GxpbmVhckdyYWRpZW50CiAgICAgICB4MT0iMzAuOTM1OTIxIgogICAgICAgeTE9IjI5LjU1MzQ4=
+NiIKICAgICAgIHgyPSIzMC45MzU5MjEiCiAgICAgICB5Mj0iMzUuODAzNDg2IgogICAgICAgaWQ=
+9ImxpbmVhckdyYWRpZW50MjI0NyIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudD=
+M4MjQiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgLz4KICAgIDxyYWRpY=
+WxHcmFkaWVudAogICAgICAgY3g9IjMxLjExMjY5OCIKICAgICAgIGN5PSIxOS4wMDg2MjEiCiAg=
+ICAgICByPSI4LjY2MjA1NzkiCiAgICAgICBmeD0iMzEuMTEyNjk4IgogICAgICAgZnk9IjE5LjA=
+wODYyMSIKICAgICAgIGlkPSJyYWRpYWxHcmFkaWVudDIyNDkiCiAgICAgICB4bGluazpocmVmPS=
+IjbGluZWFyR3JhZGllbnQzODE2IgogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc=
+2UiIC8+CiAgICA8cmFkaWFsR3JhZGllbnQKICAgICAgIGN4PSIyOS4zNDQ5MzEiCiAgICAgICBj=
+eT0iMTcuMDY0MDc3IgogICAgICAgcj0iOS4xNjIwNTc5IgogICAgICAgZng9IjI5LjM0NDkzMSI=
+KICAgICAgIGZ5PSIxNy4wNjQwNzciCiAgICAgICBpZD0icmFkaWFsR3JhZGllbnQyMjUxIgogIC=
+AgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50MzgwMCIKICAgICAgIGdyYWRpZW50VW5pd=
+HM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjc4=
+Nzk5OCwwLDAsMC43ODc5OTgsNi4yMjExOTgsMy42MTc2MjcpIiAvPgogICAgPGxpbmVhckdyYWR=
+pZW50CiAgICAgICB4MT0iMjAuNjYxNjk1IgogICAgICAgeTE9IjM1LjgxNzk3NCIKICAgICAgIH=
+gyPSIyMi42MjY5MjUiCiAgICAgICB5Mj0iMzYuMjE3NzU4IgogICAgICAgaWQ9ImxpbmVhckdyY=
+WRpZW50MjI1MyIKICAgICAgIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDQzNTYiCiAgICAg=
+ICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3J=
+tPSJtYXRyaXgoMC45ODMzNzUsMC4xODE1ODgsLTAuMTgxNTg4LDAuOTgzMzc1LDYuMjMxNzE2LC=
+0yLjY1MTQ2NikiIC8+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIHgxPSIyMi42ODY3NjYiC=
+iAgICAgICB5MT0iMzYuMzkwNCIKICAgICAgIHgyPSIyMS40MDg0NTUiCiAgICAgICB5Mj0iMzUu=
+NzM5NjMyIgogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50MjI1NSIKICAgICAgIHhsaW5rOmhyZWY=
+9IiNsaW5lYXJHcmFkaWVudDQzNTYiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPbl=
+VzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuOTc3Njg1LDAuMjEwMDc1L=
+DAuMjEwMDc1LDAuOTc3Njg1LDU1LjEwOTYsLTMuOTQ1MjA5KSIgLz4KICA8L2RlZnM+CiAgPGcK=
+ICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNS4wMDAwMDM5LC0zMi4wNzAxMTIpIgogICAgIGl=
+kPSJsYXllcjEiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lIiAvPgogIDxnCiAgICAgdHJhbn=
+Nmb3JtPSJ0cmFuc2xhdGUoLTUuMDAwMDAzOSwtMzIuMDcwMTEyKSIKICAgICBpZD0ibGF5ZXIyI=
+gogICAgIHN0eWxlPSJkaXNwbGF5OmlubGluZSI+CiAgICA8ZwogICAgICAgdHJhbnNmb3JtPSJt=
+YXRyaXgoMC4zOTAxMjc5MywwLDAsMC4zOTAxMjc5MywtMS4wODkxNTc4LDI4LjIyOTc5KSIKICA=
+gICAgIGlkPSJnMjIzMCI+CiAgICAgIDxwYXRoCiAgICAgICAgIGQ9Im0gMzkuNzc0NzU1LDE5Lj=
+AwODYyMSBhIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAxIDEgLTE3LjMyNDExNSwwIDguNjYyMDU3O=
+Sw4LjY2MjA1NzkgMCAxIDEgMTcuMzI0MTE1LDAgeiIKICAgICAgICAgdHJhbnNmb3JtPSJtYXRy=
+aXgoMS43NzU1MSwwLDAsMC45NTkxODMsLTI0LjI1MzIyLDE4Ljc3MTUzKSIKICAgICAgICAgaWQ=
+9InBhdGg0MzA2IgogICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtmaWxsOnVybCgjcmFkaW=
+FsR3JhZGllbnQyMjQzKTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6b=
+m9uZTtzdHJva2Utd2lkdGg6MXB4O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNw=
+bGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgICA8cGF0aAogICAgICAgICBkPSJ=
+tIDI1Ljk4NjE3NCw0MS42MzYwMzkgMTAuNjA2NjAyLDAgYyAzLjAwNTIwNCwwIDUuOTgwNDg0LC=
+0xLjEwMTkzMiA3LjA3MTA2NywtNC4yNDI2NDEgMS4wMzU2MzksLTIuOTgyNDc2IDAuMTc2Nzc3L=
+C04LjY2MjA1OCAtNi41NDA3MzcsLTEzLjI1ODI1MiBsIC0xMi41NTExNDYsMCBjIC02LjcxNzUx=
+NCw0LjI0MjY0IC03LjU1Njk5MSwxMC4wNDQ4MzEgLTYuMDEwNDA3LDEzLjQzNTAyOCAxLjU3NTU=
+5NSwzLjQ1Mzc5IDQuMjQyNjQsNC4wNjU4NjUgNy40MjQ2MjEsNC4wNjU4NjUgeiIKICAgICAgIC=
+AgaWQ9InBhdGg0MzA4IgogICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtmaWxsOnVybCgjc=
+mFkaWFsR3JhZGllbnQyMjQ1KTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJv=
+a2U6IzIwNGE4NztzdHJva2Utd2lkdGg6MXB4O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1=
+saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjE7c3Ryb2=
+tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7bWFya2VyOm5vbmU7dmlzaWJpb=
+Gl0eTp2aXNpYmxlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxw=
+YXRoCiAgICAgICAgIGQ9Im0gMjYuNjkzMjgxLDI1LjcyNjEzNiBjIDMuMTgxOTgsMi44Mjg0Mjc=
+gNC41OTYxOTQsMTMuMDgxNDc2IDQuNTk2MTk0LDEzLjA4MTQ3NiAwLDAgMS40MTQyMTMsLTEwLj=
+I1MzA0OCAzLjg4OTA4NywtMTMuMjU4MjUyIGwgLTguNDg1MjgxLDAuMTc2Nzc2IHoiCiAgICAgI=
+CAgIGlkPSJwYXRoNDMxMCIKICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7ZmlsbDp1cmwo=
+I2xpbmVhckdyYWRpZW50MjI0Nyk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3R=
+yb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjFweDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libG=
+U7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgI=
+CAgZD0ibSAyOC45NzI3MjEsMjYuNzg2Nzk3IGMgMCwwIC0yLjE1MTMyMywxLjY2MDMzNSAtMS45=
+NjU5OTEsMy42NjA1MzMgLTIuMDQxMjI2LC0xLjgwMDc5NCAtMi4wOTk4NzMsLTUuMjUxNTI0IC0=
+yLjA5OTg3MywtNS4yNTE1MjQgbCA0LjA2NTg2NCwxLjU5MDk5MSB6IgogICAgICAgICBpZD0icG=
+F0aDQzMTIiCiAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZpbGw6IzcyOWZjZjtmaWxsL=
+W9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MXB4=
+O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp=
+2aXNpYmxlIiAvPgogICAgICA8cGF0aAogICAgICAgICBkPSJtIDI1LjkxNDg2Miw0MC41OTM5Mz=
+MgMTAuNDkzNDQ3LC0wLjAyMjEgYyAyLjYzOTcyMywwIDUuMjUzMTYxLC0wLjk2NzkxOSA2LjIxM=
+TExMiwtMy43MjY2NjcgMC45MDk2ODksLTIuNjE5NzYgLTAuMDk0NzIsLTcuNjA4NjE0IC01Ljk5=
+NTI3OSwtMTEuNjQ1ODM3IEwgMjUuMDk5NDE3LDI0Ljk1NjI2NCBjIC01LjkwMDU1NywzLjcyNjY=
+2NyAtNy4wNDI2Miw4LjgyMzIxOSAtNS42NjIwMjksMTIuMDQ0MTgyIDEuMzgwNTkyLDMuMjIwOT=
+YzIDMuMzk1MjExLDMuNTcxMzkgNi40Nzc0NzQsMy41OTM0ODcgeiIKICAgICAgICAgaWQ9InBhd=
+Gg0MzE0IgogICAgICAgICBzdHlsZT0ib3BhY2l0eTowLjIxNTE4OTg2O2NvbG9yOiMwMDAwMDA7=
+ZmlsbDpub25lO3N0cm9rZTojZmZmZmZmO3N0cm9rZS13aWR0aDowLjk5OTk5OTc2cHg7c3Ryb2t=
+lLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0Oj=
+Q7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZ=
+XQ6MDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZs=
+b3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAzMy40MTA3OTUsMjYuNzg=
+2Nzk3IGMgMCwwIDIuMTUxMzIzLDEuNjYwMzM1IDEuOTY1OTkxLDMuNjYwNTMzIDIuMDQxMjI2LC=
+0xLjgwMDc5NCAyLjA5OTg3MywtNS4yNTE1MjQgMi4wOTk4NzMsLTUuMjUxNTI0IGwgLTQuMDY1O=
+DY0LDEuNTkwOTkxIHoiCiAgICAgICAgIGlkPSJwYXRoNDMxNiIKICAgICAgICAgc3R5bGU9ImNv=
+bG9yOiMwMDAwMDA7ZmlsbDojNzI5ZmNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2R=
+kO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxcHg7bWFya2VyOm5vbmU7dmlzaWJpbGl0eTp2aX=
+NpYmxlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxwYXRoCiAgI=
+CAgICAgIGQ9Im0gMzkuNzc0NzU1LDE5LjAwODYyMSBhIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAx=
+IDEgLTE3LjMyNDExNSwwIDguNjYyMDU3OSw4LjY2MjA1NzkgMCAxIDEgMTcuMzI0MTE1LDAgeiI=
+KICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMTI1LDMuNSkiCiAgICAgICAgIGlkPS=
+JwYXRoNDMxOCIKICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7ZmlsbDp1cmwoI3JhZGlhb=
+EdyYWRpZW50MjI0OSk7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5v=
+bmU7c3Ryb2tlLXdpZHRoOjFweDttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGx=
+heTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibS=
+AzOS43NzQ3NTUsMTkuMDA4NjIxIGEgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAtMTcuMzI0M=
+TE1LDAgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAxNy4zMjQxMTUsMCB6IgogICAgICAgICBp=
+ZD0icGF0aDQzMjAiCiAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZpbGw6dXJsKCNyYWR=
+pYWxHcmFkaWVudDIyNTEpO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZT=
+ojYzE3ZDExO3N0cm9rZS13aWR0aDoxcHg7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpb=
+mVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2Ut=
+ZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDttYXJrZXI6bm9uZTt2aXNpYmlsaXR=
+5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZSIgLz4KICAgICAgPHBhdG=
+gKICAgICAgICAgZD0ibSAzOS43NzQ3NTUsMTkuMDA4NjIxIGEgOC42NjIwNTc5LDguNjYyMDU3O=
+SAwIDEgMSAtMTcuMzI0MTE1LDAgOC42NjIwNTc5LDguNjYyMDU3OSAwIDEgMSAxNy4zMjQxMTUs=
+MCB6IgogICAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjg3NzA5NSwwLDAsMC44NzcwOTUsMy4=
+4MjM5MjcsMi4zMzYyNjcpIgogICAgICAgICBpZD0icGF0aDQzMjIiCiAgICAgICAgIHN0eWxlPS=
+JvcGFjaXR5OjAuMTk2MjAyNTQ7Y29sb3I6IzAwMDAwMDtmaWxsOm5vbmU7c3Ryb2tlOiNmZmZmZ=
+mY7c3Ryb2tlLXdpZHRoOjEuMTQwMTI4MjVweDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2Ut=
+bGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxO3N0cm9=
+rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO21hcmtlcjpub25lO3Zpc2liaW=
+xpdHk6dmlzaWJsZTtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgICA8c=
+GF0aAogICAgICAgICBkPSJtIDIxLjg1MTc5LDQwLjc3NTE5NyBjIC0xLjI0NzYwNywtMC41NDQ5=
+NjkgLTEuODA1OTk0LC0xLjg1ODI3NyAtMS44MDU5OTQsLTEuODU4Mjc3IDAuODQxMjgxLC00LjA=
+2OTEzNiAzLjcxOTkyNSwtNy4wNDYyMTYgMy43MTk5MjUsLTcuMDQ2MjE2IDAsMCAtMi4yNzkzMj=
+EsNi40MTE1MTQgLTEuOTEzOTMxLDguOTA0NDkzIHoiCiAgICAgICAgIGlkPSJwYXRoNDM1NCIKI=
+CAgICAgICAgc3R5bGU9Im9wYWNpdHk6MC4yMjc4NDgwNztjb2xvcjojMDAwMDAwO2ZpbGw6dXJs=
+KCNsaW5lYXJHcmFkaWVudDIyNTMpO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N=
+0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxcHg7bWFya2VyOm5vbmU7dmlzaWJpbGl0eTp2aXNpYm=
+xlO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGUiIC8+CiAgICAgIDxwYXRoCiAgICAgI=
+CAgIGQ9Im0gNDAuNzU3NDk3LDM5LjkxNjg0NiBjIDEuMjMxMjUxLC0wLjU4MDk3OCAxLjgwNDM4=
+LC0yLjAwMjMyMSAxLjgwNDM4LC0yLjAwMjMyMSAtMC45NTkxMiwtNC4wNDI5ODMgLTMuOTc2MTQ=
+5LC02Ljg0MjgyMSAtMy45NzYxNDksLTYuODQyODIxIDAsMCAyLjQ2NDU5Myw2LjM0MjYwMiAyLj=
+E3MTc2OSw4Ljg0NTE0MiB6IgogICAgICAgICBpZD0icGF0aDQzNjQiCiAgICAgICAgIHN0eWxlP=
+SJvcGFjaXR5OjAuMjI3ODQ4MDc7Y29sb3I6IzAwMDAwMDtmaWxsOnVybCgjbGluZWFyR3JhZGll=
+bnQyMjU1KTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJ=
+va2Utd2lkdGg6MXB4O21hcmtlcjpub25lO3Zpc2liaWxpdHk6dmlzaWJsZTtkaXNwbGF5OmlubG=
+luZTtvdmVyZmxvdzp2aXNpYmxlIiAvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg=3D=3D"); p=
+adding-left: 15px !important; }
+  .redirectText { font-size: 140%; }
+  .redirectMsg img { vertical-align: text-bottom; }
+  #bodyContent { position: relative; width: 100%; line-height: 1.5em; font-=
+size: 0.8em; }
+  .skin-vector .mw-notification-area { font-size: 0.8em; }
+  .skin-vector .mw-notification-area-layout { top: 7em; }
+  .skin-vector .mw-notification { background-color: rgba(255, 255, 255, 0.9=
+3); padding: 0.75em 1.5em; border: 1px solid rgb(167, 215, 249); border-rad=
+ius: 0.75em; box-shadow: rgba(0, 0, 0, 0.125) 0px 2px 10px 0px; }
+  #ca-unwatch.icon a, #ca-watch.icon a { margin: 0px; padding: 3.1em 0px 0p=
+x; outline: none; display: block; width: 26px; height: 0px; overflow: hidde=
+n; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFg=
+AAAAQCAMAAAClQEgHAAADAFBMVEXz+fv///91w/+t3P/G0NOh2v/N2evy/v665f/O7P7O8f/C5f=
++FuuePtcGW1v+O0f6g1v/a1cvCsnHx45T5+vzKwq2+rGN5xP/f2s/6+vme1v+b1P+HzP+W0v9zw=
+f+Uv86+rXT+/uuFxPTEsmWi3f/Y8v+z3/+Y1//k1IuZ2v9xxP/JtmTo7POJw+664v/C7f+xx+F+=
+tuPj5ufq7e2Ktsbs8fl9zP/R3vDD6v/Ny4v1/v+Gy/+zz6utvcKJxPLU7v+Ou87Wz768zJShydq=
+Usrx3xf//+9WUyvS02Oqn3v+j3frZ6M3i9v/Nw3uw3f+98/+Erb7It4iSuuLbx2uIrbqCteJxw/=
+++5v+Lzv/K1NXt/P+9rWi/soaxqZDPzMZsvv/r6ufy8O319vdovf/+/f3x7+qt3/++tqTy8vDf2=
+czIslD29vWq2v/8/Pu+rnfBs4hnu/+Rz/9uwP/V0s3n03fo5uGk1//HwK7Pu2nk3tPRybb57ave=
+2tPDsnaDyf/5+Pb6//+ozt/J4czO2ark9Py7q3T9/f78/f2SwPCTwdC0xMfd+f+R0f+W0unFvmj=
+R3Oyc0PqyxdvO6fmt2u7b4OHn6+zP2dp2uvHV4vP58szv/P/DvXP//M+AzP/x5avC0pP2+fyNs8=
+J/u+zU3em5rW16tejU7e2q19bA5fnVxXl0wf++2bLbynx8tdHh5/H16ar///zP1NvOvGjAs4/l5=
+rnv//+erbHLvGj///l+uufCtI/09fb6+/vO3PC93c/a8fmv3P/z9ficyuWw3/+our3BrnOHt+KR=
+1/+24v3Numje2dDW7+THysv7/PySr7r68saSoqrp//+gyt/G5/zFtXCou9KHu+rw8/eW0Pp3w/+=
+/s2DHt2rBsW388bKTyO/29/fMuGh+rL/B0+rJ5NzS8f3//eTG6fmLs7/HztfT2avWxHOYrcLd2d=
+DP1deYu+D///q5zujMumrs7u7//Nzt6+jJ9P/7/P6a1//17bnNwm3t7OjAxca7ycz4+fmn2f/19=
+PM9fBugAAAAAXRSTlMAQObYZgAAAjxJREFUeF6101OMLEEYhuH+h8batm3b9h7btm3btm3btm3b=
+mJ6amu2a9En25nxXnTdP/tRNU9r92EyxrnYT9v70UjW9fEIQKzTs2JS1y5yvVMuf3ANn2VyHr2t=
+rsfV14ZtesPqNQtLnA/Rje1oNgJUtWHpJtktafTY/QpKj8zuDJp/OBuibz5v0i1D1um04A+Bg36=
+xRK6KHTH0tlfqKZbtCPuv57VllvosPIX9wWFL6+EpQTyhOT7KTY2XSdZn77FS6f1jj/vxdAe7+s=
+WljueFludy9ooyrsT5Dq3xOxLMsUS6X+2BAxIwbBVRgPDB2nodh3WPMXmSAu7ejUCx1bdlZpbKy=
+UkluC3T+7jk/0QFNVyjyvqn9jieRgBc/kdLNotcjnN94darqxpfjXH9b2rTrbctx3raa6U80Rr0=
+087rGnyoeiA5EBgdSzLWehrqD00eiHz6qsik3a9teGeBN+v6Wmj7K9DsK7/ejAw95FLE/Raj3MC=
+D7Pke+NadBnWtKgZ4f7UF3z2jsXy1FB6bHkLCnEeqpJmRfoLTmcFKWm7n56/nEWZxST9uUJdjHV=
+ALEXQCAZBJ2mQnQwwhga02yj8uIchtZ/iWKX6jnd4ceiU70CM3EPhlcgn9WFD+GeSRsA7e8El7a=
+G8FNshdK+PPvjylR+AXo+U8rnBKOD5qTt1Ab7tkNpztPvuoOAU3Xd6e7wcXmFkRf5POW7gLZFGP=
+Sb0HeUOuHVOCfE33gNTTH98z7MPvgMHwvbO4//f/bX94WpZENI84pAAAAAElFTkSuQmCC"); }
+  #ca-unwatch.icon a { background-position: -43px 60%; }
+  #ca-watch.icon a { background-position: 5px 60%; }
+  #ca-unwatch.icon a:hover, #ca-unwatch.icon a:focus { background-position:=
+ -67px 60%; }
+  #ca-watch.icon a:hover, #ca-watch.icon a:focus { background-position: -19=
+px 60%; }
+  #ca-unwatch.icon a.loading, #ca-watch.icon a.loading { background-image: =
+url("data:image/gif;base64,R0lGODlhEAAQAMQfANra2uLi4vDw8PLy8ujo6Ozs7NbW1vj4=
++Pb29s7Oztzc3NTU1O7u7uDg4NHR0erq6v39/d7e3vz8/Pv7+/7+/tPT09jY2Pr6+tnZ2efn5/X=
+19eXl5ebm5vT09P///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAwAfACwAAAAAEAAQAAAFa+=
+Anjl9QkShacVqabp2XuKjjecHhStrjHDdIgtORiCyWSEZwud0mg0zEUhkYnNhsY/O5OCRZrEEwg=
+vzCkgqZhGiEB1wUgRGeAFKApqcjcJ5QCx4aFQEECX1/JAlJJBsVFRMkEBkXLhyVNJkhACH5BAkD=
+AB8ALAAAAAAQABAAAAV74CeO4hUQZEoGhqGqWzQtEnlYRCYMGSB5BkTKQCgUOBGPkjBIdQDKqBL=
+haJI4D6l0gylMRg6IVkmhNBIjxWBM8XAwHNFAIdYWDA0SRhNtKy0CJAUVEAcRAQJkFikZDg4EBB=
+0RDR4dGCkIEhAjFBsBDwovKo0BoioFQiMhACH5BAkDAB8ALAAAAAAQABAAAAWB4CeO5HeU33OVl=
+5IIpYEFh/QR1rYNZSMUAYVBwfBYbKRJwwPxFDxQjAbloECvHgMEBUBgPZTApjSxeL+eQGDUsQwk=
+aGhBcUBYinGI5GBIEBwEGhxwVwwLFgoRHQwECgIADRFXBgUfEygfEBEDTmuYIxAJFAYwnyMFABV=
+bpiMYGSghACH5BAkDAB8ALAAAAAAQABAAAAV+4CdKjWieKOJs6De1U5Zhg4YcmaG0kXcElQDtEW=
+kZPMgMBGlofQDIqK9pmhAADClSEDBtAICJROvR7EQGx5LsgQAOogKm0LhQ2IDRQRJRFKIHAh4XA=
+XknEw5REQsRBgAOEigRFBQEERofAgJiKBoZAgsXTicUDgYDoygNXU4hACH5BAUDAB8ALAAAAAAQ=
+ABAAAAV54Cd+EFBNY6p+hgCssOERGwSP3eZBgUIEG0xhdGFpPMjChjNoRD6XIGBDQVo9FIcogZn=
+srlbLQNRQfMEewVN0ERAaaE9AoDoECGj76lBBTxQwDlYBEQweGwwqEDIHCwIbBgAAFioUBgUOdC=
+IaBRwrBhUHNykQY6MfIQA7"); background-position: 5px 60%; }
+  #ca-unwatch.icon a span, #ca-watch.icon a span { display: none; }
+  div.vectorTabs ul { background-image: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR42mVO2wrAUAhy/f8fz+niVMTYQ3h=
+LKkgGgN/IPvgIhUYYV/qogdP75J01V+JwrKZr/5YPcnzN3e6t7l+2K+EFX91B1daOi7sAAAAASU=
+VORK5CYII=3D"); background-position: right bottom; background-repeat: no-re=
+peat; }
+  .tipsy { font-size: 0.8em; }
+  body.vector-animateLayout div#content, body.vector-animateLayout div#foot=
+er, body.vector-animateLayout #left-navigation { transition: margin-left 25=
+0ms ease 0s, padding 250ms ease 0s; }
+  body.vector-animateLayout #p-logo { transition: left 250ms ease 0s; }
+  body.vector-animateLayout #mw-panel { transition: padding-right 250ms eas=
+e 0s; }
+  body.vector-animateLayout #p-search { transition: margin-right 250ms ease=
+ 0s; }
+  body.vector-animateLayout #p-personal { transition: right 250ms ease 0s; =
+}
+  body.vector-animateLayout #mw-head-base { transition: margin-left 250ms e=
+ase 0s; }
+  div#content a.external { background-position: right center; background-re=
+peat: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAA=
+AANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVElEQVR42n3PgQkAIAhEUXdqJ3dqJ3e6IoTPUSQc=
+gj4EQ5IlUiLE0Jil3PECXhcHGBhZ8kg4hwxAu3MZeCGeyFnAXp4hqNQPnt7QL0nADpD6wHccLvn=
+AKksq8iiaAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"https://"], .link-https { background-posi=
+tion: right center; background-repeat: no-repeat; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdUlEQVQ=
+YV2P4//8/Awxv3LThf0dXKxyD+DA5DEUg+tWrV2AaWTFcIboJyJrhCtGtRMcgebhpL2/4/v//Lv=
+n//x+7IRjIfn8v+P/t055gxZgKPzaC8Y/nMYQVLpnM8f/zo3AqKfzyOOL/h/sh/59c9sBUSIyvA=
+eRdJWjk4E//AAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"mailto:"], .link-mailto { background-posi=
+tion: right center; background-repeat: no-repeat; background-image: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAMFBMVEX=
+///////+IioX29vbq6unJx8O9vbvl5ePZ2NX7+/iysrLp5+KjoZyop6Oxrqrx8O1Uz2ohAAAAAX=
+RSTlMAQObYZgAAAENJREFUeNotxscBwCAMA0AsudAS9t82hnCvK2kAUQ6FCPSuzvy/x3wf0RFir=
+6KAnbKqMSstMEnZZW/0cWqNVMs6Lv8AS44BeHjFSEUAAAAASUVORK5CYII=3D"); padding-ri=
+ght: 13px; }
+  div#content a.external[href^=3D"news:"] { background-position: right cent=
+er; background-repeat: no-repeat; background-image: url("data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAe0lEQVR42o2QQQqAIBBFPbD=
+XCKJTGBTRIqJN7qL2gp5BcOEppvowSWSU8HDxn38GRVkV9AeIH+cuSilvxBhJKfUQEWR4iHjNcN=
+tBXly3Bbf3nnltZDHbiFHWOmCMuXDWIYM4TgNpPVMIIY1MIOv6lgQRiaat3z4ae5/ODo3dPZDhr=
+8jNAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  div#content a.external[href^=3D"ftp://"], .link-ftp { background-position=
+: right center; background-repeat: no-repeat; background-image: url("data:i=
+mage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATElEQVR4XlX=
+IQQrAIAwAwfzej/QtPqQUepBiqR68bWMghOzeRpCCf4DsDb26OfDk0quxo8KtN6AEGtEzNh5eRs=
+bOx2RlHCw9YxSYR34KRKBV5WnY6QAAAABJRU5ErkJggg=3D=3D"); padding-right: 13px; =
+}
+  div#content a.external[href^=3D"irc://"], div#content a.external[href^=3D=
+"ircs://"], .link-irc { background-position: right center; background-repea=
+t: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAAN=
+SUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdElEQVR42n3Q3QqAIAwGUF8+iF4rCrwpewzxH7y3tnS=
+grAafMHaQqdj2tczL9BmYPyUEND8FuIda6y7GGBbCAGOtxaSUWEjIOVe89zyshSCEwO+oLtWahr=
+pXSylfCEeFhE51lBhjyTkjIjj+24gI1ltowOUGKEFJ6nMQqWQAAAAASUVORK5CYII=3D"); pad=
+ding-right: 13px; }
+  div#content a.external[href$=3D".ogg"], div#content a.external[href$=3D".=
+OGG"], div#content a.external[href$=3D".mid"], div#content a.external[href$=
+=3D".MID"], div#content a.external[href$=3D".midi"], div#content a.external=
+[href$=3D".MIDI"], div#content a.external[href$=3D".mp3"], div#content a.ex=
+ternal[href$=3D".MP3"], div#content a.external[href$=3D".wav"], div#content=
+ a.external[href$=3D".WAV"], div#content a.external[href$=3D".wma"], div#co=
+ntent a.external[href$=3D".WMA"], .link-audio { background-position: right =
+center; background-repeat: no-repeat; background-image: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAMFBMVEX///91fyrI0Xt=
+5gzPCzGuyv0bw8eubomu3u5qQlWafo4HV25q3w1CLljOEjjKRlHTuBCtpAAAAAXRSTlMAQObYZg=
+AAADdJREFUCFtjYGgUFBRnYBBSUlJkYDCCkIKCIFKAEUZmiohNdGRYs/XW6VgGkbhC1xcMjB8Y5=
+BMA6nkLTrUjfj0AAAAASUVORK5CYII=3D"); padding-right: 13px; }
+  div#content a.external[href$=3D".ogm"], div#content a.external[href$=3D".=
+OGM"], div#content a.external[href$=3D".avi"], div#content a.external[href$=
+=3D".AVI"], div#content a.external[href$=3D".mpeg"], div#content a.external=
+[href$=3D".MPEG"], div#content a.external[href$=3D".mpg"], div#content a.ex=
+ternal[href$=3D".MPG"], .link-video { background-position: right center; ba=
+ckground-repeat: no-repeat; background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAAAoAAAAKCAAAAACoWZBhAAAAAnRSTlMA/1uRIrUAAABbSURBVHjaL=
+Y2xCUAxCAVdXbAOWLrE663sAoJkhZA5UuQn8Ltr7o7O7iqifR/asJwzDZtGG8bh1QZpBizYUkkW=
+vApYcpGtyh9quiOMU5+GBo+rvVjNlBv7F9H4A3inRvd0XEi0AAAAAElFTkSuQmCC"); padding=
+-right: 13px; }
+  div#content a.external[href$=3D".pdf"], div#content a.external[href$=3D".=
+PDF"], div#content a.external[href*=3D".pdf#"], div#content a.external[href=
+*=3D".PDF#"], div#content a.external[href*=3D".pdf?"], div#content a.extern=
+al[href*=3D".PDF?"], .link-document { background-position: right center; ba=
+ckground-repeat: no-repeat; background-image: url("data:image/png;base64,iV=
+BORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATklEQVR4XmXKQQqAMAwF0X/7XsSz9=
+CSKiyIIFRFcjMmihmiGbB5fqDCaQJ4j46pzYLUWe+cXZ6OVBhTS0srY2Njp/+XxXXZOLu6EUWAO=
+PX1vnwTBe6qQAAAAAElFTkSuQmCC"); padding-right: 13px; }
+  #mw-panel.collapsible-nav .portal { background-position: left top; backgr=
+ound-repeat: no-repeat; background-image: url("data:image/png;base64,iVBORw=
+0KGgoAAAANSUhEUgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS=
+5youFW1UREfiIpH1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC"); margin: -11px 9px 10px 1=
+1px; padding: 0.25em 0px !important; }
+  #mw-panel.collapsible-nav .portal h3 { font-size: 0.75em; color: rgb(77, =
+77, 77); font-weight: normal; background-position: left center; background-=
+repeat: no-repeat; background-image: linear-gradient(transparent, transpare=
+nt), url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0=
+iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodH=
+RwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1c=
+mwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21t=
+b25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1=
+yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zy=
+IKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIxLjEiC=
+iAgIHdpZHRoPSIxNiIKICAgaGVpZ2h0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiAgICAg=
+aWQ9ImRlZnM0IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjp=
+SREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm=
+9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgI=
+CAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2Ui=
+IC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDw=
+vcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC=
+wtMTAzNi4zNjIyKSIKICAgICBpZD0ibGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJNIDEwL=
+jAyODYyNCwzLjc3Mjk5MzIgOC4xOTc2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI5OTMy=
+IHoiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgyLjczMDc3OTEsMCwwLDEuNTc2NjE2LC0xNC4=
+zODU5NTYsMTAzNi40MTM2KSIKICAgICAgIGlkPSJwYXRoMjk4NSIKICAgICAgIHN0eWxlPSJmaW=
+xsOiM3OTc5Nzk7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgPC9nPgo8L3N2Zz4K"=
+); padding: 4px 0px 3px 1.5em; margin-bottom: 0px; }
+  #mw-panel.collapsible-nav .portal h3:hover { cursor: pointer; text-decora=
+tion: none; }
+  #mw-panel.collapsible-nav .portal h3 a { color: rgb(77, 77, 77); text-dec=
+oration: none; }
+  #mw-panel.collapsible-nav .portal .body { margin: 0px 0px 0px 1.25em; pad=
+ding-top: 0px; display: none; background-image: none !important; }
+  #mw-panel.collapsible-nav .portal .body ul li { padding: 0.25em 0px; }
+  #mw-panel.collapsible-nav .portal.first { background-image: none; margin-=
+top: 0px; }
+  #mw-panel.collapsible-nav .portal.first h3 { display: none; }
+  #mw-panel.collapsible-nav .portal.persistent .body { display: block; marg=
+in-left: 0.5em; }
+  #mw-panel.collapsible-nav .portal.persistent h3 { padding-left: 0.7em; cu=
+rsor: default; background-image: none !important; }
+  #mw-panel.collapsible-nav .portal.collapsed h3 { color: rgb(6, 69, 173); =
+background-position: left center; background-repeat: no-repeat; background-=
+image: linear-gradient(transparent, transparent), url("data:image/svg+xml;b=
+ase64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vI=
+j8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8p=
+IC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8=
+iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOn=
+JkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sb=
+nM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cu=
+dzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIxLjEiCiAgIHdpZHRoPSIxNiIKICAgaGVpZ2h=
+0PSIxNiIKICAgaWQ9InN2ZzIiPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM0IiAvPgogIDxtZXRhZG=
+F0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgI=
+CAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2Rj=
+OmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDo=
+vL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPj=
+wvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhP=
+gogIDxnCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtMTAzNi4wMjg4KSIKICAgICBpZD0i=
+bGF5ZXIxIj4KICAgIDxwYXRoCiAgICAgICBkPSJNIDEwLjAyODYyNCwzLjc3Mjk5MzIgOC4xOTc=
+2NDQyLDYuOTQ0MzQyNCA2LjM2NjY2NDksMy43NzI5OTMyIHoiCiAgICAgICB0cmFuc2Zvcm09Im=
+1hdHJpeCgwLC0yLjczMDc3OTEsMS41NzY2MTYsMCwwLjA1MTQzODU1LDEwNjYuNDE0OCkiCiAgI=
+CAgICBpZD0icGF0aDI5ODUiCiAgICAgICBzdHlsZT0iZmlsbDojNzk3OTc5O2ZpbGwtb3BhY2l0=
+eToxO3N0cm9rZTpub25lIiAvPgogIDwvZz4KPC9zdmc+Cg=3D=3D"); margin-bottom: 0px;=
+ }
+  #mw-panel.collapsible-nav .portal.collapsed h3:hover { text-decoration: u=
+nderline; }
+  #mw-panel.collapsible-nav .portal.collapsed h3 a { color: rgb(6, 69, 173)=
+; }
+}
+
+@media screen and (min-width: 982px) {
+  div#content { margin-left: 11em; padding: 1.25em 1.5em 1.5em; }
+  #p-logo { left: 0.5em; }
+  div#footer { margin-left: 11em; padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  #p-search { margin-right: 1em; }
+  #left-navigation { margin-left: 11em; }
+  #p-personal { right: 1em; }
+  #mw-head-base { margin-left: 11em; }
+}
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linuxtv.org/wiki/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+table.wikitable, table.prettytable { margin: 1em 1em 1em 0px; background: r=
+gb(249, 249, 249); border: 1px solid rgb(170, 170, 170); border-collapse: c=
+ollapse; }
+
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettyt=
+able td { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+
+table.wikitable th, table.prettytable th { background: rgb(242, 242, 242); =
+text-align: center; }
+
+table.wikitable caption, table.prettytable caption { margin-left: inherit; =
+margin-right: inherit; }
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/images/6/67/Rf-connector.png
+
+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
+AElFTkSuQmCC
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/images/e/ef/Composite-video-connector.png
+
+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
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/images/c/c4/S-video-connector.png
+
+iVBORw0KGgoAAAANSUhEUgAAADUAAAA/CAIAAADPHxdBAAAKQ2lDQ1BJQ0MgcHJvZmlsZQAAeNqd
+U3dYk/cWPt/3ZQ9WQtjwsZdsgQAiI6wIyBBZohCSAGGEEBJAxYWIClYUFRGcSFXEgtUKSJ2I4qAo
+uGdBiohai1VcOO4f3Ke1fXrv7e371/u855zn/M55zw+AERImkeaiagA5UoU8Otgfj09IxMm9gAIV
+SOAEIBDmy8JnBcUAAPADeXh+dLA//AGvbwACAHDVLiQSx+H/g7pQJlcAIJEA4CIS5wsBkFIAyC5U
+yBQAyBgAsFOzZAoAlAAAbHl8QiIAqg0A7PRJPgUA2KmT3BcA2KIcqQgAjQEAmShHJAJAuwBgVYFS
+LALAwgCgrEAiLgTArgGAWbYyRwKAvQUAdo5YkA9AYACAmUIszAAgOAIAQx4TzQMgTAOgMNK/4Klf
+cIW4SAEAwMuVzZdL0jMUuJXQGnfy8ODiIeLCbLFCYRcpEGYJ5CKcl5sjE0jnA0zODAAAGvnRwf44
+P5Dn5uTh5mbnbO/0xaL+a/BvIj4h8d/+vIwCBAAQTs/v2l/l5dYDcMcBsHW/a6lbANpWAGjf+V0z
+2wmgWgrQevmLeTj8QB6eoVDIPB0cCgsL7SViob0w44s+/zPhb+CLfvb8QB7+23rwAHGaQJmtwKOD
+/XFhbnauUo7nywRCMW735yP+x4V//Y4p0eI0sVwsFYrxWIm4UCJNx3m5UpFEIcmV4hLpfzLxH5b9
+CZN3DQCshk/ATrYHtctswH7uAQKLDljSdgBAfvMtjBoLkQAQZzQyefcAAJO/+Y9AKwEAzZek4wAA
+vOgYXKiUF0zGCAAARKCBKrBBBwzBFKzADpzBHbzAFwJhBkRADCTAPBBCBuSAHAqhGJZBGVTAOtgE
+tbADGqARmuEQtMExOA3n4BJcgetwFwZgGJ7CGLyGCQRByAgTYSE6iBFijtgizggXmY4EImFINJKA
+pCDpiBRRIsXIcqQCqUJqkV1II/ItchQ5jVxA+pDbyCAyivyKvEcxlIGyUQPUAnVAuagfGorGoHPR
+dDQPXYCWomvRGrQePYC2oqfRS+h1dAB9io5jgNExDmaM2WFcjIdFYIlYGibHFmPlWDVWjzVjHVg3
+dhUbwJ5h7wgkAouAE+wIXoQQwmyCkJBHWExYQ6gl7CO0EroIVwmDhDHCJyKTqE+0JXoS+cR4Yjqx
+kFhGrCbuIR4hniVeJw4TX5NIJA7JkuROCiElkDJJC0lrSNtILaRTpD7SEGmcTCbrkG3J3uQIsoCs
+IJeRt5APkE+S+8nD5LcUOsWI4kwJoiRSpJQSSjVlP+UEpZ8yQpmgqlHNqZ7UCKqIOp9aSW2gdlAv
+U4epEzR1miXNmxZDy6Qto9XQmmlnafdoL+l0ugndgx5Fl9CX0mvoB+nn6YP0dwwNhg2Dx0hiKBlr
+GXsZpxi3GS+ZTKYF05eZyFQw1zIbmWeYD5hvVVgq9ip8FZHKEpU6lVaVfpXnqlRVc1U/1XmqC1Sr
+VQ+rXlZ9pkZVs1DjqQnUFqvVqR1Vu6k2rs5Sd1KPUM9RX6O+X/2C+mMNsoaFRqCGSKNUY7fGGY0h
+FsYyZfFYQtZyVgPrLGuYTWJbsvnsTHYF+xt2L3tMU0NzqmasZpFmneZxzQEOxrHg8DnZnErOIc4N
+znstAy0/LbHWaq1mrX6tN9p62r7aYu1y7Rbt69rvdXCdQJ0snfU6bTr3dQm6NrpRuoW623XP6j7T
+Y+t56Qn1yvUO6d3RR/Vt9KP1F+rv1u/RHzcwNAg2kBlsMThj8MyQY+hrmGm40fCE4agRy2i6kcRo
+o9FJoye4Ju6HZ+M1eBc+ZqxvHGKsNN5l3Gs8YWJpMtukxKTF5L4pzZRrmma60bTTdMzMyCzcrNis
+yeyOOdWca55hvtm82/yNhaVFnMVKizaLx5balnzLBZZNlvesmFY+VnlW9VbXrEnWXOss623WV2xQ
+G1ebDJs6m8u2qK2brcR2m23fFOIUjynSKfVTbtox7PzsCuya7AbtOfZh9iX2bfbPHcwcEh3WO3Q7
+fHJ0dcx2bHC866ThNMOpxKnD6VdnG2ehc53zNRemS5DLEpd2lxdTbaeKp26fesuV5RruutK10/Wj
+m7ub3K3ZbdTdzD3Ffav7TS6bG8ldwz3vQfTw91jicczjnaebp8LzkOcvXnZeWV77vR5Ps5wmntYw
+bcjbxFvgvct7YDo+PWX6zukDPsY+Ap96n4e+pr4i3z2+I37Wfpl+B/ye+zv6y/2P+L/hefIW8U4F
+YAHBAeUBvYEagbMDawMfBJkEpQc1BY0FuwYvDD4VQgwJDVkfcpNvwBfyG/ljM9xnLJrRFcoInRVa
+G/owzCZMHtYRjobPCN8Qfm+m+UzpzLYIiOBHbIi4H2kZmRf5fRQpKjKqLupRtFN0cXT3LNas5Fn7
+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
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/vector/images/search-ltr.png?303
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAAAAAC4QtCeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAAJ0Uk5TAP9bkSK1AAAAaklEQVQI12P4///u3NrauXf/AwHD//05YLAf
+xLmbl7/n48c9+Xn3gZxJYDGg/BQgpyznC4jzJacMmVOMrgxowMFPnw5CDIAZnbMLxAFaWl09txrE
+Y/gPAe87gTwY5//PmTmr4Jz/f699BgAmIHmp1XxJagAAAABJRU5ErkJggg==
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/common/images/linuxtv.png
+
+iVBORw0KGgoAAAANSUhEUgAAAIgAAAAkCAMAAABluoL1AAAAM1BMVEUAAABQUFDPz8////+vr68w
+MDBgYGDv7+8gICDf399wcHB/f39AQEAQEBC/v7+Pj4+fn5+1+UTSAAAACXBIWXMAAAsTAAALEwEA
+mpwYAAAAB3RJTUUH1AkMFC4xQ0sr6gAAAfxJREFUeNrtmMt6hCAMRpkJgzhc5P2ftgoUEy6SduXC
+bKZiJIfAn/BViMdYpgDgcwcQOOwBQbbsHP4Wh2Tz30cpdziYWzNoIVs4xz77o9t/XwBv4uyS2H2j
++fc+oqkCiC06n8fyvi+baK6Mhf3J5OkVdv7uAzJ9szazWLyO2gKKb3sgBjmXQZ9BIP8Sb5+qINRl
+EdokI/Np1jEIdn5xQWJmfDXLKi625tjJMtsYRAgtcXKnIIIeKttsValR51kKJfwQxJSv2CABxwj0
+hNEtIpECA8T8CUSnvbSHfUdtggQ8BJeFdQ2Csz0HET1VXIKgjE9Azj3kgNTKEDMQpIYJSPxTcUHS
+CoupGciKnGYg7/KeA8IwS3MMgglylkcOiLbYZiBkJhaIZ4I4ekTWaxBNBD4FKQr+h2r8JQi0LeAK
+RGxZh3OQtp1cgaAawgOJTxu3xE8LSQm40MgMEJlcpiCaStY1jjQg6agsEJsO1RQkVCmId58hSH1r
+YIDkfj4ECQnE1DN1py6jtaziuKzUX8WK8AoQSO5s0VTWRyuTroRjQKOOorrg5qx796Z60eWVbcp4
++Ua161fsa+jg4tSAWCxH0wNR3eVDus0OQFbBAlEdJ9kpn7+EvS639FKicHqxyTrL7ohVHXe3N79g
+R7sZXAzqe/fCTimRAHf5d8NjU/sB+94bqrXr5IoAAAAASUVORK5CYII=
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://linuxtv.org/wiki/skins/common/images/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAANjElEQVR4Xu2ZeXBVVZ7HP3d5a17y
+sgcSEhISxCQINiCoiIoKbbt0K9qj7dCo1YujjY7d6Gjp6Exr6bTbjNNttwVqIbQiioIguAwow2KE
+kEACAVnyQvbtZXnv5e3v3nvmcatIUSyK4F8jn6pT9+R37jm/yvf93je/U5EAPB5PAfAScBlQwNlw
+jg5gK7CgtLS0Q2psbBwHVGUmcblcqKrKmXMOTdMIBoMMJAFmHBF4RVZW1q1utxvDMDh7ziHLMoFA
+gL6+vlVHBPaNHj3azffOOVpaWoKyEMKdVJwzRRgxjuLt/F+OYhiJH3wVCyFc6rBQQnAmdLUuISf/
+Dg7UvoSivUL2yF4GWheRIIu8olswETpICj9EZM6SrqZ1tDe9hCS6yc9WiAZbCPoeI2vkTLS4D82/
+dFjceLSXHxqyEIKzwWFvwqUuxKa9jzB0Aq1XEYvE6Wl9E29TOWHtEnydu2jZdRXRnleJBJo5Ha76
+r4+5Z9lWnl5Xz1FCcY1vIxhLcDKGjotHEzq+SJzHV9dwlC5/mNl//pQ739zM+zWtnC1CCNSjk9MV
+2jA0GFqB7P4FAKpjCFkWZGcKRFwH4UVVVLKtzzAQKSbk/YzM9BfJqYwz0O7HnvrkaeUqyU7l1dun
+c9PC9dQ09/H61oOg6FxTWkwkoTGlNJ3qZi9XluXzcV03U8rcrN7dimYYlGSlMqs8n0dW7uDBq8dT
+29JH51AQq5bCwz8p58OGJr5s7CGuGabwQojhD2dMMu+Pzx/FxgPdtPsD/Gr6eezt9LO7s5/fTB/3
+ncQFUM3JSTz4xnsXAjDr0vHcP/dS1n6xj4eeXscz919HY9MaFvx8AUPiVaT4JEhsREkYyNEYCSHj
+UgSxgESqqwNryrPoqqCnt5BNja/w5JxFLF56PaWjM/n7mmreXlvDjMmlPP/QzziW3e0DPPDeV9w0
+cTRv72jktiklXDwmm/ve2cb4EVms2OGnutVLtz9COKbzyZ4gjb1+ZpcXsPirRvpDUfLTnQQjCT6o
+a+bOaWV81NDKo6sDhOM6f7ltGgd6/Lywfs+wGFZFxuMN8IlooyQjDYussKGhh50dveYHJoQ4gwo+
+BZ9vO8QVk0t44JfTATjc0URvsItb5lQiScv46oNplE74LZlWG0ogiMOQsBkCCR0RA6wg6RLRhBPJ
+qqKFruTS89qZe9dK3PY83Kk/Zf4/Xs6fXtvAtvoTbWN0lounb5yE22HlgRXbsMoKFkUmrmv8uCKf
++e9VcW1FIZ80tHHfleebX2+X3YLbbuPiohGMSLMjIeGwqskh43ZaGT8yg7w0B9uae7CqMnZVRdPF
+sbZhVvBLt0xl3tJNPH/TVOa/s52xuWlcVpbHGWBW8EktwpViwyHbzLgW7+Wnkxfy4EYPFpYT8RYz
+anQG4Za9qDY/8ZiNxJDA0FLR0XG6YqS5EmjR5FA1DK9A5Q3ycl/mmokZdA4UMMbMB6nJPGku+wn5
+L8jPIM1uMeP3XVbBi1/Us6Ra5uqyQsrzU/nF1GKuHJtvije5MIu0klH8aWAXVU09lOSkMqkwmy+b
+eplWks2MMSP5qqnHrMi5U0tJsar887vb0YVBcbZrOHe6w2L68sOrqrl1QiklWS4kRWdqcfaZVK85
+pP3794vkndm84h1L3mWPMb3yfFYunAfA6s/q+PPC/+b1B1uwsoesFJVUETEroLY6HWtERREx9HAC
+MpLijIhSUDQA6TJDOiRUGz5xLxOuNVi9ZB6zZ5YBUH79M5QWZbP21Xv4JnRDmB6ZrGi+icFwjAyn
+7VvjgWgCp1VBleUT8ghAlSVCMY3HVtfyzM8m47KpfBdUVcXj8ZzagwUSIq6ZceHfSEnuE9w9x05O
+iYFdtZt+S8JgsCGV9FCcvj4f/TEHDosgI9KNL+EmK0chJTOG1WEhEb+Q9PSbufmGP6LYo8P5TrcP
+lyWGK/qbSHdYzXe+LZ5qU0+aV5YYjjutSlLcSaRYFXPvmXQR8ikXUcAeAyBh+xFtHVcz58qDOOyH
+iSkZhJRUIhEn/R0y4VicFtnJYL5Kp9tKh+ZC9YWRjliHpjAUdCJowt+9jlBUkEgofBs3/G0Dz63f
+w7G8uf0Q1/9tPe2+EKdLVVMvz362m6+7ffzhg+pTv9fYx4KVw+u8tuUQ79Z5TDsRAhZ8sINFWw6a
+ZzX1DfEvq2o4lreqPTz9Sf3J++CTDQkNRIo5t9jcWByzef6NSny910GvjjMSpa/fgrdTIxi3EkyR
+6IgOEbcbKE4ZS4pBJC5jd0KKbSbZYw8w5oJH+Z/VU9B0YziPieCE/NubvSyuOoQvHDNjyT0s3HyQ
+zY09DIZiw/sP9vjpHYqcsL+5f4i+YJSBUIwvPb1m9U8qzBpeH4rG8XiHhs/OdVv5sL51+KzFVY0s
+29Zszg/1Bvh0XzsTCzMoz3Ob525u7B7O5Q/HKc50UTky/QQdv/mqLGnD8X6vmw0NxTx+jxdZHsQI
+xijM1RlMtRMMyDgTNlK0KO6gTJYIEHWlYchxIhEVw7EOrXU8fZYVoOjYVHU4nzhF/vH56dgUhTUN
+rcydUkq1ZwCnTeHSMTlISPT5NOa9tYmeUAjdgLmTy1gwq5xARONXy7ZwsHcIp0UlM8VKXqrDFHqr
+p4c7ppSwqq6VJ9ftwqYq5LocaMLg5VsuYmx2OjUt/VwxNo+ooSX3mLqwqbGTCQWZKBJsO+zltsnF
+OG2mbXDP0hpmjM3FYhHs6ernpgmF3+EmF1EAMPQwBZmv8+lza7FIVQx1K4hBge50Mu4KA7cjSn44
+TJluJysWJ4qK6taRHTGCCUBWCcS92CJ38NQTaygv2spRhCZxMgwBcy4czUd7WgFYvqOZ6yoLzA5A
+kSUeWbODsTlutj10A6t+O5PFSfvY5unnqbUNaAmZ9fNns+yuy/EO6sR13bxENPcHaRsMJ/vrHTxz
+/RQ+f2A2t04cQ5XHa545c1yuOd/d5mPCKDdFWc7knhDbD/cz+/wCApEEjd4AsiThslpYUnXY7KVv
+n1bI4cEAnr7g8R586jYNpOGXpPAeFL2O19aMYd417UAORkoPYc2GvThC2awwmfuj9LcpBK0ymaMV
+SiYKtFQHbS0GJDRKShQ6wkt58s9vUXFBJSMKBCaKQHBi/lDM7HdZWt3I/i4/tR1efj97Op/v7zYt
+oaqli/K8DO5cusXsBASC9+o91HT08defX0KOy2aOf72hgndqDyMBKTaVjQe6uLAonRsn5gNw9/Ri
+3t55EH8kzrXlo5KVvRObReLS0SPoD8ZY29BG60CIf7suj4YuH6oiY1Ek9vf4eLpzFxvu/QmKBBLC
+7DyOaRrMccoKDkZ05NQQJq6ptEbvZsWWYqSMpaRnSPgGJWSHYl4k5AwYNUvFfdUoiq/OoLgiTsKm
+o6fYyau0YERstDSNRQtuALsVI+HiKLquE4kmOJ6EYZDvdjBtdC7z393BqCw7RZkpRDTNvHHZVIUZ
+ZbncdXEZv5xayu9nlvMPk4qJGzp9wRhH6Q9oCI7+0uCyqwxGohxLMKaR0A0qR7oJRjXer2vhkjHZ
+TCvJYVHVAZwWhXy30/Tqo63cCJeLSSPyePurNk7FsQKfYM4TxubQPRDnlaSf6bqBykXsqyulq/lx
+Nu0ZT2omSJKGKkeJYCdqsaGk5pN6QTpRp8AXEmBTCQWdFE+QGFf+Nfva0slTsklLc+AfivDX5NmK
+IjOmMOuE/MFogmhcZ87EIra19nBzZYkZ90diuO1W7qisZE1DCy6rSocvxKItHkoz05g3oYL5y2v5
+dF8HK2pbeXx1PYYQaIbBQDjKNeNGMhSEh1fuZPOhHn737nb2dvnMrz0ICtNTaeoPMDY3lYr85Nwb
+NP8eCCGIawaRhJZ86oDglTsmsWRvHR/v9CIbqrl2rBuYz927d4toNCr8fv9JR3Nb9/C8cf9K0dVS
+I3ZXvyG66ieK7l2jRP3WuaJzd4mItGeIfV8+JLrrzhOtm5zCszVd9O7LEV5PqWjc9RfR15gt2ve4
+xMG9nx9/9knHPUs2ik5vv+gf9Inf/X2TaO7ymvEHl20WDYe7hM/nF4++v1UUPfKWmPof74mPqlqG
+9z67ukaM/+NycfkLq8S/f7hNvPBxjdjpaRePvL/FXK/7uk/c+Lc1ovyJ5eL+tzYnxyZRfajNXFtd
+c0A89M6XR+Zmjl8v/kJsbDh8ZM18PrV6u9hzuFMseG+zGfukqlPcu3iLeP2LBvHcuh1HtTI1PaKt
+VF9fL8aNG0csFuN0adn7PLlFtzHY+iz5lQuJdEzEYvOiO3bTsfdWjJgH1Z7Abr2K/JJafJFFpGRe
+hL9nK2nZP0K15/D/HZvNxoEDB467yZ0mRRUPEw8fwJ7za8ye0p+OrA6QNTaLtPwbSYT+E13/DWk5
+F9M7eDMu5z8hq/vIKJg1nOuHgOnBZ/qfZKtzHBk5UwAIWysZ4lEAsgr+wMDgJeSUPYIvHiCr6Fb8
+oReJRbr4oZHUFqm2tlZUVFSQ9Ay+P85ht9vZt2/fcW3aOb53i1BjsZhf13X39+eN55AkybSHpLZB
+ORKJfNHb22uWtCzLnB3nSGpoatnT00NS2/XSmjVrKoAtZWVlmQUFBVitVs6cc8TjcTo6OmhsbBwA
+ZkgAy5cvLwBeBi4DRnA2nKMb2Ao8ePvtt3f8Hzi+11yfLqsyAAAAAElFTkSuQmCC
+
+------MultipartBoundary--A3fZMHVlJZNRLYrHgpUgoGQiZp1GrfLoVV97bQBXiY------
