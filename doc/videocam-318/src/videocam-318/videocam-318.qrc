@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>defect.png</file>
+    </qresource>
+</RCC>
